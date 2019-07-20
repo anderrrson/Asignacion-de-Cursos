@@ -50,5 +50,23 @@ namespace ADMINISTRADORES
             Asignacion o = new Asignacion();
             o.Show();
         }
+
+        private void Button6_Click(object sender, EventArgs e)
+        {
+            Login o = new Login();
+            o.Show();
+        }
+
+        private void Button10_Click(object sender, EventArgs e)
+        {
+            Horario horario = new Horario();
+            horario.Show();
+        }
+
+        private void Button11_Click(object sender, EventArgs e)
+        {
+            Notas notas = new Notas();
+            notas.Show();
+        }
     }
 }
