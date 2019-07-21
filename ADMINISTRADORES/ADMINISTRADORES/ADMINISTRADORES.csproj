@@ -47,106 +47,106 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Asignacion.cs">
+    <Compile Include="FmAsignacion.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Asignacion.Designer.cs">
-      <DependentUpon>Asignacion.cs</DependentUpon>
+    <Compile Include="FmAsignacion.Designer.cs">
+      <DependentUpon>FmAsignacion.cs</DependentUpon>
     </Compile>
-    <Compile Include="BoletaIns.cs">
+    <Compile Include="FmBoletaInscripcion.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="BoletaIns.Designer.cs">
-      <DependentUpon>BoletaIns.cs</DependentUpon>
+    <Compile Include="FmBoletaInscripcion.Designer.cs">
+      <DependentUpon>FmBoletaInscripcion.cs</DependentUpon>
     </Compile>
-    <Compile Include="DIRE.cs">
+    <Compile Include="FmDire.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="DIRE.Designer.cs">
-      <DependentUpon>DIRE.cs</DependentUpon>
+    <Compile Include="FmDire.Designer.cs">
+      <DependentUpon>FmDire.cs</DependentUpon>
     </Compile>
-    <Compile Include="admin.cs">
+    <Compile Include="FmAdmin.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="admin.Designer.cs">
-      <DependentUpon>admin.cs</DependentUpon>
+    <Compile Include="FmAdmin.Designer.cs">
+      <DependentUpon>FmAdmin.cs</DependentUpon>
     </Compile>
-    <Compile Include="Estudiante.cs">
+    <Compile Include="FmEstudiante.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Estudiante.Designer.cs">
-      <DependentUpon>Estudiante.cs</DependentUpon>
+    <Compile Include="FmEstudiante.Designer.cs">
+      <DependentUpon>FmEstudiante.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form2.cs">
+    <Compile Include="FmCatedraticos.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form2.Designer.cs">
-      <DependentUpon>Form2.cs</DependentUpon>
+    <Compile Include="FmCatedraticos.Designer.cs">
+      <DependentUpon>FmCatedraticos.cs</DependentUpon>
     </Compile>
-    <Compile Include="Horario.cs">
+    <Compile Include="FmHorario.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Horario.Designer.cs">
-      <DependentUpon>Horario.cs</DependentUpon>
+    <Compile Include="FmHorario.Designer.cs">
+      <DependentUpon>FmHorario.cs</DependentUpon>
     </Compile>
-    <Compile Include="Login2.cs">
+    <Compile Include="FmLogin2.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Login2.Designer.cs">
-      <DependentUpon>Login2.cs</DependentUpon>
+    <Compile Include="FmLogin2.Designer.cs">
+      <DependentUpon>FmLogin2.cs</DependentUpon>
     </Compile>
-    <Compile Include="Login.cs">
+    <Compile Include="FmLogin.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Login.Designer.cs">
-      <DependentUpon>Login.cs</DependentUpon>
+    <Compile Include="FmLogin.Designer.cs">
+      <DependentUpon>FmLogin.cs</DependentUpon>
     </Compile>
-    <Compile Include="Inscripcion.cs">
+    <Compile Include="FmInscripcion.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Inscripcion.Designer.cs">
-      <DependentUpon>Inscripcion.cs</DependentUpon>
+    <Compile Include="FmInscripcion.Designer.cs">
+      <DependentUpon>FmInscripcion.cs</DependentUpon>
     </Compile>
-    <Compile Include="Notas.cs">
+    <Compile Include="FmNotas.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Notas.Designer.cs">
-      <DependentUpon>Notas.cs</DependentUpon>
+    <Compile Include="FmNotas.Designer.cs">
+      <DependentUpon>FmNotas.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Asignacion.resx">
-      <DependentUpon>Asignacion.cs</DependentUpon>
+    <EmbeddedResource Include="FmAsignacion.resx">
+      <DependentUpon>FmAsignacion.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="BoletaIns.resx">
-      <DependentUpon>BoletaIns.cs</DependentUpon>
+    <EmbeddedResource Include="FmBoletaInscripcion.resx">
+      <DependentUpon>FmBoletaInscripcion.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="DIRE.resx">
-      <DependentUpon>DIRE.cs</DependentUpon>
+    <EmbeddedResource Include="FmDire.resx">
+      <DependentUpon>FmDire.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="admin.resx">
-      <DependentUpon>admin.cs</DependentUpon>
+    <EmbeddedResource Include="FmAdmin.resx">
+      <DependentUpon>FmAdmin.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Estudiante.resx">
-      <DependentUpon>Estudiante.cs</DependentUpon>
+    <EmbeddedResource Include="FmEstudiante.resx">
+      <DependentUpon>FmEstudiante.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form2.resx">
-      <DependentUpon>Form2.cs</DependentUpon>
+    <EmbeddedResource Include="FmCatedraticos.resx">
+      <DependentUpon>FmCatedraticos.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Horario.resx">
-      <DependentUpon>Horario.cs</DependentUpon>
+    <EmbeddedResource Include="FmHorario.resx">
+      <DependentUpon>FmHorario.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Login.resx">
-      <DependentUpon>Login.cs</DependentUpon>
+    <EmbeddedResource Include="FmLogin.resx">
+      <DependentUpon>FmLogin.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Inscripcion.resx">
-      <DependentUpon>Inscripcion.cs</DependentUpon>
+    <EmbeddedResource Include="FmInscripcion.resx">
+      <DependentUpon>FmInscripcion.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Login2.resx">
-      <DependentUpon>Login2.cs</DependentUpon>
+    <EmbeddedResource Include="FmLogin2.resx">
+      <DependentUpon>FmLogin2.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Notas.resx">
-      <DependentUpon>Notas.cs</DependentUpon>
+    <EmbeddedResource Include="FmNotas.resx">
+      <DependentUpon>FmNotas.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
