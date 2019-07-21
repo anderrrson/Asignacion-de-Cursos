@@ -17,19 +17,10 @@ namespace ADMINISTRADORES
             InitializeComponent();
         }
 
-        private void TextBox1_TextChanged(object sender, EventArgs e)
+        private void PicHorario_Click(object sender, EventArgs e)
         {
-
-        }
-
-        private void Asignacion_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void Label3_Click(object sender, EventArgs e)
-        {
-
+            DIRE o = new DIRE();
+            o.Show();
         }
     }
 }

@@ -14,7 +14,7 @@ namespace ADMINISTRADORES
     {
         public Inscripcion()
         {
-            int A;
+      
             InitializeComponent();
         }
 
@@ -22,6 +22,11 @@ namespace ADMINISTRADORES
         {
             BoletaIns A = new BoletaIns();
             A.Show();
+        }
+
+        private void TxtNumero_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

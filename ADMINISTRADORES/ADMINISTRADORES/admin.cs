@@ -14,7 +14,7 @@ namespace ADMINISTRADORES
     {
         public InicioAdmin()
         {
-            int i;
+          
             InitializeComponent();
         }
 
