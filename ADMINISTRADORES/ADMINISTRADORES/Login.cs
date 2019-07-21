@@ -22,5 +22,10 @@ namespace ADMINISTRADORES
             Login2 o = new Login2();
             o.Show();
         }
+
+        private void Login_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

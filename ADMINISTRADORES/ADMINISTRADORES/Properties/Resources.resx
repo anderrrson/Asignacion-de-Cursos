@@ -127,8 +127,8 @@
   <data name="Sin título-1-01" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Sin título-1-01.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="9987" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\9987.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="lista" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\lista.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="bloquear" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\bloquear.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -141,6 +141,15 @@
   </data>
   <data name="user(1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\user(1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Checkmark_52px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Checkmark_52px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lock" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\lock.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="123123121" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\123123121.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="99871" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\99871.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -157,13 +166,16 @@
   <data name="Escudo UMG" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Escudo UMG.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="123123121" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\123123121.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="consulta" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\consulta.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="9987" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\9987.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Sign up ow!(1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Sign up ow!(1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="lock" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\lock.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="alumnobusqueda" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\alumnobusqueda.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
