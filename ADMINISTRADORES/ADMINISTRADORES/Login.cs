@@ -21,11 +21,17 @@ namespace ADMINISTRADORES
         {
             Login2 o = new Login2();
             o.Show();
+            this.Hide();
         }
 
         private void Login_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }

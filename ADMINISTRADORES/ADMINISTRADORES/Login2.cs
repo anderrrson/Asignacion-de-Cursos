@@ -31,6 +31,30 @@ namespace ADMINISTRADORES
         {
             Login o = new Login();
             o.Show();
+            this.Close();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            InicioAdmin abrir = new InicioAdmin();
+            Form2 catedratico = new Form2();
+
+            string usuario;
+            usuario = txtbxUser.Text;
+
+            if (usuario == "1")
+            {
+                
+                abrir.Show();
+                this.Close();
+            } else if (usuario == "2")
+            {
+                catedratico.Show();
+                this.Close();
+            }else if (usuario == "3")
+            {
+
+            }
         }
     }
 }

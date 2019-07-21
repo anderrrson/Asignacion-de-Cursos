@@ -82,5 +82,13 @@ namespace ADMINISTRADORES
             tblasistencia.Columns[2].Width = 200;
             tblasistencia.Columns[3].Width = 100;
         }
+
+        private void button12_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            Login2 login2 = new Login2();
+            login2.Show();
+
+        }
     }
 }
