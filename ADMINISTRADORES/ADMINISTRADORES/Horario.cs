@@ -47,12 +47,12 @@ namespace ADMINISTRADORES
             tabla.Rows.Add("004", "Desarrollo Web", "08:35-10:00", "A", "T-410");
             tabla.Rows.Add("005", "Arquitectura de Computadoras II", "10:35-12:05", "A", "T-410");
 
-            TablaHorario.DataSource = tabla;
-            TablaHorario.Columns[0].Width = 100;
-            TablaHorario.Columns[1].Width = 358;
-            TablaHorario.Columns[2].Width = 100;
-            TablaHorario.Columns[3].Width = 50;
-            TablaHorario.Columns[4].Width = 50;
+            DgvHorario.DataSource = tabla;
+            DgvHorario.Columns[0].Width = 100;
+            DgvHorario.Columns[1].Width = 358;
+            DgvHorario.Columns[2].Width = 100;
+            DgvHorario.Columns[3].Width = 50;
+            DgvHorario.Columns[4].Width = 50;
         }
     }
 }

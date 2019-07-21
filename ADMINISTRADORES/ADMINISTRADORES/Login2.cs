@@ -38,22 +38,25 @@ namespace ADMINISTRADORES
         {
             InicioAdmin abrir = new InicioAdmin();
             Form2 catedratico = new Form2();
+            Estudiante estudiante = new Estudiante();
 
             string usuario;
             usuario = txtbxUser.Text;
 
             if (usuario == "1")
             {
-                
                 abrir.Show();
                 this.Close();
-            } else if (usuario == "2")
+            }
+            else if (usuario == "2")
             {
                 catedratico.Show();
                 this.Close();
-            }else if (usuario == "3")
+            }
+            else if (usuario == "3")
             {
-
+                estudiante.Show();
+                this.Close();
             }
         }
     }

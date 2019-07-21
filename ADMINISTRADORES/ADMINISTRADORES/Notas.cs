@@ -38,13 +38,13 @@ namespace ADMINISTRADORES
             tabla.Rows.Add("004", "Desarrollo Web", "20", "25", "25", "30");
             tabla.Rows.Add("005", "Arquitectura de Computadoras II", "20", "25", "25", "30");
 
-            TablaHorario.DataSource = tabla;
-            TablaHorario.Columns[0].Width = 100;
-            TablaHorario.Columns[1].Width = 258;
-            TablaHorario.Columns[2].Width = 75;
-            TablaHorario.Columns[3].Width = 75;
-            TablaHorario.Columns[4].Width = 75;
-            TablaHorario.Columns[5].Width = 75;
+            DgvNotas.DataSource = tabla;
+            DgvNotas.Columns[0].Width = 100;
+            DgvNotas.Columns[1].Width = 258;
+            DgvNotas.Columns[2].Width = 75;
+            DgvNotas.Columns[3].Width = 75;
+            DgvNotas.Columns[4].Width = 75;
+            DgvNotas.Columns[5].Width = 75;
         }
     }
 }

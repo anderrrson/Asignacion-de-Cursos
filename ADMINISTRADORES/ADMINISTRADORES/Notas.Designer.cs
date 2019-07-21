@@ -29,44 +29,44 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Notas));
-            this.TablaHorario = new System.Windows.Forms.DataGridView();
-            this.label3 = new System.Windows.Forms.Label();
+            this.DgvNotas = new System.Windows.Forms.DataGridView();
+            this.LblCarnet = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
-            this.label4 = new System.Windows.Forms.Label();
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
-            ((System.ComponentModel.ISupportInitialize)(this.TablaHorario)).BeginInit();
+            this.LblNotas = new System.Windows.Forms.Label();
+            this.CboSemestre = new System.Windows.Forms.ComboBox();
+            this.PnlSeparador2 = new System.Windows.Forms.Panel();
+            this.PnlSeparador1 = new System.Windows.Forms.Panel();
+            this.TxtCarnet = new System.Windows.Forms.TextBox();
+            this.BtnExportar = new System.Windows.Forms.Button();
+            this.BtnBuscar = new System.Windows.Forms.Button();
+            this.LblAño = new System.Windows.Forms.Label();
+            this.CboAño = new System.Windows.Forms.ComboBox();
+            ((System.ComponentModel.ISupportInitialize)(this.DgvNotas)).BeginInit();
             this.SuspendLayout();
             // 
-            // TablaHorario
+            // DgvNotas
             // 
-            this.TablaHorario.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(31)))), ((int)(((byte)(58)))));
-            this.TablaHorario.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.TablaHorario.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.TablaHorario.EditMode = System.Windows.Forms.DataGridViewEditMode.EditProgrammatically;
-            this.TablaHorario.GridColor = System.Drawing.Color.Black;
-            this.TablaHorario.Location = new System.Drawing.Point(38, 147);
-            this.TablaHorario.Name = "TablaHorario";
-            this.TablaHorario.Size = new System.Drawing.Size(716, 150);
-            this.TablaHorario.TabIndex = 18;
-            this.TablaHorario.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.TablaHorario_CellContentClick);
+            this.DgvNotas.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(31)))), ((int)(((byte)(58)))));
+            this.DgvNotas.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.DgvNotas.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.DgvNotas.EditMode = System.Windows.Forms.DataGridViewEditMode.EditProgrammatically;
+            this.DgvNotas.GridColor = System.Drawing.Color.Black;
+            this.DgvNotas.Location = new System.Drawing.Point(38, 147);
+            this.DgvNotas.Name = "DgvNotas";
+            this.DgvNotas.Size = new System.Drawing.Size(716, 150);
+            this.DgvNotas.TabIndex = 18;
+            this.DgvNotas.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.TablaHorario_CellContentClick);
             // 
-            // label3
+            // LblCarnet
             // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(78, 22);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(60, 20);
-            this.label3.TabIndex = 17;
-            this.label3.Text = "Carnet";
+            this.LblCarnet.AutoSize = true;
+            this.LblCarnet.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LblCarnet.ForeColor = System.Drawing.Color.White;
+            this.LblCarnet.Location = new System.Drawing.Point(78, 22);
+            this.LblCarnet.Name = "LblCarnet";
+            this.LblCarnet.Size = new System.Drawing.Size(60, 20);
+            this.LblCarnet.TabIndex = 17;
+            this.LblCarnet.Text = "Carnet";
             // 
             // label2
             // 
@@ -79,122 +79,122 @@
             this.label2.TabIndex = 16;
             this.label2.Text = "Semestre";
             // 
-            // label1
+            // LblNotas
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Century Gothic", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(33, 88);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(74, 25);
-            this.label1.TabIndex = 15;
-            this.label1.Text = "Notas";
+            this.LblNotas.AutoSize = true;
+            this.LblNotas.Font = new System.Drawing.Font("Century Gothic", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LblNotas.ForeColor = System.Drawing.Color.White;
+            this.LblNotas.Location = new System.Drawing.Point(33, 88);
+            this.LblNotas.Name = "LblNotas";
+            this.LblNotas.Size = new System.Drawing.Size(74, 25);
+            this.LblNotas.TabIndex = 15;
+            this.LblNotas.Text = "Notas";
             // 
-            // comboBox1
+            // CboSemestre
             // 
-            this.comboBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(31)))), ((int)(((byte)(58)))));
-            this.comboBox1.Font = new System.Drawing.Font("Century Gothic", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboBox1.ForeColor = System.Drawing.Color.White;
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Items.AddRange(new object[] {
+            this.CboSemestre.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(31)))), ((int)(((byte)(58)))));
+            this.CboSemestre.Font = new System.Drawing.Font("Century Gothic", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CboSemestre.ForeColor = System.Drawing.Color.White;
+            this.CboSemestre.FormattingEnabled = true;
+            this.CboSemestre.Items.AddRange(new object[] {
             "1° Semestre",
             "2° Semestre"});
-            this.comboBox1.Location = new System.Drawing.Point(284, 45);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(150, 25);
-            this.comboBox1.TabIndex = 14;
+            this.CboSemestre.Location = new System.Drawing.Point(284, 45);
+            this.CboSemestre.Name = "CboSemestre";
+            this.CboSemestre.Size = new System.Drawing.Size(150, 25);
+            this.CboSemestre.TabIndex = 14;
             // 
-            // panel2
+            // PnlSeparador2
             // 
-            this.panel2.BackColor = System.Drawing.Color.Red;
-            this.panel2.ForeColor = System.Drawing.Color.Red;
-            this.panel2.Location = new System.Drawing.Point(21, 116);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(752, 1);
-            this.panel2.TabIndex = 12;
+            this.PnlSeparador2.BackColor = System.Drawing.Color.Red;
+            this.PnlSeparador2.ForeColor = System.Drawing.Color.Red;
+            this.PnlSeparador2.Location = new System.Drawing.Point(21, 116);
+            this.PnlSeparador2.Name = "PnlSeparador2";
+            this.PnlSeparador2.Size = new System.Drawing.Size(752, 1);
+            this.PnlSeparador2.TabIndex = 12;
             // 
-            // panel1
+            // PnlSeparador1
             // 
-            this.panel1.BackColor = System.Drawing.Color.Red;
-            this.panel1.ForeColor = System.Drawing.Color.Red;
-            this.panel1.Location = new System.Drawing.Point(65, 69);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(200, 1);
-            this.panel1.TabIndex = 11;
+            this.PnlSeparador1.BackColor = System.Drawing.Color.Red;
+            this.PnlSeparador1.ForeColor = System.Drawing.Color.Red;
+            this.PnlSeparador1.Location = new System.Drawing.Point(65, 69);
+            this.PnlSeparador1.Name = "PnlSeparador1";
+            this.PnlSeparador1.Size = new System.Drawing.Size(200, 1);
+            this.PnlSeparador1.TabIndex = 11;
             // 
-            // textBox1
+            // TxtCarnet
             // 
-            this.textBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(31)))), ((int)(((byte)(58)))));
-            this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox1.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.ForeColor = System.Drawing.Color.White;
-            this.textBox1.Location = new System.Drawing.Point(72, 45);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(180, 18);
-            this.textBox1.TabIndex = 10;
+            this.TxtCarnet.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(31)))), ((int)(((byte)(58)))));
+            this.TxtCarnet.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.TxtCarnet.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TxtCarnet.ForeColor = System.Drawing.Color.White;
+            this.TxtCarnet.Location = new System.Drawing.Point(72, 45);
+            this.TxtCarnet.Name = "TxtCarnet";
+            this.TxtCarnet.Size = new System.Drawing.Size(180, 18);
+            this.TxtCarnet.TabIndex = 10;
             // 
-            // button2
+            // BtnExportar
             // 
-            this.button2.FlatAppearance.BorderColor = System.Drawing.Color.Red;
-            this.button2.FlatAppearance.BorderSize = 2;
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.ForeColor = System.Drawing.Color.White;
-            this.button2.Image = ((System.Drawing.Image)(resources.GetObject("button2.Image")));
-            this.button2.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.button2.Location = new System.Drawing.Point(697, 22);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 57);
-            this.button2.TabIndex = 19;
-            this.button2.Text = "Exportar";
-            this.button2.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.button2.UseVisualStyleBackColor = true;
+            this.BtnExportar.FlatAppearance.BorderColor = System.Drawing.Color.Red;
+            this.BtnExportar.FlatAppearance.BorderSize = 2;
+            this.BtnExportar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BtnExportar.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnExportar.ForeColor = System.Drawing.Color.White;
+            this.BtnExportar.Image = ((System.Drawing.Image)(resources.GetObject("BtnExportar.Image")));
+            this.BtnExportar.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.BtnExportar.Location = new System.Drawing.Point(697, 22);
+            this.BtnExportar.Name = "BtnExportar";
+            this.BtnExportar.Size = new System.Drawing.Size(75, 57);
+            this.BtnExportar.TabIndex = 19;
+            this.BtnExportar.Text = "Exportar";
+            this.BtnExportar.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.BtnExportar.UseVisualStyleBackColor = true;
             // 
-            // button1
+            // BtnBuscar
             // 
-            this.button1.FlatAppearance.BorderColor = System.Drawing.Color.Red;
-            this.button1.FlatAppearance.BorderSize = 2;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Image = ((System.Drawing.Image)(resources.GetObject("button1.Image")));
-            this.button1.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.button1.Location = new System.Drawing.Point(616, 22);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 57);
-            this.button1.TabIndex = 13;
-            this.button1.Text = "Buscar";
-            this.button1.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.Button1_Click);
+            this.BtnBuscar.FlatAppearance.BorderColor = System.Drawing.Color.Red;
+            this.BtnBuscar.FlatAppearance.BorderSize = 2;
+            this.BtnBuscar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BtnBuscar.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnBuscar.ForeColor = System.Drawing.Color.White;
+            this.BtnBuscar.Image = ((System.Drawing.Image)(resources.GetObject("BtnBuscar.Image")));
+            this.BtnBuscar.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.BtnBuscar.Location = new System.Drawing.Point(616, 22);
+            this.BtnBuscar.Name = "BtnBuscar";
+            this.BtnBuscar.Size = new System.Drawing.Size(75, 57);
+            this.BtnBuscar.TabIndex = 13;
+            this.BtnBuscar.Text = "Buscar";
+            this.BtnBuscar.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.BtnBuscar.UseVisualStyleBackColor = true;
+            this.BtnBuscar.Click += new System.EventHandler(this.Button1_Click);
             // 
-            // label4
+            // LblAño
             // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.ForeColor = System.Drawing.Color.White;
-            this.label4.Location = new System.Drawing.Point(475, 22);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(39, 20);
-            this.label4.TabIndex = 21;
-            this.label4.Text = "Año";
+            this.LblAño.AutoSize = true;
+            this.LblAño.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LblAño.ForeColor = System.Drawing.Color.White;
+            this.LblAño.Location = new System.Drawing.Point(475, 22);
+            this.LblAño.Name = "LblAño";
+            this.LblAño.Size = new System.Drawing.Size(39, 20);
+            this.LblAño.TabIndex = 21;
+            this.LblAño.Text = "Año";
             // 
-            // comboBox2
+            // CboAño
             // 
-            this.comboBox2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(31)))), ((int)(((byte)(58)))));
-            this.comboBox2.Font = new System.Drawing.Font("Century Gothic", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboBox2.ForeColor = System.Drawing.Color.White;
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Items.AddRange(new object[] {
+            this.CboAño.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(31)))), ((int)(((byte)(58)))));
+            this.CboAño.Font = new System.Drawing.Font("Century Gothic", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CboAño.ForeColor = System.Drawing.Color.White;
+            this.CboAño.FormattingEnabled = true;
+            this.CboAño.Items.AddRange(new object[] {
             "2015",
             "2016",
             "2017",
             "2018",
             "2019"});
-            this.comboBox2.Location = new System.Drawing.Point(449, 45);
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(150, 25);
-            this.comboBox2.TabIndex = 20;
+            this.CboAño.Location = new System.Drawing.Point(449, 45);
+            this.CboAño.Name = "CboAño";
+            this.CboAño.Size = new System.Drawing.Size(150, 25);
+            this.CboAño.TabIndex = 20;
             // 
             // Notas
             // 
@@ -202,21 +202,21 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(31)))), ((int)(((byte)(58)))));
             this.ClientSize = new System.Drawing.Size(800, 328);
-            this.Controls.Add(this.label4);
-            this.Controls.Add(this.comboBox2);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.TablaHorario);
-            this.Controls.Add(this.label3);
+            this.Controls.Add(this.LblAño);
+            this.Controls.Add(this.CboAño);
+            this.Controls.Add(this.BtnExportar);
+            this.Controls.Add(this.DgvNotas);
+            this.Controls.Add(this.LblCarnet);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.comboBox1);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.panel2);
-            this.Controls.Add(this.panel1);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.LblNotas);
+            this.Controls.Add(this.CboSemestre);
+            this.Controls.Add(this.BtnBuscar);
+            this.Controls.Add(this.PnlSeparador2);
+            this.Controls.Add(this.PnlSeparador1);
+            this.Controls.Add(this.TxtCarnet);
             this.Name = "Notas";
             this.Text = "Notas";
-            ((System.ComponentModel.ISupportInitialize)(this.TablaHorario)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.DgvNotas)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -224,17 +224,17 @@
 
         #endregion
 
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.DataGridView TablaHorario;
-        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Button BtnExportar;
+        private System.Windows.Forms.DataGridView DgvNotas;
+        private System.Windows.Forms.Label LblCarnet;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.ComboBox comboBox1;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Panel panel2;
-        private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.ComboBox comboBox2;
+        private System.Windows.Forms.Label LblNotas;
+        private System.Windows.Forms.ComboBox CboSemestre;
+        private System.Windows.Forms.Button BtnBuscar;
+        private System.Windows.Forms.Panel PnlSeparador2;
+        private System.Windows.Forms.Panel PnlSeparador1;
+        private System.Windows.Forms.TextBox TxtCarnet;
+        private System.Windows.Forms.Label LblAño;
+        private System.Windows.Forms.ComboBox CboAño;
     }
 }

@@ -29,174 +29,163 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Horario));
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.button1 = new System.Windows.Forms.Button();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.TablaHorario = new System.Windows.Forms.DataGridView();
-            this.button2 = new System.Windows.Forms.Button();
-            ((System.ComponentModel.ISupportInitialize)(this.TablaHorario)).BeginInit();
+            this.TxtCarnet = new System.Windows.Forms.TextBox();
+            this.PnlSeparador1 = new System.Windows.Forms.Panel();
+            this.PnlSeparador2 = new System.Windows.Forms.Panel();
+            this.BtnBuscar = new System.Windows.Forms.Button();
+            this.CboSemestre = new System.Windows.Forms.ComboBox();
+            this.LblTituloHorario = new System.Windows.Forms.Label();
+            this.LblTituloSemestre = new System.Windows.Forms.Label();
+            this.LblTituloCarnet = new System.Windows.Forms.Label();
+            this.DgvHorario = new System.Windows.Forms.DataGridView();
+            this.BtnExportar = new System.Windows.Forms.Button();
+            ((System.ComponentModel.ISupportInitialize)(this.DgvHorario)).BeginInit();
             this.SuspendLayout();
             // 
-            // textBox1
+            // TxtCarnet
             // 
-            this.textBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(31)))), ((int)(((byte)(58)))));
-            this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox1.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.ForeColor = System.Drawing.Color.White;
-            this.textBox1.Location = new System.Drawing.Point(96, 49);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(240, 23);
-            this.textBox1.TabIndex = 0;
-            this.textBox1.TextChanged += new System.EventHandler(this.TextBox1_TextChanged);
+            this.TxtCarnet.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(31)))), ((int)(((byte)(58)))));
+            this.TxtCarnet.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.TxtCarnet.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TxtCarnet.ForeColor = System.Drawing.Color.White;
+            this.TxtCarnet.Location = new System.Drawing.Point(72, 40);
+            this.TxtCarnet.Name = "TxtCarnet";
+            this.TxtCarnet.Size = new System.Drawing.Size(180, 18);
+            this.TxtCarnet.TabIndex = 0;
+            this.TxtCarnet.TextChanged += new System.EventHandler(this.TextBox1_TextChanged);
             // 
-            // panel1
+            // PnlSeparador1
             // 
-            this.panel1.BackColor = System.Drawing.Color.Red;
-            this.panel1.ForeColor = System.Drawing.Color.Red;
-            this.panel1.Location = new System.Drawing.Point(87, 79);
-            this.panel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(267, 1);
-            this.panel1.TabIndex = 1;
+            this.PnlSeparador1.BackColor = System.Drawing.Color.Red;
+            this.PnlSeparador1.ForeColor = System.Drawing.Color.Red;
+            this.PnlSeparador1.Location = new System.Drawing.Point(65, 64);
+            this.PnlSeparador1.Name = "PnlSeparador1";
+            this.PnlSeparador1.Size = new System.Drawing.Size(200, 1);
+            this.PnlSeparador1.TabIndex = 1;
             // 
-            // panel2
+            // PnlSeparador2
             // 
-            this.panel2.BackColor = System.Drawing.Color.Red;
-            this.panel2.ForeColor = System.Drawing.Color.Red;
-            this.panel2.Location = new System.Drawing.Point(28, 137);
-            this.panel2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(1003, 1);
-            this.panel2.TabIndex = 2;
+            this.PnlSeparador2.BackColor = System.Drawing.Color.Red;
+            this.PnlSeparador2.ForeColor = System.Drawing.Color.Red;
+            this.PnlSeparador2.Location = new System.Drawing.Point(21, 111);
+            this.PnlSeparador2.Name = "PnlSeparador2";
+            this.PnlSeparador2.Size = new System.Drawing.Size(752, 1);
+            this.PnlSeparador2.TabIndex = 2;
             // 
-            // button1
+            // BtnBuscar
             // 
-            this.button1.FlatAppearance.BorderColor = System.Drawing.Color.Red;
-            this.button1.FlatAppearance.BorderSize = 2;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Image = ((System.Drawing.Image)(resources.GetObject("button1.Image")));
-            this.button1.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.button1.Location = new System.Drawing.Point(821, 21);
-            this.button1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(100, 70);
-            this.button1.TabIndex = 3;
-            this.button1.Text = "Buscar";
-            this.button1.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.Button1_Click);
+            this.BtnBuscar.FlatAppearance.BorderColor = System.Drawing.Color.Red;
+            this.BtnBuscar.FlatAppearance.BorderSize = 2;
+            this.BtnBuscar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BtnBuscar.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnBuscar.ForeColor = System.Drawing.Color.White;
+            this.BtnBuscar.Image = ((System.Drawing.Image)(resources.GetObject("BtnBuscar.Image")));
+            this.BtnBuscar.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.BtnBuscar.Location = new System.Drawing.Point(616, 17);
+            this.BtnBuscar.Name = "BtnBuscar";
+            this.BtnBuscar.Size = new System.Drawing.Size(75, 57);
+            this.BtnBuscar.TabIndex = 3;
+            this.BtnBuscar.Text = "Buscar";
+            this.BtnBuscar.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.BtnBuscar.UseVisualStyleBackColor = true;
+            this.BtnBuscar.Click += new System.EventHandler(this.Button1_Click);
             // 
-            // comboBox1
+            // CboSemestre
             // 
-            this.comboBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(31)))), ((int)(((byte)(58)))));
-            this.comboBox1.Font = new System.Drawing.Font("Century Gothic", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboBox1.ForeColor = System.Drawing.Color.White;
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Items.AddRange(new object[] {
+            this.CboSemestre.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(31)))), ((int)(((byte)(58)))));
+            this.CboSemestre.Font = new System.Drawing.Font("Century Gothic", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CboSemestre.ForeColor = System.Drawing.Color.White;
+            this.CboSemestre.FormattingEnabled = true;
+            this.CboSemestre.Items.AddRange(new object[] {
             "1° Semestre",
             "2° Semestre"});
-            this.comboBox1.Location = new System.Drawing.Point(501, 49);
-            this.comboBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(199, 29);
-            this.comboBox1.TabIndex = 4;
+            this.CboSemestre.Location = new System.Drawing.Point(376, 40);
+            this.CboSemestre.Name = "CboSemestre";
+            this.CboSemestre.Size = new System.Drawing.Size(150, 25);
+            this.CboSemestre.TabIndex = 4;
             // 
-            // label1
+            // LblTituloHorario
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Century Gothic", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(44, 102);
-            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(109, 33);
-            this.label1.TabIndex = 5;
-            this.label1.Text = "Horario";
+            this.LblTituloHorario.AutoSize = true;
+            this.LblTituloHorario.Font = new System.Drawing.Font("Century Gothic", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LblTituloHorario.ForeColor = System.Drawing.Color.White;
+            this.LblTituloHorario.Location = new System.Drawing.Point(33, 83);
+            this.LblTituloHorario.Name = "LblTituloHorario";
+            this.LblTituloHorario.Size = new System.Drawing.Size(88, 25);
+            this.LblTituloHorario.TabIndex = 5;
+            this.LblTituloHorario.Text = "Horario";
             // 
-            // label2
+            // LblTituloSemestre
             // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(536, 21);
-            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(92, 22);
-            this.label2.TabIndex = 6;
-            this.label2.Text = "Semestre";
+            this.LblTituloSemestre.AutoSize = true;
+            this.LblTituloSemestre.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LblTituloSemestre.ForeColor = System.Drawing.Color.White;
+            this.LblTituloSemestre.Location = new System.Drawing.Point(402, 17);
+            this.LblTituloSemestre.Name = "LblTituloSemestre";
+            this.LblTituloSemestre.Size = new System.Drawing.Size(75, 20);
+            this.LblTituloSemestre.TabIndex = 6;
+            this.LblTituloSemestre.Text = "Semestre";
             // 
-            // label3
+            // LblTituloCarnet
             // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(104, 21);
-            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(75, 22);
-            this.label3.TabIndex = 7;
-            this.label3.Text = "Carnet";
+            this.LblTituloCarnet.AutoSize = true;
+            this.LblTituloCarnet.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LblTituloCarnet.ForeColor = System.Drawing.Color.White;
+            this.LblTituloCarnet.Location = new System.Drawing.Point(78, 17);
+            this.LblTituloCarnet.Name = "LblTituloCarnet";
+            this.LblTituloCarnet.Size = new System.Drawing.Size(60, 20);
+            this.LblTituloCarnet.TabIndex = 7;
+            this.LblTituloCarnet.Text = "Carnet";
             // 
-            // TablaHorario
+            // DgvHorario
             // 
-            this.TablaHorario.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(31)))), ((int)(((byte)(58)))));
-            this.TablaHorario.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.TablaHorario.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.TablaHorario.EditMode = System.Windows.Forms.DataGridViewEditMode.EditProgrammatically;
-            this.TablaHorario.GridColor = System.Drawing.Color.Black;
-            this.TablaHorario.Location = new System.Drawing.Point(51, 175);
-            this.TablaHorario.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.TablaHorario.Name = "TablaHorario";
-            this.TablaHorario.Size = new System.Drawing.Size(955, 185);
-            this.TablaHorario.TabIndex = 8;
+            this.DgvHorario.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(31)))), ((int)(((byte)(58)))));
+            this.DgvHorario.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.DgvHorario.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.DgvHorario.EditMode = System.Windows.Forms.DataGridViewEditMode.EditProgrammatically;
+            this.DgvHorario.GridColor = System.Drawing.Color.Black;
+            this.DgvHorario.Location = new System.Drawing.Point(38, 142);
+            this.DgvHorario.Name = "DgvHorario";
+            this.DgvHorario.Size = new System.Drawing.Size(716, 150);
+            this.DgvHorario.TabIndex = 8;
             // 
-            // button2
+            // BtnExportar
             // 
-            this.button2.FlatAppearance.BorderColor = System.Drawing.Color.Red;
-            this.button2.FlatAppearance.BorderSize = 2;
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.ForeColor = System.Drawing.Color.White;
-            this.button2.Image = ((System.Drawing.Image)(resources.GetObject("button2.Image")));
-            this.button2.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.button2.Location = new System.Drawing.Point(929, 21);
-            this.button2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(100, 70);
-            this.button2.TabIndex = 9;
-            this.button2.Text = "Exportar";
-            this.button2.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.button2.UseVisualStyleBackColor = true;
+            this.BtnExportar.FlatAppearance.BorderColor = System.Drawing.Color.Red;
+            this.BtnExportar.FlatAppearance.BorderSize = 2;
+            this.BtnExportar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BtnExportar.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnExportar.ForeColor = System.Drawing.Color.White;
+            this.BtnExportar.Image = ((System.Drawing.Image)(resources.GetObject("BtnExportar.Image")));
+            this.BtnExportar.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.BtnExportar.Location = new System.Drawing.Point(697, 17);
+            this.BtnExportar.Name = "BtnExportar";
+            this.BtnExportar.Size = new System.Drawing.Size(75, 57);
+            this.BtnExportar.TabIndex = 9;
+            this.BtnExportar.Text = "Exportar";
+            this.BtnExportar.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.BtnExportar.UseVisualStyleBackColor = true;
             // 
             // Horario
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(31)))), ((int)(((byte)(58)))));
-            this.ClientSize = new System.Drawing.Size(1067, 418);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.TablaHorario);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.comboBox1);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.panel2);
-            this.Controls.Add(this.panel1);
-            this.Controls.Add(this.textBox1);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.ClientSize = new System.Drawing.Size(800, 340);
+            this.Controls.Add(this.BtnExportar);
+            this.Controls.Add(this.DgvHorario);
+            this.Controls.Add(this.LblTituloCarnet);
+            this.Controls.Add(this.LblTituloSemestre);
+            this.Controls.Add(this.LblTituloHorario);
+            this.Controls.Add(this.CboSemestre);
+            this.Controls.Add(this.BtnBuscar);
+            this.Controls.Add(this.PnlSeparador2);
+            this.Controls.Add(this.PnlSeparador1);
+            this.Controls.Add(this.TxtCarnet);
             this.Name = "Horario";
             this.Text = "Horario";
             this.Load += new System.EventHandler(this.Horario_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.TablaHorario)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.DgvHorario)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -204,15 +193,15 @@
 
         #endregion
 
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.Panel panel2;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.ComboBox comboBox1;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.DataGridView TablaHorario;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.TextBox TxtCarnet;
+        private System.Windows.Forms.Panel PnlSeparador1;
+        private System.Windows.Forms.Panel PnlSeparador2;
+        private System.Windows.Forms.Button BtnBuscar;
+        private System.Windows.Forms.ComboBox CboSemestre;
+        private System.Windows.Forms.Label LblTituloHorario;
+        private System.Windows.Forms.Label LblTituloSemestre;
+        private System.Windows.Forms.Label LblTituloCarnet;
+        private System.Windows.Forms.DataGridView DgvHorario;
+        private System.Windows.Forms.Button BtnExportar;
     }
 }

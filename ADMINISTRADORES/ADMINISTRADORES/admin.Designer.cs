@@ -37,8 +37,6 @@
             this.BtnNewContratacion = new System.Windows.Forms.Button();
             this.BtnRenovacion = new System.Windows.Forms.Button();
             this.GpbEstudiantes = new System.Windows.Forms.GroupBox();
-            this.button11 = new System.Windows.Forms.Button();
-            this.button10 = new System.Windows.Forms.Button();
             this.BtnSolvencias = new System.Windows.Forms.Button();
             this.BtnAsignaciones = new System.Windows.Forms.Button();
             this.BtnInscripciones = new System.Windows.Forms.Button();
@@ -80,7 +78,7 @@
             // 
             this.BtnSalario.Font = new System.Drawing.Font("Century Gothic", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnSalario.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(31)))), ((int)(((byte)(58)))));
-            this.BtnSalario.Location = new System.Drawing.Point(90, 205);
+            this.BtnSalario.Location = new System.Drawing.Point(89, 173);
             this.BtnSalario.Name = "BtnSalario";
             this.BtnSalario.Size = new System.Drawing.Size(152, 28);
             this.BtnSalario.TabIndex = 10;
@@ -91,7 +89,7 @@
             // 
             this.BtnAsignacionCat.Font = new System.Drawing.Font("Century Gothic", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnAsignacionCat.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(31)))), ((int)(((byte)(58)))));
-            this.BtnAsignacionCat.Location = new System.Drawing.Point(90, 156);
+            this.BtnAsignacionCat.Location = new System.Drawing.Point(89, 124);
             this.BtnAsignacionCat.Name = "BtnAsignacionCat";
             this.BtnAsignacionCat.Size = new System.Drawing.Size(152, 28);
             this.BtnAsignacionCat.TabIndex = 9;
@@ -102,7 +100,7 @@
             // 
             this.BtnNewContratacion.Font = new System.Drawing.Font("Century Gothic", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnNewContratacion.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(31)))), ((int)(((byte)(58)))));
-            this.BtnNewContratacion.Location = new System.Drawing.Point(39, 250);
+            this.BtnNewContratacion.Location = new System.Drawing.Point(38, 218);
             this.BtnNewContratacion.Name = "BtnNewContratacion";
             this.BtnNewContratacion.Size = new System.Drawing.Size(251, 28);
             this.BtnNewContratacion.TabIndex = 8;
@@ -113,7 +111,7 @@
             // 
             this.BtnRenovacion.Font = new System.Drawing.Font("Century Gothic", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnRenovacion.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(31)))), ((int)(((byte)(58)))));
-            this.BtnRenovacion.Location = new System.Drawing.Point(90, 108);
+            this.BtnRenovacion.Location = new System.Drawing.Point(89, 76);
             this.BtnRenovacion.Name = "BtnRenovacion";
             this.BtnRenovacion.Size = new System.Drawing.Size(152, 28);
             this.BtnRenovacion.TabIndex = 7;
@@ -123,8 +121,6 @@
             // 
             // GpbEstudiantes
             // 
-            this.GpbEstudiantes.Controls.Add(this.button11);
-            this.GpbEstudiantes.Controls.Add(this.button10);
             this.GpbEstudiantes.Controls.Add(this.BtnSolvencias);
             this.GpbEstudiantes.Controls.Add(this.BtnAsignaciones);
             this.GpbEstudiantes.Controls.Add(this.BtnInscripciones);
@@ -135,40 +131,16 @@
             this.GpbEstudiantes.Location = new System.Drawing.Point(323, 170);
             this.GpbEstudiantes.Name = "GpbEstudiantes";
             this.GpbEstudiantes.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.GpbEstudiantes.Size = new System.Drawing.Size(313, 390);
+            this.GpbEstudiantes.Size = new System.Drawing.Size(313, 372);
             this.GpbEstudiantes.TabIndex = 9;
             this.GpbEstudiantes.TabStop = false;
             this.GpbEstudiantes.Text = "ESTUDIANTES";
-            // 
-            // button11
-            // 
-            this.button11.Font = new System.Drawing.Font("Century Gothic", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button11.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(31)))), ((int)(((byte)(58)))));
-            this.button11.Location = new System.Drawing.Point(69, 344);
-            this.button11.Name = "button11";
-            this.button11.Size = new System.Drawing.Size(191, 28);
-            this.button11.TabIndex = 9;
-            this.button11.Text = "NOTAS";
-            this.button11.UseVisualStyleBackColor = true;
-            this.button11.Click += new System.EventHandler(this.Button11_Click);
-            // 
-            // button10
-            // 
-            this.button10.Font = new System.Drawing.Font("Century Gothic", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button10.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(31)))), ((int)(((byte)(58)))));
-            this.button10.Location = new System.Drawing.Point(69, 297);
-            this.button10.Name = "button10";
-            this.button10.Size = new System.Drawing.Size(191, 28);
-            this.button10.TabIndex = 8;
-            this.button10.Text = "HORARIO";
-            this.button10.UseVisualStyleBackColor = true;
-            this.button10.Click += new System.EventHandler(this.Button10_Click);
             // 
             // BtnSolvencias
             // 
             this.BtnSolvencias.Font = new System.Drawing.Font("Century Gothic", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnSolvencias.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(31)))), ((int)(((byte)(58)))));
-            this.BtnSolvencias.Location = new System.Drawing.Point(89, 155);
+            this.BtnSolvencias.Location = new System.Drawing.Point(81, 172);
             this.BtnSolvencias.Name = "BtnSolvencias";
             this.BtnSolvencias.Size = new System.Drawing.Size(152, 28);
             this.BtnSolvencias.TabIndex = 4;
@@ -179,7 +151,7 @@
             // 
             this.BtnAsignaciones.Font = new System.Drawing.Font("Century Gothic", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnAsignaciones.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(31)))), ((int)(((byte)(58)))));
-            this.BtnAsignaciones.Location = new System.Drawing.Point(89, 109);
+            this.BtnAsignaciones.Location = new System.Drawing.Point(81, 126);
             this.BtnAsignaciones.Name = "BtnAsignaciones";
             this.BtnAsignaciones.Size = new System.Drawing.Size(152, 28);
             this.BtnAsignaciones.TabIndex = 3;
@@ -191,7 +163,7 @@
             // 
             this.BtnInscripciones.Font = new System.Drawing.Font("Century Gothic", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnInscripciones.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(31)))), ((int)(((byte)(58)))));
-            this.BtnInscripciones.Location = new System.Drawing.Point(89, 65);
+            this.BtnInscripciones.Location = new System.Drawing.Point(81, 82);
             this.BtnInscripciones.Name = "BtnInscripciones";
             this.BtnInscripciones.Size = new System.Drawing.Size(152, 28);
             this.BtnInscripciones.TabIndex = 6;
@@ -203,7 +175,7 @@
             // 
             this.BtnCertificaciones.Font = new System.Drawing.Font("Century Gothic", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnCertificaciones.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(31)))), ((int)(((byte)(58)))));
-            this.BtnCertificaciones.Location = new System.Drawing.Point(69, 252);
+            this.BtnCertificaciones.Location = new System.Drawing.Point(61, 269);
             this.BtnCertificaciones.Name = "BtnCertificaciones";
             this.BtnCertificaciones.Size = new System.Drawing.Size(191, 28);
             this.BtnCertificaciones.TabIndex = 5;
@@ -214,7 +186,7 @@
             // 
             this.BtnEquiparaciones.Font = new System.Drawing.Font("Century Gothic", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnEquiparaciones.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(31)))), ((int)(((byte)(58)))));
-            this.BtnEquiparaciones.Location = new System.Drawing.Point(80, 203);
+            this.BtnEquiparaciones.Location = new System.Drawing.Point(72, 220);
             this.BtnEquiparaciones.Name = "BtnEquiparaciones";
             this.BtnEquiparaciones.Size = new System.Drawing.Size(170, 28);
             this.BtnEquiparaciones.TabIndex = 7;
@@ -228,7 +200,7 @@
             this.button12.Image = global::ADMINISTRADORES.Properties.Resources.cerrar_sesion;
             this.button12.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
             this.button12.Location = new System.Drawing.Point(1150, 617);
-            this.button12.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button12.Margin = new System.Windows.Forms.Padding(2);
             this.button12.Name = "button12";
             this.button12.Size = new System.Drawing.Size(105, 68);
             this.button12.TabIndex = 10;
@@ -294,8 +266,6 @@
         private System.Windows.Forms.Button BtnInscripciones;
         private System.Windows.Forms.Button BtnCertificaciones;
         private System.Windows.Forms.Button BtnEquiparaciones;
-        private System.Windows.Forms.Button button10;
-        private System.Windows.Forms.Button button11;
         private System.Windows.Forms.Button button12;
         private System.Windows.Forms.PictureBox PicEstudiantes;
         private System.Windows.Forms.PictureBox PicCatedraticos;
