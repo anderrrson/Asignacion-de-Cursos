@@ -127,3 +127,23 @@ C:\Users\diego\Documents\Universidad\Octavo Semestre\Analisis de Sistemas II\Asi
 C:\Users\diego\Documents\Universidad\Octavo Semestre\Analisis de Sistemas II\Asignacion-de-Cursos\ADMINISTRADORES\ADMINISTRADORES\obj\Debug\ADMINISTRADORES.exe
 C:\Users\diego\Documents\Universidad\Octavo Semestre\Analisis de Sistemas II\Asignacion-de-Cursos\ADMINISTRADORES\ADMINISTRADORES\obj\Debug\ADMINISTRADORES.pdb
 C:\Users\diego\Documents\Universidad\Octavo Semestre\Analisis de Sistemas II\Asignacion-de-Cursos\ADMINISTRADORES\ADMINISTRADORES\obj\Debug\ADMINISTRADORES.Estudiante.resources
+C:\Users\Paula V\Documents\Universidad\Octavo Semestre\Análisis de Sistemas 2\Asignacion\Asignacion-de-Cursos\ADMINISTRADORES\ADMINISTRADORES\bin\Debug\ADMINISTRADORES.exe.config
+C:\Users\Paula V\Documents\Universidad\Octavo Semestre\Análisis de Sistemas 2\Asignacion\Asignacion-de-Cursos\ADMINISTRADORES\ADMINISTRADORES\bin\Debug\ADMINISTRADORES.exe
+C:\Users\Paula V\Documents\Universidad\Octavo Semestre\Análisis de Sistemas 2\Asignacion\Asignacion-de-Cursos\ADMINISTRADORES\ADMINISTRADORES\bin\Debug\ADMINISTRADORES.pdb
+C:\Users\Paula V\Documents\Universidad\Octavo Semestre\Análisis de Sistemas 2\Asignacion\Asignacion-de-Cursos\ADMINISTRADORES\ADMINISTRADORES\obj\Debug\ADMINISTRADORES.csprojAssemblyReference.cache
+C:\Users\Paula V\Documents\Universidad\Octavo Semestre\Análisis de Sistemas 2\Asignacion\Asignacion-de-Cursos\ADMINISTRADORES\ADMINISTRADORES\obj\Debug\ADMINISTRADORES.Asignacion.resources
+C:\Users\Paula V\Documents\Universidad\Octavo Semestre\Análisis de Sistemas 2\Asignacion\Asignacion-de-Cursos\ADMINISTRADORES\ADMINISTRADORES\obj\Debug\ADMINISTRADORES.BoletaIns.resources
+C:\Users\Paula V\Documents\Universidad\Octavo Semestre\Análisis de Sistemas 2\Asignacion\Asignacion-de-Cursos\ADMINISTRADORES\ADMINISTRADORES\obj\Debug\ADMINISTRADORES.DIRE.resources
+C:\Users\Paula V\Documents\Universidad\Octavo Semestre\Análisis de Sistemas 2\Asignacion\Asignacion-de-Cursos\ADMINISTRADORES\ADMINISTRADORES\obj\Debug\ADMINISTRADORES.InicioAdmin.resources
+C:\Users\Paula V\Documents\Universidad\Octavo Semestre\Análisis de Sistemas 2\Asignacion\Asignacion-de-Cursos\ADMINISTRADORES\ADMINISTRADORES\obj\Debug\ADMINISTRADORES.Estudiante.resources
+C:\Users\Paula V\Documents\Universidad\Octavo Semestre\Análisis de Sistemas 2\Asignacion\Asignacion-de-Cursos\ADMINISTRADORES\ADMINISTRADORES\obj\Debug\ADMINISTRADORES.Form2.resources
+C:\Users\Paula V\Documents\Universidad\Octavo Semestre\Análisis de Sistemas 2\Asignacion\Asignacion-de-Cursos\ADMINISTRADORES\ADMINISTRADORES\obj\Debug\ADMINISTRADORES.Horario.resources
+C:\Users\Paula V\Documents\Universidad\Octavo Semestre\Análisis de Sistemas 2\Asignacion\Asignacion-de-Cursos\ADMINISTRADORES\ADMINISTRADORES\obj\Debug\ADMINISTRADORES.Login.resources
+C:\Users\Paula V\Documents\Universidad\Octavo Semestre\Análisis de Sistemas 2\Asignacion\Asignacion-de-Cursos\ADMINISTRADORES\ADMINISTRADORES\obj\Debug\ADMINISTRADORES.Inscripcion.resources
+C:\Users\Paula V\Documents\Universidad\Octavo Semestre\Análisis de Sistemas 2\Asignacion\Asignacion-de-Cursos\ADMINISTRADORES\ADMINISTRADORES\obj\Debug\ADMINISTRADORES.Login2.resources
+C:\Users\Paula V\Documents\Universidad\Octavo Semestre\Análisis de Sistemas 2\Asignacion\Asignacion-de-Cursos\ADMINISTRADORES\ADMINISTRADORES\obj\Debug\ADMINISTRADORES.Notas.resources
+C:\Users\Paula V\Documents\Universidad\Octavo Semestre\Análisis de Sistemas 2\Asignacion\Asignacion-de-Cursos\ADMINISTRADORES\ADMINISTRADORES\obj\Debug\ADMINISTRADORES.Properties.Resources.resources
+C:\Users\Paula V\Documents\Universidad\Octavo Semestre\Análisis de Sistemas 2\Asignacion\Asignacion-de-Cursos\ADMINISTRADORES\ADMINISTRADORES\obj\Debug\ADMINISTRADORES.csproj.GenerateResource.cache
+C:\Users\Paula V\Documents\Universidad\Octavo Semestre\Análisis de Sistemas 2\Asignacion\Asignacion-de-Cursos\ADMINISTRADORES\ADMINISTRADORES\obj\Debug\ADMINISTRADORES.csproj.CoreCompileInputs.cache
+C:\Users\Paula V\Documents\Universidad\Octavo Semestre\Análisis de Sistemas 2\Asignacion\Asignacion-de-Cursos\ADMINISTRADORES\ADMINISTRADORES\obj\Debug\ADMINISTRADORES.exe
+C:\Users\Paula V\Documents\Universidad\Octavo Semestre\Análisis de Sistemas 2\Asignacion\Asignacion-de-Cursos\ADMINISTRADORES\ADMINISTRADORES\obj\Debug\ADMINISTRADORES.pdb

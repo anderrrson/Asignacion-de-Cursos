@@ -41,7 +41,7 @@ namespace ADMINISTRADORES
             Estudiante estudiante = new Estudiante();
 
             string usuario;
-            usuario = txtbxUser.Text;
+            usuario = TxtUser.Text;
 
             if (usuario == "1")
             {
