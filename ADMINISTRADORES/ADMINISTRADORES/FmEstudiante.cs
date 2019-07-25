@@ -52,9 +52,7 @@ namespace ADMINISTRADORES
 
         private void BtnRegresar_Click(object sender, EventArgs e)
         {
-            this.Close();
-            FmLogin2 login2 = new FmLogin2();
-            login2.Show();
+           
         }
     }
 }

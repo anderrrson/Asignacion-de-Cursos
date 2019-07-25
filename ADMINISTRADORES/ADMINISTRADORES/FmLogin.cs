@@ -19,9 +19,7 @@ namespace ADMINISTRADORES
 
         private void Button1_Click(object sender, EventArgs e)
         {
-            FmLogin2 o = new FmLogin2();
-            o.Show();
-            this.Hide();
+            
         }
 
         private void Login_Load(object sender, EventArgs e)
@@ -32,6 +30,27 @@ namespace ADMINISTRADORES
         private void button2_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private void LabelIngreso_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void PictureBox1_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void Button1_Click_1(object sender, EventArgs e)
+        {
+            Application.Exit();
+
+        }
+
+        private void ComboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
