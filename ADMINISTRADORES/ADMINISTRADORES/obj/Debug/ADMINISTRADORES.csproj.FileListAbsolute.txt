@@ -158,3 +158,13 @@ C:\Users\sindy\OneDrive\Documents\ANDERSON\OCTAVO SEMESTRE\ANÁLISIS DE SISTEMAS
 C:\Users\sindy\OneDrive\Documents\ANDERSON\OCTAVO SEMESTRE\ANÁLISIS DE SISTEMAS 2\Asignacion\Asignacion-de-Cursos\ADMINISTRADORES\ADMINISTRADORES\obj\Debug\ADMINISTRADORES.FmInscripcion.resources
 C:\Users\sindy\OneDrive\Documents\ANDERSON\OCTAVO SEMESTRE\ANÁLISIS DE SISTEMAS 2\Asignacion\Asignacion-de-Cursos\ADMINISTRADORES\ADMINISTRADORES\obj\Debug\ADMINISTRADORES.FmLogin2.resources
 C:\Users\sindy\OneDrive\Documents\ANDERSON\OCTAVO SEMESTRE\ANÁLISIS DE SISTEMAS 2\Asignacion\Asignacion-de-Cursos\ADMINISTRADORES\ADMINISTRADORES\obj\Debug\ADMINISTRADORES.FmNotas.resources
+C:\Users\Paula V\Desktop\Asignacion-de-Cursos\ADMINISTRADORES\ADMINISTRADORES\obj\Debug\ADMINISTRADORES.FmAsignacion.resources
+C:\Users\Paula V\Desktop\Asignacion-de-Cursos\ADMINISTRADORES\ADMINISTRADORES\obj\Debug\ADMINISTRADORES.FmBoletaInscripcion.resources
+C:\Users\Paula V\Desktop\Asignacion-de-Cursos\ADMINISTRADORES\ADMINISTRADORES\obj\Debug\ADMINISTRADORES.FmDire.resources
+C:\Users\Paula V\Desktop\Asignacion-de-Cursos\ADMINISTRADORES\ADMINISTRADORES\obj\Debug\ADMINISTRADORES.FmEstudiante.resources
+C:\Users\Paula V\Desktop\Asignacion-de-Cursos\ADMINISTRADORES\ADMINISTRADORES\obj\Debug\ADMINISTRADORES.FmCatedraticos.resources
+C:\Users\Paula V\Desktop\Asignacion-de-Cursos\ADMINISTRADORES\ADMINISTRADORES\obj\Debug\ADMINISTRADORES.FmHorario.resources
+C:\Users\Paula V\Desktop\Asignacion-de-Cursos\ADMINISTRADORES\ADMINISTRADORES\obj\Debug\ADMINISTRADORES.FmLogin.resources
+C:\Users\Paula V\Desktop\Asignacion-de-Cursos\ADMINISTRADORES\ADMINISTRADORES\obj\Debug\ADMINISTRADORES.FmInscripcion.resources
+C:\Users\Paula V\Desktop\Asignacion-de-Cursos\ADMINISTRADORES\ADMINISTRADORES\obj\Debug\ADMINISTRADORES.FmLogin2.resources
+C:\Users\Paula V\Desktop\Asignacion-de-Cursos\ADMINISTRADORES\ADMINISTRADORES\obj\Debug\ADMINISTRADORES.FmNotas.resources

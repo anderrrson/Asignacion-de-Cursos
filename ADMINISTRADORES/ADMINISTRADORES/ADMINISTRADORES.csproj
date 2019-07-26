@@ -89,12 +89,6 @@
     <Compile Include="FmHorario.Designer.cs">
       <DependentUpon>FmHorario.cs</DependentUpon>
     </Compile>
-    <Compile Include="FmLogin2.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="FmLogin2.Designer.cs">
-      <DependentUpon>FmLogin2.cs</DependentUpon>
-    </Compile>
     <Compile Include="FmLogin.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -141,9 +135,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FmInscripcion.resx">
       <DependentUpon>FmInscripcion.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FmLogin2.resx">
-      <DependentUpon>FmLogin2.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FmNotas.resx">
       <DependentUpon>FmNotas.cs</DependentUpon>
@@ -245,6 +236,24 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\regresar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\close-browser.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon%281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon%281%291.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\team.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\multiple-users-silhouette.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\group.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

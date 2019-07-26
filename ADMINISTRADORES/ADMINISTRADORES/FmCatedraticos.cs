@@ -85,9 +85,7 @@ namespace ADMINISTRADORES
 
         private void button12_Click(object sender, EventArgs e)
         {
-            this.Close();
-            FmLogin2 login2 = new FmLogin2();
-            login2.Show();
+          
 
         }
     }
