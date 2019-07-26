@@ -178,3 +178,4 @@ C:\Users\diego\Documents\Universidad\Octavo Semestre\Analisis de Sistemas II\Asi
 C:\Users\diego\Documents\Universidad\Octavo Semestre\Analisis de Sistemas II\Asignacion-de-Cursos\ADMINISTRADORES\ADMINISTRADORES\obj\Debug\ADMINISTRADORES.FmLogin.resources
 C:\Users\diego\Documents\Universidad\Octavo Semestre\Analisis de Sistemas II\Asignacion-de-Cursos\ADMINISTRADORES\ADMINISTRADORES\obj\Debug\ADMINISTRADORES.FmInscripcion.resources
 C:\Users\diego\Documents\Universidad\Octavo Semestre\Analisis de Sistemas II\Asignacion-de-Cursos\ADMINISTRADORES\ADMINISTRADORES\obj\Debug\ADMINISTRADORES.FmNotas.resources
+C:\Users\diego\Documents\Universidad\Octavo Semestre\Analisis de Sistemas II\Asignacion-de-Cursos\ADMINISTRADORES\ADMINISTRADORES\obj\Debug\ADMINISTRADORES.FmMenuEstudiantes.resources

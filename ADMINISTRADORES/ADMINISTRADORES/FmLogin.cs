@@ -63,6 +63,12 @@ namespace ADMINISTRADORES
                     fmAdmin1.Show();
                     break;
 
+                case 1:
+                    this.Hide();
+                    FmEstudiante fmEstudiante = new FmEstudiante();
+                    fmEstudiante.Show();
+                    break;
+
                 default:
                     break;
             }
