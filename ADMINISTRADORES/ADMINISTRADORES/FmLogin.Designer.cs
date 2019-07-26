@@ -76,6 +76,7 @@
             this.BtnIniciarSesion.TabIndex = 10;
             this.BtnIniciarSesion.Text = "Iniciar sesión";
             this.BtnIniciarSesion.UseVisualStyleBackColor = false;
+            this.BtnIniciarSesion.Click += new System.EventHandler(this.BtnIniciarSesion_Click);
             // 
             // TxtPassword
             // 

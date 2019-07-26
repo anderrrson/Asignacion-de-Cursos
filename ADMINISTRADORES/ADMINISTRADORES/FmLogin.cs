@@ -52,5 +52,20 @@ namespace ADMINISTRADORES
         {
 
         }
+
+        private void BtnIniciarSesion_Click(object sender, EventArgs e)
+        {
+            switch (CboTiposUsuarios.SelectedIndex)
+            {
+                case 0:
+                    this.Hide();
+                    FmAdmin1 fmAdmin1 = new FmAdmin1();
+                    fmAdmin1.Show();
+                    break;
+
+                default:
+                    break;
+            }
+        }
     }
 }
