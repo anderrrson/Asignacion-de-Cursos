@@ -47,11 +47,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="FmAdmin1.cs">
+    <Compile Include="FmAdmin.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FmAdmin1.Designer.cs">
-      <DependentUpon>FmAdmin1.cs</DependentUpon>
+    <Compile Include="FmAdmin.Designer.cs">
+      <DependentUpon>FmAdmin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FmPrincipal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FmPrincipal.Designer.cs">
+      <DependentUpon>FmPrincipal.cs</DependentUpon>
     </Compile>
     <Compile Include="FmAsignacion.cs">
       <SubType>Form</SubType>
@@ -71,11 +77,11 @@
     <Compile Include="FmDire.Designer.cs">
       <DependentUpon>FmDire.cs</DependentUpon>
     </Compile>
-    <Compile Include="FmAdmin.cs">
+    <Compile Include="FmAdminAux.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FmAdmin.Designer.cs">
-      <DependentUpon>FmAdmin.cs</DependentUpon>
+    <Compile Include="FmAdminAux.Designer.cs">
+      <DependentUpon>FmAdminAux.cs</DependentUpon>
     </Compile>
     <Compile Include="FmEstudiante.cs">
       <SubType>Form</SubType>
@@ -115,8 +121,11 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="FmAdmin1.resx">
-      <DependentUpon>FmAdmin1.cs</DependentUpon>
+    <EmbeddedResource Include="FmAdmin.resx">
+      <DependentUpon>FmAdmin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FmPrincipal.resx">
+      <DependentUpon>FmPrincipal.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FmAsignacion.resx">
       <DependentUpon>FmAsignacion.cs</DependentUpon>
@@ -127,8 +136,8 @@
     <EmbeddedResource Include="FmDire.resx">
       <DependentUpon>FmDire.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FmAdmin.resx">
-      <DependentUpon>FmAdmin.cs</DependentUpon>
+    <EmbeddedResource Include="FmAdminAux.resx">
+      <DependentUpon>FmAdminAux.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FmEstudiante.resx">
       <DependentUpon>FmEstudiante.cs</DependentUpon>
@@ -299,6 +308,24 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\user.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cerrarForm1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\minForm1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\calendar2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\calendar3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\notepad2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\regresar1.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

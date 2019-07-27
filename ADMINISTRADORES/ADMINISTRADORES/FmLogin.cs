@@ -12,6 +12,7 @@ namespace ADMINISTRADORES
 {
     public partial class FmLogin : Form
     {
+
         public FmLogin()
         {
             InitializeComponent();
@@ -55,18 +56,26 @@ namespace ADMINISTRADORES
 
         private void BtnIniciarSesion_Click(object sender, EventArgs e)
         {
+            //MessageBox.Show("Mensaje informativo", "No registrado" + CboTiposUsuarios.SelectedIndex , MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+
             switch (CboTiposUsuarios.SelectedIndex)
             {
                 case 0:
                     this.Hide();
-                    FmAdmin1 fmAdmin1 = new FmAdmin1();
-                    fmAdmin1.Show();
+                    FmPrincipal fmPrincipal = new FmPrincipal(0);
+                    fmPrincipal.Show();
                     break;
 
                 case 1:
                     this.Hide();
-                    FmEstudiante fmEstudiante = new FmEstudiante();
-                    fmEstudiante.Show();
+                    FmPrincipal fmPrincipal1 = new FmPrincipal(1);
+                    fmPrincipal1.Show();
+                    break;
+
+                case 2:
+                    this.Hide();
+                    FmPrincipal fmPrincipal2 = new FmPrincipal(2);
+                    fmPrincipal2.Show();
                     break;
 
                 default:

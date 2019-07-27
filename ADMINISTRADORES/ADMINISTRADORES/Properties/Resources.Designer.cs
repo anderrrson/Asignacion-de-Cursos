@@ -183,6 +183,26 @@ namespace ADMINISTRADORES.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap calendar2 {
+            get {
+                object obj = ResourceManager.GetObject("calendar2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap calendar3 {
+            get {
+                object obj = ResourceManager.GetObject("calendar3", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap cerrar_sesion {
             get {
                 object obj = ResourceManager.GetObject("cerrar sesion", resourceCulture);
@@ -196,6 +216,16 @@ namespace ADMINISTRADORES.Properties {
         internal static System.Drawing.Bitmap cerrarForm {
             get {
                 object obj = ResourceManager.GetObject("cerrarForm", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap cerrarForm1 {
+            get {
+                object obj = ResourceManager.GetObject("cerrarForm1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -343,6 +373,16 @@ namespace ADMINISTRADORES.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap minForm1 {
+            get {
+                object obj = ResourceManager.GetObject("minForm1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap multiple_users_silhouette {
             get {
                 object obj = ResourceManager.GetObject("multiple-users-silhouette", resourceCulture);
@@ -383,9 +423,29 @@ namespace ADMINISTRADORES.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap notepad2 {
+            get {
+                object obj = ResourceManager.GetObject("notepad2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap regresar {
             get {
                 object obj = ResourceManager.GetObject("regresar", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap regresar1 {
+            get {
+                object obj = ResourceManager.GetObject("regresar1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
