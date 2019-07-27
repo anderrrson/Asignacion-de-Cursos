@@ -1,16 +1,16 @@
 ﻿namespace ADMINISTRADORES
 {
-    partial class InicioAdmin
+    partial class FmAdmin
     {
         /// <summary>
-        /// Variable del diseñador necesaria.
+        /// Required designer variable.
         /// </summary>
         private System.ComponentModel.IContainer components = null;
 
         /// <summary>
-        /// Limpiar los recursos que se estén usando.
+        /// Clean up any resources being used.
         /// </summary>
-        /// <param name="disposing">true si los recursos administrados se deben desechar; false en caso contrario.</param>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
         protected override void Dispose(bool disposing)
         {
             if (disposing && (components != null))
@@ -20,256 +20,259 @@
             base.Dispose(disposing);
         }
 
-        #region Código generado por el Diseñador de Windows Forms
+        #region Windows Form Designer generated code
 
         /// <summary>
-        /// Método necesario para admitir el Diseñador. No se puede modificar
-        /// el contenido de este método con el editor de código.
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(InicioAdmin));
-            this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
-            this.GpbCatedraticos = new System.Windows.Forms.GroupBox();
+            this.panel3 = new System.Windows.Forms.Panel();
+            this.label3 = new System.Windows.Forms.Label();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.label2 = new System.Windows.Forms.Label();
+            this.BtnNewContratacion = new System.Windows.Forms.Button();
             this.BtnSalario = new System.Windows.Forms.Button();
             this.BtnAsignacionCat = new System.Windows.Forms.Button();
-            this.BtnNewContratacion = new System.Windows.Forms.Button();
             this.BtnRenovacion = new System.Windows.Forms.Button();
-            this.GpbEstudiantes = new System.Windows.Forms.GroupBox();
+            this.BtnCertificaciones = new System.Windows.Forms.Button();
             this.BtnSolvencias = new System.Windows.Forms.Button();
+            this.BtnEquiparaciones = new System.Windows.Forms.Button();
             this.BtnAsignaciones = new System.Windows.Forms.Button();
             this.BtnInscripciones = new System.Windows.Forms.Button();
-            this.BtnCertificaciones = new System.Windows.Forms.Button();
-            this.BtnEquiparaciones = new System.Windows.Forms.Button();
-            this.PicCatedraticos = new System.Windows.Forms.PictureBox();
-            this.PicEstudiantes = new System.Windows.Forms.PictureBox();
-            this.button12 = new System.Windows.Forms.Button();
-            this.GpbCatedraticos.SuspendLayout();
-            this.GpbEstudiantes.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.PicCatedraticos)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.PicEstudiantes)).BeginInit();
             this.SuspendLayout();
             // 
-            // contextMenuStrip1
+            // panel3
             // 
-            this.contextMenuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
-            this.contextMenuStrip1.Name = "contextMenuStrip1";
-            this.contextMenuStrip1.Size = new System.Drawing.Size(61, 4);
-            this.contextMenuStrip1.Opening += new System.ComponentModel.CancelEventHandler(this.ContextMenuStrip1_Opening);
+            this.panel3.BackColor = System.Drawing.Color.Red;
+            this.panel3.Location = new System.Drawing.Point(17, 333);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(1260, 1);
+            this.panel3.TabIndex = 27;
             // 
-            // GpbCatedraticos
+            // label3
             // 
-            this.GpbCatedraticos.Controls.Add(this.BtnSalario);
-            this.GpbCatedraticos.Controls.Add(this.BtnAsignacionCat);
-            this.GpbCatedraticos.Controls.Add(this.BtnNewContratacion);
-            this.GpbCatedraticos.Controls.Add(this.BtnRenovacion);
-            this.GpbCatedraticos.Font = new System.Drawing.Font("Century Gothic", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.GpbCatedraticos.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.GpbCatedraticos.Location = new System.Drawing.Point(539, 201);
-            this.GpbCatedraticos.Name = "GpbCatedraticos";
-            this.GpbCatedraticos.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.GpbCatedraticos.Size = new System.Drawing.Size(321, 325);
-            this.GpbCatedraticos.TabIndex = 8;
-            this.GpbCatedraticos.TabStop = false;
-            this.GpbCatedraticos.Text = "CATEDRATICOS";
+            this.label3.Font = new System.Drawing.Font("Century Gothic", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ForeColor = System.Drawing.Color.White;
+            this.label3.Location = new System.Drawing.Point(22, 295);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(195, 35);
+            this.label3.TabIndex = 26;
+            this.label3.Text = "Catedraticos";
             // 
-            // BtnSalario
+            // panel2
             // 
-            this.BtnSalario.Font = new System.Drawing.Font("Century Gothic", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnSalario.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(31)))), ((int)(((byte)(58)))));
-            this.BtnSalario.Location = new System.Drawing.Point(89, 173);
-            this.BtnSalario.Name = "BtnSalario";
-            this.BtnSalario.Size = new System.Drawing.Size(152, 28);
-            this.BtnSalario.TabIndex = 10;
-            this.BtnSalario.Text = "SALARIO";
-            this.BtnSalario.UseVisualStyleBackColor = true;
+            this.panel2.BackColor = System.Drawing.Color.Red;
+            this.panel2.Location = new System.Drawing.Point(21, 60);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(1260, 1);
+            this.panel2.TabIndex = 25;
             // 
-            // BtnAsignacionCat
+            // label2
             // 
-            this.BtnAsignacionCat.Font = new System.Drawing.Font("Century Gothic", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnAsignacionCat.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(31)))), ((int)(((byte)(58)))));
-            this.BtnAsignacionCat.Location = new System.Drawing.Point(89, 124);
-            this.BtnAsignacionCat.Name = "BtnAsignacionCat";
-            this.BtnAsignacionCat.Size = new System.Drawing.Size(152, 28);
-            this.BtnAsignacionCat.TabIndex = 9;
-            this.BtnAsignacionCat.Text = "ASIGNACIONES";
-            this.BtnAsignacionCat.UseVisualStyleBackColor = true;
+            this.label2.Font = new System.Drawing.Font("Century Gothic", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.Color.White;
+            this.label2.Location = new System.Drawing.Point(26, 22);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(195, 35);
+            this.label2.TabIndex = 24;
+            this.label2.Text = "Estudiantes";
             // 
             // BtnNewContratacion
             // 
+            this.BtnNewContratacion.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(14)))), ((int)(((byte)(18)))), ((int)(((byte)(34)))));
+            this.BtnNewContratacion.FlatAppearance.BorderSize = 2;
+            this.BtnNewContratacion.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BtnNewContratacion.Font = new System.Drawing.Font("Century Gothic", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnNewContratacion.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(31)))), ((int)(((byte)(58)))));
-            this.BtnNewContratacion.Location = new System.Drawing.Point(38, 218);
+            this.BtnNewContratacion.ForeColor = System.Drawing.Color.White;
+            this.BtnNewContratacion.Image = global::ADMINISTRADORES.Properties.Resources.notepad1;
+            this.BtnNewContratacion.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.BtnNewContratacion.Location = new System.Drawing.Point(888, 411);
             this.BtnNewContratacion.Name = "BtnNewContratacion";
-            this.BtnNewContratacion.Size = new System.Drawing.Size(251, 28);
-            this.BtnNewContratacion.TabIndex = 8;
-            this.BtnNewContratacion.Text = "NUEVA CONTRATACION";
-            this.BtnNewContratacion.UseVisualStyleBackColor = true;
+            this.BtnNewContratacion.Size = new System.Drawing.Size(159, 104);
+            this.BtnNewContratacion.TabIndex = 21;
+            this.BtnNewContratacion.Text = "Contrataciones";
+            this.BtnNewContratacion.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.BtnNewContratacion.UseVisualStyleBackColor = false;
+            // 
+            // BtnSalario
+            // 
+            this.BtnSalario.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(14)))), ((int)(((byte)(18)))), ((int)(((byte)(34)))));
+            this.BtnSalario.FlatAppearance.BorderSize = 2;
+            this.BtnSalario.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BtnSalario.Font = new System.Drawing.Font("Century Gothic", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnSalario.ForeColor = System.Drawing.Color.White;
+            this.BtnSalario.Image = global::ADMINISTRADORES.Properties.Resources.bank;
+            this.BtnSalario.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.BtnSalario.Location = new System.Drawing.Point(695, 410);
+            this.BtnSalario.Name = "BtnSalario";
+            this.BtnSalario.Size = new System.Drawing.Size(159, 104);
+            this.BtnSalario.TabIndex = 23;
+            this.BtnSalario.Text = "Salario";
+            this.BtnSalario.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.BtnSalario.UseVisualStyleBackColor = false;
+            // 
+            // BtnAsignacionCat
+            // 
+            this.BtnAsignacionCat.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(14)))), ((int)(((byte)(18)))), ((int)(((byte)(34)))));
+            this.BtnAsignacionCat.FlatAppearance.BorderSize = 2;
+            this.BtnAsignacionCat.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BtnAsignacionCat.Font = new System.Drawing.Font("Century Gothic", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnAsignacionCat.ForeColor = System.Drawing.Color.White;
+            this.BtnAsignacionCat.Image = global::ADMINISTRADORES.Properties.Resources.checklist;
+            this.BtnAsignacionCat.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.BtnAsignacionCat.Location = new System.Drawing.Point(307, 410);
+            this.BtnAsignacionCat.Name = "BtnAsignacionCat";
+            this.BtnAsignacionCat.Size = new System.Drawing.Size(159, 105);
+            this.BtnAsignacionCat.TabIndex = 22;
+            this.BtnAsignacionCat.Text = "Asignaciones";
+            this.BtnAsignacionCat.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.BtnAsignacionCat.UseVisualStyleBackColor = false;
             // 
             // BtnRenovacion
             // 
+            this.BtnRenovacion.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(14)))), ((int)(((byte)(18)))), ((int)(((byte)(34)))));
+            this.BtnRenovacion.FlatAppearance.BorderSize = 2;
+            this.BtnRenovacion.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BtnRenovacion.Font = new System.Drawing.Font("Century Gothic", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnRenovacion.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(31)))), ((int)(((byte)(58)))));
-            this.BtnRenovacion.Location = new System.Drawing.Point(89, 76);
+            this.BtnRenovacion.ForeColor = System.Drawing.Color.White;
+            this.BtnRenovacion.Image = global::ADMINISTRADORES.Properties.Resources.update;
+            this.BtnRenovacion.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.BtnRenovacion.Location = new System.Drawing.Point(501, 411);
             this.BtnRenovacion.Name = "BtnRenovacion";
-            this.BtnRenovacion.Size = new System.Drawing.Size(152, 28);
-            this.BtnRenovacion.TabIndex = 7;
-            this.BtnRenovacion.Text = "RENOVACION";
-            this.BtnRenovacion.UseVisualStyleBackColor = true;
-            this.BtnRenovacion.Click += new System.EventHandler(this.Button6_Click);
-            // 
-            // GpbEstudiantes
-            // 
-            this.GpbEstudiantes.Controls.Add(this.BtnSolvencias);
-            this.GpbEstudiantes.Controls.Add(this.BtnAsignaciones);
-            this.GpbEstudiantes.Controls.Add(this.BtnInscripciones);
-            this.GpbEstudiantes.Controls.Add(this.BtnCertificaciones);
-            this.GpbEstudiantes.Controls.Add(this.BtnEquiparaciones);
-            this.GpbEstudiantes.Font = new System.Drawing.Font("Century Gothic", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.GpbEstudiantes.ForeColor = System.Drawing.Color.White;
-            this.GpbEstudiantes.Location = new System.Drawing.Point(133, 170);
-            this.GpbEstudiantes.Name = "GpbEstudiantes";
-            this.GpbEstudiantes.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.GpbEstudiantes.Size = new System.Drawing.Size(313, 372);
-            this.GpbEstudiantes.TabIndex = 9;
-            this.GpbEstudiantes.TabStop = false;
-            this.GpbEstudiantes.Text = "ESTUDIANTES";
-            // 
-            // BtnSolvencias
-            // 
-            this.BtnSolvencias.Font = new System.Drawing.Font("Century Gothic", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnSolvencias.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(31)))), ((int)(((byte)(58)))));
-            this.BtnSolvencias.Location = new System.Drawing.Point(81, 172);
-            this.BtnSolvencias.Name = "BtnSolvencias";
-            this.BtnSolvencias.Size = new System.Drawing.Size(152, 28);
-            this.BtnSolvencias.TabIndex = 4;
-            this.BtnSolvencias.Text = "SOLVENCIAS";
-            this.BtnSolvencias.UseVisualStyleBackColor = true;
-            // 
-            // BtnAsignaciones
-            // 
-            this.BtnAsignaciones.Font = new System.Drawing.Font("Century Gothic", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnAsignaciones.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(31)))), ((int)(((byte)(58)))));
-            this.BtnAsignaciones.Location = new System.Drawing.Point(81, 126);
-            this.BtnAsignaciones.Name = "BtnAsignaciones";
-            this.BtnAsignaciones.Size = new System.Drawing.Size(152, 28);
-            this.BtnAsignaciones.TabIndex = 3;
-            this.BtnAsignaciones.Text = "ASIGNACIONES";
-            this.BtnAsignaciones.UseVisualStyleBackColor = true;
-            this.BtnAsignaciones.Click += new System.EventHandler(this.Button1_Click);
-            // 
-            // BtnInscripciones
-            // 
-            this.BtnInscripciones.Font = new System.Drawing.Font("Century Gothic", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnInscripciones.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(31)))), ((int)(((byte)(58)))));
-            this.BtnInscripciones.Location = new System.Drawing.Point(81, 82);
-            this.BtnInscripciones.Name = "BtnInscripciones";
-            this.BtnInscripciones.Size = new System.Drawing.Size(152, 28);
-            this.BtnInscripciones.TabIndex = 6;
-            this.BtnInscripciones.Text = "INSCRIPCIONES";
-            this.BtnInscripciones.UseVisualStyleBackColor = true;
-            this.BtnInscripciones.Click += new System.EventHandler(this.Button4_Click);
+            this.BtnRenovacion.Size = new System.Drawing.Size(159, 104);
+            this.BtnRenovacion.TabIndex = 19;
+            this.BtnRenovacion.Text = "Renovacion";
+            this.BtnRenovacion.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.BtnRenovacion.UseVisualStyleBackColor = false;
             // 
             // BtnCertificaciones
             // 
+            this.BtnCertificaciones.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(14)))), ((int)(((byte)(18)))), ((int)(((byte)(34)))));
+            this.BtnCertificaciones.FlatAppearance.BorderSize = 2;
+            this.BtnCertificaciones.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BtnCertificaciones.Font = new System.Drawing.Font("Century Gothic", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnCertificaciones.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(31)))), ((int)(((byte)(58)))));
-            this.BtnCertificaciones.Location = new System.Drawing.Point(61, 269);
+            this.BtnCertificaciones.ForeColor = System.Drawing.Color.White;
+            this.BtnCertificaciones.Image = global::ADMINISTRADORES.Properties.Resources.certificate;
+            this.BtnCertificaciones.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.BtnCertificaciones.Location = new System.Drawing.Point(976, 132);
             this.BtnCertificaciones.Name = "BtnCertificaciones";
-            this.BtnCertificaciones.Size = new System.Drawing.Size(191, 28);
-            this.BtnCertificaciones.TabIndex = 5;
-            this.BtnCertificaciones.Text = "CERTIFICACIONES";
-            this.BtnCertificaciones.UseVisualStyleBackColor = true;
+            this.BtnCertificaciones.Size = new System.Drawing.Size(159, 104);
+            this.BtnCertificaciones.TabIndex = 17;
+            this.BtnCertificaciones.Text = "Certifiaciones";
+            this.BtnCertificaciones.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.BtnCertificaciones.UseVisualStyleBackColor = false;
+            // 
+            // BtnSolvencias
+            // 
+            this.BtnSolvencias.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(14)))), ((int)(((byte)(18)))), ((int)(((byte)(34)))));
+            this.BtnSolvencias.FlatAppearance.BorderSize = 2;
+            this.BtnSolvencias.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BtnSolvencias.Font = new System.Drawing.Font("Century Gothic", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnSolvencias.ForeColor = System.Drawing.Color.White;
+            this.BtnSolvencias.Image = global::ADMINISTRADORES.Properties.Resources.bank;
+            this.BtnSolvencias.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.BtnSolvencias.Location = new System.Drawing.Point(589, 132);
+            this.BtnSolvencias.Name = "BtnSolvencias";
+            this.BtnSolvencias.Size = new System.Drawing.Size(159, 104);
+            this.BtnSolvencias.TabIndex = 16;
+            this.BtnSolvencias.Text = "Solvencias";
+            this.BtnSolvencias.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.BtnSolvencias.UseVisualStyleBackColor = false;
             // 
             // BtnEquiparaciones
             // 
+            this.BtnEquiparaciones.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(14)))), ((int)(((byte)(18)))), ((int)(((byte)(34)))));
+            this.BtnEquiparaciones.FlatAppearance.BorderSize = 2;
+            this.BtnEquiparaciones.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BtnEquiparaciones.Font = new System.Drawing.Font("Century Gothic", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnEquiparaciones.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(31)))), ((int)(((byte)(58)))));
-            this.BtnEquiparaciones.Location = new System.Drawing.Point(72, 220);
+            this.BtnEquiparaciones.ForeColor = System.Drawing.Color.White;
+            this.BtnEquiparaciones.Image = global::ADMINISTRADORES.Properties.Resources.file;
+            this.BtnEquiparaciones.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.BtnEquiparaciones.Location = new System.Drawing.Point(783, 132);
             this.BtnEquiparaciones.Name = "BtnEquiparaciones";
-            this.BtnEquiparaciones.Size = new System.Drawing.Size(170, 28);
-            this.BtnEquiparaciones.TabIndex = 7;
-            this.BtnEquiparaciones.Text = "EQUIPARACIONES";
-            this.BtnEquiparaciones.UseVisualStyleBackColor = true;
+            this.BtnEquiparaciones.Size = new System.Drawing.Size(159, 104);
+            this.BtnEquiparaciones.TabIndex = 20;
+            this.BtnEquiparaciones.Text = "Equiparaciones";
+            this.BtnEquiparaciones.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.BtnEquiparaciones.UseVisualStyleBackColor = false;
             // 
-            // PicCatedraticos
+            // BtnAsignaciones
             // 
-            this.PicCatedraticos.Image = ((System.Drawing.Image)(resources.GetObject("PicCatedraticos.Image")));
-            this.PicCatedraticos.Location = new System.Drawing.Point(764, 124);
-            this.PicCatedraticos.Name = "PicCatedraticos";
-            this.PicCatedraticos.Size = new System.Drawing.Size(90, 94);
-            this.PicCatedraticos.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.PicCatedraticos.TabIndex = 12;
-            this.PicCatedraticos.TabStop = false;
+            this.BtnAsignaciones.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(14)))), ((int)(((byte)(18)))), ((int)(((byte)(34)))));
+            this.BtnAsignaciones.FlatAppearance.BorderSize = 2;
+            this.BtnAsignaciones.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BtnAsignaciones.Font = new System.Drawing.Font("Century Gothic", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnAsignaciones.ForeColor = System.Drawing.Color.White;
+            this.BtnAsignaciones.Image = global::ADMINISTRADORES.Properties.Resources.checklist;
+            this.BtnAsignaciones.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.BtnAsignaciones.Location = new System.Drawing.Point(395, 132);
+            this.BtnAsignaciones.Name = "BtnAsignaciones";
+            this.BtnAsignaciones.Size = new System.Drawing.Size(159, 104);
+            this.BtnAsignaciones.TabIndex = 15;
+            this.BtnAsignaciones.Text = "Asignaciones";
+            this.BtnAsignaciones.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.BtnAsignaciones.UseVisualStyleBackColor = false;
+            this.BtnAsignaciones.Click += new System.EventHandler(this.BtnAsignaciones_Click);
             // 
-            // PicEstudiantes
+            // BtnInscripciones
             // 
-            this.PicEstudiantes.Image = ((System.Drawing.Image)(resources.GetObject("PicEstudiantes.Image")));
-            this.PicEstudiantes.Location = new System.Drawing.Point(323, 100);
-            this.PicEstudiantes.Name = "PicEstudiantes";
-            this.PicEstudiantes.Size = new System.Drawing.Size(98, 87);
-            this.PicEstudiantes.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.PicEstudiantes.TabIndex = 11;
-            this.PicEstudiantes.TabStop = false;
+            this.BtnInscripciones.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(14)))), ((int)(((byte)(18)))), ((int)(((byte)(34)))));
+            this.BtnInscripciones.FlatAppearance.BorderSize = 2;
+            this.BtnInscripciones.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BtnInscripciones.Font = new System.Drawing.Font("Century Gothic", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnInscripciones.ForeColor = System.Drawing.Color.White;
+            this.BtnInscripciones.Image = global::ADMINISTRADORES.Properties.Resources.notepad1;
+            this.BtnInscripciones.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.BtnInscripciones.Location = new System.Drawing.Point(202, 132);
+            this.BtnInscripciones.Name = "BtnInscripciones";
+            this.BtnInscripciones.Size = new System.Drawing.Size(159, 104);
+            this.BtnInscripciones.TabIndex = 18;
+            this.BtnInscripciones.Text = "Inscripciones";
+            this.BtnInscripciones.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.BtnInscripciones.UseVisualStyleBackColor = false;
             // 
-            // button12
-            // 
-            this.button12.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button12.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button12.Image = global::ADMINISTRADORES.Properties.Resources.cerrar_sesion;
-            this.button12.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.button12.Location = new System.Drawing.Point(787, 24);
-            this.button12.Margin = new System.Windows.Forms.Padding(2);
-            this.button12.Name = "button12";
-            this.button12.Size = new System.Drawing.Size(105, 68);
-            this.button12.TabIndex = 10;
-            this.button12.Text = "Cerrar Sesion";
-            this.button12.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.button12.UseVisualStyleBackColor = true;
-            this.button12.Click += new System.EventHandler(this.button12_Click);
-            // 
-            // InicioAdmin
+            // FmAdmin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(31)))), ((int)(((byte)(58)))));
-            this.ClientSize = new System.Drawing.Size(1011, 586);
-            this.Controls.Add(this.PicCatedraticos);
-            this.Controls.Add(this.PicEstudiantes);
-            this.Controls.Add(this.button12);
-            this.Controls.Add(this.GpbCatedraticos);
-            this.Controls.Add(this.GpbEstudiantes);
-            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Name = "InicioAdmin";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "ADMINISTRADOR";
-            this.Load += new System.EventHandler(this.InicioAdmin_Load);
-            this.GpbCatedraticos.ResumeLayout(false);
-            this.GpbEstudiantes.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.PicCatedraticos)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.PicEstudiantes)).EndInit();
+            this.ClientSize = new System.Drawing.Size(1300, 623);
+            this.Controls.Add(this.BtnNewContratacion);
+            this.Controls.Add(this.BtnSalario);
+            this.Controls.Add(this.BtnAsignacionCat);
+            this.Controls.Add(this.panel3);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.BtnRenovacion);
+            this.Controls.Add(this.BtnCertificaciones);
+            this.Controls.Add(this.BtnSolvencias);
+            this.Controls.Add(this.BtnEquiparaciones);
+            this.Controls.Add(this.panel2);
+            this.Controls.Add(this.BtnAsignaciones);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.BtnInscripciones);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Name = "FmAdmin";
+            this.Text = "Auxiliar";
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private System.Windows.Forms.ContextMenuStrip contextMenuStrip1;
-        private System.Windows.Forms.GroupBox GpbCatedraticos;
-        private System.Windows.Forms.GroupBox GpbEstudiantes;
+        private System.Windows.Forms.Button BtnNewContratacion;
         private System.Windows.Forms.Button BtnSalario;
         private System.Windows.Forms.Button BtnAsignacionCat;
-        private System.Windows.Forms.Button BtnNewContratacion;
+        private System.Windows.Forms.Panel panel3;
+        private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Button BtnRenovacion;
-        private System.Windows.Forms.Button BtnSolvencias;
-        private System.Windows.Forms.Button BtnAsignaciones;
-        private System.Windows.Forms.Button BtnInscripciones;
         private System.Windows.Forms.Button BtnCertificaciones;
+        private System.Windows.Forms.Button BtnSolvencias;
         private System.Windows.Forms.Button BtnEquiparaciones;
-        private System.Windows.Forms.Button button12;
-        private System.Windows.Forms.PictureBox PicEstudiantes;
-        private System.Windows.Forms.PictureBox PicCatedraticos;
+        private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.Button BtnAsignaciones;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Button BtnInscripciones;
     }
 }
-

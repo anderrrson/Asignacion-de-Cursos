@@ -24,6 +24,11 @@ namespace ADMINISTRADORES
 
         private void Button1_Click(object sender, EventArgs e)
         {
+            
+        }
+
+        public void llenar()
+        {
             DataTable tabla = new DataTable();
             tabla.Columns.Add("Codigo");
             tabla.Columns.Add("Curso");
@@ -45,6 +50,11 @@ namespace ADMINISTRADORES
             DgvNotas.Columns[3].Width = 75;
             DgvNotas.Columns[4].Width = 75;
             DgvNotas.Columns[5].Width = 75;
+        }
+
+        private void BtnBuscar_Click(object sender, EventArgs e)
+        {
+            llenar();
         }
     }
 }
