@@ -43,10 +43,9 @@
             this.LblTitulo.AutoSize = true;
             this.LblTitulo.Font = new System.Drawing.Font("Century Gothic", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LblTitulo.ForeColor = System.Drawing.Color.White;
-            this.LblTitulo.Location = new System.Drawing.Point(480, 262);
-            this.LblTitulo.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.LblTitulo.Location = new System.Drawing.Point(392, 188);
             this.LblTitulo.Name = "LblTitulo";
-            this.LblTitulo.Size = new System.Drawing.Size(416, 40);
+            this.LblTitulo.Size = new System.Drawing.Size(328, 33);
             this.LblTitulo.TabIndex = 0;
             this.LblTitulo.Text = "BOLETA DE INSCRIPCION";
             // 
@@ -55,10 +54,9 @@
             this.LblNcarnet.AutoSize = true;
             this.LblNcarnet.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LblNcarnet.ForeColor = System.Drawing.Color.White;
-            this.LblNcarnet.Location = new System.Drawing.Point(593, 372);
-            this.LblNcarnet.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.LblNcarnet.Location = new System.Drawing.Point(477, 277);
             this.LblNcarnet.Name = "LblNcarnet";
-            this.LblNcarnet.Size = new System.Drawing.Size(258, 30);
+            this.LblNcarnet.Size = new System.Drawing.Size(200, 22);
             this.LblNcarnet.TabIndex = 1;
             this.LblNcarnet.Text = "NUMERO DE CARNET";
             // 
@@ -68,10 +66,9 @@
             this.TxtNumero.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.TxtNumero.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.TxtNumero.ForeColor = System.Drawing.Color.White;
-            this.TxtNumero.Location = new System.Drawing.Point(868, 366);
-            this.TxtNumero.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.TxtNumero.Location = new System.Drawing.Point(683, 272);
             this.TxtNumero.Name = "TxtNumero";
-            this.TxtNumero.Size = new System.Drawing.Size(267, 30);
+            this.TxtNumero.Size = new System.Drawing.Size(200, 24);
             this.TxtNumero.TabIndex = 2;
             this.TxtNumero.Text = "####";
             this.TxtNumero.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -80,10 +77,9 @@
             // PnlLinea
             // 
             this.PnlLinea.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(55)))), ((int)(((byte)(35)))));
-            this.PnlLinea.Location = new System.Drawing.Point(868, 398);
-            this.PnlLinea.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.PnlLinea.Location = new System.Drawing.Point(683, 298);
             this.PnlLinea.Name = "PnlLinea";
-            this.PnlLinea.Size = new System.Drawing.Size(267, 1);
+            this.PnlLinea.Size = new System.Drawing.Size(200, 1);
             this.PnlLinea.TabIndex = 3;
             // 
             // PicVisualizar
@@ -91,10 +87,9 @@
             this.PicVisualizar.ErrorImage = ((System.Drawing.Image)(resources.GetObject("PicVisualizar.ErrorImage")));
             this.PicVisualizar.Image = ((System.Drawing.Image)(resources.GetObject("PicVisualizar.Image")));
             this.PicVisualizar.InitialImage = ((System.Drawing.Image)(resources.GetObject("PicVisualizar.InitialImage")));
-            this.PicVisualizar.Location = new System.Drawing.Point(1179, 430);
-            this.PicVisualizar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.PicVisualizar.Location = new System.Drawing.Point(916, 324);
             this.PicVisualizar.Name = "PicVisualizar";
-            this.PicVisualizar.Size = new System.Drawing.Size(76, 76);
+            this.PicVisualizar.Size = new System.Drawing.Size(159, 105);
             this.PicVisualizar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.PicVisualizar.TabIndex = 5;
             this.PicVisualizar.TabStop = false;
@@ -105,26 +100,24 @@
             this.LblVisualizar.AutoSize = true;
             this.LblVisualizar.Font = new System.Drawing.Font("Century Gothic", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LblVisualizar.ForeColor = System.Drawing.Color.White;
-            this.LblVisualizar.Location = new System.Drawing.Point(940, 458);
-            this.LblVisualizar.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.LblVisualizar.Location = new System.Drawing.Point(737, 347);
             this.LblVisualizar.Name = "LblVisualizar";
-            this.LblVisualizar.Size = new System.Drawing.Size(223, 25);
+            this.LblVisualizar.Size = new System.Drawing.Size(173, 21);
             this.LblVisualizar.TabIndex = 6;
             this.LblVisualizar.Text = "VISUALIZAR BOLETA";
             // 
             // FmInscripcion
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(31)))), ((int)(((byte)(58)))));
-            this.ClientSize = new System.Drawing.Size(1800, 897);
+            this.ClientSize = new System.Drawing.Size(1284, 584);
             this.Controls.Add(this.LblVisualizar);
             this.Controls.Add(this.PicVisualizar);
             this.Controls.Add(this.PnlLinea);
             this.Controls.Add(this.TxtNumero);
             this.Controls.Add(this.LblNcarnet);
             this.Controls.Add(this.LblTitulo);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "FmInscripcion";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Inscripcion";

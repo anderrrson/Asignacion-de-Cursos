@@ -25,7 +25,7 @@ namespace ADMINISTRADORES
 
         private void BtnInscripciones_Click(object sender, EventArgs e)
         {
-            FmBoletaInscripcion i = new FmBoletaInscripcion();
+            FmInscripcion i = new FmInscripcion();
             i.ShowDialog();
          }
     }
