@@ -42,6 +42,7 @@
             this.PnlTipoUsuario = new System.Windows.Forms.Panel();
             this.PicTiposUsuarios = new System.Windows.Forms.PictureBox();
             this.CboTiposUsuarios = new System.Windows.Forms.ComboBox();
+            this.BtnAyuda = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.PicPassword)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.PicUser)).BeginInit();
             this.PnlUser.SuspendLayout();
@@ -229,12 +230,26 @@
             this.CboTiposUsuarios.Text = "Seleccione una opción...";
             this.CboTiposUsuarios.SelectedIndexChanged += new System.EventHandler(this.ComboBox1_SelectedIndexChanged);
             // 
+            // BtnAyuda
+            // 
+            this.BtnAyuda.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(31)))), ((int)(((byte)(58)))));
+            this.BtnAyuda.BackgroundImage = global::ADMINISTRADORES.Properties.Resources.question_mark;
+            this.BtnAyuda.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.BtnAyuda.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BtnAyuda.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(31)))), ((int)(((byte)(58)))));
+            this.BtnAyuda.Location = new System.Drawing.Point(709, 11);
+            this.BtnAyuda.Name = "BtnAyuda";
+            this.BtnAyuda.Size = new System.Drawing.Size(37, 31);
+            this.BtnAyuda.TabIndex = 15;
+            this.BtnAyuda.UseVisualStyleBackColor = false;
+            // 
             // FmLogin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::ADMINISTRADORES.Properties.Resources._123123121;
             this.ClientSize = new System.Drawing.Size(800, 423);
+            this.Controls.Add(this.BtnAyuda);
             this.Controls.Add(this.PnlTipoUsuario);
             this.Controls.Add(this.BtnClose);
             this.Controls.Add(this.TxtContraseña);
@@ -248,7 +263,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "FmLogin";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Form2";
+            this.Text = "v";
             this.Load += new System.EventHandler(this.Login_Load);
             ((System.ComponentModel.ISupportInitialize)(this.PicPassword)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.PicUser)).EndInit();
@@ -277,5 +292,6 @@
         private System.Windows.Forms.Panel PnlTipoUsuario;
         private System.Windows.Forms.ComboBox CboTiposUsuarios;
         private System.Windows.Forms.PictureBox PicTiposUsuarios;
+        private System.Windows.Forms.Button BtnAyuda;
     }
 }
