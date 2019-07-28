@@ -26,13 +26,20 @@ namespace ADMINISTRADORES
                     break;
 
                 case 1:
-
+                    if (this.PnlEscritorio.Controls.Count > 0)
+                        this.PnlEscritorio.Controls.RemoveAt(0);
+                    Form formulario2 = new FmCatedraticos(PnlEscritorio) as Form; //Convierte Formulario a Formulario Interno
+                    formulario2.TopLevel = false;
+                    formulario2.Dock = DockStyle.Fill;
+                    this.PnlEscritorio.Controls.Add(formulario2);
+                    this.PnlEscritorio.Tag = formulario2;
+                    formulario2.Show();
+                    LblTitulo.Text = "Catedrático";
                     break;
 
                 case 2:
                     if (this.PnlEscritorio.Controls.Count > 0)
                         this.PnlEscritorio.Controls.RemoveAt(0);
-
                     Form formulario1 = new FmEstudiante(PnlEscritorio) as Form; //Convierte Formulario a Formulario Interno
                     formulario1.TopLevel = false;
                     formulario1.Dock = DockStyle.Fill;
