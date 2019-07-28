@@ -77,12 +77,6 @@
     <Compile Include="FmDire.Designer.cs">
       <DependentUpon>FmDire.cs</DependentUpon>
     </Compile>
-    <Compile Include="FmAdminAux.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="FmAdminAux.Designer.cs">
-      <DependentUpon>FmAdminAux.cs</DependentUpon>
-    </Compile>
     <Compile Include="FmEstudiante.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -150,9 +144,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FmDire.resx">
       <DependentUpon>FmDire.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FmAdminAux.resx">
-      <DependentUpon>FmAdminAux.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FmEstudiante.resx">
       <DependentUpon>FmEstudiante.cs</DependentUpon>
