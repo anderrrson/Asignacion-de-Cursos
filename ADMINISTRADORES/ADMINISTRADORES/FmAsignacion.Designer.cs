@@ -346,9 +346,9 @@
             this.PicHorario.ErrorImage = ((System.Drawing.Image)(resources.GetObject("PicHorario.ErrorImage")));
             this.PicHorario.Image = ((System.Drawing.Image)(resources.GetObject("PicHorario.Image")));
             this.PicHorario.InitialImage = ((System.Drawing.Image)(resources.GetObject("PicHorario.InitialImage")));
-            this.PicHorario.Location = new System.Drawing.Point(1016, 436);
+            this.PicHorario.Location = new System.Drawing.Point(1020, 447);
             this.PicHorario.Name = "PicHorario";
-            this.PicHorario.Size = new System.Drawing.Size(159, 104);
+            this.PicHorario.Size = new System.Drawing.Size(121, 78);
             this.PicHorario.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.PicHorario.TabIndex = 15;
             this.PicHorario.TabStop = false;
