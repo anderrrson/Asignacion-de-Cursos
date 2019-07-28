@@ -1,6 +1,6 @@
 ﻿namespace ADMINISTRADORES
 {
-    partial class FmAsignacion
+    partial class FmAsignacionCat
     {
         /// <summary>
         /// Required designer variable.
@@ -28,12 +28,11 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FmAsignacion));
-            this.LblAsignaciones = new System.Windows.Forms.Label();
-            this.LblNcarnet = new System.Windows.Forms.Label();
-            this.TxtNcarnet = new System.Windows.Forms.TextBox();
-            this.PnlLinea1 = new System.Windows.Forms.Panel();
-            this.LblCodigoCur1 = new System.Windows.Forms.Label();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FmAsignacionCat));
+            this.GpbCursosadicionales = new System.Windows.Forms.GroupBox();
+            this.PnlLinea7 = new System.Windows.Forms.Panel();
+            this.TxtCodigoadicional = new System.Windows.Forms.TextBox();
+            this.LblCodigocuradicional = new System.Windows.Forms.Label();
             this.GpnIngresocursos = new System.Windows.Forms.GroupBox();
             this.PnlLinea6 = new System.Windows.Forms.Panel();
             this.PnlLinea5 = new System.Windows.Forms.Panel();
@@ -49,71 +48,72 @@
             this.LblCodigocur4 = new System.Windows.Forms.Label();
             this.LblCodigocur3 = new System.Windows.Forms.Label();
             this.LblCodigocur2 = new System.Windows.Forms.Label();
-            this.GpbCursosadicionales = new System.Windows.Forms.GroupBox();
-            this.PnlLinea7 = new System.Windows.Forms.Panel();
-            this.TxtCodigoadicional = new System.Windows.Forms.TextBox();
-            this.LblCodigocuradicional = new System.Windows.Forms.Label();
+            this.LblCodigoCur1 = new System.Windows.Forms.Label();
+            this.PnlLinea1 = new System.Windows.Forms.Panel();
+            this.TxtNcarnet = new System.Windows.Forms.TextBox();
+            this.LblNcarnet = new System.Windows.Forms.Label();
+            this.LblAsignaciones = new System.Windows.Forms.Label();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.textBox1 = new System.Windows.Forms.TextBox();
             this.button1 = new System.Windows.Forms.Button();
-            this.GpnIngresocursos.SuspendLayout();
             this.GpbCursosadicionales.SuspendLayout();
+            this.GpnIngresocursos.SuspendLayout();
             this.SuspendLayout();
             // 
-            // LblAsignaciones
+            // GpbCursosadicionales
             // 
-            this.LblAsignaciones.AutoSize = true;
-            this.LblAsignaciones.Font = new System.Drawing.Font("Century Gothic", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LblAsignaciones.ForeColor = System.Drawing.Color.White;
-            this.LblAsignaciones.Location = new System.Drawing.Point(207, 57);
-            this.LblAsignaciones.Name = "LblAsignaciones";
-            this.LblAsignaciones.Size = new System.Drawing.Size(214, 33);
-            this.LblAsignaciones.TabIndex = 0;
-            this.LblAsignaciones.Text = "ASIGNACIONES";
-            this.LblAsignaciones.Click += new System.EventHandler(this.LblAsignaciones_Click);
+            this.GpbCursosadicionales.Controls.Add(this.panel2);
+            this.GpbCursosadicionales.Controls.Add(this.textBox1);
+            this.GpbCursosadicionales.Controls.Add(this.panel1);
+            this.GpbCursosadicionales.Controls.Add(this.textBox2);
+            this.GpbCursosadicionales.Controls.Add(this.label1);
+            this.GpbCursosadicionales.Controls.Add(this.label2);
+            this.GpbCursosadicionales.Controls.Add(this.PnlLinea7);
+            this.GpbCursosadicionales.Controls.Add(this.TxtCodigoadicional);
+            this.GpbCursosadicionales.Controls.Add(this.LblCodigocuradicional);
+            this.GpbCursosadicionales.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.GpbCursosadicionales.ForeColor = System.Drawing.Color.White;
+            this.GpbCursosadicionales.Location = new System.Drawing.Point(632, 283);
+            this.GpbCursosadicionales.Name = "GpbCursosadicionales";
+            this.GpbCursosadicionales.Size = new System.Drawing.Size(378, 195);
+            this.GpbCursosadicionales.TabIndex = 20;
+            this.GpbCursosadicionales.TabStop = false;
+            this.GpbCursosadicionales.Text = "CURSOS PROYECTADOS";
             // 
-            // LblNcarnet
+            // PnlLinea7
             // 
-            this.LblNcarnet.AutoSize = true;
-            this.LblNcarnet.Font = new System.Drawing.Font("Century Gothic", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LblNcarnet.ForeColor = System.Drawing.Color.White;
-            this.LblNcarnet.Location = new System.Drawing.Point(314, 124);
-            this.LblNcarnet.Name = "LblNcarnet";
-            this.LblNcarnet.Size = new System.Drawing.Size(107, 21);
-            this.LblNcarnet.TabIndex = 1;
-            this.LblNcarnet.Text = "NO. CARNÉ";
-            this.LblNcarnet.Click += new System.EventHandler(this.LblNcarnet_Click);
+            this.PnlLinea7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(55)))), ((int)(((byte)(35)))));
+            this.PnlLinea7.Location = new System.Drawing.Point(139, 90);
+            this.PnlLinea7.Name = "PnlLinea7";
+            this.PnlLinea7.Size = new System.Drawing.Size(170, 1);
+            this.PnlLinea7.TabIndex = 4;
             // 
-            // TxtNcarnet
+            // TxtCodigoadicional
             // 
-            this.TxtNcarnet.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(31)))), ((int)(((byte)(58)))));
-            this.TxtNcarnet.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.TxtNcarnet.Font = new System.Drawing.Font("Century Gothic", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TxtNcarnet.ForeColor = System.Drawing.Color.White;
-            this.TxtNcarnet.Location = new System.Drawing.Point(442, 124);
-            this.TxtNcarnet.Name = "TxtNcarnet";
-            this.TxtNcarnet.Size = new System.Drawing.Size(239, 21);
-            this.TxtNcarnet.TabIndex = 2;
-            this.TxtNcarnet.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.TxtNcarnet.TextChanged += new System.EventHandler(this.TxtNcarnet_TextChanged);
+            this.TxtCodigoadicional.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(31)))), ((int)(((byte)(58)))));
+            this.TxtCodigoadicional.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.TxtCodigoadicional.Font = new System.Drawing.Font("Century Gothic", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TxtCodigoadicional.ForeColor = System.Drawing.Color.White;
+            this.TxtCodigoadicional.Location = new System.Drawing.Point(139, 67);
+            this.TxtCodigoadicional.Name = "TxtCodigoadicional";
+            this.TxtCodigoadicional.Size = new System.Drawing.Size(170, 21);
+            this.TxtCodigoadicional.TabIndex = 9;
+            this.TxtCodigoadicional.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // PnlLinea1
+            // LblCodigocuradicional
             // 
-            this.PnlLinea1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(55)))), ((int)(((byte)(35)))));
-            this.PnlLinea1.Location = new System.Drawing.Point(427, 144);
-            this.PnlLinea1.Name = "PnlLinea1";
-            this.PnlLinea1.Size = new System.Drawing.Size(257, 1);
-            this.PnlLinea1.TabIndex = 3;
-            this.PnlLinea1.Paint += new System.Windows.Forms.PaintEventHandler(this.PnlLinea1_Paint);
-            // 
-            // LblCodigoCur1
-            // 
-            this.LblCodigoCur1.AutoSize = true;
-            this.LblCodigoCur1.Font = new System.Drawing.Font("Century Gothic", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LblCodigoCur1.ForeColor = System.Drawing.Color.White;
-            this.LblCodigoCur1.Location = new System.Drawing.Point(42, 41);
-            this.LblCodigoCur1.Name = "LblCodigoCur1";
-            this.LblCodigoCur1.Size = new System.Drawing.Size(87, 21);
-            this.LblCodigoCur1.TabIndex = 4;
-            this.LblCodigoCur1.Text = "CÓDIGO";
+            this.LblCodigocuradicional.AutoSize = true;
+            this.LblCodigocuradicional.Font = new System.Drawing.Font("Century Gothic", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LblCodigocuradicional.ForeColor = System.Drawing.Color.White;
+            this.LblCodigocuradicional.Location = new System.Drawing.Point(46, 70);
+            this.LblCodigocuradicional.Name = "LblCodigocuradicional";
+            this.LblCodigocuradicional.Size = new System.Drawing.Size(87, 21);
+            this.LblCodigocuradicional.TabIndex = 4;
+            this.LblCodigocuradicional.Text = "CÓDIGO";
             // 
             // GpnIngresocursos
             // 
@@ -134,13 +134,12 @@
             this.GpnIngresocursos.Controls.Add(this.LblCodigoCur1);
             this.GpnIngresocursos.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.GpnIngresocursos.ForeColor = System.Drawing.Color.White;
-            this.GpnIngresocursos.Location = new System.Drawing.Point(225, 178);
+            this.GpnIngresocursos.Location = new System.Drawing.Point(160, 258);
             this.GpnIngresocursos.Name = "GpnIngresocursos";
             this.GpnIngresocursos.Size = new System.Drawing.Size(378, 220);
-            this.GpnIngresocursos.TabIndex = 5;
+            this.GpnIngresocursos.TabIndex = 19;
             this.GpnIngresocursos.TabStop = false;
-            this.GpnIngresocursos.Text = "INGRESE  LOS CURSOS";
-            this.GpnIngresocursos.Enter += new System.EventHandler(this.GpnIngresocursos_Enter);
+            this.GpnIngresocursos.Text = "CURSOS ASIGNADOS";
             // 
             // PnlLinea6
             // 
@@ -286,51 +285,121 @@
             this.LblCodigocur2.TabIndex = 5;
             this.LblCodigocur2.Text = "CÓDIGO";
             // 
-            // GpbCursosadicionales
+            // LblCodigoCur1
             // 
-            this.GpbCursosadicionales.Controls.Add(this.PnlLinea7);
-            this.GpbCursosadicionales.Controls.Add(this.TxtCodigoadicional);
-            this.GpbCursosadicionales.Controls.Add(this.LblCodigocuradicional);
-            this.GpbCursosadicionales.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.GpbCursosadicionales.ForeColor = System.Drawing.Color.White;
-            this.GpbCursosadicionales.Location = new System.Drawing.Point(697, 203);
-            this.GpbCursosadicionales.Name = "GpbCursosadicionales";
-            this.GpbCursosadicionales.Size = new System.Drawing.Size(378, 159);
-            this.GpbCursosadicionales.TabIndex = 14;
-            this.GpbCursosadicionales.TabStop = false;
-            this.GpbCursosadicionales.Text = "INGRESE  LOS CURSOS ADICIONALES";
-            this.GpbCursosadicionales.Enter += new System.EventHandler(this.GpbCursosadicionales_Enter);
+            this.LblCodigoCur1.AutoSize = true;
+            this.LblCodigoCur1.Font = new System.Drawing.Font("Century Gothic", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LblCodigoCur1.ForeColor = System.Drawing.Color.White;
+            this.LblCodigoCur1.Location = new System.Drawing.Point(42, 41);
+            this.LblCodigoCur1.Name = "LblCodigoCur1";
+            this.LblCodigoCur1.Size = new System.Drawing.Size(87, 21);
+            this.LblCodigoCur1.TabIndex = 4;
+            this.LblCodigoCur1.Text = "CÓDIGO";
             // 
-            // PnlLinea7
+            // PnlLinea1
             // 
-            this.PnlLinea7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(55)))), ((int)(((byte)(35)))));
-            this.PnlLinea7.Location = new System.Drawing.Point(139, 90);
-            this.PnlLinea7.Name = "PnlLinea7";
-            this.PnlLinea7.Size = new System.Drawing.Size(170, 1);
-            this.PnlLinea7.TabIndex = 4;
+            this.PnlLinea1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(55)))), ((int)(((byte)(35)))));
+            this.PnlLinea1.Location = new System.Drawing.Point(521, 158);
+            this.PnlLinea1.Name = "PnlLinea1";
+            this.PnlLinea1.Size = new System.Drawing.Size(257, 1);
+            this.PnlLinea1.TabIndex = 18;
             // 
-            // TxtCodigoadicional
+            // TxtNcarnet
             // 
-            this.TxtCodigoadicional.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(31)))), ((int)(((byte)(58)))));
-            this.TxtCodigoadicional.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.TxtCodigoadicional.Font = new System.Drawing.Font("Century Gothic", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TxtCodigoadicional.ForeColor = System.Drawing.Color.White;
-            this.TxtCodigoadicional.Location = new System.Drawing.Point(139, 67);
-            this.TxtCodigoadicional.Name = "TxtCodigoadicional";
-            this.TxtCodigoadicional.Size = new System.Drawing.Size(170, 21);
-            this.TxtCodigoadicional.TabIndex = 9;
-            this.TxtCodigoadicional.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.TxtNcarnet.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(31)))), ((int)(((byte)(58)))));
+            this.TxtNcarnet.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.TxtNcarnet.Font = new System.Drawing.Font("Century Gothic", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TxtNcarnet.ForeColor = System.Drawing.Color.White;
+            this.TxtNcarnet.Location = new System.Drawing.Point(536, 138);
+            this.TxtNcarnet.Name = "TxtNcarnet";
+            this.TxtNcarnet.Size = new System.Drawing.Size(239, 21);
+            this.TxtNcarnet.TabIndex = 17;
+            this.TxtNcarnet.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // LblCodigocuradicional
+            // LblNcarnet
             // 
-            this.LblCodigocuradicional.AutoSize = true;
-            this.LblCodigocuradicional.Font = new System.Drawing.Font("Century Gothic", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LblCodigocuradicional.ForeColor = System.Drawing.Color.White;
-            this.LblCodigocuradicional.Location = new System.Drawing.Point(46, 70);
-            this.LblCodigocuradicional.Name = "LblCodigocuradicional";
-            this.LblCodigocuradicional.Size = new System.Drawing.Size(87, 21);
-            this.LblCodigocuradicional.TabIndex = 4;
-            this.LblCodigocuradicional.Text = "CÓDIGO";
+            this.LblNcarnet.AutoSize = true;
+            this.LblNcarnet.Font = new System.Drawing.Font("Century Gothic", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LblNcarnet.ForeColor = System.Drawing.Color.White;
+            this.LblNcarnet.Location = new System.Drawing.Point(301, 138);
+            this.LblNcarnet.Name = "LblNcarnet";
+            this.LblNcarnet.Size = new System.Drawing.Size(214, 21);
+            this.LblNcarnet.TabIndex = 16;
+            this.LblNcarnet.Text = "CODIGO CATEDRATICO";
+            // 
+            // LblAsignaciones
+            // 
+            this.LblAsignaciones.AutoSize = true;
+            this.LblAsignaciones.Font = new System.Drawing.Font("Century Gothic", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LblAsignaciones.ForeColor = System.Drawing.Color.White;
+            this.LblAsignaciones.Location = new System.Drawing.Point(121, 55);
+            this.LblAsignaciones.Name = "LblAsignaciones";
+            this.LblAsignaciones.Size = new System.Drawing.Size(417, 33);
+            this.LblAsignaciones.TabIndex = 15;
+            this.LblAsignaciones.Text = "ASIGNACIONES CATEDRATICOS";
+            this.LblAsignaciones.Click += new System.EventHandler(this.LblAsignaciones_Click);
+            // 
+            // panel1
+            // 
+            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(55)))), ((int)(((byte)(35)))));
+            this.panel1.Location = new System.Drawing.Point(139, 127);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(170, 1);
+            this.panel1.TabIndex = 14;
+            // 
+            // textBox2
+            // 
+            this.textBox2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(31)))), ((int)(((byte)(58)))));
+            this.textBox2.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox2.Font = new System.Drawing.Font("Century Gothic", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox2.ForeColor = System.Drawing.Color.White;
+            this.textBox2.Location = new System.Drawing.Point(139, 107);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(170, 21);
+            this.textBox2.TabIndex = 17;
+            this.textBox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Century Gothic", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.White;
+            this.label1.Location = new System.Drawing.Point(46, 141);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(87, 21);
+            this.label1.TabIndex = 16;
+            this.label1.Text = "CÓDIGO";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Century Gothic", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.Color.White;
+            this.label2.Location = new System.Drawing.Point(46, 107);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(87, 21);
+            this.label2.TabIndex = 15;
+            this.label2.Text = "CÓDIGO";
+            // 
+            // panel2
+            // 
+            this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(55)))), ((int)(((byte)(35)))));
+            this.panel2.Location = new System.Drawing.Point(139, 161);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(170, 1);
+            this.panel2.TabIndex = 18;
+            // 
+            // textBox1
+            // 
+            this.textBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(31)))), ((int)(((byte)(58)))));
+            this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox1.Font = new System.Drawing.Font("Century Gothic", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox1.ForeColor = System.Drawing.Color.White;
+            this.textBox1.Location = new System.Drawing.Point(139, 141);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(170, 21);
+            this.textBox1.TabIndex = 19;
+            this.textBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // button1
             // 
@@ -341,16 +410,15 @@
             this.button1.ForeColor = System.Drawing.Color.White;
             this.button1.Image = ((System.Drawing.Image)(resources.GetObject("button1.Image")));
             this.button1.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.button1.Location = new System.Drawing.Point(1063, 420);
+            this.button1.Location = new System.Drawing.Point(1072, 438);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(159, 105);
             this.button1.TabIndex = 31;
-            this.button1.Text = "DIRE";
+            this.button1.Text = "GUARDAR";
             this.button1.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.button1.UseVisualStyleBackColor = false;
-            this.button1.Click += new System.EventHandler(this.Button1_Click);
             // 
-            // FmAsignacion
+            // FmAsignacionCat
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -364,14 +432,12 @@
             this.Controls.Add(this.LblNcarnet);
             this.Controls.Add(this.LblAsignaciones);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "FmAsignacion";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Asignacion";
-            this.Load += new System.EventHandler(this.FmAsignacion_Load);
-            this.GpnIngresocursos.ResumeLayout(false);
-            this.GpnIngresocursos.PerformLayout();
+            this.Name = "FmAsignacionCat";
+            this.Text = "FmAsignacionCat";
             this.GpbCursosadicionales.ResumeLayout(false);
             this.GpbCursosadicionales.PerformLayout();
+            this.GpnIngresocursos.ResumeLayout(false);
+            this.GpnIngresocursos.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -379,11 +445,10 @@
 
         #endregion
 
-        private System.Windows.Forms.Label LblAsignaciones;
-        private System.Windows.Forms.Label LblNcarnet;
-        private System.Windows.Forms.TextBox TxtNcarnet;
-        private System.Windows.Forms.Panel PnlLinea1;
-        private System.Windows.Forms.Label LblCodigoCur1;
+        private System.Windows.Forms.GroupBox GpbCursosadicionales;
+        private System.Windows.Forms.Panel PnlLinea7;
+        private System.Windows.Forms.TextBox TxtCodigoadicional;
+        private System.Windows.Forms.Label LblCodigocuradicional;
         private System.Windows.Forms.GroupBox GpnIngresocursos;
         private System.Windows.Forms.Panel PnlLinea6;
         private System.Windows.Forms.Panel PnlLinea5;
@@ -399,10 +464,17 @@
         private System.Windows.Forms.Label LblCodigocur4;
         private System.Windows.Forms.Label LblCodigocur3;
         private System.Windows.Forms.Label LblCodigocur2;
-        private System.Windows.Forms.GroupBox GpbCursosadicionales;
-        private System.Windows.Forms.Panel PnlLinea7;
-        private System.Windows.Forms.TextBox TxtCodigoadicional;
-        private System.Windows.Forms.Label LblCodigocuradicional;
+        private System.Windows.Forms.Label LblCodigoCur1;
+        private System.Windows.Forms.Panel PnlLinea1;
+        private System.Windows.Forms.TextBox TxtNcarnet;
+        private System.Windows.Forms.Label LblNcarnet;
+        private System.Windows.Forms.Label LblAsignaciones;
+        private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button button1;
     }
 }

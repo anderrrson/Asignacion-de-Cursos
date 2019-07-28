@@ -804,6 +804,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1284, 584);
             this.Controls.Add(this.PnlCuadroGeneral);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "FmDire";
             this.Text = "DIRE";
             this.PnlCuadroGeneral.ResumeLayout(false);

@@ -1678,9 +1678,10 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
             this.AutoScrollMargin = new System.Drawing.Size(5, 10);
-            this.ClientSize = new System.Drawing.Size(1284, 584);
+            this.ClientSize = new System.Drawing.Size(1267, 584);
             this.Controls.Add(this.PnlCuadro3);
             this.Controls.Add(this.panel1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "FmBoletaInscripcion";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "BoletaIns";

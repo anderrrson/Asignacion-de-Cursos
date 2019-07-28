@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FmAdmin));
             this.panel3 = new System.Windows.Forms.Panel();
             this.label3 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
@@ -100,7 +101,7 @@
             this.BtnAsignaciones.ForeColor = System.Drawing.Color.White;
             this.BtnAsignaciones.Image = global::ADMINISTRADORES.Properties.Resources.checklist;
             this.BtnAsignaciones.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.BtnAsignaciones.Location = new System.Drawing.Point(515, 142);
+            this.BtnAsignaciones.Location = new System.Drawing.Point(551, 143);
             this.BtnAsignaciones.Name = "BtnAsignaciones";
             this.BtnAsignaciones.Size = new System.Drawing.Size(159, 104);
             this.BtnAsignaciones.TabIndex = 15;
@@ -118,7 +119,7 @@
             this.BtnInscripciones.ForeColor = System.Drawing.Color.White;
             this.BtnInscripciones.Image = global::ADMINISTRADORES.Properties.Resources.notepad1;
             this.BtnInscripciones.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.BtnInscripciones.Location = new System.Drawing.Point(298, 142);
+            this.BtnInscripciones.Location = new System.Drawing.Point(322, 143);
             this.BtnInscripciones.Name = "BtnInscripciones";
             this.BtnInscripciones.Size = new System.Drawing.Size(159, 104);
             this.BtnInscripciones.TabIndex = 18;
@@ -134,13 +135,13 @@
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Font = new System.Drawing.Font("Century Gothic", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Image = global::ADMINISTRADORES.Properties.Resources.checklist;
+            this.button1.Image = ((System.Drawing.Image)(resources.GetObject("button1.Image")));
             this.button1.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.button1.Location = new System.Drawing.Point(736, 142);
+            this.button1.Location = new System.Drawing.Point(787, 142);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(159, 105);
-            this.button1.TabIndex = 28;
-            this.button1.Text = "Asignaciones";
+            this.button1.TabIndex = 30;
+            this.button1.Text = "EDIFICIOS";
             this.button1.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.button1.UseVisualStyleBackColor = false;
             // 

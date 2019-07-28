@@ -53,6 +53,18 @@
     <Compile Include="FmAdmin.Designer.cs">
       <DependentUpon>FmAdmin.cs</DependentUpon>
     </Compile>
+    <Compile Include="FmAsignacionCat.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FmAsignacionCat.Designer.cs">
+      <DependentUpon>FmAsignacionCat.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FmEdificio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FmEdificio.Designer.cs">
+      <DependentUpon>FmEdificio.cs</DependentUpon>
+    </Compile>
     <Compile Include="FmPrincipal.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -129,6 +141,12 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="FmAdmin.resx">
       <DependentUpon>FmAdmin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FmAsignacionCat.resx">
+      <DependentUpon>FmAsignacionCat.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FmEdificio.resx">
+      <DependentUpon>FmEdificio.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FmNotasCatedratico.resx">
       <DependentUpon>FmNotasCatedratico.cs</DependentUpon>

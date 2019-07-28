@@ -33,9 +33,7 @@
             this.LblNcarnet = new System.Windows.Forms.Label();
             this.TxtNumero = new System.Windows.Forms.TextBox();
             this.PnlLinea = new System.Windows.Forms.Panel();
-            this.PicVisualizar = new System.Windows.Forms.PictureBox();
-            this.LblVisualizar = new System.Windows.Forms.Label();
-            ((System.ComponentModel.ISupportInitialize)(this.PicVisualizar)).BeginInit();
+            this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // LblTitulo
@@ -70,7 +68,6 @@
             this.TxtNumero.Name = "TxtNumero";
             this.TxtNumero.Size = new System.Drawing.Size(200, 24);
             this.TxtNumero.TabIndex = 2;
-            this.TxtNumero.Text = "####";
             this.TxtNumero.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.TxtNumero.TextChanged += new System.EventHandler(this.TxtNumero_TextChanged);
             // 
@@ -82,29 +79,22 @@
             this.PnlLinea.Size = new System.Drawing.Size(200, 1);
             this.PnlLinea.TabIndex = 3;
             // 
-            // PicVisualizar
+            // button1
             // 
-            this.PicVisualizar.ErrorImage = ((System.Drawing.Image)(resources.GetObject("PicVisualizar.ErrorImage")));
-            this.PicVisualizar.Image = ((System.Drawing.Image)(resources.GetObject("PicVisualizar.Image")));
-            this.PicVisualizar.InitialImage = ((System.Drawing.Image)(resources.GetObject("PicVisualizar.InitialImage")));
-            this.PicVisualizar.Location = new System.Drawing.Point(916, 324);
-            this.PicVisualizar.Name = "PicVisualizar";
-            this.PicVisualizar.Size = new System.Drawing.Size(159, 105);
-            this.PicVisualizar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.PicVisualizar.TabIndex = 5;
-            this.PicVisualizar.TabStop = false;
-            this.PicVisualizar.Click += new System.EventHandler(this.PictureBox1_Click);
-            // 
-            // LblVisualizar
-            // 
-            this.LblVisualizar.AutoSize = true;
-            this.LblVisualizar.Font = new System.Drawing.Font("Century Gothic", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LblVisualizar.ForeColor = System.Drawing.Color.White;
-            this.LblVisualizar.Location = new System.Drawing.Point(737, 347);
-            this.LblVisualizar.Name = "LblVisualizar";
-            this.LblVisualizar.Size = new System.Drawing.Size(173, 21);
-            this.LblVisualizar.TabIndex = 6;
-            this.LblVisualizar.Text = "VISUALIZAR BOLETA";
+            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(14)))), ((int)(((byte)(18)))), ((int)(((byte)(34)))));
+            this.button1.FlatAppearance.BorderSize = 2;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.Font = new System.Drawing.Font("Century Gothic", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.ForeColor = System.Drawing.Color.White;
+            this.button1.Image = ((System.Drawing.Image)(resources.GetObject("button1.Image")));
+            this.button1.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.button1.Location = new System.Drawing.Point(943, 313);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(159, 105);
+            this.button1.TabIndex = 31;
+            this.button1.Text = "VISUALIZAR";
+            this.button1.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.button1.UseVisualStyleBackColor = false;
             // 
             // FmInscripcion
             // 
@@ -112,16 +102,15 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(31)))), ((int)(((byte)(58)))));
             this.ClientSize = new System.Drawing.Size(1284, 584);
-            this.Controls.Add(this.LblVisualizar);
-            this.Controls.Add(this.PicVisualizar);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.PnlLinea);
             this.Controls.Add(this.TxtNumero);
             this.Controls.Add(this.LblNcarnet);
             this.Controls.Add(this.LblTitulo);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "FmInscripcion";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Inscripcion";
-            ((System.ComponentModel.ISupportInitialize)(this.PicVisualizar)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -133,7 +122,6 @@
         private System.Windows.Forms.Label LblNcarnet;
         private System.Windows.Forms.TextBox TxtNumero;
         private System.Windows.Forms.Panel PnlLinea;
-        private System.Windows.Forms.PictureBox PicVisualizar;
-        private System.Windows.Forms.Label LblVisualizar;
+        private System.Windows.Forms.Button button1;
     }
 }

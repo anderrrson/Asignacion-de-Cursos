@@ -62,5 +62,11 @@ namespace ADMINISTRADORES
         {
 
         }
+
+        private void Button1_Click(object sender, EventArgs e)
+        {
+            FmDire i = new FmDire();
+            i.ShowDialog();
+        }
     }
 }

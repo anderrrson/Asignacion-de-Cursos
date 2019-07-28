@@ -10,28 +10,27 @@ using System.Windows.Forms;
 
 namespace ADMINISTRADORES
 {
-    public partial class FmAdmin : Form
+    public partial class FmEdificio : Form
     {
-        public FmAdmin()
+        public FmEdificio()
         {
             InitializeComponent();
         }
 
-        private void BtnAsignaciones_Click(object sender, EventArgs e)
+        private void LblTitulo_Click(object sender, EventArgs e)
         {
-            FmAsignacion O = new FmAsignacion();
-            O.ShowDialog();
+
         }
 
-        private void BtnInscripciones_Click(object sender, EventArgs e)
+        private void FmEdificio_Load(object sender, EventArgs e)
         {
-            FmInscripcion i = new FmInscripcion();
-            i.ShowDialog();
-         }
+
+        }
 
         private void Button1_Click(object sender, EventArgs e)
         {
-
+            FmEdificio i = new FmEdificio();
+            i.ShowDialog();
         }
     }
 }
