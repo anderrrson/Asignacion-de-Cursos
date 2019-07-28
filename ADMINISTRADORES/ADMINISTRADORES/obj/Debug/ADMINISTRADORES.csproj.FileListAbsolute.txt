@@ -200,5 +200,8 @@ C:\Users\Paula V\Desktop\Asignacion-de-Cursos\ADMINISTRADORES\ADMINISTRADORES\ob
 C:\Users\Paula V\Desktop\Asignacion-de-Cursos\ADMINISTRADORES\ADMINISTRADORES\obj\Debug\ADMINISTRADORES.FmAdminAux.resources
 C:\Users\Paula V\Desktop\Asignacion-de-Cursos\ADMINISTRADORES\ADMINISTRADORES\obj\Debug\ADMINISTRADORES.FmCursosCatedratico.resources
 C:\Users\Paula V\Desktop\Asignacion-de-Cursos\ADMINISTRADORES\ADMINISTRADORES\obj\Debug\ADMINISTRADORES.FmNotasCatedratico.resources
+<<<<<<< HEAD
 C:\Users\ISIS\Desktop\Asignacion-de-Cursos\ADMINISTRADORES\ADMINISTRADORES\obj\Debug\ADMINISTRADORES.FmNotasCatedratico.resources
 C:\Users\ISIS\Desktop\Asignacion-de-Cursos\ADMINISTRADORES\ADMINISTRADORES\obj\Debug\ADMINISTRADORES.FmCursosCatedratico.resources
+=======
+>>>>>>> master

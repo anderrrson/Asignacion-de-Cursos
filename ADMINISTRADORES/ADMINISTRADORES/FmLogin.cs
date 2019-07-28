@@ -82,5 +82,43 @@ namespace ADMINISTRADORES
                     break;
             }
         }
+
+        private void TxtUserName_Enter(object sender, EventArgs e)
+        {
+            if(TxtUsuario.Text == "Usuario")
+            {
+                TxtUsuario.Text = "";
+                TxtUsuario.ForeColor = Color.LightGray;
+            }
+        }
+
+        private void TxtUserName_Leave(object sender, EventArgs e)
+        {
+            if(TxtUsuario.Text  == "")
+            {
+                TxtUsuario.Text = "Usuario";
+                TxtUsuario.ForeColor = Color.LightGray;
+            }
+        }
+
+        private void TxtContraseña_Enter(object sender, EventArgs e)
+        {
+            if(TxtContraseña.Text == "Contraseña")
+            {
+                TxtContraseña.Text = "";
+                TxtContraseña.ForeColor = Color.LightGray;
+                TxtContraseña.UseSystemPasswordChar = true;
+            }
+        }
+
+        private void TxtContraseña_Leave(object sender, EventArgs e)
+        {
+            if(TxtContraseña.Text == "")
+            {
+                TxtContraseña.Text = "Contraseña";
+                TxtContraseña.ForeColor = Color.LightGray;
+                TxtContraseña.UseSystemPasswordChar = false;
+            }
+        }
     }
 }
