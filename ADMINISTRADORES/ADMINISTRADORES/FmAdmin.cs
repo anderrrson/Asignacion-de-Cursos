@@ -19,7 +19,14 @@ namespace ADMINISTRADORES
 
         private void BtnAsignaciones_Click(object sender, EventArgs e)
         {
-
+            FmAsignacion O = new FmAsignacion();
+            O.ShowDialog();
         }
+
+        private void BtnInscripciones_Click(object sender, EventArgs e)
+        {
+            FmBoletaInscripcion i = new FmBoletaInscripcion();
+            i.ShowDialog();
+         }
     }
 }

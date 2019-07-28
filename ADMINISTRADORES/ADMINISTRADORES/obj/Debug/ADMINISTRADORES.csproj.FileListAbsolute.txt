@@ -183,7 +183,6 @@ C:\Users\diego\Documents\Universidad\Octavo Semestre\Analisis de Sistemas II\Asi
 C:\Users\diego\Documents\Universidad\Octavo Semestre\Analisis de Sistemas II\Asignacion-de-Cursos\ADMINISTRADORES\ADMINISTRADORES\obj\Debug\ADMINISTRADORES.FmPrincipal.resources
 C:\Users\diego\Documents\Universidad\Octavo Semestre\Analisis de Sistemas II\Asignacion-de-Cursos\ADMINISTRADORES\ADMINISTRADORES\obj\Debug\ADMINISTRADORES.FmAdmin.resources
 C:\Users\diego\Documents\Universidad\Octavo Semestre\Analisis de Sistemas II\Asignacion-de-Cursos\ADMINISTRADORES\ADMINISTRADORES\obj\Debug\ADMINISTRADORES.FmAdminAux.resources
-<<<<<<< HEAD
 C:\Users\ISIS\Desktop\Asignacion-de-Cursos\ADMINISTRADORES\ADMINISTRADORES\obj\Debug\ADMINISTRADORES.FmAdmin.resources
 C:\Users\ISIS\Desktop\Asignacion-de-Cursos\ADMINISTRADORES\ADMINISTRADORES\obj\Debug\ADMINISTRADORES.FmPrincipal.resources
 C:\Users\ISIS\Desktop\Asignacion-de-Cursos\ADMINISTRADORES\ADMINISTRADORES\obj\Debug\ADMINISTRADORES.FmAsignacion.resources
@@ -196,10 +195,10 @@ C:\Users\ISIS\Desktop\Asignacion-de-Cursos\ADMINISTRADORES\ADMINISTRADORES\obj\D
 C:\Users\ISIS\Desktop\Asignacion-de-Cursos\ADMINISTRADORES\ADMINISTRADORES\obj\Debug\ADMINISTRADORES.FmLogin.resources
 C:\Users\ISIS\Desktop\Asignacion-de-Cursos\ADMINISTRADORES\ADMINISTRADORES\obj\Debug\ADMINISTRADORES.FmInscripcion.resources
 C:\Users\ISIS\Desktop\Asignacion-de-Cursos\ADMINISTRADORES\ADMINISTRADORES\obj\Debug\ADMINISTRADORES.FmNotas.resources
-=======
 C:\Users\Paula V\Desktop\Asignacion-de-Cursos\ADMINISTRADORES\ADMINISTRADORES\obj\Debug\ADMINISTRADORES.FmAdmin.resources
 C:\Users\Paula V\Desktop\Asignacion-de-Cursos\ADMINISTRADORES\ADMINISTRADORES\obj\Debug\ADMINISTRADORES.FmPrincipal.resources
 C:\Users\Paula V\Desktop\Asignacion-de-Cursos\ADMINISTRADORES\ADMINISTRADORES\obj\Debug\ADMINISTRADORES.FmAdminAux.resources
 C:\Users\Paula V\Desktop\Asignacion-de-Cursos\ADMINISTRADORES\ADMINISTRADORES\obj\Debug\ADMINISTRADORES.FmCursosCatedratico.resources
 C:\Users\Paula V\Desktop\Asignacion-de-Cursos\ADMINISTRADORES\ADMINISTRADORES\obj\Debug\ADMINISTRADORES.FmNotasCatedratico.resources
->>>>>>> master
+C:\Users\ISIS\Desktop\Asignacion-de-Cursos\ADMINISTRADORES\ADMINISTRADORES\obj\Debug\ADMINISTRADORES.FmNotasCatedratico.resources
+C:\Users\ISIS\Desktop\Asignacion-de-Cursos\ADMINISTRADORES\ADMINISTRADORES\obj\Debug\ADMINISTRADORES.FmCursosCatedratico.resources
