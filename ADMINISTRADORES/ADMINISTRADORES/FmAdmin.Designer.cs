@@ -35,6 +35,7 @@
             this.BtnAsignacionCat = new System.Windows.Forms.Button();
             this.BtnAsignaciones = new System.Windows.Forms.Button();
             this.BtnInscripciones = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // panel3
@@ -99,7 +100,7 @@
             this.BtnAsignaciones.ForeColor = System.Drawing.Color.White;
             this.BtnAsignaciones.Image = global::ADMINISTRADORES.Properties.Resources.checklist;
             this.BtnAsignaciones.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.BtnAsignaciones.Location = new System.Drawing.Point(710, 142);
+            this.BtnAsignaciones.Location = new System.Drawing.Point(515, 142);
             this.BtnAsignaciones.Name = "BtnAsignaciones";
             this.BtnAsignaciones.Size = new System.Drawing.Size(159, 104);
             this.BtnAsignaciones.TabIndex = 15;
@@ -117,7 +118,7 @@
             this.BtnInscripciones.ForeColor = System.Drawing.Color.White;
             this.BtnInscripciones.Image = global::ADMINISTRADORES.Properties.Resources.notepad1;
             this.BtnInscripciones.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.BtnInscripciones.Location = new System.Drawing.Point(448, 142);
+            this.BtnInscripciones.Location = new System.Drawing.Point(298, 142);
             this.BtnInscripciones.Name = "BtnInscripciones";
             this.BtnInscripciones.Size = new System.Drawing.Size(159, 104);
             this.BtnInscripciones.TabIndex = 18;
@@ -126,12 +127,30 @@
             this.BtnInscripciones.UseVisualStyleBackColor = false;
             this.BtnInscripciones.Click += new System.EventHandler(this.BtnInscripciones_Click);
             // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(14)))), ((int)(((byte)(18)))), ((int)(((byte)(34)))));
+            this.button1.FlatAppearance.BorderSize = 2;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.Font = new System.Drawing.Font("Century Gothic", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.ForeColor = System.Drawing.Color.White;
+            this.button1.Image = global::ADMINISTRADORES.Properties.Resources.checklist;
+            this.button1.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.button1.Location = new System.Drawing.Point(736, 142);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(159, 105);
+            this.button1.TabIndex = 28;
+            this.button1.Text = "Asignaciones";
+            this.button1.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.button1.UseVisualStyleBackColor = false;
+            // 
             // FmAdmin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(31)))), ((int)(((byte)(58)))));
             this.ClientSize = new System.Drawing.Size(1300, 623);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.BtnAsignacionCat);
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.label3);
@@ -154,5 +173,6 @@
         private System.Windows.Forms.Button BtnAsignaciones;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button BtnInscripciones;
+        private System.Windows.Forms.Button button1;
     }
 }

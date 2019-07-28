@@ -65,7 +65,7 @@
             this.LblAsignaciones.AutoSize = true;
             this.LblAsignaciones.Font = new System.Drawing.Font("Century Gothic", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LblAsignaciones.ForeColor = System.Drawing.Color.White;
-            this.LblAsignaciones.Location = new System.Drawing.Point(206, 94);
+            this.LblAsignaciones.Location = new System.Drawing.Point(207, 57);
             this.LblAsignaciones.Name = "LblAsignaciones";
             this.LblAsignaciones.Size = new System.Drawing.Size(214, 33);
             this.LblAsignaciones.TabIndex = 0;
@@ -77,7 +77,7 @@
             this.LblNcarnet.AutoSize = true;
             this.LblNcarnet.Font = new System.Drawing.Font("Century Gothic", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LblNcarnet.ForeColor = System.Drawing.Color.White;
-            this.LblNcarnet.Location = new System.Drawing.Point(313, 152);
+            this.LblNcarnet.Location = new System.Drawing.Point(314, 124);
             this.LblNcarnet.Name = "LblNcarnet";
             this.LblNcarnet.Size = new System.Drawing.Size(107, 21);
             this.LblNcarnet.TabIndex = 1;
@@ -90,7 +90,7 @@
             this.TxtNcarnet.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.TxtNcarnet.Font = new System.Drawing.Font("Century Gothic", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.TxtNcarnet.ForeColor = System.Drawing.Color.White;
-            this.TxtNcarnet.Location = new System.Drawing.Point(441, 152);
+            this.TxtNcarnet.Location = new System.Drawing.Point(442, 124);
             this.TxtNcarnet.Name = "TxtNcarnet";
             this.TxtNcarnet.Size = new System.Drawing.Size(239, 21);
             this.TxtNcarnet.TabIndex = 2;
@@ -101,7 +101,7 @@
             // PnlLinea1
             // 
             this.PnlLinea1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(55)))), ((int)(((byte)(35)))));
-            this.PnlLinea1.Location = new System.Drawing.Point(426, 172);
+            this.PnlLinea1.Location = new System.Drawing.Point(427, 144);
             this.PnlLinea1.Name = "PnlLinea1";
             this.PnlLinea1.Size = new System.Drawing.Size(257, 1);
             this.PnlLinea1.TabIndex = 3;
@@ -137,7 +137,7 @@
             this.GpnIngresocursos.Controls.Add(this.LblCodigoCur1);
             this.GpnIngresocursos.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.GpnIngresocursos.ForeColor = System.Drawing.Color.White;
-            this.GpnIngresocursos.Location = new System.Drawing.Point(224, 206);
+            this.GpnIngresocursos.Location = new System.Drawing.Point(225, 178);
             this.GpnIngresocursos.Name = "GpnIngresocursos";
             this.GpnIngresocursos.Size = new System.Drawing.Size(378, 220);
             this.GpnIngresocursos.TabIndex = 5;
@@ -301,7 +301,7 @@
             this.GpbCursosadicionales.Controls.Add(this.LblCodigocuradicional);
             this.GpbCursosadicionales.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.GpbCursosadicionales.ForeColor = System.Drawing.Color.White;
-            this.GpbCursosadicionales.Location = new System.Drawing.Point(696, 231);
+            this.GpbCursosadicionales.Location = new System.Drawing.Point(697, 203);
             this.GpbCursosadicionales.Name = "GpbCursosadicionales";
             this.GpbCursosadicionales.Size = new System.Drawing.Size(378, 159);
             this.GpbCursosadicionales.TabIndex = 14;
@@ -346,9 +346,9 @@
             this.PicHorario.ErrorImage = ((System.Drawing.Image)(resources.GetObject("PicHorario.ErrorImage")));
             this.PicHorario.Image = ((System.Drawing.Image)(resources.GetObject("PicHorario.Image")));
             this.PicHorario.InitialImage = ((System.Drawing.Image)(resources.GetObject("PicHorario.InitialImage")));
-            this.PicHorario.Location = new System.Drawing.Point(992, 427);
+            this.PicHorario.Location = new System.Drawing.Point(1016, 436);
             this.PicHorario.Name = "PicHorario";
-            this.PicHorario.Size = new System.Drawing.Size(70, 68);
+            this.PicHorario.Size = new System.Drawing.Size(159, 104);
             this.PicHorario.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.PicHorario.TabIndex = 15;
             this.PicHorario.TabStop = false;
@@ -359,7 +359,7 @@
             this.LblRevisar.AutoSize = true;
             this.LblRevisar.Font = new System.Drawing.Font("Century Gothic", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LblRevisar.ForeColor = System.Drawing.Color.White;
-            this.LblRevisar.Location = new System.Drawing.Point(823, 459);
+            this.LblRevisar.Location = new System.Drawing.Point(842, 481);
             this.LblRevisar.Name = "LblRevisar";
             this.LblRevisar.Size = new System.Drawing.Size(163, 21);
             this.LblRevisar.TabIndex = 16;
