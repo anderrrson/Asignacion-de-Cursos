@@ -30,12 +30,12 @@
         {
             this.LnblOlvidoPassword = new System.Windows.Forms.LinkLabel();
             this.BtnIniciarSesion = new System.Windows.Forms.Button();
-            this.TxtPassword = new System.Windows.Forms.TextBox();
+            this.TxtContraseña = new System.Windows.Forms.TextBox();
             this.PicPassword = new System.Windows.Forms.PictureBox();
             this.LabelIniciarSesion = new System.Windows.Forms.Label();
             this.PicUser = new System.Windows.Forms.PictureBox();
             this.PnlUser = new System.Windows.Forms.Panel();
-            this.TxtUserName = new System.Windows.Forms.TextBox();
+            this.TxtUsuario = new System.Windows.Forms.TextBox();
             this.PnlPassword = new System.Windows.Forms.Panel();
             this.panel1 = new System.Windows.Forms.Panel();
             this.BtnClose = new System.Windows.Forms.Button();
@@ -78,17 +78,19 @@
             this.BtnIniciarSesion.UseVisualStyleBackColor = false;
             this.BtnIniciarSesion.Click += new System.EventHandler(this.BtnIniciarSesion_Click);
             // 
-            // TxtPassword
+            // TxtContraseña
             // 
-            this.TxtPassword.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(31)))), ((int)(((byte)(45)))));
-            this.TxtPassword.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.TxtPassword.Font = new System.Drawing.Font("Century Gothic", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TxtPassword.ForeColor = System.Drawing.Color.DarkGray;
-            this.TxtPassword.Location = new System.Drawing.Point(457, 194);
-            this.TxtPassword.Name = "TxtPassword";
-            this.TxtPassword.Size = new System.Drawing.Size(310, 21);
-            this.TxtPassword.TabIndex = 6;
-            this.TxtPassword.Text = "Password";
+            this.TxtContraseña.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(31)))), ((int)(((byte)(45)))));
+            this.TxtContraseña.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.TxtContraseña.Font = new System.Drawing.Font("Century Gothic", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TxtContraseña.ForeColor = System.Drawing.Color.DarkGray;
+            this.TxtContraseña.Location = new System.Drawing.Point(457, 194);
+            this.TxtContraseña.Name = "TxtContraseña";
+            this.TxtContraseña.Size = new System.Drawing.Size(310, 21);
+            this.TxtContraseña.TabIndex = 6;
+            this.TxtContraseña.Text = "Contraseña";
+            this.TxtContraseña.Enter += new System.EventHandler(this.TxtContraseña_Enter);
+            this.TxtContraseña.Leave += new System.EventHandler(this.TxtContraseña_Leave);
             // 
             // PicPassword
             // 
@@ -129,7 +131,7 @@
             // 
             this.PnlUser.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(31)))), ((int)(((byte)(45)))));
             this.PnlUser.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.PnlUser.Controls.Add(this.TxtUserName);
+            this.PnlUser.Controls.Add(this.TxtUsuario);
             this.PnlUser.Controls.Add(this.PicUser);
             this.PnlUser.Font = new System.Drawing.Font("Century Gothic", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.PnlUser.Location = new System.Drawing.Point(407, 153);
@@ -137,17 +139,19 @@
             this.PnlUser.Size = new System.Drawing.Size(392, 35);
             this.PnlUser.TabIndex = 8;
             // 
-            // TxtUserName
+            // TxtUsuario
             // 
-            this.TxtUserName.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(31)))), ((int)(((byte)(45)))));
-            this.TxtUserName.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.TxtUserName.Font = new System.Drawing.Font("Century Gothic", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TxtUserName.ForeColor = System.Drawing.Color.DarkGray;
-            this.TxtUserName.Location = new System.Drawing.Point(49, 6);
-            this.TxtUserName.Name = "TxtUserName";
-            this.TxtUserName.Size = new System.Drawing.Size(310, 21);
-            this.TxtUserName.TabIndex = 7;
-            this.TxtUserName.Text = "UserName";
+            this.TxtUsuario.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(31)))), ((int)(((byte)(45)))));
+            this.TxtUsuario.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.TxtUsuario.Font = new System.Drawing.Font("Century Gothic", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TxtUsuario.ForeColor = System.Drawing.Color.DarkGray;
+            this.TxtUsuario.Location = new System.Drawing.Point(49, 6);
+            this.TxtUsuario.Name = "TxtUsuario";
+            this.TxtUsuario.Size = new System.Drawing.Size(310, 21);
+            this.TxtUsuario.TabIndex = 7;
+            this.TxtUsuario.Text = "Usuario";
+            this.TxtUsuario.Enter += new System.EventHandler(this.TxtUserName_Enter);
+            this.TxtUsuario.Leave += new System.EventHandler(this.TxtUserName_Leave);
             // 
             // PnlPassword
             // 
@@ -233,7 +237,7 @@
             this.ClientSize = new System.Drawing.Size(800, 423);
             this.Controls.Add(this.PnlTipoUsuario);
             this.Controls.Add(this.BtnClose);
-            this.Controls.Add(this.TxtPassword);
+            this.Controls.Add(this.TxtContraseña);
             this.Controls.Add(this.PicPassword);
             this.Controls.Add(this.LnblOlvidoPassword);
             this.Controls.Add(this.BtnIniciarSesion);
@@ -261,12 +265,12 @@
         #endregion
         private System.Windows.Forms.LinkLabel LnblOlvidoPassword;
         private System.Windows.Forms.Button BtnIniciarSesion;
-        private System.Windows.Forms.TextBox TxtPassword;
+        private System.Windows.Forms.TextBox TxtContraseña;
         private System.Windows.Forms.PictureBox PicPassword;
         private System.Windows.Forms.Label LabelIniciarSesion;
         private System.Windows.Forms.PictureBox PicUser;
         private System.Windows.Forms.Panel PnlUser;
-        private System.Windows.Forms.TextBox TxtUserName;
+        private System.Windows.Forms.TextBox TxtUsuario;
         private System.Windows.Forms.Panel PnlPassword;
         private System.Windows.Forms.Button BtnClose;
         private System.Windows.Forms.Panel panel1;

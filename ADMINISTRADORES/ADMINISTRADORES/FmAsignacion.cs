@@ -27,5 +27,40 @@ namespace ADMINISTRADORES
         {
 
         }
+
+        private void GpnIngresocursos_Enter(object sender, EventArgs e)
+        {
+
+        }
+
+        private void GpbCursosadicionales_Enter(object sender, EventArgs e)
+        {
+
+        }
+
+        private void LblRevisar_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void PnlLinea1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void TxtNcarnet_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void LblNcarnet_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void LblAsignaciones_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

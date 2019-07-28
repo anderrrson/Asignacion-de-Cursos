@@ -403,6 +403,16 @@ namespace ADMINISTRADORES.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap notebook_1_ {
+            get {
+                object obj = ResourceManager.GetObject("notebook(1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap notepad {
             get {
                 object obj = ResourceManager.GetObject("notepad", resourceCulture);
@@ -446,6 +456,16 @@ namespace ADMINISTRADORES.Properties {
         internal static System.Drawing.Bitmap regresar1 {
             get {
                 object obj = ResourceManager.GetObject("regresar1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap review {
+            get {
+                object obj = ResourceManager.GetObject("review", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
