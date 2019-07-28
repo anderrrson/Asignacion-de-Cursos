@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MySql.Data.MySqlClient;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -20,7 +21,7 @@ namespace ADMINISTRADORES
 
         private void Button1_Click(object sender, EventArgs e)
         {
-            
+
         }
 
         private void Login_Load(object sender, EventArgs e)
@@ -40,7 +41,7 @@ namespace ADMINISTRADORES
 
         private void PictureBox1_Click(object sender, EventArgs e)
         {
-            
+
         }
 
         private void Button1_Click_1(object sender, EventArgs e)
@@ -56,9 +57,26 @@ namespace ADMINISTRADORES
 
         private void BtnIniciarSesion_Click(object sender, EventArgs e)
         {
-            //MessageBox.Show("Mensaje informativo", "No registrado" + CboTiposUsuarios.SelectedIndex , MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+            MySqlConnection Conexion;
+            ConexionBD conexionBD = new ConexionBD();
 
-            switch (CboTiposUsuarios.SelectedIndex)
+            try
+            {
+                Conexion = conexionBD.Conectar();// Se inica la conexion 
+
+                /*
+                 * Entre estas dos funciones van los select para consultar
+                 */
+
+                Conexion = conexionBD.Desconectar(); // Finaliza la conexion
+            }
+            catch
+            {
+                MessageBox.Show("Error", "MYSQL", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+            }
+
+
+            /*switch (CboTiposUsuarios.SelectedIndex)
             {
                 case 0:
                     this.Hide();
@@ -80,12 +98,13 @@ namespace ADMINISTRADORES
 
                 default:
                     break;
-            }
+            }*/
+
         }
 
         private void TxtUserName_Enter(object sender, EventArgs e)
         {
-            if(TxtUsuario.Text == "Usuario")
+            if (TxtUsuario.Text == "Usuario")
             {
                 TxtUsuario.Text = "";
                 TxtUsuario.ForeColor = Color.LightGray;
@@ -94,7 +113,7 @@ namespace ADMINISTRADORES
 
         private void TxtUserName_Leave(object sender, EventArgs e)
         {
-            if(TxtUsuario.Text  == "")
+            if (TxtUsuario.Text == "")
             {
                 TxtUsuario.Text = "Usuario";
                 TxtUsuario.ForeColor = Color.LightGray;
@@ -103,7 +122,7 @@ namespace ADMINISTRADORES
 
         private void TxtContraseña_Enter(object sender, EventArgs e)
         {
-            if(TxtContraseña.Text == "Contraseña")
+            if (TxtContraseña.Text == "Contraseña")
             {
                 TxtContraseña.Text = "";
                 TxtContraseña.ForeColor = Color.LightGray;
@@ -113,7 +132,7 @@ namespace ADMINISTRADORES
 
         private void TxtContraseña_Leave(object sender, EventArgs e)
         {
-            if(TxtContraseña.Text == "")
+            if (TxtContraseña.Text == "")
             {
                 TxtContraseña.Text = "Contraseña";
                 TxtContraseña.ForeColor = Color.LightGray;
