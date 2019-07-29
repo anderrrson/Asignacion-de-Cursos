@@ -57,67 +57,58 @@ namespace ADMINISTRADORES
 
         private void BtnIniciarSesion_Click(object sender, EventArgs e)
         {
-           
-                //VALIDACION CAMPOS VACIOS
-                if (TxtUsuario.Text != "Usuario")
-                {
-                    if (TxtContraseña.Text != "Contraseña")
-                    {
-                        if (CboTiposUsuarios.Text != "Seleccione una opción...")
+                    //Validacion Campos Vacios 
+                    if ((TxtUsuario.Text == "Usuario") || (TxtContraseña.Text == "Contraseña") || (CboTiposUsuarios.Text == "Seleccione una opción...")) {
+
+                    msgError("Existe un campo vacio ");
+
+                    } else {
+                        msgAceptacion("");
+                        
+                        //CONEXION BASE DE DATOS
+                        MySqlConnection Conexion;
+                        ConexionBD conexionBD = new ConexionBD();
+
+                        try
                         {
+                            Conexion = conexionBD.Conectar();// Se inica la conexion 
+
+                            /*
+                             * Entre estas dos funciones van los select para consultar
+                             */
+
+                            Conexion = conexionBD.Desconectar(); // Finaliza la conexion
                         }
-                        else msgError("Seleccione un tipo de usuario");
+                        catch
+                        {
+                            MessageBox.Show("Error", "MYSQL", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                        }
+
+
+                        /*switch (CboTiposUsuarios.SelectedIndex)
+                        {
+                            case 0:
+                                this.Hide();
+                                FmPrincipal fmPrincipal = new FmPrincipal(0);
+                                fmPrincipal.Show();
+                                break;
+
+                            case 1:
+                                this.Hide();
+                                FmPrincipal fmPrincipal1 = new FmPrincipal(1);
+                                fmPrincipal1.Show();
+                                break;
+
+                            case 2:
+                                this.Hide();
+                                FmPrincipal fmPrincipal2 = new FmPrincipal(2);
+                                fmPrincipal2.Show();
+                                break;
+
+                            default:
+                                break;
+                        }*/
                     }
-                    else msgError("Ingrese su Contraseña");
-                }
-                else msgError("Ingrese su Usuario ");
-
-
-           
-                //CONEXION BASE DE DATOS
-                MySqlConnection Conexion;
-                ConexionBD conexionBD = new ConexionBD();
-
-                try
-                {
-                    Conexion = conexionBD.Conectar();// Se inica la conexion 
-
-                    /*
-                     * Entre estas dos funciones van los select para consultar
-                     */
-
-                    Conexion = conexionBD.Desconectar(); // Finaliza la conexion
-                }
-                catch
-                {
-                    MessageBox.Show("Error", "MYSQL", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
-                }
-
-
-                /*switch (CboTiposUsuarios.SelectedIndex)
-                {
-                    case 0:
-                        this.Hide();
-                        FmPrincipal fmPrincipal = new FmPrincipal(0);
-                        fmPrincipal.Show();
-                        break;
-
-                    case 1:
-                        this.Hide();
-                        FmPrincipal fmPrincipal1 = new FmPrincipal(1);
-                        fmPrincipal1.Show();
-                        break;
-
-                    case 2:
-                        this.Hide();
-                        FmPrincipal fmPrincipal2 = new FmPrincipal(2);
-                        fmPrincipal2.Show();
-                        break;
-
-                    default:
-                        break;
-                }*/
-           
         }
 
 
@@ -127,6 +118,15 @@ namespace ADMINISTRADORES
             LblErrorUsuario.Text = " " + msg;
             LblErrorUsuario.Visible = true;
         }
+
+        //QUITA MENSAJE DE ERROR
+        private void msgAceptacion(string msg)
+        {
+            LblErrorUsuario.Text = " " + msg;
+            LblErrorUsuario.Visible = false;
+        }
+
+
 
 
         private void TxtUserName_Enter(object sender, EventArgs e)

@@ -215,3 +215,5 @@ C:\Users\Paula V\Desktop\Asignacion-de-Cursos\ADMINISTRADORES\ADMINISTRADORES\bi
 C:\Users\Paula V\Desktop\Asignacion-de-Cursos\ADMINISTRADORES\ADMINISTRADORES\bin\Debug\BouncyCastle.Crypto.dll
 C:\Users\Paula V\Desktop\Asignacion-de-Cursos\ADMINISTRADORES\ADMINISTRADORES\bin\Debug\MySql.Data.xml
 C:\Users\Paula V\Desktop\Asignacion-de-Cursos\ADMINISTRADORES\ADMINISTRADORES\obj\Debug\ADMINISTRADORES.csproj.CopyComplete
+C:\Users\Paula V\Desktop\Asignacion-de-Cursos\ADMINISTRADORES\ADMINISTRADORES\obj\Debug\ADMINISTRADORES.FmAsignacionCat.resources
+C:\Users\Paula V\Desktop\Asignacion-de-Cursos\ADMINISTRADORES\ADMINISTRADORES\obj\Debug\ADMINISTRADORES.FmEdificio.resources
