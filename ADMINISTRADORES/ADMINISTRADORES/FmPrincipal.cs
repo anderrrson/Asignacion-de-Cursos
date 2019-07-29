@@ -100,5 +100,17 @@ namespace ADMINISTRADORES
         {
             pictureBox2.BackColor = Color.FromArgb(14, 18, 34);
         }
+
+        private void PictureBox4_Click(object sender, EventArgs e)
+        {
+            if (this.PnlEscritorio.Controls.Count > 0)
+                this.PnlEscritorio.Controls.RemoveAt(0);
+
+            this.Close();
+
+            FmLogin fmLogin = new FmLogin();
+            fmLogin.Show();
+
+        }
     }
 }

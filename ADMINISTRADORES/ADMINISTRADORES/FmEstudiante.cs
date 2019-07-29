@@ -86,12 +86,13 @@ namespace ADMINISTRADORES
             formulario1.Dock = DockStyle.Fill;
             this.PnlEscritorioPrincipal.Controls.Add(formulario1);
             this.PnlEscritorioPrincipal.Tag = formulario1;
-            formulario1.Show();
-            LblTitulo.Text = "Estudiante";*/
+            formulario1.Show();*/
+            //LblTitulo.Text = "Estudiante";
 
+            this.Close();
 
-            /*FmLogin fmLogin = new FmLogin();
-            fmLogin.Show();*/
+            FmLogin fmLogin = new FmLogin();
+            fmLogin.Show();
         }
 
         private void PictureBox1_Click(object sender, EventArgs e)
