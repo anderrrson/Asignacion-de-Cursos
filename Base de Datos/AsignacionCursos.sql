@@ -8,19 +8,19 @@ SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0;
 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='ONLY_FULL_GROUP_BY,STRICT_TRANS_TABLES,NO_ZERO_IN_DATE,NO_ZERO_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_ENGINE_SUBSTITUTION';
 
 -- -----------------------------------------------------
--- Schema mydb
+-- Schema AsignacionCursos
 -- -----------------------------------------------------
 
 -- -----------------------------------------------------
--- Schema mydb
+-- Schema AsignacionCursos
 -- -----------------------------------------------------
-CREATE SCHEMA IF NOT EXISTS `mydb` DEFAULT CHARACTER SET utf8 ;
-USE `mydb` ;
+CREATE SCHEMA IF NOT EXISTS `AsignacionCursos` DEFAULT CHARACTER SET utf8 ;
+USE `AsignacionCursos` ;
 
 -- -----------------------------------------------------
--- Table `mydb`.`Tipo`
+-- Table `AsignacionCursos`.`Tipo`
 -- -----------------------------------------------------
-CREATE TABLE IF NOT EXISTS `mydb`.`Tipo` (
+CREATE TABLE IF NOT EXISTS `AsignacionCursos`.`Tipo` (
   `iIdTipo` INT NOT NULL,
   `cDescripcion` VARCHAR(45) NULL,
   PRIMARY KEY (`iIdTipo`))
@@ -28,9 +28,9 @@ ENGINE = InnoDB;
 
 
 -- -----------------------------------------------------
--- Table `mydb`.`Estudiantes`
+-- Table `AsignacionCursos`.`Estudiantes`
 -- -----------------------------------------------------
-CREATE TABLE IF NOT EXISTS `mydb`.`Estudiantes` (
+CREATE TABLE IF NOT EXISTS `AsignacionCursos`.`Estudiantes` (
   `iIdEstudiantes` INT NOT NULL,
   `cNombres` VARCHAR(45) NULL,
   `cApellidos` VARCHAR(45) NULL,
@@ -44,9 +44,9 @@ ENGINE = InnoDB;
 
 
 -- -----------------------------------------------------
--- Table `mydb`.`Facultad`
+-- Table `AsignacionCursos`.`Facultad`
 -- -----------------------------------------------------
-CREATE TABLE IF NOT EXISTS `mydb`.`Facultad` (
+CREATE TABLE IF NOT EXISTS `AsignacionCursos`.`Facultad` (
   `iIdFacultad` INT NOT NULL,
   `cNombre` VARCHAR(45) NULL,
   PRIMARY KEY (`iIdFacultad`))
@@ -54,9 +54,9 @@ ENGINE = InnoDB;
 
 
 -- -----------------------------------------------------
--- Table `mydb`.`Usuarios`
+-- Table `AsignacionCursos`.`Usuarios`
 -- -----------------------------------------------------
-CREATE TABLE IF NOT EXISTS `mydb`.`Usuarios` (
+CREATE TABLE IF NOT EXISTS `AsignacionCursos`.`Usuarios` (
   `iIdUsuarios` INT NOT NULL,
   `bCorreo` BLOB NULL,
   `bPassword` BLOB NULL,
@@ -66,37 +66,37 @@ CREATE TABLE IF NOT EXISTS `mydb`.`Usuarios` (
   PRIMARY KEY (`iIdUsuarios`),
   CONSTRAINT `fk_Usuarios_Facultad1`
     FOREIGN KEY (`iIdFacultad`)
-    REFERENCES `mydb`.`Facultad` (`iIdFacultad`)
+    REFERENCES `AsignacionCursos`.`Facultad` (`iIdFacultad`)
     ON DELETE CASCADE
     ON UPDATE CASCADE,
   CONSTRAINT `fk_Usuarios_Tipo1`
     FOREIGN KEY (`iIdTipo`)
-    REFERENCES `mydb`.`Tipo` (`iIdTipo`)
+    REFERENCES `AsignacionCursos`.`Tipo` (`iIdTipo`)
     ON DELETE CASCADE
     ON UPDATE CASCADE)
 ENGINE = InnoDB;
 
 
 -- -----------------------------------------------------
--- Table `mydb`.`Carrera`
+-- Table `AsignacionCursos`.`Carrera`
 -- -----------------------------------------------------
-CREATE TABLE IF NOT EXISTS `mydb`.`Carrera` (
+CREATE TABLE IF NOT EXISTS `AsignacionCursos`.`Carrera` (
   `iIdCarrera` INT NOT NULL,
   `cNombre` VARCHAR(45) NULL,
   `iIdFacultad` INT NOT NULL,
   PRIMARY KEY (`iIdCarrera`),
   CONSTRAINT `fk_Carrera_Facultad1`
     FOREIGN KEY (`iIdFacultad`)
-    REFERENCES `mydb`.`Facultad` (`iIdFacultad`)
+    REFERENCES `AsignacionCursos`.`Facultad` (`iIdFacultad`)
     ON DELETE CASCADE
     ON UPDATE CASCADE)
 ENGINE = InnoDB;
 
 
 -- -----------------------------------------------------
--- Table `mydb`.`Salon`
+-- Table `AsignacionCursos`.`Salon`
 -- -----------------------------------------------------
-CREATE TABLE IF NOT EXISTS `mydb`.`Salon` (
+CREATE TABLE IF NOT EXISTS `AsignacionCursos`.`Salon` (
   `iIdSalon` INT NOT NULL,
   `cNoSalon` VARCHAR(10) NULL,
   PRIMARY KEY (`iIdSalon`))
@@ -104,9 +104,9 @@ ENGINE = InnoDB;
 
 
 -- -----------------------------------------------------
--- Table `mydb`.`Edificio`
+-- Table `AsignacionCursos`.`Edificio`
 -- -----------------------------------------------------
-CREATE TABLE IF NOT EXISTS `mydb`.`Edificio` (
+CREATE TABLE IF NOT EXISTS `AsignacionCursos`.`Edificio` (
   `iIdEdificio` INT NOT NULL,
   `cNombre` VARCHAR(45) NULL,
   `iIdFacultad` INT NOT NULL,
@@ -114,21 +114,21 @@ CREATE TABLE IF NOT EXISTS `mydb`.`Edificio` (
   PRIMARY KEY (`iIdEdificio`),
   CONSTRAINT `fk_Edificio_Facultad1`
     FOREIGN KEY (`iIdFacultad`)
-    REFERENCES `mydb`.`Facultad` (`iIdFacultad`)
+    REFERENCES `AsignacionCursos`.`Facultad` (`iIdFacultad`)
     ON DELETE CASCADE
     ON UPDATE CASCADE,
   CONSTRAINT `fk_Edificio_Salon1`
     FOREIGN KEY (`iIdSalon`)
-    REFERENCES `mydb`.`Salon` (`iIdSalon`)
+    REFERENCES `AsignacionCursos`.`Salon` (`iIdSalon`)
     ON DELETE CASCADE
     ON UPDATE CASCADE)
 ENGINE = InnoDB;
 
 
 -- -----------------------------------------------------
--- Table `mydb`.`Seccion`
+-- Table `AsignacionCursos`.`Seccion`
 -- -----------------------------------------------------
-CREATE TABLE IF NOT EXISTS `mydb`.`Seccion` (
+CREATE TABLE IF NOT EXISTS `AsignacionCursos`.`Seccion` (
   `iIdSeccion` INT NOT NULL,
   `cDescripcion` VARCHAR(45) NULL,
   `cCapacidad` VARCHAR(45) NULL,
@@ -136,16 +136,16 @@ CREATE TABLE IF NOT EXISTS `mydb`.`Seccion` (
   PRIMARY KEY (`iIdSeccion`),
   CONSTRAINT `fk_Seccion_Salon1`
     FOREIGN KEY (`iIdSalon`)
-    REFERENCES `mydb`.`Salon` (`iIdSalon`)
+    REFERENCES `AsignacionCursos`.`Salon` (`iIdSalon`)
     ON DELETE CASCADE
     ON UPDATE CASCADE)
 ENGINE = InnoDB;
 
 
 -- -----------------------------------------------------
--- Table `mydb`.`Jornada`
+-- Table `AsignacionCursos`.`Jornada`
 -- -----------------------------------------------------
-CREATE TABLE IF NOT EXISTS `mydb`.`Jornada` (
+CREATE TABLE IF NOT EXISTS `AsignacionCursos`.`Jornada` (
   `iIdJornada` INT NOT NULL,
   `cNombre` VARCHAR(45) NULL,
   PRIMARY KEY (`iIdJornada`))
@@ -153,9 +153,9 @@ ENGINE = InnoDB;
 
 
 -- -----------------------------------------------------
--- Table `mydb`.`Pensum`
+-- Table `AsignacionCursos`.`Pensum`
 -- -----------------------------------------------------
-CREATE TABLE IF NOT EXISTS `mydb`.`Pensum` (
+CREATE TABLE IF NOT EXISTS `AsignacionCursos`.`Pensum` (
   `iIdPensum` INT NOT NULL,
   `cDescripcion` VARCHAR(45) NULL,
   `cFecha` VARCHAR(10) NULL,
@@ -165,21 +165,21 @@ CREATE TABLE IF NOT EXISTS `mydb`.`Pensum` (
   PRIMARY KEY (`iIdPensum`),
   CONSTRAINT `fk_Pensum_Jornada1`
     FOREIGN KEY (`iIdJornada`)
-    REFERENCES `mydb`.`Jornada` (`iIdJornada`)
+    REFERENCES `AsignacionCursos`.`Jornada` (`iIdJornada`)
     ON DELETE CASCADE
     ON UPDATE CASCADE,
   CONSTRAINT `fk_Pensum_Carrera1`
     FOREIGN KEY (`idCarrera`)
-    REFERENCES `mydb`.`Carrera` (`iIdCarrera`)
+    REFERENCES `AsignacionCursos`.`Carrera` (`iIdCarrera`)
     ON DELETE CASCADE
     ON UPDATE CASCADE)
 ENGINE = InnoDB;
 
 
 -- -----------------------------------------------------
--- Table `mydb`.`Curso`
+-- Table `AsignacionCursos`.`Curso`
 -- -----------------------------------------------------
-CREATE TABLE IF NOT EXISTS `mydb`.`Curso` (
+CREATE TABLE IF NOT EXISTS `AsignacionCursos`.`Curso` (
   `iIdCurso` INT NOT NULL,
   `cNombre` VARCHAR(45) NULL,
   `cDescripcion` VARCHAR(45) NULL,
@@ -189,30 +189,30 @@ ENGINE = InnoDB;
 
 
 -- -----------------------------------------------------
--- Table `mydb`.`DetallePensum`
+-- Table `AsignacionCursos`.`DetallePensum`
 -- -----------------------------------------------------
-CREATE TABLE IF NOT EXISTS `mydb`.`DetallePensum` (
+CREATE TABLE IF NOT EXISTS `AsignacionCursos`.`DetallePensum` (
   `iIdPensum` INT NOT NULL,
   `iIdCurso` INT NOT NULL,
   `cDescripcion` VARCHAR(45) NULL,
   PRIMARY KEY (`iIdPensum`, `iIdCurso`),
   CONSTRAINT `fk_DetallePensum_Pensum1`
     FOREIGN KEY (`iIdPensum`)
-    REFERENCES `mydb`.`Pensum` (`iIdPensum`)
+    REFERENCES `AsignacionCursos`.`Pensum` (`iIdPensum`)
     ON DELETE CASCADE
     ON UPDATE CASCADE,
   CONSTRAINT `fk_DetallePensum_Curso1`
     FOREIGN KEY (`iIdCurso`)
-    REFERENCES `mydb`.`Curso` (`iIdCurso`)
+    REFERENCES `AsignacionCursos`.`Curso` (`iIdCurso`)
     ON DELETE CASCADE
     ON UPDATE CASCADE)
 ENGINE = InnoDB;
 
 
 -- -----------------------------------------------------
--- Table `mydb`.`Semestre`
+-- Table `AsignacionCursos`.`Semestre`
 -- -----------------------------------------------------
-CREATE TABLE IF NOT EXISTS `mydb`.`Semestre` (
+CREATE TABLE IF NOT EXISTS `AsignacionCursos`.`Semestre` (
   `iIdSemestre` INT NOT NULL,
   `cDescripcion` VARCHAR(45) NULL,
   PRIMARY KEY (`iIdSemestre`))
@@ -220,9 +220,9 @@ ENGINE = InnoDB;
 
 
 -- -----------------------------------------------------
--- Table `mydb`.`Horario`
+-- Table `AsignacionCursos`.`Horario`
 -- -----------------------------------------------------
-CREATE TABLE IF NOT EXISTS `mydb`.`Horario` (
+CREATE TABLE IF NOT EXISTS `AsignacionCursos`.`Horario` (
   `iIdHorario` INT NOT NULL,
   `cDuracion` VARCHAR(45) NULL,
   `cHoraInicio` VARCHAR(45) NULL,
@@ -232,25 +232,25 @@ ENGINE = InnoDB;
 
 
 -- -----------------------------------------------------
--- Table `mydb`.`Laboratorio`
+-- Table `AsignacionCursos`.`Laboratorio`
 -- -----------------------------------------------------
-CREATE TABLE IF NOT EXISTS `mydb`.`Laboratorio` (
+CREATE TABLE IF NOT EXISTS `AsignacionCursos`.`Laboratorio` (
   `iIdLaboratorio` INT NOT NULL,
   `cDescripcion` VARCHAR(45) NULL,
   `iIdSalon` INT NOT NULL,
   PRIMARY KEY (`iIdLaboratorio`),
   CONSTRAINT `fk_Laboratorio_Salon1`
     FOREIGN KEY (`iIdSalon`)
-    REFERENCES `mydb`.`Salon` (`iIdSalon`)
+    REFERENCES `AsignacionCursos`.`Salon` (`iIdSalon`)
     ON DELETE CASCADE
     ON UPDATE CASCADE)
 ENGINE = InnoDB;
 
 
 -- -----------------------------------------------------
--- Table `mydb`.`Asignacion`
+-- Table `AsignacionCursos`.`Asignacion`
 -- -----------------------------------------------------
-CREATE TABLE IF NOT EXISTS `mydb`.`Asignacion` (
+CREATE TABLE IF NOT EXISTS `AsignacionCursos`.`Asignacion` (
   `idAsignacion` INT NOT NULL,
   `cDescripcion` VARCHAR(45) NULL,
   `cFecha` VARCHAR(45) NULL,
@@ -259,21 +259,21 @@ CREATE TABLE IF NOT EXISTS `mydb`.`Asignacion` (
   PRIMARY KEY (`idAsignacion`),
   CONSTRAINT `fk_Asignacion_Alumnos1`
     FOREIGN KEY (`iIdEstudiantes`)
-    REFERENCES `mydb`.`Estudiantes` (`iIdEstudiantes`)
+    REFERENCES `AsignacionCursos`.`Estudiantes` (`iIdEstudiantes`)
     ON DELETE CASCADE
     ON UPDATE CASCADE,
   CONSTRAINT `fk_Asignacion_Carrera1`
     FOREIGN KEY (`iIdCarrera`)
-    REFERENCES `mydb`.`Carrera` (`iIdCarrera`)
+    REFERENCES `AsignacionCursos`.`Carrera` (`iIdCarrera`)
     ON DELETE CASCADE
     ON UPDATE CASCADE)
 ENGINE = InnoDB;
 
 
 -- -----------------------------------------------------
--- Table `mydb`.`AsignacionDetalle`
+-- Table `AsignacionCursos`.`AsignacionDetalle`
 -- -----------------------------------------------------
-CREATE TABLE IF NOT EXISTS `mydb`.`AsignacionDetalle` (
+CREATE TABLE IF NOT EXISTS `AsignacionCursos`.`AsignacionDetalle` (
   `iIdAsignacionDetalle` INT NOT NULL,
   `cDescripcion` VARCHAR(45) NULL,
   `cFecha` VARCHAR(45) NULL,
@@ -286,41 +286,41 @@ CREATE TABLE IF NOT EXISTS `mydb`.`AsignacionDetalle` (
   PRIMARY KEY (`iIdAsignacionDetalle`),
   CONSTRAINT `fk_AsignacionDetalle_Curso1`
     FOREIGN KEY (`iIdCurso`)
-    REFERENCES `mydb`.`Curso` (`iIdCurso`)
+    REFERENCES `AsignacionCursos`.`Curso` (`iIdCurso`)
     ON DELETE CASCADE
     ON UPDATE CASCADE,
   CONSTRAINT `fk_AsignacionDetalle_Horario1`
     FOREIGN KEY (`iIdHorario`)
-    REFERENCES `mydb`.`Horario` (`iIdHorario`)
+    REFERENCES `AsignacionCursos`.`Horario` (`iIdHorario`)
     ON DELETE CASCADE
     ON UPDATE CASCADE,
   CONSTRAINT `fk_AsignacionDetalle_Seccion1`
     FOREIGN KEY (`iIdSeccion`)
-    REFERENCES `mydb`.`Seccion` (`iIdSeccion`)
+    REFERENCES `AsignacionCursos`.`Seccion` (`iIdSeccion`)
     ON DELETE CASCADE
     ON UPDATE CASCADE,
   CONSTRAINT `fk_AsignacionDetalle_Laboratorio1`
     FOREIGN KEY (`iIdLaboratorio`)
-    REFERENCES `mydb`.`Laboratorio` (`iIdLaboratorio`)
+    REFERENCES `AsignacionCursos`.`Laboratorio` (`iIdLaboratorio`)
     ON DELETE CASCADE
     ON UPDATE CASCADE,
   CONSTRAINT `fk_AsignacionDetalle_Semestre1`
     FOREIGN KEY (`iIdSemestre`)
-    REFERENCES `mydb`.`Semestre` (`iIdSemestre`)
+    REFERENCES `AsignacionCursos`.`Semestre` (`iIdSemestre`)
     ON DELETE CASCADE
     ON UPDATE CASCADE,
   CONSTRAINT `fk_AsignacionDetalle_Asignacion1`
     FOREIGN KEY (`iIdAsignacion`)
-    REFERENCES `mydb`.`Asignacion` (`idAsignacion`)
+    REFERENCES `AsignacionCursos`.`Asignacion` (`idAsignacion`)
     ON DELETE CASCADE
     ON UPDATE CASCADE)
 ENGINE = InnoDB;
 
 
 -- -----------------------------------------------------
--- Table `mydb`.`Catedratico`
+-- Table `AsignacionCursos`.`Catedratico`
 -- -----------------------------------------------------
-CREATE TABLE IF NOT EXISTS `mydb`.`Catedratico` (
+CREATE TABLE IF NOT EXISTS `AsignacionCursos`.`Catedratico` (
   `iIdCatedratico` INT NOT NULL,
   `cNombres` VARCHAR(45) NULL,
   `cApellido` VARCHAR(45) NULL,
@@ -334,9 +334,9 @@ ENGINE = InnoDB;
 
 
 -- -----------------------------------------------------
--- Table `mydb`.`AsignacionLista`
+-- Table `AsignacionCursos`.`AsignacionLista`
 -- -----------------------------------------------------
-CREATE TABLE IF NOT EXISTS `mydb`.`AsignacionLista` (
+CREATE TABLE IF NOT EXISTS `AsignacionCursos`.`AsignacionLista` (
   `iIdAsignacionLista` INT NOT NULL,
   `cDescripcion` VARCHAR(45) NULL,
   `cFecha` VARCHAR(45) NULL,
@@ -349,36 +349,36 @@ CREATE TABLE IF NOT EXISTS `mydb`.`AsignacionLista` (
   PRIMARY KEY (`iIdAsignacionLista`),
   CONSTRAINT `fk_AsignacionLista_Jornada1`
     FOREIGN KEY (`iIdJornada`)
-    REFERENCES `mydb`.`Jornada` (`iIdJornada`)
+    REFERENCES `AsignacionCursos`.`Jornada` (`iIdJornada`)
     ON DELETE CASCADE
     ON UPDATE CASCADE,
   CONSTRAINT `fk_AsignacionLista_Semestre1`
     FOREIGN KEY (`iIdSemestre`)
-    REFERENCES `mydb`.`Semestre` (`iIdSemestre`)
+    REFERENCES `AsignacionCursos`.`Semestre` (`iIdSemestre`)
     ON DELETE CASCADE
     ON UPDATE CASCADE,
   CONSTRAINT `fk_AsignacionLista_Curso1`
     FOREIGN KEY (`iIdCurso`)
-    REFERENCES `mydb`.`Curso` (`iIdCurso`)
+    REFERENCES `AsignacionCursos`.`Curso` (`iIdCurso`)
     ON DELETE CASCADE
     ON UPDATE CASCADE,
   CONSTRAINT `fk_AsignacionLista_Seccion1`
     FOREIGN KEY (`iIIdSeccion`)
-    REFERENCES `mydb`.`Seccion` (`iIdSeccion`)
+    REFERENCES `AsignacionCursos`.`Seccion` (`iIdSeccion`)
     ON DELETE CASCADE
     ON UPDATE CASCADE,
   CONSTRAINT `fk_AsignacionLista_Catedratico1`
     FOREIGN KEY (`iIdCatedratico`)
-    REFERENCES `mydb`.`Catedratico` (`iIdCatedratico`)
+    REFERENCES `AsignacionCursos`.`Catedratico` (`iIdCatedratico`)
     ON DELETE CASCADE
     ON UPDATE CASCADE)
 ENGINE = InnoDB;
 
 
 -- -----------------------------------------------------
--- Table `mydb`.`AsignacionListaDetalle`
+-- Table `AsignacionCursos`.`AsignacionListaDetalle`
 -- -----------------------------------------------------
-CREATE TABLE IF NOT EXISTS `mydb`.`AsignacionListaDetalle` (
+CREATE TABLE IF NOT EXISTS `AsignacionCursos`.`AsignacionListaDetalle` (
   `iIdAsignacionListaDetalle` INT NOT NULL,
   `cDescripcion` VARCHAR(45) NULL,
   `cStatus` VARCHAR(45) NULL,
@@ -388,21 +388,21 @@ CREATE TABLE IF NOT EXISTS `mydb`.`AsignacionListaDetalle` (
   PRIMARY KEY (`iIdAsignacionListaDetalle`),
   CONSTRAINT `fk_AsignacionListaDetalle_AsignacionLista1`
     FOREIGN KEY (`iIdAsignacionLista`)
-    REFERENCES `mydb`.`AsignacionLista` (`iIdAsignacionLista`)
+    REFERENCES `AsignacionCursos`.`AsignacionLista` (`iIdAsignacionLista`)
     ON DELETE CASCADE
     ON UPDATE CASCADE,
   CONSTRAINT `fk_AsignacionListaDetalle_Alumnos1`
     FOREIGN KEY (`iIdAlumnos`)
-    REFERENCES `mydb`.`Estudiantes` (`iIdEstudiantes`)
+    REFERENCES `AsignacionCursos`.`Estudiantes` (`iIdEstudiantes`)
     ON DELETE CASCADE
     ON UPDATE CASCADE)
 ENGINE = InnoDB;
 
 
 -- -----------------------------------------------------
--- Table `mydb`.`AsignacionCurso`
+-- Table `AsignacionCursos`.`AsignacionCurso`
 -- -----------------------------------------------------
-CREATE TABLE IF NOT EXISTS `mydb`.`AsignacionCurso` (
+CREATE TABLE IF NOT EXISTS `AsignacionCursos`.`AsignacionCurso` (
   `iIdAsignacionCurso` INT NOT NULL,
   `cDescripcion` VARCHAR(45) NULL,
   `cFecha` VARCHAR(45) NULL,
@@ -410,16 +410,16 @@ CREATE TABLE IF NOT EXISTS `mydb`.`AsignacionCurso` (
   PRIMARY KEY (`iIdAsignacionCurso`),
   CONSTRAINT `fk_AsignacionCurso_Catedratico1`
     FOREIGN KEY (`iIdCatedratico`)
-    REFERENCES `mydb`.`Catedratico` (`iIdCatedratico`)
+    REFERENCES `AsignacionCursos`.`Catedratico` (`iIdCatedratico`)
     ON DELETE CASCADE
     ON UPDATE CASCADE)
 ENGINE = InnoDB;
 
 
 -- -----------------------------------------------------
--- Table `mydb`.`AsignacionCursoDetalle`
+-- Table `AsignacionCursos`.`AsignacionCursoDetalle`
 -- -----------------------------------------------------
-CREATE TABLE IF NOT EXISTS `mydb`.`AsignacionCursoDetalle` (
+CREATE TABLE IF NOT EXISTS `AsignacionCursos`.`AsignacionCursoDetalle` (
   `iIdAsignacionCursoDetalle` INT NOT NULL,
   `cDescripcion` VARCHAR(45) NULL,
   `iIdAsignacionCurso` INT NOT NULL,
@@ -431,41 +431,41 @@ CREATE TABLE IF NOT EXISTS `mydb`.`AsignacionCursoDetalle` (
   PRIMARY KEY (`iIdAsignacionCursoDetalle`),
   CONSTRAINT `fk_AsignacionCursoDetalle_AsignacionCurso1`
     FOREIGN KEY (`iIdAsignacionCurso`)
-    REFERENCES `mydb`.`AsignacionCurso` (`iIdAsignacionCurso`)
+    REFERENCES `AsignacionCursos`.`AsignacionCurso` (`iIdAsignacionCurso`)
     ON DELETE CASCADE
     ON UPDATE CASCADE,
   CONSTRAINT `fk_AsignacionCursoDetalle_Curso1`
     FOREIGN KEY (`iIdCurso`)
-    REFERENCES `mydb`.`Curso` (`iIdCurso`)
+    REFERENCES `AsignacionCursos`.`Curso` (`iIdCurso`)
     ON DELETE CASCADE
     ON UPDATE CASCADE,
   CONSTRAINT `fk_AsignacionCursoDetalle_Jornada1`
     FOREIGN KEY (`iIdJornada`)
-    REFERENCES `mydb`.`Jornada` (`iIdJornada`)
+    REFERENCES `AsignacionCursos`.`Jornada` (`iIdJornada`)
     ON DELETE CASCADE
     ON UPDATE CASCADE,
   CONSTRAINT `fk_AsignacionCursoDetalle_Semestre1`
     FOREIGN KEY (`iIdSemestre`)
-    REFERENCES `mydb`.`Semestre` (`iIdSemestre`)
+    REFERENCES `AsignacionCursos`.`Semestre` (`iIdSemestre`)
     ON DELETE CASCADE
     ON UPDATE CASCADE,
   CONSTRAINT `fk_AsignacionCursoDetalle_Seccion1`
     FOREIGN KEY (`iIdSeccion`)
-    REFERENCES `mydb`.`Seccion` (`iIdSeccion`)
+    REFERENCES `AsignacionCursos`.`Seccion` (`iIdSeccion`)
     ON DELETE CASCADE
     ON UPDATE CASCADE,
   CONSTRAINT `fk_AsignacionCursoDetalle_Facultad1`
     FOREIGN KEY (`iIdFacultad`)
-    REFERENCES `mydb`.`Facultad` (`iIdFacultad`)
+    REFERENCES `AsignacionCursos`.`Facultad` (`iIdFacultad`)
     ON DELETE CASCADE
     ON UPDATE CASCADE)
 ENGINE = InnoDB;
 
 
 -- -----------------------------------------------------
--- Table `mydb`.`Certificacion`
+-- Table `AsignacionCursos`.`Certificacion`
 -- -----------------------------------------------------
-CREATE TABLE IF NOT EXISTS `mydb`.`Certificacion` (
+CREATE TABLE IF NOT EXISTS `AsignacionCursos`.`Certificacion` (
   `iIdCertificacion` INT NOT NULL,
   `cDescripcion` VARCHAR(45) NULL,
   `cFecha` VARCHAR(45) NULL,
@@ -473,16 +473,16 @@ CREATE TABLE IF NOT EXISTS `mydb`.`Certificacion` (
   PRIMARY KEY (`iIdCertificacion`),
   CONSTRAINT `fk_Certificacion_Alumnos1`
     FOREIGN KEY (`iIdAlumnos`)
-    REFERENCES `mydb`.`Estudiantes` (`iIdEstudiantes`)
+    REFERENCES `AsignacionCursos`.`Estudiantes` (`iIdEstudiantes`)
     ON DELETE CASCADE
     ON UPDATE CASCADE)
 ENGINE = InnoDB;
 
 
 -- -----------------------------------------------------
--- Table `mydb`.`CertificacionDetalle`
+-- Table `AsignacionCursos`.`CertificacionDetalle`
 -- -----------------------------------------------------
-CREATE TABLE IF NOT EXISTS `mydb`.`CertificacionDetalle` (
+CREATE TABLE IF NOT EXISTS `AsignacionCursos`.`CertificacionDetalle` (
   `iIdCertificacionDetalle` INT NOT NULL,
   `cDescripcion` VARCHAR(45) NULL,
   `iNota` INT NULL,
@@ -491,21 +491,21 @@ CREATE TABLE IF NOT EXISTS `mydb`.`CertificacionDetalle` (
   PRIMARY KEY (`iIdCertificacionDetalle`),
   CONSTRAINT `fk_CertificacionDetalle_Certificacion1`
     FOREIGN KEY (`iIdCertificacion`)
-    REFERENCES `mydb`.`Certificacion` (`iIdCertificacion`)
+    REFERENCES `AsignacionCursos`.`Certificacion` (`iIdCertificacion`)
     ON DELETE CASCADE
     ON UPDATE CASCADE,
   CONSTRAINT `fk_CertificacionDetalle_Curso1`
     FOREIGN KEY (`iIdCurso`)
-    REFERENCES `mydb`.`Curso` (`iIdCurso`)
+    REFERENCES `AsignacionCursos`.`Curso` (`iIdCurso`)
     ON DELETE CASCADE
     ON UPDATE CASCADE)
 ENGINE = InnoDB;
 
 
 -- -----------------------------------------------------
--- Table `mydb`.`Bitacora`
+-- Table `AsignacionCursos`.`Bitacora`
 -- -----------------------------------------------------
-CREATE TABLE IF NOT EXISTS `mydb`.`Bitacora` (
+CREATE TABLE IF NOT EXISTS `AsignacionCursos`.`Bitacora` (
   `idBitacora` INT NOT NULL,
   `fecha_ingreso` VARCHAR(45) NULL,
   `fecho_cierre` VARCHAR(45) NULL,
@@ -517,7 +517,7 @@ CREATE TABLE IF NOT EXISTS `mydb`.`Bitacora` (
   PRIMARY KEY (`idBitacora`),
   CONSTRAINT `fk_Bitacora_Usuarios1`
     FOREIGN KEY (`iIdUsuarios`)
-    REFERENCES `mydb`.`Usuarios` (`iIdUsuarios`)
+    REFERENCES `AsignacionCursos`.`Usuarios` (`iIdUsuarios`)
     ON DELETE CASCADE
     ON UPDATE CASCADE)
 ENGINE = InnoDB;
