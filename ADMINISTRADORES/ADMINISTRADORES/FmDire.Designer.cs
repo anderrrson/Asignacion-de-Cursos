@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FmDire));
             this.PnlCuadroGeneral = new System.Windows.Forms.Panel();
             this.TtxLab5 = new System.Windows.Forms.TextBox();
             this.TtxLab4 = new System.Windows.Forms.TextBox();
@@ -101,12 +102,14 @@
             this.LblApellidos = new System.Windows.Forms.Label();
             this.LblNombre = new System.Windows.Forms.Label();
             this.LblCarne = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
             this.PnlCuadroGeneral.SuspendLayout();
             this.PnlCuadrodatos.SuspendLayout();
             this.SuspendLayout();
             // 
             // PnlCuadroGeneral
             // 
+            this.PnlCuadroGeneral.Controls.Add(this.button1);
             this.PnlCuadroGeneral.Controls.Add(this.TtxLab5);
             this.PnlCuadroGeneral.Controls.Add(this.TtxLab4);
             this.PnlCuadroGeneral.Controls.Add(this.TtxLab3);
@@ -156,7 +159,7 @@
             this.PnlCuadroGeneral.Controls.Add(this.label14);
             this.PnlCuadroGeneral.Controls.Add(this.LblFac);
             this.PnlCuadroGeneral.Controls.Add(this.PnlCuadrodatos);
-            this.PnlCuadroGeneral.Location = new System.Drawing.Point(2, 2);
+            this.PnlCuadroGeneral.Location = new System.Drawing.Point(45, 0);
             this.PnlCuadroGeneral.Name = "PnlCuadroGeneral";
             this.PnlCuadroGeneral.Size = new System.Drawing.Size(1182, 572);
             this.PnlCuadroGeneral.TabIndex = 0;
@@ -205,6 +208,7 @@
             // 
             this.LblLab.AutoSize = true;
             this.LblLab.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LblLab.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.LblLab.Location = new System.Drawing.Point(636, 222);
             this.LblLab.Name = "LblLab";
             this.LblLab.Size = new System.Drawing.Size(30, 17);
@@ -495,6 +499,7 @@
             // 
             this.LblEstado.AutoSize = true;
             this.LblEstado.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LblEstado.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.LblEstado.Location = new System.Drawing.Point(1023, 222);
             this.LblEstado.Name = "LblEstado";
             this.LblEstado.Size = new System.Drawing.Size(56, 17);
@@ -505,6 +510,7 @@
             // 
             this.LblSeccion.AutoSize = true;
             this.LblSeccion.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LblSeccion.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.LblSeccion.Location = new System.Drawing.Point(897, 222);
             this.LblSeccion.Name = "LblSeccion";
             this.LblSeccion.Size = new System.Drawing.Size(67, 17);
@@ -515,6 +521,7 @@
             // 
             this.LblAula.AutoSize = true;
             this.LblAula.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LblAula.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.LblAula.Location = new System.Drawing.Point(778, 222);
             this.LblAula.Name = "LblAula";
             this.LblAula.Size = new System.Drawing.Size(40, 17);
@@ -525,6 +532,7 @@
             // 
             this.Lblhorario.AutoSize = true;
             this.Lblhorario.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Lblhorario.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.Lblhorario.Location = new System.Drawing.Point(421, 222);
             this.Lblhorario.Name = "Lblhorario";
             this.Lblhorario.Size = new System.Drawing.Size(67, 17);
@@ -535,6 +543,7 @@
             // 
             this.LblNcurso.AutoSize = true;
             this.LblNcurso.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LblNcurso.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.LblNcurso.Location = new System.Drawing.Point(162, 222);
             this.LblNcurso.Name = "LblNcurso";
             this.LblNcurso.Size = new System.Drawing.Size(137, 17);
@@ -545,6 +554,7 @@
             // 
             this.label14.AutoSize = true;
             this.label14.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label14.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.label14.Location = new System.Drawing.Point(85, 222);
             this.label14.Name = "label14";
             this.label14.Size = new System.Drawing.Size(44, 17);
@@ -555,6 +565,7 @@
             // 
             this.LblFac.AutoSize = true;
             this.LblFac.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LblFac.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.LblFac.Location = new System.Drawing.Point(24, 222);
             this.LblFac.Name = "LblFac";
             this.LblFac.Size = new System.Drawing.Size(38, 17);
@@ -683,6 +694,7 @@
             // 
             this.LblFecha.AutoSize = true;
             this.LblFecha.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LblFecha.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.LblFecha.Location = new System.Drawing.Point(740, 48);
             this.LblFecha.Name = "LblFecha";
             this.LblFecha.Size = new System.Drawing.Size(121, 17);
@@ -693,6 +705,7 @@
             // 
             this.LblMensualidad.AutoSize = true;
             this.LblMensualidad.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LblMensualidad.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.LblMensualidad.Location = new System.Drawing.Point(740, 113);
             this.LblMensualidad.Name = "LblMensualidad";
             this.LblMensualidad.Size = new System.Drawing.Size(120, 17);
@@ -703,6 +716,7 @@
             // 
             this.LblTitulo.AutoSize = true;
             this.LblTitulo.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LblTitulo.ForeColor = System.Drawing.SystemColors.Control;
             this.LblTitulo.Location = new System.Drawing.Point(22, 14);
             this.LblTitulo.Name = "LblTitulo";
             this.LblTitulo.Size = new System.Drawing.Size(286, 21);
@@ -713,6 +727,7 @@
             // 
             this.LblSemestre.AutoSize = true;
             this.LblSemestre.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LblSemestre.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.LblSemestre.Location = new System.Drawing.Point(383, 146);
             this.LblSemestre.Name = "LblSemestre";
             this.LblSemestre.Size = new System.Drawing.Size(65, 17);
@@ -723,6 +738,7 @@
             // 
             this.LblCiclo.AutoSize = true;
             this.LblCiclo.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LblCiclo.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.LblCiclo.Location = new System.Drawing.Point(386, 119);
             this.LblCiclo.Name = "LblCiclo";
             this.LblCiclo.Size = new System.Drawing.Size(50, 17);
@@ -733,6 +749,7 @@
             // 
             this.LblJornada.AutoSize = true;
             this.LblJornada.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LblJornada.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.LblJornada.Location = new System.Drawing.Point(383, 88);
             this.LblJornada.Name = "LblJornada";
             this.LblJornada.Size = new System.Drawing.Size(71, 17);
@@ -743,6 +760,7 @@
             // 
             this.LblCarrera.AutoSize = true;
             this.LblCarrera.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LblCarrera.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.LblCarrera.Location = new System.Drawing.Point(386, 57);
             this.LblCarrera.Name = "LblCarrera";
             this.LblCarrera.Size = new System.Drawing.Size(68, 17);
@@ -753,6 +771,7 @@
             // 
             this.LblCasada.AutoSize = true;
             this.LblCasada.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LblCasada.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.LblCasada.Location = new System.Drawing.Point(22, 149);
             this.LblCasada.Name = "LblCasada";
             this.LblCasada.Size = new System.Drawing.Size(94, 17);
@@ -763,6 +782,7 @@
             // 
             this.LblDireccion.AutoSize = true;
             this.LblDireccion.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LblDireccion.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.LblDireccion.Location = new System.Drawing.Point(22, 179);
             this.LblDireccion.Name = "LblDireccion";
             this.LblDireccion.Size = new System.Drawing.Size(82, 17);
@@ -773,6 +793,7 @@
             // 
             this.LblApellidos.AutoSize = true;
             this.LblApellidos.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LblApellidos.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.LblApellidos.Location = new System.Drawing.Point(20, 119);
             this.LblApellidos.Name = "LblApellidos";
             this.LblApellidos.Size = new System.Drawing.Size(74, 17);
@@ -782,6 +803,7 @@
             // LblNombre
             // 
             this.LblNombre.AutoSize = true;
+            this.LblNombre.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.LblNombre.Location = new System.Drawing.Point(20, 92);
             this.LblNombre.Name = "LblNombre";
             this.LblNombre.Size = new System.Drawing.Size(61, 13);
@@ -792,16 +814,35 @@
             // 
             this.LblCarne.AutoSize = true;
             this.LblCarne.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LblCarne.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.LblCarne.Location = new System.Drawing.Point(23, 60);
             this.LblCarne.Name = "LblCarne";
             this.LblCarne.Size = new System.Drawing.Size(53, 17);
             this.LblCarne.TabIndex = 0;
             this.LblCarne.Text = "CARNÉ";
             // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(14)))), ((int)(((byte)(18)))), ((int)(((byte)(34)))));
+            this.button1.FlatAppearance.BorderSize = 2;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.ForeColor = System.Drawing.Color.White;
+            this.button1.Image = ((System.Drawing.Image)(resources.GetObject("button1.Image")));
+            this.button1.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.button1.Location = new System.Drawing.Point(1059, 481);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(102, 74);
+            this.button1.TabIndex = 30;
+            this.button1.Text = "IMPRIMIR";
+            this.button1.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.button1.UseVisualStyleBackColor = false;
+            // 
             // FmDire
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(31)))), ((int)(((byte)(58)))));
             this.ClientSize = new System.Drawing.Size(1284, 584);
             this.Controls.Add(this.PnlCuadroGeneral);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
@@ -890,5 +931,6 @@
         private System.Windows.Forms.TextBox TxtSeccion3;
         private System.Windows.Forms.TextBox TxtSeccion2;
         private System.Windows.Forms.TextBox TxtSeccion1;
+        private System.Windows.Forms.Button button1;
     }
 }

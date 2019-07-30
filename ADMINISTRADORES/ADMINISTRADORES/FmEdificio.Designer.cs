@@ -53,9 +53,8 @@
             this.LblVisualizar.ForeColor = System.Drawing.Color.White;
             this.LblVisualizar.Location = new System.Drawing.Point(858, 460);
             this.LblVisualizar.Name = "LblVisualizar";
-            this.LblVisualizar.Size = new System.Drawing.Size(166, 21);
+            this.LblVisualizar.Size = new System.Drawing.Size(0, 21);
             this.LblVisualizar.TabIndex = 11;
-            this.LblVisualizar.Text = "APARTAR EDIFICIO";
             // 
             // PnlLinea
             // 
@@ -167,13 +166,13 @@
             this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(14)))), ((int)(((byte)(18)))), ((int)(((byte)(34)))));
             this.button1.FlatAppearance.BorderSize = 2;
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Century Gothic", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.Color.White;
             this.button1.Image = ((System.Drawing.Image)(resources.GetObject("button1.Image")));
             this.button1.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.button1.Location = new System.Drawing.Point(1030, 414);
+            this.button1.Location = new System.Drawing.Point(1127, 23);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(159, 105);
+            this.button1.Size = new System.Drawing.Size(102, 74);
             this.button1.TabIndex = 29;
             this.button1.Text = "GUARDAR";
             this.button1.TextAlign = System.Drawing.ContentAlignment.BottomCenter;

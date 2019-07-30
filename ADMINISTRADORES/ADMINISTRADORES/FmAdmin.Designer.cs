@@ -29,121 +29,132 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FmAdmin));
-            this.panel3 = new System.Windows.Forms.Panel();
-            this.label3 = new System.Windows.Forms.Label();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.label2 = new System.Windows.Forms.Label();
+            this.panel1 = new System.Windows.Forms.Panel();
             this.BtnAsignacionCat = new System.Windows.Forms.Button();
             this.BtnAsignaciones = new System.Windows.Forms.Button();
-            this.BtnInscripciones = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
+            this.BtnEdificios = new System.Windows.Forms.Button();
+            this.PnlEscritorioAdmon = new System.Windows.Forms.Panel();
+            this.BtnInscripcion = new System.Windows.Forms.Button();
+            this.BtnRegresar = new System.Windows.Forms.Button();
+            this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
-            // panel3
+            // panel1
             // 
-            this.panel3.BackColor = System.Drawing.Color.Red;
-            this.panel3.Location = new System.Drawing.Point(17, 333);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(1260, 1);
-            this.panel3.TabIndex = 27;
-            // 
-            // label3
-            // 
-            this.label3.Font = new System.Drawing.Font("Century Gothic", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(22, 295);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(195, 35);
-            this.label3.TabIndex = 26;
-            this.label3.Text = "Catedraticos";
-            // 
-            // panel2
-            // 
-            this.panel2.BackColor = System.Drawing.Color.Red;
-            this.panel2.Location = new System.Drawing.Point(21, 60);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(1260, 1);
-            this.panel2.TabIndex = 25;
-            // 
-            // label2
-            // 
-            this.label2.Font = new System.Drawing.Font("Century Gothic", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(26, 22);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(195, 35);
-            this.label2.TabIndex = 24;
-            this.label2.Text = "Estudiantes";
+            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(14)))), ((int)(((byte)(18)))), ((int)(((byte)(34)))));
+            this.panel1.Controls.Add(this.BtnAsignacionCat);
+            this.panel1.Controls.Add(this.BtnAsignaciones);
+            this.panel1.Controls.Add(this.BtnEdificios);
+            this.panel1.Controls.Add(this.PnlEscritorioAdmon);
+            this.panel1.Controls.Add(this.BtnInscripcion);
+            this.panel1.Controls.Add(this.BtnRegresar);
+            this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel1.Location = new System.Drawing.Point(0, 0);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(1300, 52);
+            this.panel1.TabIndex = 31;
             // 
             // BtnAsignacionCat
             // 
             this.BtnAsignacionCat.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(14)))), ((int)(((byte)(18)))), ((int)(((byte)(34)))));
-            this.BtnAsignacionCat.FlatAppearance.BorderSize = 2;
+            this.BtnAsignacionCat.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(14)))), ((int)(((byte)(18)))), ((int)(((byte)(34)))));
+            this.BtnAsignacionCat.FlatAppearance.BorderSize = 0;
+            this.BtnAsignacionCat.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(12)))), ((int)(((byte)(23)))));
             this.BtnAsignacionCat.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.BtnAsignacionCat.Font = new System.Drawing.Font("Century Gothic", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnAsignacionCat.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnAsignacionCat.ForeColor = System.Drawing.Color.White;
-            this.BtnAsignacionCat.Image = global::ADMINISTRADORES.Properties.Resources.checklist;
-            this.BtnAsignacionCat.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.BtnAsignacionCat.Location = new System.Drawing.Point(589, 413);
+            this.BtnAsignacionCat.Image = ((System.Drawing.Image)(resources.GetObject("BtnAsignacionCat.Image")));
+            this.BtnAsignacionCat.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.BtnAsignacionCat.Location = new System.Drawing.Point(1038, -6);
             this.BtnAsignacionCat.Name = "BtnAsignacionCat";
-            this.BtnAsignacionCat.Size = new System.Drawing.Size(159, 105);
-            this.BtnAsignacionCat.TabIndex = 22;
-            this.BtnAsignacionCat.Text = "Asignaciones";
-            this.BtnAsignacionCat.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.BtnAsignacionCat.Size = new System.Drawing.Size(250, 52);
+            this.BtnAsignacionCat.TabIndex = 33;
+            this.BtnAsignacionCat.Text = "Asignaciones Catedraticos";
             this.BtnAsignacionCat.UseVisualStyleBackColor = false;
+            this.BtnAsignacionCat.Click += new System.EventHandler(this.BtnAsignacionCat_Click);
             // 
             // BtnAsignaciones
             // 
             this.BtnAsignaciones.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(14)))), ((int)(((byte)(18)))), ((int)(((byte)(34)))));
-            this.BtnAsignaciones.FlatAppearance.BorderSize = 2;
+            this.BtnAsignaciones.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(14)))), ((int)(((byte)(18)))), ((int)(((byte)(34)))));
+            this.BtnAsignaciones.FlatAppearance.BorderSize = 0;
+            this.BtnAsignaciones.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(12)))), ((int)(((byte)(23)))));
             this.BtnAsignaciones.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.BtnAsignaciones.Font = new System.Drawing.Font("Century Gothic", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnAsignaciones.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnAsignaciones.ForeColor = System.Drawing.Color.White;
-            this.BtnAsignaciones.Image = global::ADMINISTRADORES.Properties.Resources.checklist;
-            this.BtnAsignaciones.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.BtnAsignaciones.Location = new System.Drawing.Point(551, 143);
+            this.BtnAsignaciones.Image = ((System.Drawing.Image)(resources.GetObject("BtnAsignaciones.Image")));
+            this.BtnAsignaciones.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.BtnAsignaciones.Location = new System.Drawing.Point(788, -3);
             this.BtnAsignaciones.Name = "BtnAsignaciones";
-            this.BtnAsignaciones.Size = new System.Drawing.Size(159, 104);
-            this.BtnAsignaciones.TabIndex = 15;
-            this.BtnAsignaciones.Text = "Asignaciones";
-            this.BtnAsignaciones.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.BtnAsignaciones.Size = new System.Drawing.Size(228, 52);
+            this.BtnAsignaciones.TabIndex = 20;
+            this.BtnAsignaciones.Text = "Asignaciones Estudiantes";
             this.BtnAsignaciones.UseVisualStyleBackColor = false;
             this.BtnAsignaciones.Click += new System.EventHandler(this.BtnAsignaciones_Click);
             // 
-            // BtnInscripciones
+            // BtnEdificios
             // 
-            this.BtnInscripciones.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(14)))), ((int)(((byte)(18)))), ((int)(((byte)(34)))));
-            this.BtnInscripciones.FlatAppearance.BorderSize = 2;
-            this.BtnInscripciones.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.BtnInscripciones.Font = new System.Drawing.Font("Century Gothic", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnInscripciones.ForeColor = System.Drawing.Color.White;
-            this.BtnInscripciones.Image = global::ADMINISTRADORES.Properties.Resources.notepad1;
-            this.BtnInscripciones.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.BtnInscripciones.Location = new System.Drawing.Point(322, 143);
-            this.BtnInscripciones.Name = "BtnInscripciones";
-            this.BtnInscripciones.Size = new System.Drawing.Size(159, 104);
-            this.BtnInscripciones.TabIndex = 18;
-            this.BtnInscripciones.Text = "Inscripciones";
-            this.BtnInscripciones.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.BtnInscripciones.UseVisualStyleBackColor = false;
-            this.BtnInscripciones.Click += new System.EventHandler(this.BtnInscripciones_Click);
+            this.BtnEdificios.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(14)))), ((int)(((byte)(18)))), ((int)(((byte)(34)))));
+            this.BtnEdificios.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.BtnEdificios.FlatAppearance.BorderSize = 0;
+            this.BtnEdificios.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(12)))), ((int)(((byte)(23)))));
+            this.BtnEdificios.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BtnEdificios.Font = new System.Drawing.Font("Century Gothic", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnEdificios.ForeColor = System.Drawing.Color.White;
+            this.BtnEdificios.Image = ((System.Drawing.Image)(resources.GetObject("BtnEdificios.Image")));
+            this.BtnEdificios.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.BtnEdificios.Location = new System.Drawing.Point(524, -6);
+            this.BtnEdificios.Name = "BtnEdificios";
+            this.BtnEdificios.Size = new System.Drawing.Size(239, 52);
+            this.BtnEdificios.TabIndex = 23;
+            this.BtnEdificios.Text = "Edificios";
+            this.BtnEdificios.UseVisualStyleBackColor = false;
+            this.BtnEdificios.Click += new System.EventHandler(this.BtnEdificios_Click);
             // 
-            // button1
+            // PnlEscritorioAdmon
             // 
-            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(14)))), ((int)(((byte)(18)))), ((int)(((byte)(34)))));
-            this.button1.FlatAppearance.BorderSize = 2;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Century Gothic", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Image = ((System.Drawing.Image)(resources.GetObject("button1.Image")));
-            this.button1.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.button1.Location = new System.Drawing.Point(787, 142);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(159, 105);
-            this.button1.TabIndex = 30;
-            this.button1.Text = "EDIFICIOS";
-            this.button1.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.button1.UseVisualStyleBackColor = false;
+            this.PnlEscritorioAdmon.Location = new System.Drawing.Point(3, 49);
+            this.PnlEscritorioAdmon.Name = "PnlEscritorioAdmon";
+            this.PnlEscritorioAdmon.Size = new System.Drawing.Size(1300, 571);
+            this.PnlEscritorioAdmon.TabIndex = 32;
+            // 
+            // BtnInscripcion
+            // 
+            this.BtnInscripcion.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(14)))), ((int)(((byte)(18)))), ((int)(((byte)(34)))));
+            this.BtnInscripcion.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.BtnInscripcion.FlatAppearance.BorderSize = 0;
+            this.BtnInscripcion.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(12)))), ((int)(((byte)(23)))));
+            this.BtnInscripcion.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BtnInscripcion.Font = new System.Drawing.Font("Century Gothic", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnInscripcion.ForeColor = System.Drawing.Color.White;
+            this.BtnInscripcion.Image = ((System.Drawing.Image)(resources.GetObject("BtnInscripcion.Image")));
+            this.BtnInscripcion.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.BtnInscripcion.Location = new System.Drawing.Point(264, -3);
+            this.BtnInscripcion.Name = "BtnInscripcion";
+            this.BtnInscripcion.Size = new System.Drawing.Size(239, 52);
+            this.BtnInscripcion.TabIndex = 21;
+            this.BtnInscripcion.Text = "Inscripciones";
+            this.BtnInscripcion.UseVisualStyleBackColor = false;
+            this.BtnInscripcion.Click += new System.EventHandler(this.BtnInscripcion_Click);
+            // 
+            // BtnRegresar
+            // 
+            this.BtnRegresar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(14)))), ((int)(((byte)(18)))), ((int)(((byte)(34)))));
+            this.BtnRegresar.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.BtnRegresar.FlatAppearance.BorderSize = 0;
+            this.BtnRegresar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(12)))), ((int)(((byte)(23)))));
+            this.BtnRegresar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BtnRegresar.Font = new System.Drawing.Font("Century Gothic", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnRegresar.ForeColor = System.Drawing.Color.White;
+            this.BtnRegresar.Image = global::ADMINISTRADORES.Properties.Resources.regresar1;
+            this.BtnRegresar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.BtnRegresar.Location = new System.Drawing.Point(12, 0);
+            this.BtnRegresar.Name = "BtnRegresar";
+            this.BtnRegresar.Size = new System.Drawing.Size(200, 52);
+            this.BtnRegresar.TabIndex = 22;
+            this.BtnRegresar.Text = "Regresar";
+            this.BtnRegresar.UseVisualStyleBackColor = false;
+            this.BtnRegresar.Click += new System.EventHandler(this.BtnRegresar_Click);
             // 
             // FmAdmin
             // 
@@ -151,29 +162,23 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(31)))), ((int)(((byte)(58)))));
             this.ClientSize = new System.Drawing.Size(1300, 623);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.BtnAsignacionCat);
-            this.Controls.Add(this.panel3);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.panel2);
-            this.Controls.Add(this.BtnAsignaciones);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.BtnInscripciones);
+            this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "FmAdmin";
             this.Text = "Auxiliar";
+            this.Load += new System.EventHandler(this.FmAdmin_Load);
+            this.panel1.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
 
         #endregion
-        private System.Windows.Forms.Button BtnAsignacionCat;
-        private System.Windows.Forms.Panel panel3;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Button BtnAsignaciones;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Button BtnInscripciones;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button BtnRegresar;
+        private System.Windows.Forms.Button BtnInscripcion;
+        private System.Windows.Forms.Button BtnEdificios;
+        private System.Windows.Forms.Panel PnlEscritorioAdmon;
+        private System.Windows.Forms.Button BtnAsignacionCat;
     }
 }

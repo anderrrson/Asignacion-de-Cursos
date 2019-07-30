@@ -73,41 +73,41 @@ namespace ADMINISTRADORES
                         {
                             Conexion = conexionBD.Conectar();// Se inica la conexion 
 
-                            /*
-                             * Entre estas dos funciones van los select para consultar
-                             */
+                    /*
+                     * Entre estas dos funciones van los select para consultar
+                     */
+                    switch (CboTiposUsuarios.SelectedIndex)
+                    {
+                        case 0:
+                            this.Hide();
+                            FmPrincipal fmPrincipal = new FmPrincipal(0);
+                            fmPrincipal.Show();
+                            break;
 
-                            Conexion = conexionBD.Desconectar(); // Finaliza la conexion
+                        case 1:
+                            this.Hide();
+                            FmPrincipal fmPrincipal1 = new FmPrincipal(1);
+                            fmPrincipal1.Show();
+                            break;
+
+                        case 2:
+                            this.Hide();
+                            FmPrincipal fmPrincipal2 = new FmPrincipal(2);
+                            fmPrincipal2.Show();
+                            break;
+
+                        default:
+                            break;
+                    }
+
+                    Conexion = conexionBD.Desconectar(); // Finaliza la conexion
                         }
                         catch
                         {
                             MessageBox.Show("Error", "MYSQL", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
                         }
 
-
-                        /*switch (CboTiposUsuarios.SelectedIndex)
-                        {
-                            case 0:
-                                this.Hide();
-                                FmPrincipal fmPrincipal = new FmPrincipal(0);
-                                fmPrincipal.Show();
-                                break;
-
-                            case 1:
-                                this.Hide();
-                                FmPrincipal fmPrincipal1 = new FmPrincipal(1);
-                                fmPrincipal1.Show();
-                                break;
-
-                            case 2:
-                                this.Hide();
-                                FmPrincipal fmPrincipal2 = new FmPrincipal(2);
-                                fmPrincipal2.Show();
-                                break;
-
-                            default:
-                                break;
-                        }*/
+                        
                     }
         }
 

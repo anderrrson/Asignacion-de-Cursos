@@ -217,3 +217,10 @@ C:\Users\Paula V\Desktop\Asignacion-de-Cursos\ADMINISTRADORES\ADMINISTRADORES\bi
 C:\Users\Paula V\Desktop\Asignacion-de-Cursos\ADMINISTRADORES\ADMINISTRADORES\obj\Debug\ADMINISTRADORES.csproj.CopyComplete
 C:\Users\Paula V\Desktop\Asignacion-de-Cursos\ADMINISTRADORES\ADMINISTRADORES\obj\Debug\ADMINISTRADORES.FmAsignacionCat.resources
 C:\Users\Paula V\Desktop\Asignacion-de-Cursos\ADMINISTRADORES\ADMINISTRADORES\obj\Debug\ADMINISTRADORES.FmEdificio.resources
+C:\Users\ISIS\Desktop\Asignacion-de-Cursos\ADMINISTRADORES\ADMINISTRADORES\bin\Debug\Google.Protobuf.dll
+C:\Users\ISIS\Desktop\Asignacion-de-Cursos\ADMINISTRADORES\ADMINISTRADORES\bin\Debug\Renci.SshNet.dll
+C:\Users\ISIS\Desktop\Asignacion-de-Cursos\ADMINISTRADORES\ADMINISTRADORES\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\ISIS\Desktop\Asignacion-de-Cursos\ADMINISTRADORES\ADMINISTRADORES\bin\Debug\MySql.Data.xml
+C:\Users\ISIS\Desktop\Asignacion-de-Cursos\ADMINISTRADORES\ADMINISTRADORES\obj\Debug\ADMINISTRADORES.FmAsignacionCat.resources
+C:\Users\ISIS\Desktop\Asignacion-de-Cursos\ADMINISTRADORES\ADMINISTRADORES\obj\Debug\ADMINISTRADORES.FmEdificio.resources
+C:\Users\ISIS\Desktop\Asignacion-de-Cursos\ADMINISTRADORES\ADMINISTRADORES\obj\Debug\ADMINISTRADORES.csproj.CopyComplete
