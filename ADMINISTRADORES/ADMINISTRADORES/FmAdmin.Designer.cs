@@ -35,7 +35,6 @@
             this.BtnEdificios = new System.Windows.Forms.Button();
             this.PnlEscritorioAdmon = new System.Windows.Forms.Panel();
             this.BtnInscripcion = new System.Windows.Forms.Button();
-            this.BtnRegresar = new System.Windows.Forms.Button();
             this.PnlEscritorioAdmon2 = new System.Windows.Forms.Panel();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
@@ -48,7 +47,6 @@
             this.panel1.Controls.Add(this.BtnEdificios);
             this.panel1.Controls.Add(this.PnlEscritorioAdmon);
             this.panel1.Controls.Add(this.BtnInscripcion);
-            this.panel1.Controls.Add(this.BtnRegresar);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
@@ -138,25 +136,6 @@
             this.BtnInscripcion.UseVisualStyleBackColor = false;
             this.BtnInscripcion.Click += new System.EventHandler(this.BtnInscripcion_Click);
             // 
-            // BtnRegresar
-            // 
-            this.BtnRegresar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(14)))), ((int)(((byte)(18)))), ((int)(((byte)(34)))));
-            this.BtnRegresar.FlatAppearance.BorderColor = System.Drawing.Color.White;
-            this.BtnRegresar.FlatAppearance.BorderSize = 0;
-            this.BtnRegresar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(12)))), ((int)(((byte)(23)))));
-            this.BtnRegresar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.BtnRegresar.Font = new System.Drawing.Font("Century Gothic", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnRegresar.ForeColor = System.Drawing.Color.White;
-            this.BtnRegresar.Image = global::ADMINISTRADORES.Properties.Resources.regresar1;
-            this.BtnRegresar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.BtnRegresar.Location = new System.Drawing.Point(12, 0);
-            this.BtnRegresar.Name = "BtnRegresar";
-            this.BtnRegresar.Size = new System.Drawing.Size(200, 52);
-            this.BtnRegresar.TabIndex = 22;
-            this.BtnRegresar.Text = "Regresar";
-            this.BtnRegresar.UseVisualStyleBackColor = false;
-            this.BtnRegresar.Click += new System.EventHandler(this.BtnRegresar_Click);
-            // 
             // PnlEscritorioAdmon2
             // 
             this.PnlEscritorioAdmon2.Location = new System.Drawing.Point(1, 53);
@@ -184,7 +163,6 @@
         #endregion
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Button BtnAsignaciones;
-        private System.Windows.Forms.Button BtnRegresar;
         private System.Windows.Forms.Button BtnInscripcion;
         private System.Windows.Forms.Button BtnEdificios;
         private System.Windows.Forms.Panel PnlEscritorioAdmon;

@@ -30,7 +30,6 @@
         {
             this.panel1 = new System.Windows.Forms.Panel();
             this.BtnHorario = new System.Windows.Forms.Button();
-            this.BtnRegresar = new System.Windows.Forms.Button();
             this.BtnNotas = new System.Windows.Forms.Button();
             this.PnlEscritorioEstudiante = new System.Windows.Forms.Panel();
             this.panel1.SuspendLayout();
@@ -40,7 +39,6 @@
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(14)))), ((int)(((byte)(18)))), ((int)(((byte)(34)))));
             this.panel1.Controls.Add(this.BtnHorario);
-            this.panel1.Controls.Add(this.BtnRegresar);
             this.panel1.Controls.Add(this.BtnNotas);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
@@ -66,25 +64,6 @@
             this.BtnHorario.Text = "Horario";
             this.BtnHorario.UseVisualStyleBackColor = false;
             this.BtnHorario.Click += new System.EventHandler(this.BtnHorario_Click);
-            // 
-            // BtnRegresar
-            // 
-            this.BtnRegresar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(14)))), ((int)(((byte)(18)))), ((int)(((byte)(34)))));
-            this.BtnRegresar.FlatAppearance.BorderColor = System.Drawing.Color.White;
-            this.BtnRegresar.FlatAppearance.BorderSize = 0;
-            this.BtnRegresar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(12)))), ((int)(((byte)(23)))));
-            this.BtnRegresar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.BtnRegresar.Font = new System.Drawing.Font("Century Gothic", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnRegresar.ForeColor = System.Drawing.Color.White;
-            this.BtnRegresar.Image = global::ADMINISTRADORES.Properties.Resources.regresar1;
-            this.BtnRegresar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.BtnRegresar.Location = new System.Drawing.Point(12, 0);
-            this.BtnRegresar.Name = "BtnRegresar";
-            this.BtnRegresar.Size = new System.Drawing.Size(200, 52);
-            this.BtnRegresar.TabIndex = 22;
-            this.BtnRegresar.Text = "Regresar";
-            this.BtnRegresar.UseVisualStyleBackColor = false;
-            this.BtnRegresar.Click += new System.EventHandler(this.BtnRegresar_Click);
             // 
             // BtnNotas
             // 
@@ -132,7 +111,6 @@
         #endregion
         private System.Windows.Forms.Button BtnNotas;
         private System.Windows.Forms.Button BtnHorario;
-        private System.Windows.Forms.Button BtnRegresar;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Panel PnlEscritorioEstudiante;
     }

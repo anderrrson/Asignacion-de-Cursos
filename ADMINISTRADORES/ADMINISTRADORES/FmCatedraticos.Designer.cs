@@ -29,10 +29,9 @@
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
-            this.PnlEscritorioCatedratico = new System.Windows.Forms.Panel();
             this.BtnNotas = new System.Windows.Forms.Button();
             this.BtnCursos = new System.Windows.Forms.Button();
-            this.BtnRegresar = new System.Windows.Forms.Button();
+            this.PnlEscritorioCatedratico = new System.Windows.Forms.Panel();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -41,19 +40,11 @@
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(14)))), ((int)(((byte)(18)))), ((int)(((byte)(34)))));
             this.panel1.Controls.Add(this.BtnNotas);
             this.panel1.Controls.Add(this.BtnCursos);
-            this.panel1.Controls.Add(this.BtnRegresar);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(1300, 52);
             this.panel1.TabIndex = 24;
-            // 
-            // PnlEscritorioCatedratico
-            // 
-            this.PnlEscritorioCatedratico.Location = new System.Drawing.Point(0, 49);
-            this.PnlEscritorioCatedratico.Name = "PnlEscritorioCatedratico";
-            this.PnlEscritorioCatedratico.Size = new System.Drawing.Size(1300, 571);
-            this.PnlEscritorioCatedratico.TabIndex = 25;
             // 
             // BtnNotas
             // 
@@ -93,23 +84,12 @@
             this.BtnCursos.UseVisualStyleBackColor = false;
             this.BtnCursos.Click += new System.EventHandler(this.BtnCursos_Click);
             // 
-            // BtnRegresar
+            // PnlEscritorioCatedratico
             // 
-            this.BtnRegresar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(14)))), ((int)(((byte)(18)))), ((int)(((byte)(34)))));
-            this.BtnRegresar.FlatAppearance.BorderColor = System.Drawing.Color.White;
-            this.BtnRegresar.FlatAppearance.BorderSize = 0;
-            this.BtnRegresar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(12)))), ((int)(((byte)(23)))));
-            this.BtnRegresar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.BtnRegresar.Font = new System.Drawing.Font("Century Gothic", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnRegresar.ForeColor = System.Drawing.Color.White;
-            this.BtnRegresar.Image = global::ADMINISTRADORES.Properties.Resources.regresar1;
-            this.BtnRegresar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.BtnRegresar.Location = new System.Drawing.Point(12, 0);
-            this.BtnRegresar.Name = "BtnRegresar";
-            this.BtnRegresar.Size = new System.Drawing.Size(200, 52);
-            this.BtnRegresar.TabIndex = 22;
-            this.BtnRegresar.Text = "Regresar";
-            this.BtnRegresar.UseVisualStyleBackColor = false;
+            this.PnlEscritorioCatedratico.Location = new System.Drawing.Point(0, 49);
+            this.PnlEscritorioCatedratico.Name = "PnlEscritorioCatedratico";
+            this.PnlEscritorioCatedratico.Size = new System.Drawing.Size(1300, 571);
+            this.PnlEscritorioCatedratico.TabIndex = 25;
             // 
             // FmCatedraticos
             // 
@@ -132,7 +112,6 @@
         #endregion
 
         private System.Windows.Forms.Button BtnCursos;
-        private System.Windows.Forms.Button BtnRegresar;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Button BtnNotas;
         private System.Windows.Forms.Panel PnlEscritorioCatedratico;

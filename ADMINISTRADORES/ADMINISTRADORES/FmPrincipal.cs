@@ -6,11 +6,13 @@ namespace ADMINISTRADORES
 {
     public partial class FmPrincipal : Form
     {
-        
+        private Timer timer;
         public FmPrincipal(int mOpcion)
         {
+            timer = new Timer();
+            timer.Tick += new EventHandler(Reloj);
             InitializeComponent();
-
+            timer.Enabled = true;
             switch (mOpcion)
             {
                 case 0:
@@ -112,5 +114,13 @@ namespace ADMINISTRADORES
             fmLogin.Show();
 
         }
+
+        private void Reloj(object ob, EventArgs evt)
+        {
+            DateTime dateTime = DateTime.Now;
+            LblHora.Text = dateTime.ToString("hh:mm:ss tt");
+            LblFecha.Text = dateTime.ToShortDateString();
+        }
+
     }
 }
