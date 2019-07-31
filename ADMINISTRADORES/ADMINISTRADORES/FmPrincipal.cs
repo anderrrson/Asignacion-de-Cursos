@@ -16,7 +16,7 @@ namespace ADMINISTRADORES
                 case 0:
                     if (this.PnlEscritorio.Controls.Count > 0)
                         this.PnlEscritorio.Controls.RemoveAt(0);
-                    Form formulario = new FmAdmin() as Form; //Convierte Formulario a Formulario Interno
+                    Form formulario = new FmAdmin(PnlEscritorio) as Form; //Convierte Formulario a Formulario Interno
                     formulario.TopLevel = false;
                     formulario.Dock = DockStyle.Fill;
                     this.PnlEscritorio.Controls.Add(formulario);

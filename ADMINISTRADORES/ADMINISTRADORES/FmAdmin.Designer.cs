@@ -36,6 +36,7 @@
             this.PnlEscritorioAdmon = new System.Windows.Forms.Panel();
             this.BtnInscripcion = new System.Windows.Forms.Button();
             this.BtnRegresar = new System.Windows.Forms.Button();
+            this.PnlEscritorioAdmon2 = new System.Windows.Forms.Panel();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -156,12 +157,20 @@
             this.BtnRegresar.UseVisualStyleBackColor = false;
             this.BtnRegresar.Click += new System.EventHandler(this.BtnRegresar_Click);
             // 
+            // PnlEscritorioAdmon2
+            // 
+            this.PnlEscritorioAdmon2.Location = new System.Drawing.Point(1, 53);
+            this.PnlEscritorioAdmon2.Name = "PnlEscritorioAdmon2";
+            this.PnlEscritorioAdmon2.Size = new System.Drawing.Size(1298, 566);
+            this.PnlEscritorioAdmon2.TabIndex = 32;
+            // 
             // FmAdmin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(31)))), ((int)(((byte)(58)))));
             this.ClientSize = new System.Drawing.Size(1300, 623);
+            this.Controls.Add(this.PnlEscritorioAdmon2);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "FmAdmin";
@@ -180,5 +189,6 @@
         private System.Windows.Forms.Button BtnEdificios;
         private System.Windows.Forms.Panel PnlEscritorioAdmon;
         private System.Windows.Forms.Button BtnAsignacionCat;
+        private System.Windows.Forms.Panel PnlEscritorioAdmon2;
     }
 }

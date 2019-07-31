@@ -16,7 +16,7 @@ namespace ADMINISTRADORES
         private int Opcion = 0;
         public FmAdmin(Panel PnlEscritorio)
         {
-            PnlEscritorioPrincipal = PnlEscritorio;
+            PnlEscritorioPrincipal = PnlEscritorioAdmon;
             InitializeComponent();
             IniciarPanel();
         }
@@ -26,14 +26,14 @@ namespace ADMINISTRADORES
         {
             if (Opcion != 1)
             {
-                if (this.PnlEscritorioAdmon.Controls.Count > 0)
-                    this.PnlEscritorioAdmon.Controls.RemoveAt(0);
+                if (this.PnlEscritorioAdmon2.Controls.Count > 0)
+                    this.PnlEscritorioAdmon2.Controls.RemoveAt(0);
 
                 Form formulario = new FmAsignacion() as Form; //Convierte Formulario a Formulario Interno
                 formulario.TopLevel = false;
                 formulario.Dock = DockStyle.Fill;
-                this.PnlEscritorioAdmon.Controls.Add(formulario);
-                this.PnlEscritorioAdmon.Tag = formulario;
+                this.PnlEscritorioAdmon2.Controls.Add(formulario);
+                this.PnlEscritorioAdmon2.Tag = formulario;
                 formulario.Show();
                 Opcion = 1;
             }
@@ -43,16 +43,16 @@ namespace ADMINISTRADORES
         {
             if (Opcion != 2)
             {
-                if (this.PnlEscritorioAdmon.Controls.Count > 0)
-                    this.PnlEscritorioAdmon.Controls.RemoveAt(0);
+                if (this.PnlEscritorioAdmon2.Controls.Count > 0)
+                    this.PnlEscritorioAdmon2.Controls.RemoveAt(0);
 
                 Form formulario = new FmInscripcion() as Form; //Convierte Formulario a Formulario Interno
                 formulario.TopLevel = false;
                 formulario.Dock = DockStyle.Fill;
-                this.PnlEscritorioAdmon.Controls.Add(formulario);
-                this.PnlEscritorioAdmon.Tag = formulario;
+                this.PnlEscritorioAdmon2.Controls.Add(formulario);
+                this.PnlEscritorioAdmon2.Tag = formulario;
                 formulario.Show();
-                Opcion = 1;
+                Opcion = 2;
             }
         }
 
@@ -60,16 +60,16 @@ namespace ADMINISTRADORES
         {
             if (Opcion != 3)
             {
-                if (this.PnlEscritorioAdmon.Controls.Count > 0)
-                    this.PnlEscritorioAdmon.Controls.RemoveAt(0);
+                if (this.PnlEscritorioAdmon2.Controls.Count > 0)
+                    this.PnlEscritorioAdmon2.Controls.RemoveAt(0);
 
                 Form formulario = new FmEdificio() as Form; //Convierte Formulario a Formulario Interno
                 formulario.TopLevel = false;
                 formulario.Dock = DockStyle.Fill;
-                this.PnlEscritorioAdmon.Controls.Add(formulario);
-                this.PnlEscritorioAdmon.Tag = formulario;
+                this.PnlEscritorioAdmon2.Controls.Add(formulario);
+                this.PnlEscritorioAdmon2.Tag = formulario;
                 formulario.Show();
-                Opcion = 1;
+                Opcion = 3;
             }
         }
 
@@ -85,14 +85,14 @@ namespace ADMINISTRADORES
         {
             if (Opcion != 1)
             {
-                if (this.PnlEscritorioAdmon.Controls.Count > 0)
-                    this.PnlEscritorioAdmon.Controls.RemoveAt(0);
+                if (this.PnlEscritorioAdmon2.Controls.Count > 0)
+                    this.PnlEscritorioAdmon2.Controls.RemoveAt(0);
 
-                Form formulario = new FmHorario() as Form; //Convierte Formulario a Formulario Interno
+                Form formulario = new FmInscripcion() as Form; //Convierte Formulario a Formulario Interno
                 formulario.TopLevel = false;
                 formulario.Dock = DockStyle.Fill;
-                this.PnlEscritorioAdmon.Controls.Add(formulario);
-                this.PnlEscritorioAdmon.Tag = formulario;
+                this.PnlEscritorioAdmon2.Controls.Add(formulario);
+                this.PnlEscritorioAdmon2.Tag = formulario;
                 formulario.Show();
                 Opcion = 1;
             }
@@ -107,16 +107,16 @@ namespace ADMINISTRADORES
         {
             if (Opcion != 4)
             {
-                if (this.PnlEscritorioAdmon.Controls.Count > 0)
-                    this.PnlEscritorioAdmon.Controls.RemoveAt(0);
+                if (this.PnlEscritorioAdmon2.Controls.Count > 0)
+                    this.PnlEscritorioAdmon2.Controls.RemoveAt(0);
 
                 Form formulario = new FmAsignacionCat() as Form; //Convierte Formulario a Formulario Interno
                 formulario.TopLevel = false;
                 formulario.Dock = DockStyle.Fill;
-                this.PnlEscritorioAdmon.Controls.Add(formulario);
-                this.PnlEscritorioAdmon.Tag = formulario;
+                this.PnlEscritorioAdmon2.Controls.Add(formulario);
+                this.PnlEscritorioAdmon2.Tag = formulario;
                 formulario.Show();
-                Opcion = 1;
+                Opcion = 4;
             }
         }
     }
