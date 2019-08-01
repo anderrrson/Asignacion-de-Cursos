@@ -14,6 +14,7 @@ namespace ADMINISTRADORES
         private String BaseDatos = "AsignacionCursos";
         private String Usuario = "diegoS2";
         private String Pass = "Diego123#";
+        
         private MySqlConnection mySqlConnection;
         private String Conexion = null;
 

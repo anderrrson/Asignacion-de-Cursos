@@ -29,7 +29,7 @@ namespace ADMINISTRADORES
                 if (this.PnlEscritorioAdmon2.Controls.Count > 0)
                     this.PnlEscritorioAdmon2.Controls.RemoveAt(0);
 
-                Form formulario = new FmAsignacion() as Form; //Convierte Formulario a Formulario Interno
+                Form formulario = new FmAsignacion(PnlEscritorioAdmon2) as Form; //Convierte Formulario a Formulario Interno
                 formulario.TopLevel = false;
                 formulario.Dock = DockStyle.Fill;
                 this.PnlEscritorioAdmon2.Controls.Add(formulario);
@@ -46,7 +46,7 @@ namespace ADMINISTRADORES
                 if (this.PnlEscritorioAdmon2.Controls.Count > 0)
                     this.PnlEscritorioAdmon2.Controls.RemoveAt(0);
 
-                Form formulario = new FmInscripcion() as Form; //Convierte Formulario a Formulario Interno
+                Form formulario = new FmInscripcion(PnlEscritorioAdmon2) as Form; //Convierte Formulario a Formulario Interno
                 formulario.TopLevel = false;
                 formulario.Dock = DockStyle.Fill;
                 this.PnlEscritorioAdmon2.Controls.Add(formulario);
@@ -88,7 +88,7 @@ namespace ADMINISTRADORES
                 if (this.PnlEscritorioAdmon2.Controls.Count > 0)
                     this.PnlEscritorioAdmon2.Controls.RemoveAt(0);
 
-                Form formulario = new FmInscripcion() as Form; //Convierte Formulario a Formulario Interno
+                Form formulario = new FmInscripcion(PnlEscritorioAdmon2) as Form; //Convierte Formulario a Formulario Interno
                 formulario.TopLevel = false;
                 formulario.Dock = DockStyle.Fill;
                 this.PnlEscritorioAdmon2.Controls.Add(formulario);

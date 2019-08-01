@@ -12,8 +12,10 @@ namespace ADMINISTRADORES
 {
     public partial class FmAsignacion : Form
     {
-        public FmAsignacion()
+        private Panel PnlEscritorioPrincipal;
+        public FmAsignacion(Panel PnlEscritorio)
         {
+            PnlEscritorioPrincipal = PnlEscritorio;
             InitializeComponent();
         }
 
@@ -65,8 +67,18 @@ namespace ADMINISTRADORES
 
         private void Button1_Click(object sender, EventArgs e)
         {
-            FmDire i = new FmDire();
-            i.ShowDialog();
+            if (this.PnlEscritorioPrincipal.Controls.Count > 0)
+                this.PnlEscritorioPrincipal.Controls.RemoveAt(0);
+
+            Form formulario = new FmDire() as Form; //Convierte Formulario a Formulario Interno
+            formulario.TopLevel = false;
+            formulario.Dock = DockStyle.Fill;
+            this.PnlEscritorioPrincipal.Controls.Add(formulario);
+            this.PnlEscritorioPrincipal.Tag = formulario;
+            formulario.Show();
+
+            //FmDire i = new FmDire();
+            //i.ShowDialog();
         }
     }
 }

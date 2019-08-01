@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MySql.Data.MySqlClient;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -34,7 +35,7 @@ namespace ADMINISTRADORES
 
         private void Button1_Click(object sender, EventArgs e)
         {
-            DataTable tabla = new DataTable();
+            /*DataTable tabla = new DataTable();
             tabla.Columns.Add("Codigo");
             tabla.Columns.Add("Curso");
             tabla.Columns.Add("Horario");
@@ -52,7 +53,24 @@ namespace ADMINISTRADORES
             DgvHorario.Columns[1].Width = 358;
             DgvHorario.Columns[2].Width = 100;
             DgvHorario.Columns[3].Width = 50;
-            DgvHorario.Columns[4].Width = 50;
+            DgvHorario.Columns[4].Width = 50;*/
+
+            MySqlDataAdapter dataAdapter;
+            DataSet dataSet;
+            ConexionBD conexion = new ConexionBD();
+            MySqlCommand command = new MySqlCommand();
+            command.CommandText = "SELECT * FROM AsignacionDetalle " +
+                "WHERE AsignacionDetalle.iIdAsignacion = (SELECT Asignacion.idAsignacion FROM Asignacion " +
+                "WHERE Asignacion.iIdEstudiantes = ?carnet)";
+            command.CommandType = CommandType.Text;
+            command.Connection = conexion.Conectar();
+            command.Parameters.AddWithValue("?carnet", 1);
+            dataAdapter = new MySqlDataAdapter(command);
+            dataSet = new DataSet();
+            dataAdapter.Fill(dataSet,"AsignacionDetalle");
+            DgvHorario.DataSource = dataSet;
+            DgvHorario.DataMember = "AsignacionDetalle";
+            conexion.Desconectar();
         }
     }
 }
