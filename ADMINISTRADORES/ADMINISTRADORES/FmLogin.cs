@@ -8,12 +8,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using MySql.Data;
 
 namespace ADMINISTRADORES
 {
     public partial class FmLogin : Form
     {
-
+        
         public FmLogin()
         {
             InitializeComponent();
@@ -55,60 +56,110 @@ namespace ADMINISTRADORES
 
         }
 
-        private void BtnIniciarSesion_Click(object sender, EventArgs e)
+         private void BtnIniciarSesion_Click(object sender, EventArgs e)
         {
-                    //Validacion Campos Vacios 
-                    if ((TxtUsuario.Text == "Usuario") || (TxtContraseña.Text == "Contraseña") || (CboTiposUsuarios.Text == "Seleccione una opción...")) {
 
-                    msgError("Existe un campo vacio ");
+            
 
-                    } else {
-                        msgAceptacion("");
-                        
-                        //CONEXION BASE DE DATOS
-                        MySqlConnection Conexion;
-                        ConexionBD conexionBD = new ConexionBD();
+            //Validacion Campos Vacios 
+            if ((TxtUsuario.Text == "Usuario") || (TxtContraseña.Text == "Contraseña") || (CboTiposUsuarios.Text == "Seleccione una opción..."))
+            {
 
-                        try
-                        {
-                            Conexion = conexionBD.Conectar();// Se inica la conexion 
+                msgError("Existe un campo vacio ");
 
-                    /*
-                     * Entre estas dos funciones van los select para consultar
-                     */
-                    switch (CboTiposUsuarios.SelectedIndex)
+            }
+            else
+            {
+                
+                msgAceptacion("");
+                
+
+                //CONEXION BASE DE DATOS
+                MySqlConnection Conexion;
+                ConexionBD conexionBD = new ConexionBD();
+                MySqlCommand command = new MySqlCommand();
+
+                command.CommandText = "SELECT * FROM Usuarios WHERE bUsuario ='"+TxtUsuario.Text+"' AND bPassword='"+TxtContraseña.Text+"' AND iIdTipo='"+CboTiposUsuarios.SelectedIndex+"'";
+                command.Connection = conexionBD.Conectar();
+
+                MySqlDataAdapter mySqlDataAdapter = new MySqlDataAdapter(command);
+                DataTable dataTable = new DataTable();
+                mySqlDataAdapter.Fill(dataTable);
+
+                if (dataTable.Rows.Count > 0)
+                {
+                    DataRow row = dataTable.Rows[0];
+                    MessageBox.Show(Convert.ToString(row["bUsuario"]));
+                    MessageBox.Show(Convert.ToString(row["bPassword"]));
+                    MessageBox.Show(Convert.ToString(row["iIdTipo"]));
+
+                    if (TxtUsuario.Text == (Convert.ToString(row["bUsuario"])))
                     {
-                        case 0:
-                            this.Hide();
-                            FmPrincipal fmPrincipal = new FmPrincipal(0);
-                            fmPrincipal.Show();
-                            break;
+                        MessageBox.Show("Usuario Correcto");
 
-                        case 1:
-                            this.Hide();
-                            FmPrincipal fmPrincipal1 = new FmPrincipal(1);
-                            fmPrincipal1.Show();
-                            break;
-
-                        case 2:
-                            this.Hide();
-                            FmPrincipal fmPrincipal2 = new FmPrincipal(2);
-                            fmPrincipal2.Show();
-                            break;
-
-                        default:
-                            break;
-                    }
-
-                    Conexion = conexionBD.Desconectar(); // Finaliza la conexion
-                        }
-                        catch
+                        if (TxtContraseña.Text == (Convert.ToString(row["bPassword"])))
                         {
-                            MessageBox.Show("Error", "MYSQL", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
-                        }
+                            MessageBox.Show("Password Correcto");
 
-                        
+                            if (CboTiposUsuarios.SelectedIndex == (Convert.ToInt32(row["iIdTipo"])))
+                            {
+                                
+                                switch (CboTiposUsuarios.SelectedIndex)
+                                {
+                                    case 0:
+                                        MessageBox.Show("Debe seleccionar un tipo de usuario...");
+                                        break;
+                                    case 1:
+                                        
+                                        this.Hide();
+                                        String texto = TxtUsuario.Text;
+                                        FmPrincipal fmPrincipal = new FmPrincipal(0,texto);
+                                        fmPrincipal.Show();
+                                        
+                                        
+                                        break;
+
+                                    case 2:
+                                        this.Hide();
+                                        String texto2 = TxtUsuario.Text;
+                                        FmPrincipal fmPrincipal1 = new FmPrincipal(1,texto2);
+                                        fmPrincipal1.Show();
+                                        break;
+
+                                    case 3:
+                                        this.Hide();
+                                        String texto3 = TxtUsuario.Text;
+                                        FmPrincipal fmPrincipal2 = new FmPrincipal(2,texto3);
+                                        fmPrincipal2.Show();
+                                        break;
+
+                                    default:
+                                        break;
+                                }
+                            }
+                            else
+                            {
+                                MessageBox.Show("Tipo de Usuario Incorrecto");
+                            }
+                        }
+                        else
+                        {
+                            MessageBox.Show("Password Incorrecto");
+                        }
                     }
+                    else
+                    {
+                        MessageBox.Show("Usuario Incorrecto");
+                    }
+
+
+                    //Finaliza Conexion
+                    conexionBD.Desconectar();
+
+
+
+                }
+            }
         }
 
 

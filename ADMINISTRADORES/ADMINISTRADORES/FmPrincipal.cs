@@ -7,11 +7,17 @@ namespace ADMINISTRADORES
     public partial class FmPrincipal : Form
     {
         private Timer timer;
-        public FmPrincipal(int mOpcion)
+        public FmPrincipal(int mOpcion, string texto)
         {
+
+
+            
+
             timer = new Timer();
             timer.Tick += new EventHandler(Reloj);
             InitializeComponent();
+            LblUsuario.Text = texto;
+            
             timer.Enabled = true;
             switch (mOpcion)
             {
@@ -121,6 +127,22 @@ namespace ADMINISTRADORES
             LblHora.Text = dateTime.ToString("hh:mm:ss tt");
             LblFecha.Text = dateTime.ToShortDateString();
         }
+
+        private void LblUsuario_Click(object sender, EventArgs e)
+        {
+            
+            
+        }
+
+        
+
+        private void TxtUsuario1_TextChanged(object sender, EventArgs e)
+        {
+            
+            
+        }
+
+       
 
     }
 }
