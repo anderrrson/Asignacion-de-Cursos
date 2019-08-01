@@ -115,8 +115,6 @@ namespace ADMINISTRADORES
                                         String texto = TxtUsuario.Text;
                                         FmPrincipal fmPrincipal = new FmPrincipal(0,texto);
                                         fmPrincipal.Show();
-                                        
-                                        
                                         break;
 
                                     case 2:
@@ -176,9 +174,6 @@ namespace ADMINISTRADORES
             LblErrorUsuario.Text = " " + msg;
             LblErrorUsuario.Visible = false;
         }
-
-
-
 
         private void TxtUserName_Enter(object sender, EventArgs e)
         {
