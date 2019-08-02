@@ -7,17 +7,17 @@ namespace ADMINISTRADORES
     public partial class FmPrincipal : Form
     {
         private Timer timer;
-        public FmPrincipal(int mOpcion, string texto)
+        private string idUsuario, idUsuarioLogin;
+        private string fechaIn, fecha_ingreso;
+        public FmPrincipal(int mOpcion, string texto, string fechaIn, string idUsuario)
         {
-
-
-            
-
+            fecha_ingreso = fechaIn;
+            idUsuarioLogin = idUsuario;
             timer = new Timer();
             timer.Tick += new EventHandler(Reloj);
             InitializeComponent();
             LblUsuario.Text = texto;
-            
+
             timer.Enabled = true;
             switch (mOpcion)
             {
@@ -111,6 +111,9 @@ namespace ADMINISTRADORES
 
         private void PictureBox4_Click(object sender, EventArgs e)
         {
+            Bitacora bitacora = new Bitacora(fecha_ingreso, LblHora.Text, Int32.Parse(idUsuarioLogin));
+            bitacora.EjecutarBitacora();
+
             if (this.PnlEscritorio.Controls.Count > 0)
                 this.PnlEscritorio.Controls.RemoveAt(0);
 
@@ -124,25 +127,27 @@ namespace ADMINISTRADORES
         private void Reloj(object ob, EventArgs evt)
         {
             DateTime dateTime = DateTime.Now;
-            LblHora.Text = dateTime.ToString("hh:mm:ss tt");
+            LblHora.Text = dateTime.ToString("hh:mm tt");
             LblFecha.Text = dateTime.ToShortDateString();
         }
 
         private void LblUsuario_Click(object sender, EventArgs e)
         {
-            
-            
+
+
         }
 
-        
+
 
         private void TxtUsuario1_TextChanged(object sender, EventArgs e)
         {
-            
-            
+
+
         }
 
-       
+        private void LblFecha_Click(object sender, EventArgs e)
+        {
 
+        }
     }
 }

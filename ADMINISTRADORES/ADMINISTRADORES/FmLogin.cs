@@ -14,7 +14,10 @@ namespace ADMINISTRADORES
 {
     public partial class FmLogin : Form
     {
+        int idUsuarioLogin;
         
+
+
         public FmLogin()
         {
             InitializeComponent();
@@ -59,7 +62,8 @@ namespace ADMINISTRADORES
          private void BtnIniciarSesion_Click(object sender, EventArgs e)
         {
 
-            
+            DateTime fecha_ingreso = DateTime.Now;
+            LblFecha.Text = (fecha_ingreso.ToString("hh:mm tt"));
 
             //Validacion Campos Vacios 
             if ((TxtUsuario.Text == "Usuario") || (TxtContraseña.Text == "Contraseña") || (CboTiposUsuarios.Text == "Seleccione una opción..."))
@@ -70,16 +74,14 @@ namespace ADMINISTRADORES
             }
             else
             {
-                
                 msgAceptacion("");
-                
 
                 //CONEXION BASE DE DATOS
                 MySqlConnection Conexion;
                 ConexionBD conexionBD = new ConexionBD();
                 MySqlCommand command = new MySqlCommand();
 
-                command.CommandText = "SELECT * FROM Usuarios WHERE bUsuario ='"+TxtUsuario.Text+"' AND bPassword='"+TxtContraseña.Text+"' AND iIdTipo='"+CboTiposUsuarios.SelectedIndex+"'";
+                command.CommandText = "SELECT iIdUsuarios,bUsuario,bPassword,iIdTipo FROM Usuarios WHERE bUsuario ='" + TxtUsuario.Text + "' AND bPassword='" + TxtContraseña.Text + "' AND iIdTipo='" + CboTiposUsuarios.SelectedIndex + "'";
                 command.Connection = conexionBD.Conectar();
 
                 MySqlDataAdapter mySqlDataAdapter = new MySqlDataAdapter(command);
@@ -89,6 +91,8 @@ namespace ADMINISTRADORES
                 if (dataTable.Rows.Count > 0)
                 {
                     DataRow row = dataTable.Rows[0];
+                    idUsuarioLogin = Convert.ToInt32(row["iIdUsuarios"]);
+                    MessageBox.Show(idUsuarioLogin.ToString());
                     MessageBox.Show(Convert.ToString(row["bUsuario"]));
                     MessageBox.Show(Convert.ToString(row["bPassword"]));
                     MessageBox.Show(Convert.ToString(row["iIdTipo"]));
@@ -112,22 +116,28 @@ namespace ADMINISTRADORES
                                     case 1:
                                         
                                         this.Hide();
+                                        String idUsuario = idUsuarioLogin.ToString();
+                                        String fechaIn = fecha_ingreso.ToString();
                                         String texto = TxtUsuario.Text;
-                                        FmPrincipal fmPrincipal = new FmPrincipal(0,texto);
+                                        FmPrincipal fmPrincipal = new FmPrincipal(0,texto,LblFecha.Text,idUsuario);
                                         fmPrincipal.Show();
                                         break;
 
                                     case 2:
                                         this.Hide();
+                                        String idUsuario2 = idUsuarioLogin.ToString();
+                                        String fechaIn2 = fecha_ingreso.ToString();
                                         String texto2 = TxtUsuario.Text;
-                                        FmPrincipal fmPrincipal1 = new FmPrincipal(1,texto2);
+                                        FmPrincipal fmPrincipal1 = new FmPrincipal(1,texto2,fechaIn2,idUsuario2);
                                         fmPrincipal1.Show();
                                         break;
 
                                     case 3:
                                         this.Hide();
+                                        String idUsuario3 = idUsuarioLogin.ToString();
+                                        String fechaIn3 = fecha_ingreso.ToString();
                                         String texto3 = TxtUsuario.Text;
-                                        FmPrincipal fmPrincipal2 = new FmPrincipal(2,texto3);
+                                        FmPrincipal fmPrincipal2 = new FmPrincipal(2,texto3,fechaIn3,idUsuario3);
                                         fmPrincipal2.Show();
                                         break;
 
@@ -149,6 +159,8 @@ namespace ADMINISTRADORES
                     {
                         MessageBox.Show("Usuario Incorrecto");
                     }
+
+                    
 
 
                     //Finaliza Conexion

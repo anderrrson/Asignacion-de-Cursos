@@ -44,6 +44,7 @@
             this.CboTiposUsuarios = new System.Windows.Forms.ComboBox();
             this.BtnAyuda = new System.Windows.Forms.Button();
             this.LblErrorUsuario = new System.Windows.Forms.Label();
+            this.LblFecha = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.PicPassword)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.PicUser)).BeginInit();
             this.PnlUser.SuspendLayout();
@@ -276,12 +277,26 @@
             this.LblErrorUsuario.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.LblErrorUsuario.Visible = false;
             // 
+            // LblFecha
+            // 
+            this.LblFecha.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.LblFecha.BackColor = System.Drawing.Color.Transparent;
+            this.LblFecha.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LblFecha.ForeColor = System.Drawing.Color.White;
+            this.LblFecha.Location = new System.Drawing.Point(13, 9);
+            this.LblFecha.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.LblFecha.Name = "LblFecha";
+            this.LblFecha.Size = new System.Drawing.Size(159, 28);
+            this.LblFecha.TabIndex = 18;
+            this.LblFecha.Text = "26/07/2019";
+            // 
             // FmLogin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::ADMINISTRADORES.Properties.Resources._123123121;
             this.ClientSize = new System.Drawing.Size(1067, 521);
+            this.Controls.Add(this.LblFecha);
             this.Controls.Add(this.LblErrorUsuario);
             this.Controls.Add(this.BtnAyuda);
             this.Controls.Add(this.PnlTipoUsuario);
@@ -298,7 +313,6 @@
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "FmLogin";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "v";
             this.Load += new System.EventHandler(this.Login_Load);
             ((System.ComponentModel.ISupportInitialize)(this.PicPassword)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.PicUser)).EndInit();
@@ -329,5 +343,6 @@
         private System.Windows.Forms.PictureBox PicTiposUsuarios;
         private System.Windows.Forms.Button BtnAyuda;
         private System.Windows.Forms.Label LblErrorUsuario;
+        private System.Windows.Forms.Label LblFecha;
     }
 }
