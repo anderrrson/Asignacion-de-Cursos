@@ -29,16 +29,6 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FmAsignacionCat));
-            this.GpbCursosadicionales = new System.Windows.Forms.GroupBox();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.PnlLinea7 = new System.Windows.Forms.Panel();
-            this.TxtCodigoadicional = new System.Windows.Forms.TextBox();
-            this.LblCodigocuradicional = new System.Windows.Forms.Label();
             this.GpnIngresocursos = new System.Windows.Forms.GroupBox();
             this.PnlLinea6 = new System.Windows.Forms.Panel();
             this.PnlLinea5 = new System.Windows.Forms.Panel();
@@ -59,126 +49,14 @@
             this.TxtNcarnet = new System.Windows.Forms.TextBox();
             this.LblNcarnet = new System.Windows.Forms.Label();
             this.LblAsignaciones = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
             this.DtaAsignacionCat = new System.Windows.Forms.DataGridView();
             this.BtnVisualizar = new System.Windows.Forms.Button();
-            this.GpbCursosadicionales.SuspendLayout();
+            this.BtnImprimir = new System.Windows.Forms.Button();
+            this.DtaCursosCat = new System.Windows.Forms.DataGridView();
             this.GpnIngresocursos.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.DtaAsignacionCat)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.DtaCursosCat)).BeginInit();
             this.SuspendLayout();
-            // 
-            // GpbCursosadicionales
-            // 
-            this.GpbCursosadicionales.Controls.Add(this.panel2);
-            this.GpbCursosadicionales.Controls.Add(this.textBox1);
-            this.GpbCursosadicionales.Controls.Add(this.panel1);
-            this.GpbCursosadicionales.Controls.Add(this.textBox2);
-            this.GpbCursosadicionales.Controls.Add(this.label1);
-            this.GpbCursosadicionales.Controls.Add(this.label2);
-            this.GpbCursosadicionales.Controls.Add(this.PnlLinea7);
-            this.GpbCursosadicionales.Controls.Add(this.TxtCodigoadicional);
-            this.GpbCursosadicionales.Controls.Add(this.LblCodigocuradicional);
-            this.GpbCursosadicionales.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.GpbCursosadicionales.ForeColor = System.Drawing.Color.White;
-            this.GpbCursosadicionales.Location = new System.Drawing.Point(64, 398);
-            this.GpbCursosadicionales.Name = "GpbCursosadicionales";
-            this.GpbCursosadicionales.Size = new System.Drawing.Size(378, 174);
-            this.GpbCursosadicionales.TabIndex = 20;
-            this.GpbCursosadicionales.TabStop = false;
-            this.GpbCursosadicionales.Text = "CURSOS PROYECTADOS";
-            // 
-            // panel2
-            // 
-            this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(55)))), ((int)(((byte)(35)))));
-            this.panel2.Location = new System.Drawing.Point(139, 161);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(170, 1);
-            this.panel2.TabIndex = 18;
-            // 
-            // textBox1
-            // 
-            this.textBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(31)))), ((int)(((byte)(58)))));
-            this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox1.Font = new System.Drawing.Font("Century Gothic", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.ForeColor = System.Drawing.Color.White;
-            this.textBox1.Location = new System.Drawing.Point(139, 141);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(170, 21);
-            this.textBox1.TabIndex = 19;
-            this.textBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // panel1
-            // 
-            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(55)))), ((int)(((byte)(35)))));
-            this.panel1.Location = new System.Drawing.Point(139, 127);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(170, 1);
-            this.panel1.TabIndex = 14;
-            // 
-            // textBox2
-            // 
-            this.textBox2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(31)))), ((int)(((byte)(58)))));
-            this.textBox2.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox2.Font = new System.Drawing.Font("Century Gothic", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2.ForeColor = System.Drawing.Color.White;
-            this.textBox2.Location = new System.Drawing.Point(139, 107);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(170, 21);
-            this.textBox2.TabIndex = 17;
-            this.textBox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Century Gothic", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(46, 141);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(87, 21);
-            this.label1.TabIndex = 16;
-            this.label1.Text = "CÓDIGO";
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Century Gothic", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(46, 107);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(87, 21);
-            this.label2.TabIndex = 15;
-            this.label2.Text = "CÓDIGO";
-            // 
-            // PnlLinea7
-            // 
-            this.PnlLinea7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(55)))), ((int)(((byte)(35)))));
-            this.PnlLinea7.Location = new System.Drawing.Point(139, 90);
-            this.PnlLinea7.Name = "PnlLinea7";
-            this.PnlLinea7.Size = new System.Drawing.Size(170, 1);
-            this.PnlLinea7.TabIndex = 4;
-            // 
-            // TxtCodigoadicional
-            // 
-            this.TxtCodigoadicional.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(31)))), ((int)(((byte)(58)))));
-            this.TxtCodigoadicional.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.TxtCodigoadicional.Font = new System.Drawing.Font("Century Gothic", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TxtCodigoadicional.ForeColor = System.Drawing.Color.White;
-            this.TxtCodigoadicional.Location = new System.Drawing.Point(139, 67);
-            this.TxtCodigoadicional.Name = "TxtCodigoadicional";
-            this.TxtCodigoadicional.Size = new System.Drawing.Size(170, 21);
-            this.TxtCodigoadicional.TabIndex = 9;
-            this.TxtCodigoadicional.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // LblCodigocuradicional
-            // 
-            this.LblCodigocuradicional.AutoSize = true;
-            this.LblCodigocuradicional.Font = new System.Drawing.Font("Century Gothic", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LblCodigocuradicional.ForeColor = System.Drawing.Color.White;
-            this.LblCodigocuradicional.Location = new System.Drawing.Point(46, 70);
-            this.LblCodigocuradicional.Name = "LblCodigocuradicional";
-            this.LblCodigocuradicional.Size = new System.Drawing.Size(87, 21);
-            this.LblCodigocuradicional.TabIndex = 4;
-            this.LblCodigocuradicional.Text = "CÓDIGO";
             // 
             // GpnIngresocursos
             // 
@@ -199,7 +77,7 @@
             this.GpnIngresocursos.Controls.Add(this.LblCodigoCur1);
             this.GpnIngresocursos.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.GpnIngresocursos.ForeColor = System.Drawing.Color.White;
-            this.GpnIngresocursos.Location = new System.Drawing.Point(64, 156);
+            this.GpnIngresocursos.Location = new System.Drawing.Point(68, 230);
             this.GpnIngresocursos.Name = "GpnIngresocursos";
             this.GpnIngresocursos.Size = new System.Drawing.Size(378, 220);
             this.GpnIngresocursos.TabIndex = 19;
@@ -365,7 +243,7 @@
             // PnlLinea1
             // 
             this.PnlLinea1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(55)))), ((int)(((byte)(35)))));
-            this.PnlLinea1.Location = new System.Drawing.Point(280, 120);
+            this.PnlLinea1.Location = new System.Drawing.Point(284, 194);
             this.PnlLinea1.Name = "PnlLinea1";
             this.PnlLinea1.Size = new System.Drawing.Size(170, 1);
             this.PnlLinea1.TabIndex = 18;
@@ -376,7 +254,7 @@
             this.TxtNcarnet.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.TxtNcarnet.Font = new System.Drawing.Font("Century Gothic", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.TxtNcarnet.ForeColor = System.Drawing.Color.White;
-            this.TxtNcarnet.Location = new System.Drawing.Point(280, 98);
+            this.TxtNcarnet.Location = new System.Drawing.Point(284, 172);
             this.TxtNcarnet.Name = "TxtNcarnet";
             this.TxtNcarnet.Size = new System.Drawing.Size(170, 21);
             this.TxtNcarnet.TabIndex = 17;
@@ -387,7 +265,7 @@
             this.LblNcarnet.AutoSize = true;
             this.LblNcarnet.Font = new System.Drawing.Font("Century Gothic", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LblNcarnet.ForeColor = System.Drawing.Color.White;
-            this.LblNcarnet.Location = new System.Drawing.Point(60, 98);
+            this.LblNcarnet.Location = new System.Drawing.Point(64, 172);
             this.LblNcarnet.Name = "LblNcarnet";
             this.LblNcarnet.Size = new System.Drawing.Size(214, 21);
             this.LblNcarnet.TabIndex = 16;
@@ -398,38 +276,20 @@
             this.LblAsignaciones.AutoSize = true;
             this.LblAsignaciones.Font = new System.Drawing.Font("Century Gothic", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LblAsignaciones.ForeColor = System.Drawing.Color.White;
-            this.LblAsignaciones.Location = new System.Drawing.Point(48, 32);
+            this.LblAsignaciones.Location = new System.Drawing.Point(53, 55);
             this.LblAsignaciones.Name = "LblAsignaciones";
             this.LblAsignaciones.Size = new System.Drawing.Size(417, 33);
             this.LblAsignaciones.TabIndex = 15;
             this.LblAsignaciones.Text = "ASIGNACIONES CATEDRATICOS";
             this.LblAsignaciones.Click += new System.EventHandler(this.LblAsignaciones_Click);
             // 
-            // button1
-            // 
-            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(14)))), ((int)(((byte)(18)))), ((int)(((byte)(34)))));
-            this.button1.FlatAppearance.BorderSize = 2;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Image = ((System.Drawing.Image)(resources.GetObject("button1.Image")));
-            this.button1.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.button1.Location = new System.Drawing.Point(1134, 18);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(102, 74);
-            this.button1.TabIndex = 31;
-            this.button1.Text = "GUARDAR";
-            this.button1.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.button1.UseVisualStyleBackColor = false;
-            this.button1.Click += new System.EventHandler(this.Button1_Click);
-            // 
             // DtaAsignacionCat
             // 
             this.DtaAsignacionCat.AllowUserToOrderColumns = true;
             this.DtaAsignacionCat.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.DtaAsignacionCat.Location = new System.Drawing.Point(542, 194);
+            this.DtaAsignacionCat.Location = new System.Drawing.Point(596, 172);
             this.DtaAsignacionCat.Name = "DtaAsignacionCat";
-            this.DtaAsignacionCat.Size = new System.Drawing.Size(669, 315);
+            this.DtaAsignacionCat.Size = new System.Drawing.Size(631, 62);
             this.DtaAsignacionCat.TabIndex = 34;
             this.DtaAsignacionCat.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.DtaAsignacionCat_CellContentClick);
             // 
@@ -442,7 +302,7 @@
             this.BtnVisualizar.ForeColor = System.Drawing.Color.White;
             this.BtnVisualizar.Image = ((System.Drawing.Image)(resources.GetObject("BtnVisualizar.Image")));
             this.BtnVisualizar.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.BtnVisualizar.Location = new System.Drawing.Point(1026, 18);
+            this.BtnVisualizar.Location = new System.Drawing.Point(1027, 18);
             this.BtnVisualizar.Name = "BtnVisualizar";
             this.BtnVisualizar.Size = new System.Drawing.Size(102, 74);
             this.BtnVisualizar.TabIndex = 35;
@@ -451,16 +311,44 @@
             this.BtnVisualizar.UseVisualStyleBackColor = false;
             this.BtnVisualizar.Click += new System.EventHandler(this.BtnVisualizar_Click);
             // 
+            // BtnImprimir
+            // 
+            this.BtnImprimir.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(14)))), ((int)(((byte)(18)))), ((int)(((byte)(34)))));
+            this.BtnImprimir.FlatAppearance.BorderSize = 2;
+            this.BtnImprimir.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BtnImprimir.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnImprimir.ForeColor = System.Drawing.Color.White;
+            this.BtnImprimir.Image = ((System.Drawing.Image)(resources.GetObject("BtnImprimir.Image")));
+            this.BtnImprimir.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.BtnImprimir.Location = new System.Drawing.Point(1125, 18);
+            this.BtnImprimir.Name = "BtnImprimir";
+            this.BtnImprimir.Size = new System.Drawing.Size(102, 74);
+            this.BtnImprimir.TabIndex = 36;
+            this.BtnImprimir.Text = "IMPRIMIR";
+            this.BtnImprimir.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.BtnImprimir.UseVisualStyleBackColor = false;
+            this.BtnImprimir.Click += new System.EventHandler(this.BtnImprimir_Click);
+            // 
+            // DtaCursosCat
+            // 
+            this.DtaCursosCat.AllowUserToOrderColumns = true;
+            this.DtaCursosCat.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.DtaCursosCat.Location = new System.Drawing.Point(596, 264);
+            this.DtaCursosCat.Name = "DtaCursosCat";
+            this.DtaCursosCat.Size = new System.Drawing.Size(631, 186);
+            this.DtaCursosCat.TabIndex = 37;
+            this.DtaCursosCat.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.DtaCursosCat_CellContentClick);
+            // 
             // FmAsignacionCat
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(31)))), ((int)(((byte)(58)))));
             this.ClientSize = new System.Drawing.Size(1284, 584);
+            this.Controls.Add(this.DtaCursosCat);
+            this.Controls.Add(this.BtnImprimir);
             this.Controls.Add(this.BtnVisualizar);
             this.Controls.Add(this.DtaAsignacionCat);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.GpbCursosadicionales);
             this.Controls.Add(this.GpnIngresocursos);
             this.Controls.Add(this.PnlLinea1);
             this.Controls.Add(this.TxtNcarnet);
@@ -470,22 +358,16 @@
             this.Name = "FmAsignacionCat";
             this.Text = "FmAsignacionCat";
             this.Load += new System.EventHandler(this.FmAsignacionCat_Load);
-            this.GpbCursosadicionales.ResumeLayout(false);
-            this.GpbCursosadicionales.PerformLayout();
             this.GpnIngresocursos.ResumeLayout(false);
             this.GpnIngresocursos.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.DtaAsignacionCat)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.DtaCursosCat)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
         }
 
         #endregion
-
-        private System.Windows.Forms.GroupBox GpbCursosadicionales;
-        private System.Windows.Forms.Panel PnlLinea7;
-        private System.Windows.Forms.TextBox TxtCodigoadicional;
-        private System.Windows.Forms.Label LblCodigocuradicional;
         private System.Windows.Forms.GroupBox GpnIngresocursos;
         private System.Windows.Forms.Panel PnlLinea6;
         private System.Windows.Forms.Panel PnlLinea5;
@@ -506,14 +388,9 @@
         private System.Windows.Forms.TextBox TxtNcarnet;
         private System.Windows.Forms.Label LblNcarnet;
         private System.Windows.Forms.Label LblAsignaciones;
-        private System.Windows.Forms.Panel panel2;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Button button1;
         public System.Windows.Forms.DataGridView DtaAsignacionCat;
         private System.Windows.Forms.Button BtnVisualizar;
+        private System.Windows.Forms.Button BtnImprimir;
+        public System.Windows.Forms.DataGridView DtaCursosCat;
     }
 }

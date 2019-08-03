@@ -37,11 +37,6 @@
             this.TtxLab2 = new System.Windows.Forms.TextBox();
             this.TtxLab1 = new System.Windows.Forms.TextBox();
             this.LblLab = new System.Windows.Forms.Label();
-            this.TxtEstado5 = new System.Windows.Forms.TextBox();
-            this.TxtEstado4 = new System.Windows.Forms.TextBox();
-            this.TxtEstado3 = new System.Windows.Forms.TextBox();
-            this.TxtEstado2 = new System.Windows.Forms.TextBox();
-            this.TxtEstado1 = new System.Windows.Forms.TextBox();
             this.TxtSeccion5 = new System.Windows.Forms.TextBox();
             this.TxtSeccion4 = new System.Windows.Forms.TextBox();
             this.TxtSeccion3 = new System.Windows.Forms.TextBox();
@@ -67,18 +62,11 @@
             this.TxtCod3 = new System.Windows.Forms.TextBox();
             this.TxtCod2 = new System.Windows.Forms.TextBox();
             this.TxtCod1 = new System.Windows.Forms.TextBox();
-            this.TxtFacultad5 = new System.Windows.Forms.TextBox();
-            this.TxtFacultad4 = new System.Windows.Forms.TextBox();
-            this.TxtFacultad3 = new System.Windows.Forms.TextBox();
-            this.TxtFacultad2 = new System.Windows.Forms.TextBox();
-            this.TxtFacultad1 = new System.Windows.Forms.TextBox();
-            this.LblEstado = new System.Windows.Forms.Label();
             this.LblSeccion = new System.Windows.Forms.Label();
             this.LblAula = new System.Windows.Forms.Label();
             this.Lblhorario = new System.Windows.Forms.Label();
             this.LblNcurso = new System.Windows.Forms.Label();
             this.label14 = new System.Windows.Forms.Label();
-            this.LblFac = new System.Windows.Forms.Label();
             this.PnlCuadrodatos = new System.Windows.Forms.Panel();
             this.TxtMensualidad = new System.Windows.Forms.TextBox();
             this.TxtFecha = new System.Windows.Forms.TextBox();
@@ -116,11 +104,6 @@
             this.PnlCuadroGeneral.Controls.Add(this.TtxLab2);
             this.PnlCuadroGeneral.Controls.Add(this.TtxLab1);
             this.PnlCuadroGeneral.Controls.Add(this.LblLab);
-            this.PnlCuadroGeneral.Controls.Add(this.TxtEstado5);
-            this.PnlCuadroGeneral.Controls.Add(this.TxtEstado4);
-            this.PnlCuadroGeneral.Controls.Add(this.TxtEstado3);
-            this.PnlCuadroGeneral.Controls.Add(this.TxtEstado2);
-            this.PnlCuadroGeneral.Controls.Add(this.TxtEstado1);
             this.PnlCuadroGeneral.Controls.Add(this.TxtSeccion5);
             this.PnlCuadroGeneral.Controls.Add(this.TxtSeccion4);
             this.PnlCuadroGeneral.Controls.Add(this.TxtSeccion3);
@@ -146,18 +129,11 @@
             this.PnlCuadroGeneral.Controls.Add(this.TxtCod3);
             this.PnlCuadroGeneral.Controls.Add(this.TxtCod2);
             this.PnlCuadroGeneral.Controls.Add(this.TxtCod1);
-            this.PnlCuadroGeneral.Controls.Add(this.TxtFacultad5);
-            this.PnlCuadroGeneral.Controls.Add(this.TxtFacultad4);
-            this.PnlCuadroGeneral.Controls.Add(this.TxtFacultad3);
-            this.PnlCuadroGeneral.Controls.Add(this.TxtFacultad2);
-            this.PnlCuadroGeneral.Controls.Add(this.TxtFacultad1);
-            this.PnlCuadroGeneral.Controls.Add(this.LblEstado);
             this.PnlCuadroGeneral.Controls.Add(this.LblSeccion);
             this.PnlCuadroGeneral.Controls.Add(this.LblAula);
             this.PnlCuadroGeneral.Controls.Add(this.Lblhorario);
             this.PnlCuadroGeneral.Controls.Add(this.LblNcurso);
             this.PnlCuadroGeneral.Controls.Add(this.label14);
-            this.PnlCuadroGeneral.Controls.Add(this.LblFac);
             this.PnlCuadroGeneral.Controls.Add(this.PnlCuadrodatos);
             this.PnlCuadroGeneral.Location = new System.Drawing.Point(45, 0);
             this.PnlCuadroGeneral.Name = "PnlCuadroGeneral";
@@ -185,7 +161,7 @@
             // TtxLab5
             // 
             this.TtxLab5.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TtxLab5.Location = new System.Drawing.Point(639, 417);
+            this.TtxLab5.Location = new System.Drawing.Point(705, 441);
             this.TtxLab5.Name = "TtxLab5";
             this.TtxLab5.Size = new System.Drawing.Size(59, 23);
             this.TtxLab5.TabIndex = 53;
@@ -193,7 +169,7 @@
             // TtxLab4
             // 
             this.TtxLab4.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TtxLab4.Location = new System.Drawing.Point(639, 377);
+            this.TtxLab4.Location = new System.Drawing.Point(705, 401);
             this.TtxLab4.Name = "TtxLab4";
             this.TtxLab4.Size = new System.Drawing.Size(59, 23);
             this.TtxLab4.TabIndex = 52;
@@ -201,7 +177,7 @@
             // TtxLab3
             // 
             this.TtxLab3.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TtxLab3.Location = new System.Drawing.Point(639, 337);
+            this.TtxLab3.Location = new System.Drawing.Point(705, 361);
             this.TtxLab3.Name = "TtxLab3";
             this.TtxLab3.Size = new System.Drawing.Size(59, 23);
             this.TtxLab3.TabIndex = 51;
@@ -209,7 +185,7 @@
             // TtxLab2
             // 
             this.TtxLab2.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TtxLab2.Location = new System.Drawing.Point(639, 298);
+            this.TtxLab2.Location = new System.Drawing.Point(705, 322);
             this.TtxLab2.Name = "TtxLab2";
             this.TtxLab2.Size = new System.Drawing.Size(58, 23);
             this.TtxLab2.TabIndex = 50;
@@ -217,7 +193,7 @@
             // TtxLab1
             // 
             this.TtxLab1.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TtxLab1.Location = new System.Drawing.Point(639, 260);
+            this.TtxLab1.Location = new System.Drawing.Point(705, 284);
             this.TtxLab1.Name = "TtxLab1";
             this.TtxLab1.Size = new System.Drawing.Size(59, 23);
             this.TtxLab1.TabIndex = 49;
@@ -227,176 +203,162 @@
             this.LblLab.AutoSize = true;
             this.LblLab.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LblLab.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.LblLab.Location = new System.Drawing.Point(636, 222);
+            this.LblLab.Location = new System.Drawing.Point(716, 246);
             this.LblLab.Name = "LblLab";
             this.LblLab.Size = new System.Drawing.Size(30, 17);
             this.LblLab.TabIndex = 48;
             this.LblLab.Text = "LAB";
             // 
-            // TxtEstado5
-            // 
-            this.TxtEstado5.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TxtEstado5.Location = new System.Drawing.Point(1026, 417);
-            this.TxtEstado5.Name = "TxtEstado5";
-            this.TxtEstado5.Size = new System.Drawing.Size(35, 23);
-            this.TxtEstado5.TabIndex = 47;
-            // 
-            // TxtEstado4
-            // 
-            this.TxtEstado4.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TxtEstado4.Location = new System.Drawing.Point(1026, 377);
-            this.TxtEstado4.Name = "TxtEstado4";
-            this.TxtEstado4.Size = new System.Drawing.Size(35, 23);
-            this.TxtEstado4.TabIndex = 46;
-            // 
-            // TxtEstado3
-            // 
-            this.TxtEstado3.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TxtEstado3.Location = new System.Drawing.Point(1026, 337);
-            this.TxtEstado3.Name = "TxtEstado3";
-            this.TxtEstado3.Size = new System.Drawing.Size(35, 23);
-            this.TxtEstado3.TabIndex = 45;
-            // 
-            // TxtEstado2
-            // 
-            this.TxtEstado2.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TxtEstado2.Location = new System.Drawing.Point(1026, 298);
-            this.TxtEstado2.Name = "TxtEstado2";
-            this.TxtEstado2.Size = new System.Drawing.Size(35, 23);
-            this.TxtEstado2.TabIndex = 44;
-            // 
-            // TxtEstado1
-            // 
-            this.TxtEstado1.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TxtEstado1.Location = new System.Drawing.Point(1026, 260);
-            this.TxtEstado1.Name = "TxtEstado1";
-            this.TxtEstado1.Size = new System.Drawing.Size(35, 23);
-            this.TxtEstado1.TabIndex = 43;
-            // 
             // TxtSeccion5
             // 
             this.TxtSeccion5.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TxtSeccion5.Location = new System.Drawing.Point(900, 417);
+            this.TxtSeccion5.Location = new System.Drawing.Point(966, 441);
             this.TxtSeccion5.Name = "TxtSeccion5";
             this.TxtSeccion5.Size = new System.Drawing.Size(35, 23);
             this.TxtSeccion5.TabIndex = 42;
+            this.TxtSeccion5.Text = "A";
+            this.TxtSeccion5.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // TxtSeccion4
             // 
             this.TxtSeccion4.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TxtSeccion4.Location = new System.Drawing.Point(900, 377);
+            this.TxtSeccion4.Location = new System.Drawing.Point(966, 401);
             this.TxtSeccion4.Name = "TxtSeccion4";
             this.TxtSeccion4.Size = new System.Drawing.Size(35, 23);
             this.TxtSeccion4.TabIndex = 41;
+            this.TxtSeccion4.Text = "A";
+            this.TxtSeccion4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // TxtSeccion3
             // 
             this.TxtSeccion3.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TxtSeccion3.Location = new System.Drawing.Point(900, 337);
+            this.TxtSeccion3.Location = new System.Drawing.Point(966, 361);
             this.TxtSeccion3.Name = "TxtSeccion3";
             this.TxtSeccion3.Size = new System.Drawing.Size(35, 23);
             this.TxtSeccion3.TabIndex = 40;
+            this.TxtSeccion3.Text = "A";
+            this.TxtSeccion3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // TxtSeccion2
             // 
             this.TxtSeccion2.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TxtSeccion2.Location = new System.Drawing.Point(900, 298);
+            this.TxtSeccion2.Location = new System.Drawing.Point(966, 322);
             this.TxtSeccion2.Name = "TxtSeccion2";
             this.TxtSeccion2.Size = new System.Drawing.Size(35, 23);
             this.TxtSeccion2.TabIndex = 39;
+            this.TxtSeccion2.Text = "A";
+            this.TxtSeccion2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // TxtSeccion1
             // 
             this.TxtSeccion1.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TxtSeccion1.Location = new System.Drawing.Point(900, 260);
+            this.TxtSeccion1.Location = new System.Drawing.Point(966, 284);
             this.TxtSeccion1.Name = "TxtSeccion1";
             this.TxtSeccion1.Size = new System.Drawing.Size(35, 23);
             this.TxtSeccion1.TabIndex = 38;
+            this.TxtSeccion1.Text = "A";
+            this.TxtSeccion1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // TxtAula5
             // 
             this.TxtAula5.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TxtAula5.Location = new System.Drawing.Point(781, 417);
+            this.TxtAula5.Location = new System.Drawing.Point(847, 441);
             this.TxtAula5.Name = "TxtAula5";
             this.TxtAula5.Size = new System.Drawing.Size(53, 23);
             this.TxtAula5.TabIndex = 37;
+            this.TxtAula5.Text = "T-420";
+            this.TxtAula5.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // TxtAula4
             // 
             this.TxtAula4.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TxtAula4.Location = new System.Drawing.Point(781, 377);
+            this.TxtAula4.Location = new System.Drawing.Point(847, 401);
             this.TxtAula4.Name = "TxtAula4";
             this.TxtAula4.Size = new System.Drawing.Size(53, 23);
             this.TxtAula4.TabIndex = 36;
+            this.TxtAula4.Text = "T-420";
+            this.TxtAula4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // TxtAula3
             // 
             this.TxtAula3.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TxtAula3.Location = new System.Drawing.Point(781, 337);
+            this.TxtAula3.Location = new System.Drawing.Point(847, 361);
             this.TxtAula3.Name = "TxtAula3";
             this.TxtAula3.Size = new System.Drawing.Size(53, 23);
             this.TxtAula3.TabIndex = 35;
+            this.TxtAula3.Text = "T-420";
+            this.TxtAula3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // TxtAula2
             // 
             this.TxtAula2.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TxtAula2.Location = new System.Drawing.Point(781, 298);
+            this.TxtAula2.Location = new System.Drawing.Point(847, 322);
             this.TxtAula2.Name = "TxtAula2";
             this.TxtAula2.Size = new System.Drawing.Size(53, 23);
             this.TxtAula2.TabIndex = 34;
+            this.TxtAula2.Text = "T-420";
+            this.TxtAula2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // TxtAula1
             // 
             this.TxtAula1.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TxtAula1.Location = new System.Drawing.Point(781, 260);
+            this.TxtAula1.Location = new System.Drawing.Point(847, 284);
             this.TxtAula1.Name = "TxtAula1";
             this.TxtAula1.Size = new System.Drawing.Size(53, 23);
             this.TxtAula1.TabIndex = 33;
+            this.TxtAula1.Text = "T-420";
+            this.TxtAula1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // TxtHorario5
             // 
             this.TxtHorario5.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TxtHorario5.Location = new System.Drawing.Point(451, 417);
+            this.TxtHorario5.Location = new System.Drawing.Point(517, 441);
             this.TxtHorario5.Name = "TxtHorario5";
             this.TxtHorario5.Size = new System.Drawing.Size(104, 23);
             this.TxtHorario5.TabIndex = 32;
+            this.TxtHorario5.Text = "L-M-V 10:00-12:05";
             // 
             // TxtHorario4
             // 
             this.TxtHorario4.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TxtHorario4.Location = new System.Drawing.Point(451, 377);
+            this.TxtHorario4.Location = new System.Drawing.Point(517, 401);
             this.TxtHorario4.Name = "TxtHorario4";
             this.TxtHorario4.Size = new System.Drawing.Size(104, 23);
             this.TxtHorario4.TabIndex = 31;
+            this.TxtHorario4.Text = "M-J-V 8:35-10:00";
             // 
             // TxtHorario3
             // 
             this.TxtHorario3.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TxtHorario3.Location = new System.Drawing.Point(451, 337);
+            this.TxtHorario3.Location = new System.Drawing.Point(517, 361);
             this.TxtHorario3.Name = "TxtHorario3";
             this.TxtHorario3.Size = new System.Drawing.Size(104, 23);
             this.TxtHorario3.TabIndex = 30;
+            this.TxtHorario3.Text = "L-M-V 8:35-10:00";
             // 
             // TxtHorario2
             // 
             this.TxtHorario2.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TxtHorario2.Location = new System.Drawing.Point(451, 298);
+            this.TxtHorario2.Location = new System.Drawing.Point(517, 322);
             this.TxtHorario2.Name = "TxtHorario2";
             this.TxtHorario2.Size = new System.Drawing.Size(104, 23);
             this.TxtHorario2.TabIndex = 29;
+            this.TxtHorario2.Text = "M-J-V 7:00-8:30";
             // 
             // TxtHorario1
             // 
             this.TxtHorario1.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TxtHorario1.Location = new System.Drawing.Point(451, 260);
+            this.TxtHorario1.Location = new System.Drawing.Point(517, 284);
             this.TxtHorario1.Name = "TxtHorario1";
             this.TxtHorario1.Size = new System.Drawing.Size(104, 23);
             this.TxtHorario1.TabIndex = 28;
+            this.TxtHorario1.Text = "L-M-V 7:00-8:30";
+            this.TxtHorario1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // TxtNCurso5
             // 
             this.TxtNCurso5.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TxtNCurso5.Location = new System.Drawing.Point(202, 417);
+            this.TxtNCurso5.Location = new System.Drawing.Point(268, 441);
             this.TxtNCurso5.Name = "TxtNCurso5";
             this.TxtNCurso5.Size = new System.Drawing.Size(207, 23);
             this.TxtNCurso5.TabIndex = 27;
@@ -404,7 +366,7 @@
             // TxtNCurso4
             // 
             this.TxtNCurso4.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TxtNCurso4.Location = new System.Drawing.Point(202, 377);
+            this.TxtNCurso4.Location = new System.Drawing.Point(268, 401);
             this.TxtNCurso4.Name = "TxtNCurso4";
             this.TxtNCurso4.Size = new System.Drawing.Size(207, 23);
             this.TxtNCurso4.TabIndex = 26;
@@ -412,7 +374,7 @@
             // TxtNCurso3
             // 
             this.TxtNCurso3.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TxtNCurso3.Location = new System.Drawing.Point(202, 337);
+            this.TxtNCurso3.Location = new System.Drawing.Point(268, 361);
             this.TxtNCurso3.Name = "TxtNCurso3";
             this.TxtNCurso3.Size = new System.Drawing.Size(207, 23);
             this.TxtNCurso3.TabIndex = 25;
@@ -420,7 +382,7 @@
             // TxtNCurso2
             // 
             this.TxtNCurso2.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TxtNCurso2.Location = new System.Drawing.Point(202, 298);
+            this.TxtNCurso2.Location = new System.Drawing.Point(268, 322);
             this.TxtNCurso2.Name = "TxtNCurso2";
             this.TxtNCurso2.Size = new System.Drawing.Size(207, 23);
             this.TxtNCurso2.TabIndex = 24;
@@ -428,7 +390,7 @@
             // TxtNCurso1
             // 
             this.TxtNCurso1.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TxtNCurso1.Location = new System.Drawing.Point(202, 260);
+            this.TxtNCurso1.Location = new System.Drawing.Point(268, 284);
             this.TxtNCurso1.Name = "TxtNCurso1";
             this.TxtNCurso1.Size = new System.Drawing.Size(207, 23);
             this.TxtNCurso1.TabIndex = 23;
@@ -436,7 +398,7 @@
             // TxtCod5
             // 
             this.TxtCod5.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TxtCod5.Location = new System.Drawing.Point(88, 417);
+            this.TxtCod5.Location = new System.Drawing.Point(154, 441);
             this.TxtCod5.Name = "TxtCod5";
             this.TxtCod5.Size = new System.Drawing.Size(77, 23);
             this.TxtCod5.TabIndex = 22;
@@ -444,7 +406,7 @@
             // TxtCod4
             // 
             this.TxtCod4.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TxtCod4.Location = new System.Drawing.Point(88, 377);
+            this.TxtCod4.Location = new System.Drawing.Point(154, 401);
             this.TxtCod4.Name = "TxtCod4";
             this.TxtCod4.Size = new System.Drawing.Size(77, 23);
             this.TxtCod4.TabIndex = 21;
@@ -452,7 +414,7 @@
             // TxtCod3
             // 
             this.TxtCod3.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TxtCod3.Location = new System.Drawing.Point(88, 337);
+            this.TxtCod3.Location = new System.Drawing.Point(154, 361);
             this.TxtCod3.Name = "TxtCod3";
             this.TxtCod3.Size = new System.Drawing.Size(77, 23);
             this.TxtCod3.TabIndex = 20;
@@ -460,7 +422,7 @@
             // TxtCod2
             // 
             this.TxtCod2.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TxtCod2.Location = new System.Drawing.Point(88, 298);
+            this.TxtCod2.Location = new System.Drawing.Point(154, 322);
             this.TxtCod2.Name = "TxtCod2";
             this.TxtCod2.Size = new System.Drawing.Size(77, 23);
             this.TxtCod2.TabIndex = 19;
@@ -468,68 +430,17 @@
             // TxtCod1
             // 
             this.TxtCod1.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TxtCod1.Location = new System.Drawing.Point(88, 260);
+            this.TxtCod1.Location = new System.Drawing.Point(154, 284);
             this.TxtCod1.Name = "TxtCod1";
             this.TxtCod1.Size = new System.Drawing.Size(77, 23);
             this.TxtCod1.TabIndex = 18;
-            // 
-            // TxtFacultad5
-            // 
-            this.TxtFacultad5.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TxtFacultad5.Location = new System.Drawing.Point(27, 417);
-            this.TxtFacultad5.Name = "TxtFacultad5";
-            this.TxtFacultad5.Size = new System.Drawing.Size(35, 23);
-            this.TxtFacultad5.TabIndex = 17;
-            // 
-            // TxtFacultad4
-            // 
-            this.TxtFacultad4.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TxtFacultad4.Location = new System.Drawing.Point(27, 377);
-            this.TxtFacultad4.Name = "TxtFacultad4";
-            this.TxtFacultad4.Size = new System.Drawing.Size(35, 23);
-            this.TxtFacultad4.TabIndex = 16;
-            // 
-            // TxtFacultad3
-            // 
-            this.TxtFacultad3.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TxtFacultad3.Location = new System.Drawing.Point(27, 337);
-            this.TxtFacultad3.Name = "TxtFacultad3";
-            this.TxtFacultad3.Size = new System.Drawing.Size(35, 23);
-            this.TxtFacultad3.TabIndex = 15;
-            // 
-            // TxtFacultad2
-            // 
-            this.TxtFacultad2.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TxtFacultad2.Location = new System.Drawing.Point(26, 298);
-            this.TxtFacultad2.Name = "TxtFacultad2";
-            this.TxtFacultad2.Size = new System.Drawing.Size(35, 23);
-            this.TxtFacultad2.TabIndex = 14;
-            // 
-            // TxtFacultad1
-            // 
-            this.TxtFacultad1.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TxtFacultad1.Location = new System.Drawing.Point(26, 260);
-            this.TxtFacultad1.Name = "TxtFacultad1";
-            this.TxtFacultad1.Size = new System.Drawing.Size(35, 23);
-            this.TxtFacultad1.TabIndex = 13;
-            // 
-            // LblEstado
-            // 
-            this.LblEstado.AutoSize = true;
-            this.LblEstado.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LblEstado.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.LblEstado.Location = new System.Drawing.Point(1023, 222);
-            this.LblEstado.Name = "LblEstado";
-            this.LblEstado.Size = new System.Drawing.Size(56, 17);
-            this.LblEstado.TabIndex = 7;
-            this.LblEstado.Text = "ESTADO";
             // 
             // LblSeccion
             // 
             this.LblSeccion.AutoSize = true;
             this.LblSeccion.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LblSeccion.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.LblSeccion.Location = new System.Drawing.Point(897, 222);
+            this.LblSeccion.Location = new System.Drawing.Point(952, 246);
             this.LblSeccion.Name = "LblSeccion";
             this.LblSeccion.Size = new System.Drawing.Size(67, 17);
             this.LblSeccion.TabIndex = 6;
@@ -540,7 +451,7 @@
             this.LblAula.AutoSize = true;
             this.LblAula.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LblAula.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.LblAula.Location = new System.Drawing.Point(778, 222);
+            this.LblAula.Location = new System.Drawing.Point(844, 246);
             this.LblAula.Name = "LblAula";
             this.LblAula.Size = new System.Drawing.Size(40, 17);
             this.LblAula.TabIndex = 5;
@@ -551,7 +462,7 @@
             this.Lblhorario.AutoSize = true;
             this.Lblhorario.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Lblhorario.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.Lblhorario.Location = new System.Drawing.Point(448, 222);
+            this.Lblhorario.Location = new System.Drawing.Point(539, 246);
             this.Lblhorario.Name = "Lblhorario";
             this.Lblhorario.Size = new System.Drawing.Size(67, 17);
             this.Lblhorario.TabIndex = 4;
@@ -562,7 +473,7 @@
             this.LblNcurso.AutoSize = true;
             this.LblNcurso.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LblNcurso.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.LblNcurso.Location = new System.Drawing.Point(199, 222);
+            this.LblNcurso.Location = new System.Drawing.Point(300, 246);
             this.LblNcurso.Name = "LblNcurso";
             this.LblNcurso.Size = new System.Drawing.Size(137, 17);
             this.LblNcurso.TabIndex = 3;
@@ -573,22 +484,11 @@
             this.label14.AutoSize = true;
             this.label14.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label14.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.label14.Location = new System.Drawing.Point(85, 222);
+            this.label14.Location = new System.Drawing.Point(172, 246);
             this.label14.Name = "label14";
             this.label14.Size = new System.Drawing.Size(44, 17);
             this.label14.TabIndex = 2;
             this.label14.Text = "COD.";
-            // 
-            // LblFac
-            // 
-            this.LblFac.AutoSize = true;
-            this.LblFac.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LblFac.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.LblFac.Location = new System.Drawing.Point(24, 222);
-            this.LblFac.Name = "LblFac";
-            this.LblFac.Size = new System.Drawing.Size(38, 17);
-            this.LblFac.TabIndex = 1;
-            this.LblFac.Text = "FAC.";
             // 
             // PnlCuadrodatos
             // 
@@ -877,13 +777,11 @@
 
         private System.Windows.Forms.Panel PnlCuadroGeneral;
         private System.Windows.Forms.Panel PnlCuadrodatos;
-        private System.Windows.Forms.Label LblEstado;
         private System.Windows.Forms.Label LblSeccion;
         private System.Windows.Forms.Label LblAula;
         private System.Windows.Forms.Label Lblhorario;
         private System.Windows.Forms.Label LblNcurso;
         private System.Windows.Forms.Label label14;
-        private System.Windows.Forms.Label LblFac;
         private System.Windows.Forms.Label LblTitulo;
         private System.Windows.Forms.Label LblLab;
         private System.Windows.Forms.Button button1;
@@ -929,21 +827,11 @@
         public System.Windows.Forms.TextBox TxtCod3;
         public System.Windows.Forms.TextBox TxtCod2;
         public System.Windows.Forms.TextBox TxtCod1;
-        public System.Windows.Forms.TextBox TxtFacultad5;
-        public System.Windows.Forms.TextBox TxtFacultad4;
-        public System.Windows.Forms.TextBox TxtFacultad3;
-        public System.Windows.Forms.TextBox TxtFacultad2;
-        public System.Windows.Forms.TextBox TxtFacultad1;
         public System.Windows.Forms.TextBox TtxLab5;
         public System.Windows.Forms.TextBox TtxLab4;
         public System.Windows.Forms.TextBox TtxLab3;
         public System.Windows.Forms.TextBox TtxLab2;
         public System.Windows.Forms.TextBox TtxLab1;
-        public System.Windows.Forms.TextBox TxtEstado5;
-        public System.Windows.Forms.TextBox TxtEstado4;
-        public System.Windows.Forms.TextBox TxtEstado3;
-        public System.Windows.Forms.TextBox TxtEstado2;
-        public System.Windows.Forms.TextBox TxtEstado1;
         public System.Windows.Forms.TextBox TxtSeccion5;
         public System.Windows.Forms.TextBox TxtSeccion4;
         public System.Windows.Forms.TextBox TxtSeccion3;

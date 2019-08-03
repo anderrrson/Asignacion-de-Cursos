@@ -49,16 +49,11 @@
             this.LblCodigocur4 = new System.Windows.Forms.Label();
             this.LblCodigocur3 = new System.Windows.Forms.Label();
             this.LblCodigocur2 = new System.Windows.Forms.Label();
-            this.GpbCursosadicionales = new System.Windows.Forms.GroupBox();
-            this.PnlLinea7 = new System.Windows.Forms.Panel();
-            this.TxtCodigoadicional = new System.Windows.Forms.TextBox();
-            this.LblCodigocuradicional = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
             this.DtaAsignacion = new System.Windows.Forms.DataGridView();
             this.BtnVisualizar = new System.Windows.Forms.Button();
             this.DtaCursos = new System.Windows.Forms.DataGridView();
             this.GpnIngresocursos.SuspendLayout();
-            this.GpbCursosadicionales.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.DtaAsignacion)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.DtaCursos)).BeginInit();
             this.SuspendLayout();
@@ -68,7 +63,7 @@
             this.LblAsignaciones.AutoSize = true;
             this.LblAsignaciones.Font = new System.Drawing.Font("Century Gothic", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LblAsignaciones.ForeColor = System.Drawing.Color.White;
-            this.LblAsignaciones.Location = new System.Drawing.Point(55, 40);
+            this.LblAsignaciones.Location = new System.Drawing.Point(67, 73);
             this.LblAsignaciones.Name = "LblAsignaciones";
             this.LblAsignaciones.Size = new System.Drawing.Size(214, 33);
             this.LblAsignaciones.TabIndex = 0;
@@ -80,7 +75,7 @@
             this.LblNcarnet.AutoSize = true;
             this.LblNcarnet.Font = new System.Drawing.Font("Century Gothic", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LblNcarnet.ForeColor = System.Drawing.Color.White;
-            this.LblNcarnet.Location = new System.Drawing.Point(69, 117);
+            this.LblNcarnet.Location = new System.Drawing.Point(69, 186);
             this.LblNcarnet.Name = "LblNcarnet";
             this.LblNcarnet.Size = new System.Drawing.Size(107, 21);
             this.LblNcarnet.TabIndex = 1;
@@ -93,7 +88,7 @@
             this.TxtNcarnet.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.TxtNcarnet.Font = new System.Drawing.Font("Century Gothic", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.TxtNcarnet.ForeColor = System.Drawing.Color.White;
-            this.TxtNcarnet.Location = new System.Drawing.Point(197, 117);
+            this.TxtNcarnet.Location = new System.Drawing.Point(197, 186);
             this.TxtNcarnet.Name = "TxtNcarnet";
             this.TxtNcarnet.Size = new System.Drawing.Size(239, 21);
             this.TxtNcarnet.TabIndex = 2;
@@ -103,7 +98,7 @@
             // PnlLinea1
             // 
             this.PnlLinea1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(55)))), ((int)(((byte)(35)))));
-            this.PnlLinea1.Location = new System.Drawing.Point(182, 137);
+            this.PnlLinea1.Location = new System.Drawing.Point(182, 206);
             this.PnlLinea1.Name = "PnlLinea1";
             this.PnlLinea1.Size = new System.Drawing.Size(257, 1);
             this.PnlLinea1.TabIndex = 3;
@@ -139,7 +134,7 @@
             this.GpnIngresocursos.Controls.Add(this.LblCodigoCur1);
             this.GpnIngresocursos.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.GpnIngresocursos.ForeColor = System.Drawing.Color.White;
-            this.GpnIngresocursos.Location = new System.Drawing.Point(73, 166);
+            this.GpnIngresocursos.Location = new System.Drawing.Point(73, 235);
             this.GpnIngresocursos.Name = "GpnIngresocursos";
             this.GpnIngresocursos.Size = new System.Drawing.Size(378, 220);
             this.GpnIngresocursos.TabIndex = 5;
@@ -291,52 +286,6 @@
             this.LblCodigocur2.TabIndex = 5;
             this.LblCodigocur2.Text = "CÓDIGO";
             // 
-            // GpbCursosadicionales
-            // 
-            this.GpbCursosadicionales.Controls.Add(this.PnlLinea7);
-            this.GpbCursosadicionales.Controls.Add(this.TxtCodigoadicional);
-            this.GpbCursosadicionales.Controls.Add(this.LblCodigocuradicional);
-            this.GpbCursosadicionales.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.GpbCursosadicionales.ForeColor = System.Drawing.Color.White;
-            this.GpbCursosadicionales.Location = new System.Drawing.Point(73, 404);
-            this.GpbCursosadicionales.Name = "GpbCursosadicionales";
-            this.GpbCursosadicionales.Size = new System.Drawing.Size(378, 159);
-            this.GpbCursosadicionales.TabIndex = 14;
-            this.GpbCursosadicionales.TabStop = false;
-            this.GpbCursosadicionales.Text = "INGRESE  LOS CURSOS ADICIONALES";
-            this.GpbCursosadicionales.Enter += new System.EventHandler(this.GpbCursosadicionales_Enter);
-            // 
-            // PnlLinea7
-            // 
-            this.PnlLinea7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(55)))), ((int)(((byte)(35)))));
-            this.PnlLinea7.Location = new System.Drawing.Point(121, 93);
-            this.PnlLinea7.Name = "PnlLinea7";
-            this.PnlLinea7.Size = new System.Drawing.Size(170, 1);
-            this.PnlLinea7.TabIndex = 4;
-            // 
-            // TxtCodigoadicional
-            // 
-            this.TxtCodigoadicional.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(31)))), ((int)(((byte)(58)))));
-            this.TxtCodigoadicional.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.TxtCodigoadicional.Font = new System.Drawing.Font("Century Gothic", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TxtCodigoadicional.ForeColor = System.Drawing.Color.White;
-            this.TxtCodigoadicional.Location = new System.Drawing.Point(121, 70);
-            this.TxtCodigoadicional.Name = "TxtCodigoadicional";
-            this.TxtCodigoadicional.Size = new System.Drawing.Size(170, 21);
-            this.TxtCodigoadicional.TabIndex = 9;
-            this.TxtCodigoadicional.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // LblCodigocuradicional
-            // 
-            this.LblCodigocuradicional.AutoSize = true;
-            this.LblCodigocuradicional.Font = new System.Drawing.Font("Century Gothic", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LblCodigocuradicional.ForeColor = System.Drawing.Color.White;
-            this.LblCodigocuradicional.Location = new System.Drawing.Point(28, 73);
-            this.LblCodigocuradicional.Name = "LblCodigocuradicional";
-            this.LblCodigocuradicional.Size = new System.Drawing.Size(87, 21);
-            this.LblCodigocuradicional.TabIndex = 4;
-            this.LblCodigocuradicional.Text = "CÓDIGO";
-            // 
             // button1
             // 
             this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(14)))), ((int)(((byte)(18)))), ((int)(((byte)(34)))));
@@ -346,7 +295,7 @@
             this.button1.ForeColor = System.Drawing.Color.White;
             this.button1.Image = ((System.Drawing.Image)(resources.GetObject("button1.Image")));
             this.button1.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.button1.Location = new System.Drawing.Point(1131, 12);
+            this.button1.Location = new System.Drawing.Point(1141, 32);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(102, 74);
             this.button1.TabIndex = 31;
@@ -359,7 +308,7 @@
             // 
             this.DtaAsignacion.AllowUserToOrderColumns = true;
             this.DtaAsignacion.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.DtaAsignacion.Location = new System.Drawing.Point(546, 193);
+            this.DtaAsignacion.Location = new System.Drawing.Point(536, 167);
             this.DtaAsignacion.Name = "DtaAsignacion";
             this.DtaAsignacion.Size = new System.Drawing.Size(669, 69);
             this.DtaAsignacion.TabIndex = 33;
@@ -374,7 +323,7 @@
             this.BtnVisualizar.ForeColor = System.Drawing.Color.White;
             this.BtnVisualizar.Image = ((System.Drawing.Image)(resources.GetObject("BtnVisualizar.Image")));
             this.BtnVisualizar.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.BtnVisualizar.Location = new System.Drawing.Point(1032, 12);
+            this.BtnVisualizar.Location = new System.Drawing.Point(1042, 32);
             this.BtnVisualizar.Name = "BtnVisualizar";
             this.BtnVisualizar.Size = new System.Drawing.Size(102, 74);
             this.BtnVisualizar.TabIndex = 34;
@@ -387,7 +336,7 @@
             // 
             this.DtaCursos.AllowUserToOrderColumns = true;
             this.DtaCursos.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.DtaCursos.Location = new System.Drawing.Point(656, 297);
+            this.DtaCursos.Location = new System.Drawing.Point(646, 271);
             this.DtaCursos.Name = "DtaCursos";
             this.DtaCursos.Size = new System.Drawing.Size(448, 198);
             this.DtaCursos.TabIndex = 35;
@@ -403,7 +352,6 @@
             this.Controls.Add(this.BtnVisualizar);
             this.Controls.Add(this.DtaAsignacion);
             this.Controls.Add(this.button1);
-            this.Controls.Add(this.GpbCursosadicionales);
             this.Controls.Add(this.GpnIngresocursos);
             this.Controls.Add(this.PnlLinea1);
             this.Controls.Add(this.TxtNcarnet);
@@ -416,8 +364,6 @@
             this.Load += new System.EventHandler(this.FmAsignacion_Load);
             this.GpnIngresocursos.ResumeLayout(false);
             this.GpnIngresocursos.PerformLayout();
-            this.GpbCursosadicionales.ResumeLayout(false);
-            this.GpbCursosadicionales.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.DtaAsignacion)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.DtaCursos)).EndInit();
             this.ResumeLayout(false);
@@ -432,7 +378,6 @@
         private System.Windows.Forms.TextBox TxtNcarnet;
         private System.Windows.Forms.Panel PnlLinea1;
         private System.Windows.Forms.GroupBox GpnIngresocursos;
-        private System.Windows.Forms.GroupBox GpbCursosadicionales;
         private System.Windows.Forms.Button button1;
         public System.Windows.Forms.DataGridView DtaAsignacion;
         private System.Windows.Forms.Button BtnVisualizar;
@@ -452,8 +397,5 @@
         public System.Windows.Forms.Label LblCodigocur4;
         public System.Windows.Forms.Label LblCodigocur3;
         public System.Windows.Forms.Label LblCodigocur2;
-        public System.Windows.Forms.Panel PnlLinea7;
-        public System.Windows.Forms.TextBox TxtCodigoadicional;
-        public System.Windows.Forms.Label LblCodigocuradicional;
     }
 }

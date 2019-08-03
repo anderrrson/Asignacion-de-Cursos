@@ -167,6 +167,9 @@
             this.TxtNombre = new System.Windows.Forms.TextBox();
             this.LblNombre = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
+            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.textBox4 = new System.Windows.Forms.TextBox();
             this.panel1.SuspendLayout();
             this.PnlCuadro5.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.PicBI)).BeginInit();
@@ -209,6 +212,8 @@
             // PnlCuadro5
             // 
             this.PnlCuadro5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.PnlCuadro5.Controls.Add(this.textBox4);
+            this.PnlCuadro5.Controls.Add(this.textBox3);
             this.PnlCuadro5.Controls.Add(this.TxtTotal);
             this.PnlCuadro5.Controls.Add(this.LblTotal);
             this.PnlCuadro5.Controls.Add(this.LblEfectivo);
@@ -241,6 +246,8 @@
             this.TxtTotal.Name = "TxtTotal";
             this.TxtTotal.Size = new System.Drawing.Size(165, 21);
             this.TxtTotal.TabIndex = 17;
+            this.TxtTotal.Text = "Q 980.00";
+            this.TxtTotal.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // LblTotal
             // 
@@ -324,7 +331,7 @@
             this.TxtNCompleto.Font = new System.Drawing.Font("Century Gothic", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.TxtNCompleto.Location = new System.Drawing.Point(147, 801);
             this.TxtNCompleto.Name = "TxtNCompleto";
-            this.TxtNCompleto.Size = new System.Drawing.Size(235, 21);
+            this.TxtNCompleto.Size = new System.Drawing.Size(332, 21);
             this.TxtNCompleto.TabIndex = 9;
             // 
             // LblNcompleto
@@ -1509,6 +1516,7 @@
             // 
             // PnlCuadro2
             // 
+            this.PnlCuadro2.Controls.Add(this.textBox2);
             this.PnlCuadro2.Controls.Add(this.LblInstrucc);
             this.PnlCuadro2.Controls.Add(this.TxtInscrip);
             this.PnlCuadro2.Controls.Add(this.LblInscrip);
@@ -1540,6 +1548,8 @@
             this.TxtInscrip.Name = "TxtInscrip";
             this.TxtInscrip.Size = new System.Drawing.Size(289, 21);
             this.TxtInscrip.TabIndex = 17;
+            this.TxtInscrip.Text = "Q 980.00";
+            this.TxtInscrip.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // LblInscrip
             // 
@@ -1557,10 +1567,12 @@
             this.TxtCarrera.BackColor = System.Drawing.Color.White;
             this.TxtCarrera.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.TxtCarrera.Font = new System.Drawing.Font("Century Gothic", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TxtCarrera.Location = new System.Drawing.Point(115, 60);
+            this.TxtCarrera.Location = new System.Drawing.Point(138, 60);
             this.TxtCarrera.Name = "TxtCarrera";
-            this.TxtCarrera.Size = new System.Drawing.Size(312, 21);
+            this.TxtCarrera.Size = new System.Drawing.Size(289, 21);
             this.TxtCarrera.TabIndex = 15;
+            this.TxtCarrera.Text = "INGENIERIA EN SISTEMAS";
+            this.TxtCarrera.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // LblCarrera
             // 
@@ -1721,6 +1733,38 @@
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.Button1_Click);
             // 
+            // textBox2
+            // 
+            this.textBox2.BackColor = System.Drawing.Color.White;
+            this.textBox2.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox2.Font = new System.Drawing.Font("Century Gothic", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox2.Location = new System.Drawing.Point(138, 190);
+            this.textBox2.Multiline = true;
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(289, 62);
+            this.textBox2.TabIndex = 19;
+            this.textBox2.Text = "DEBERA PAGAR ESTA BOLETA PARA PODER ASIGNARSE SUS CURSOS";
+            // 
+            // textBox3
+            // 
+            this.textBox3.BackColor = System.Drawing.Color.White;
+            this.textBox3.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox3.Font = new System.Drawing.Font("Century Gothic", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox3.Location = new System.Drawing.Point(625, 720);
+            this.textBox3.Name = "textBox3";
+            this.textBox3.Size = new System.Drawing.Size(165, 21);
+            this.textBox3.TabIndex = 18;
+            // 
+            // textBox4
+            // 
+            this.textBox4.BackColor = System.Drawing.Color.White;
+            this.textBox4.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox4.Font = new System.Drawing.Font("Century Gothic", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox4.Location = new System.Drawing.Point(624, 762);
+            this.textBox4.Name = "textBox4";
+            this.textBox4.Size = new System.Drawing.Size(165, 21);
+            this.textBox4.TabIndex = 19;
+            // 
             // FmBoletaInscripcion
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -1840,9 +1884,7 @@
         private System.Windows.Forms.Label LblCheque;
         private System.Windows.Forms.TextBox TxtFecha;
         private System.Windows.Forms.Label LblFecha;
-        private System.Windows.Forms.TextBox TxtCarne1;
         private System.Windows.Forms.Label LblCarne2;
-        private System.Windows.Forms.TextBox TxtNCompleto;
         private System.Windows.Forms.Label LblNcompleto;
         private System.Windows.Forms.CheckBox ChkBam;
         private System.Windows.Forms.CheckBox ChkGyt;
@@ -1905,5 +1947,10 @@
         public System.Windows.Forms.Panel PnlCuadro2;
         public System.Windows.Forms.TextBox TxtInscrip;
         public System.Windows.Forms.TextBox TxtCarrera;
+        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.TextBox textBox3;
+        public System.Windows.Forms.TextBox textBox2;
+        public System.Windows.Forms.TextBox TxtCarne1;
+        public System.Windows.Forms.TextBox TxtNCompleto;
     }
 }

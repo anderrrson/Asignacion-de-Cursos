@@ -31,8 +31,7 @@ namespace ADMINISTRADORES
 
         private void Button1_Click(object sender, EventArgs e)
         {
-            FmEdificio i = new FmEdificio();
-            i.ShowDialog();
+            
         }
 
         private void ListBox1_SelectedIndexChanged(object sender, EventArgs e)
@@ -46,16 +45,25 @@ namespace ADMINISTRADORES
             DataSet dataSet;
             ConexionBD conexion = new ConexionBD();
             MySqlCommand command = new MySqlCommand();
-            command.CommandText = "SELECT * FROM Edificio WHERE Edificio.cNombre =?nombre";
-            command.Parameters.AddWithValue("?nombre", LstNombre.Text);
+            command.CommandText = "SELECT * FROM Edificio WHERE Edificio.iIdEdificio =?ID";
+            command.Parameters.AddWithValue("?ID", TxtNumero.Text);
             command.CommandType = CommandType.Text;
             command.Connection = conexion.Conectar();
             dataAdapter = new MySqlDataAdapter(command);
             dataSet = new DataSet();
-            dataAdapter.Fill(dataSet, "Estudiantes");
+            dataAdapter.Fill(dataSet, "Edificio");
             DtaEdificio.DataSource = dataSet;
-            DtaEdificio.DataMember = "Estudiantes";
+            DtaEdificio.DataMember = "Edificio";
             conexion.Desconectar();
+        }
+
+        private void DtaEdificio_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+            TxtNumero.Text = DtaEdificio.Rows[0].Cells[0].Value.ToString();
+            TxtNombre.Text = DtaEdificio.Rows[0].Cells[1].Value.ToString();
+            TxtSalon.Text = DtaEdificio.Rows[0].Cells[2].Value.ToString();
+            TxtFacultad.Text = DtaEdificio.Rows[0].Cells[3].Value.ToString();
+            
         }
     }
 }
