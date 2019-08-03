@@ -34,11 +34,8 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.LblTitulo = new System.Windows.Forms.Label();
             this.PnlBarraInf = new System.Windows.Forms.Panel();
-<<<<<<< HEAD
-=======
             this.pictureBox6 = new System.Windows.Forms.PictureBox();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
->>>>>>> master
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.LblFecha = new System.Windows.Forms.Label();
             this.LblHora = new System.Windows.Forms.Label();
@@ -49,11 +46,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.PnlBarraInf.SuspendLayout();
-<<<<<<< HEAD
-=======
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
->>>>>>> master
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             this.SuspendLayout();
             // 
@@ -123,6 +117,8 @@
             // PnlBarraInf
             // 
             this.PnlBarraInf.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(14)))), ((int)(((byte)(18)))), ((int)(((byte)(34)))));
+            this.PnlBarraInf.Controls.Add(this.pictureBox6);
+            this.PnlBarraInf.Controls.Add(this.pictureBox5);
             this.PnlBarraInf.Controls.Add(this.pictureBox3);
             this.PnlBarraInf.Controls.Add(this.LblFecha);
             this.PnlBarraInf.Controls.Add(this.LblHora);
@@ -133,8 +129,6 @@
             this.PnlBarraInf.Size = new System.Drawing.Size(1300, 39);
             this.PnlBarraInf.TabIndex = 15;
             // 
-<<<<<<< HEAD
-=======
             // pictureBox6
             // 
             this.pictureBox6.Image = global::ADMINISTRADORES.Properties.Resources.clock_circular_outline;
@@ -157,7 +151,6 @@
             this.pictureBox5.TabIndex = 27;
             this.pictureBox5.TabStop = false;
             // 
->>>>>>> master
             // pictureBox3
             // 
             this.pictureBox3.Image = global::ADMINISTRADORES.Properties.Resources.user;
@@ -173,12 +166,7 @@
             this.LblFecha.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.LblFecha.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LblFecha.ForeColor = System.Drawing.Color.White;
-<<<<<<< HEAD
-            this.LblFecha.Location = new System.Drawing.Point(1375, 10);
-            this.LblFecha.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-=======
             this.LblFecha.Location = new System.Drawing.Point(985, 8);
->>>>>>> master
             this.LblFecha.Name = "LblFecha";
             this.LblFecha.Size = new System.Drawing.Size(119, 23);
             this.LblFecha.TabIndex = 17;
@@ -235,11 +223,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.PnlBarraInf.ResumeLayout(false);
-<<<<<<< HEAD
-=======
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
->>>>>>> master
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             this.ResumeLayout(false);
 
@@ -257,15 +242,11 @@
         private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.Panel PnlEscritorio;
         private System.Windows.Forms.PictureBox pictureBox4;
-<<<<<<< HEAD
-        private System.Windows.Forms.Label LblUsuario;
-=======
 
         private System.Windows.Forms.PictureBox pictureBox5;
         private System.Windows.Forms.PictureBox pictureBox6;
 
         private System.Windows.Forms.Label LblUsuario;
 
->>>>>>> master
     }
 }

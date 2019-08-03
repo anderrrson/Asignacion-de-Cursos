@@ -11,7 +11,6 @@ using MySql.Data.MySqlClient;
 
 namespace ADMINISTRADORES
 {
-
     public class Bitacora
     {
         private int bitacora, idUsuarioLogin, conteo;
@@ -30,11 +29,6 @@ namespace ADMINISTRADORES
 
         public void EjecutarBitacora()
         {
-
-
-
-            mySqlCommand.Connection = conexionBD.Conectar();
-
             mySqlCommand.CommandText = "SELECT COUNT(*)+1 AS id FROM Bitacora";
             mySqlCommand.Connection = conexionBD.Conectar();
 
@@ -60,11 +54,6 @@ namespace ADMINISTRADORES
             mySqlCommand.Parameters.AddWithValue("?iIdUsuarios", idUsuarioLogin);
             mySqlCommand.ExecuteNonQuery();
             conexionBD.Desconectar();
-            /*MessageBox.Show("" + fecha_ingreso);
-            MessageBox.Show("" + fecha_cierre);
-            MessageBox.Show("" + ObtenerIp());
-            MessageBox.Show("" + ObtenerMac());
-            MessageBox.Show("" + ObtenerNombrePc());*/
         }
 
         // -----Obtener Nombre PC------------
@@ -73,7 +62,6 @@ namespace ADMINISTRADORES
             String nombrepc = System.Environment.MachineName;
             return nombrepc;
         }
-
 
         //-----Obtener IP------
         public String ObtenerIp()

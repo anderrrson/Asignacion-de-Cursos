@@ -28,7 +28,9 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FmHorario));
             this.TxtCarnet = new System.Windows.Forms.TextBox();
             this.PnlSeparador1 = new System.Windows.Forms.Panel();
@@ -54,6 +56,7 @@
             this.TxtCarnet.Size = new System.Drawing.Size(180, 26);
             this.TxtCarnet.TabIndex = 0;
             this.TxtCarnet.TextChanged += new System.EventHandler(this.TextBox1_TextChanged);
+            this.TxtCarnet.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.TxtCarnet_KeyPress);
             // 
             // PnlSeparador1
             // 
@@ -68,7 +71,7 @@
             // 
             this.PnlSeparador2.BackColor = System.Drawing.Color.Red;
             this.PnlSeparador2.ForeColor = System.Drawing.Color.Red;
-            this.PnlSeparador2.Location = new System.Drawing.Point(21, 156);
+            this.PnlSeparador2.Location = new System.Drawing.Point(21, 160);
             this.PnlSeparador2.Name = "PnlSeparador2";
             this.PnlSeparador2.Size = new System.Drawing.Size(1260, 1);
             this.PnlSeparador2.TabIndex = 2;
@@ -76,6 +79,7 @@
             // CboSemestre
             // 
             this.CboSemestre.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(31)))), ((int)(((byte)(58)))));
+            this.CboSemestre.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.CboSemestre.Font = new System.Drawing.Font("Century Gothic", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.CboSemestre.ForeColor = System.Drawing.Color.White;
             this.CboSemestre.FormattingEnabled = true;
@@ -122,21 +126,38 @@
             // 
             // DgvHorario
             // 
+            this.DgvHorario.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.AllCells;
+            this.DgvHorario.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.AllCells;
             this.DgvHorario.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(31)))), ((int)(((byte)(58)))));
             this.DgvHorario.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(14)))), ((int)(((byte)(18)))), ((int)(((byte)(34)))));
-            dataGridViewCellStyle1.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle1.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.DgvHorario.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
+            this.DgvHorario.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
+            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(14)))), ((int)(((byte)(18)))), ((int)(((byte)(34)))));
+            dataGridViewCellStyle4.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle4.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle4.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle4.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.DgvHorario.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle4;
             this.DgvHorario.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.DgvHorario.EditMode = System.Windows.Forms.DataGridViewEditMode.EditProgrammatically;
-            this.DgvHorario.GridColor = System.Drawing.Color.Black;
+            this.DgvHorario.EnableHeadersVisualStyles = false;
+            this.DgvHorario.GridColor = System.Drawing.Color.White;
             this.DgvHorario.Location = new System.Drawing.Point(38, 190);
             this.DgvHorario.Name = "DgvHorario";
+            this.DgvHorario.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
+            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(14)))), ((int)(((byte)(18)))), ((int)(((byte)(34)))));
+            dataGridViewCellStyle5.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle5.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle5.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle5.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.DgvHorario.RowHeadersDefaultCellStyle = dataGridViewCellStyle5;
+            dataGridViewCellStyle6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(31)))), ((int)(((byte)(58)))));
+            dataGridViewCellStyle6.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle6.ForeColor = System.Drawing.Color.White;
+            this.DgvHorario.RowsDefaultCellStyle = dataGridViewCellStyle6;
             this.DgvHorario.Size = new System.Drawing.Size(1220, 249);
             this.DgvHorario.TabIndex = 8;
             // 
