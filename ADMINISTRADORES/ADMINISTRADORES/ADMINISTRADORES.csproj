@@ -49,6 +49,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ConexionBD.cs" />
+    <Compile Include="ConsultarHorarioEstudiante.cs" />
+    <Compile Include="ConsultarNotasEstudiante.cs" />
     <Compile Include="FmAdmin.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -367,6 +369,15 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\error.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cal%281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\clock-circular-outline.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

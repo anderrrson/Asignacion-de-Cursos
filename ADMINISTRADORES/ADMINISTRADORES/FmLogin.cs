@@ -57,25 +57,26 @@ namespace ADMINISTRADORES
 
         private void BtnIniciarSesion_Click(object sender, EventArgs e)
         {
-                    //Validacion Campos Vacios 
-                    if ((TxtUsuario.Text == "Usuario") || (TxtContraseña.Text == "Contraseña") || (CboTiposUsuarios.Text == "Seleccione una opción...")) {
+            //Validacion Campos Vacios 
+            if ((TxtUsuario.Text == "Usuario") || (TxtContraseña.Text == "Contraseña") || (CboTiposUsuarios.Text == "Seleccione una opción..."))
+            {
 
-                    msgError("Existe un campo vacio ");
+                msgError("Existe un campo vacio ");
 
-                    } else {
-                        msgAceptacion("");
-                        
-                        //CONEXION BASE DE DATOS
-                        MySqlConnection Conexion;
-                        ConexionBD conexionBD = new ConexionBD();
+            }
+            else
+            {
+                msgAceptacion("");
 
-                        try
-                        {
-                            Conexion = conexionBD.Conectar();// Se inica la conexion 
+                //CONEXION BASE DE DATOS
+                MySqlConnection Conexion;
+                ConexionBD conexionBD = new ConexionBD();
 
-                    /*
-                     * Entre estas dos funciones van los select para consultar
-                     */
+                try
+                {
+                    Conexion = conexionBD.Conectar();// Se inica la conexion 
+
+                   
                     switch (CboTiposUsuarios.SelectedIndex)
                     {
                         case 0:
@@ -101,14 +102,13 @@ namespace ADMINISTRADORES
                     }
 
                     Conexion = conexionBD.Desconectar(); // Finaliza la conexion
-                        }
-                        catch
-                        {
-                            MessageBox.Show("Error", "MYSQL", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
-                        }
+                }
+                catch
+                {
+                    MessageBox.Show("Error", "MYSQL", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                }
 
-                        
-                    }
+            }
         }
 
 

@@ -163,6 +163,26 @@ namespace ADMINISTRADORES.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Cal {
+            get {
+                object obj = ResourceManager.GetObject("Cal", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Cal_1_ {
+            get {
+                object obj = ResourceManager.GetObject("Cal(1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap calendar {
             get {
                 object obj = ResourceManager.GetObject("calendar", resourceCulture);
@@ -256,6 +276,16 @@ namespace ADMINISTRADORES.Properties {
         internal static System.Drawing.Bitmap Checkmark_52px {
             get {
                 object obj = ResourceManager.GetObject("Checkmark_52px", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap clock_circular_outline {
+            get {
+                object obj = ResourceManager.GetObject("clock-circular-outline", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

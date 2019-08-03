@@ -35,42 +35,30 @@ namespace ADMINISTRADORES
 
         private void Button1_Click(object sender, EventArgs e)
         {
-            /*DataTable tabla = new DataTable();
-            tabla.Columns.Add("Codigo");
-            tabla.Columns.Add("Curso");
-            tabla.Columns.Add("Horario");
-            tabla.Columns.Add("Seccion");
-            tabla.Columns.Add("Salon");
+            ConsultarHorarioEstudiante consultarHorarioEstudiante = new ConsultarHorarioEstudiante(DgvHorario, TxtCarnet);
+            consultarHorarioEstudiante.ObtenerHorario();
+            /*
+             *SELECT iIdAsignacion AS ID, 
+                cDescripcion AS Descripcion, 
+        (SELECT cNombre FROM Curso WHERE Curso.iIdCurso = AsignacionDetalle.iIdCurso) AS Curso,
+        concat((SELECT cHoraInicio FROM Horario WHERE Horario.iIdHorario = AsignacionDetalle.iIdHorario),"-",(SELECT cHoraFinal FROM Horario WHERE Horario.iIdHorario = AsignacionDetalle.iIdHorario)) AS Horario,
+        (SELECT cDescripcion FROM Seccion WHERE Seccion.iIdSeccion = AsignacionDetalle.iIdSeccion) AS Seccion,
+        (SELECT cDescripcion FROM Laboratorio WHERE Laboratorio.iIdLaboratorio = AsignacionDetalle.iIdLaboratorio) AS Lab,
+        (SELECT cDescripcion FROM Semestre WHERE Semestre.iIdSemestre = AsignacionDetalle.iIdSemestre) AS Semestre
+        FROM AsignacionDetalle WHERE AsignacionDetalle.iIdAsignacion = 
+        (SELECT Asignacion.idAsignacion FROM Asignacion WHERE Asignacion.iIdEstudiantes = 1);
+             */
 
-            tabla.Rows.Add("001", "Analisis de Sistemas II", "07:00-08:35", "A", "T-410");
-            tabla.Rows.Add("002", "Etica Profesional", "07:00-08:35", "A", "T-410");
-            tabla.Rows.Add("003", "Redes I", "08:35-10:05", "A", "T-410");
-            tabla.Rows.Add("004", "Desarrollo Web", "08:35-10:00", "A", "T-410");
-            tabla.Rows.Add("005", "Arquitectura de Computadoras II", "10:35-12:05", "A", "T-410");
+        }
 
-            DgvHorario.DataSource = tabla;
-            DgvHorario.Columns[0].Width = 100;
-            DgvHorario.Columns[1].Width = 358;
-            DgvHorario.Columns[2].Width = 100;
-            DgvHorario.Columns[3].Width = 50;
-            DgvHorario.Columns[4].Width = 50;*/
-
-            MySqlDataAdapter dataAdapter;
-            DataSet dataSet;
-            ConexionBD conexion = new ConexionBD();
-            MySqlCommand command = new MySqlCommand();
-            command.CommandText = "SELECT * FROM AsignacionDetalle " +
-                "WHERE AsignacionDetalle.iIdAsignacion = (SELECT Asignacion.idAsignacion FROM Asignacion " +
-                "WHERE Asignacion.iIdEstudiantes = ?carnet)";
-            command.CommandType = CommandType.Text;
-            command.Connection = conexion.Conectar();
-            command.Parameters.AddWithValue("?carnet", 1);
-            dataAdapter = new MySqlDataAdapter(command);
-            dataSet = new DataSet();
-            dataAdapter.Fill(dataSet,"AsignacionDetalle");
-            DgvHorario.DataSource = dataSet;
-            DgvHorario.DataMember = "AsignacionDetalle";
-            conexion.Desconectar();
+        private void TxtCarnet_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (!(char.IsNumber(e.KeyChar)) && (e.KeyChar != (char)Keys.Back))
+            {
+                MessageBox.Show("Solo se permiten numeros", "Advertencia", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                e.Handled = true;
+                return;
+            }
         }
     }
 }

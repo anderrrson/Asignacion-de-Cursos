@@ -28,6 +28,9 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FmNotas));
             this.DgvNotas = new System.Windows.Forms.DataGridView();
             this.label2 = new System.Windows.Forms.Label();
@@ -46,13 +49,38 @@
             // 
             // DgvNotas
             // 
+            this.DgvNotas.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.AllCells;
+            this.DgvNotas.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.AllCells;
             this.DgvNotas.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(31)))), ((int)(((byte)(58)))));
             this.DgvNotas.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.DgvNotas.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
+            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(14)))), ((int)(((byte)(18)))), ((int)(((byte)(34)))));
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle1.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.DgvNotas.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
             this.DgvNotas.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.DgvNotas.EditMode = System.Windows.Forms.DataGridViewEditMode.EditProgrammatically;
-            this.DgvNotas.GridColor = System.Drawing.Color.Black;
+            this.DgvNotas.EnableHeadersVisualStyles = false;
+            this.DgvNotas.GridColor = System.Drawing.Color.White;
             this.DgvNotas.Location = new System.Drawing.Point(39, 190);
             this.DgvNotas.Name = "DgvNotas";
+            this.DgvNotas.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(31)))), ((int)(((byte)(58)))));
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.DgvNotas.RowHeadersDefaultCellStyle = dataGridViewCellStyle2;
+            dataGridViewCellStyle3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(31)))), ((int)(((byte)(58)))));
+            dataGridViewCellStyle3.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle3.ForeColor = System.Drawing.Color.White;
+            this.DgvNotas.RowsDefaultCellStyle = dataGridViewCellStyle3;
             this.DgvNotas.Size = new System.Drawing.Size(1220, 150);
             this.DgvNotas.TabIndex = 18;
             this.DgvNotas.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.TablaHorario_CellContentClick);
@@ -82,6 +110,7 @@
             // CboSemestre
             // 
             this.CboSemestre.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(31)))), ((int)(((byte)(58)))));
+            this.CboSemestre.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.CboSemestre.Font = new System.Drawing.Font("Century Gothic", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.CboSemestre.ForeColor = System.Drawing.Color.White;
             this.CboSemestre.FormattingEnabled = true;
@@ -97,7 +126,7 @@
             // 
             this.PnlSeparador2.BackColor = System.Drawing.Color.Red;
             this.PnlSeparador2.ForeColor = System.Drawing.Color.Red;
-            this.PnlSeparador2.Location = new System.Drawing.Point(22, 159);
+            this.PnlSeparador2.Location = new System.Drawing.Point(22, 163);
             this.PnlSeparador2.Name = "PnlSeparador2";
             this.PnlSeparador2.Size = new System.Drawing.Size(1260, 1);
             this.PnlSeparador2.TabIndex = 12;
@@ -116,6 +145,7 @@
             // CboAño
             // 
             this.CboAño.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(31)))), ((int)(((byte)(58)))));
+            this.CboAño.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.CboAño.Font = new System.Drawing.Font("Century Gothic", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.CboAño.ForeColor = System.Drawing.Color.White;
             this.CboAño.FormattingEnabled = true;
@@ -220,6 +250,7 @@
             this.Name = "FmNotas";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Notas";
+            this.Load += new System.EventHandler(this.FmNotas_Load);
             ((System.ComponentModel.ISupportInitialize)(this.DgvNotas)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
