@@ -15,7 +15,7 @@ namespace ADMINISTRADORES
     public partial class FmLogin : Form
     {
         int idUsuarioLogin;
-        
+
 
 
         public FmLogin()
@@ -59,18 +59,17 @@ namespace ADMINISTRADORES
 
         }
 
-         private void BtnIniciarSesion_Click(object sender, EventArgs e)
+        private void BtnIniciarSesion_Click(object sender, EventArgs e)
         {
+<<<<<<< HEAD
 
             DateTime fecha_ingreso = DateTime.Now;
             LblFecha.Text = (fecha_ingreso.ToString("hh:mm tt"));
 
             //Validacion Campos Vacios 
-            if ((TxtUsuario.Text == "Usuario") || (TxtContraseña.Text == "Contraseña") || (CboTiposUsuarios.Text == "Seleccione una opción..."))
+            if ((TxtUsuario.Text == "Usuario") || (TxtContraseña.Text == "Contraseña") || (CboTiposUsuarios.Text == "Seleccione una opción...") || (CboTiposUsuarios.Text == ""))
             {
-
                 msgError("Existe un campo vacio ");
-
             }
             else
             {
@@ -81,45 +80,85 @@ namespace ADMINISTRADORES
                 ConexionBD conexionBD = new ConexionBD();
                 MySqlCommand command = new MySqlCommand();
 
-                command.CommandText = "SELECT iIdUsuarios,bUsuario,bPassword,iIdTipo FROM Usuarios WHERE bUsuario ='" + TxtUsuario.Text + "' AND bPassword='" + TxtContraseña.Text + "' AND iIdTipo='" + CboTiposUsuarios.SelectedIndex + "'";
+                command.CommandText = "SELECT iIdUsuarios,bUsuario,bPassword,iIdTipo FROM Usuarios WHERE  bUsuario ='" + TxtUsuario.Text + "' AND bPassword='" + TxtContraseña.Text + "' AND iIdTipo='" + CboTiposUsuarios.SelectedIndex + "'";
                 command.Connection = conexionBD.Conectar();
-
                 MySqlDataAdapter mySqlDataAdapter = new MySqlDataAdapter(command);
                 DataTable dataTable = new DataTable();
                 mySqlDataAdapter.Fill(dataTable);
+                
 
                 if (dataTable.Rows.Count > 0)
                 {
+                    
                     DataRow row = dataTable.Rows[0];
                     idUsuarioLogin = Convert.ToInt32(row["iIdUsuarios"]);
-                    MessageBox.Show(idUsuarioLogin.ToString());
-                    MessageBox.Show(Convert.ToString(row["bUsuario"]));
-                    MessageBox.Show(Convert.ToString(row["bPassword"]));
-                    MessageBox.Show(Convert.ToString(row["iIdTipo"]));
+                    //MessageBox.Show(idUsuarioLogin.ToString());
+                    //MessageBox.Show(Convert.ToString(row["bUsuario"]));
+                    //MessageBox.Show(Convert.ToString(row["bPassword"]));
+                    //MessageBox.Show(Convert.ToString(row["iIdTipo"]));
+
 
                     if (TxtUsuario.Text == (Convert.ToString(row["bUsuario"])))
                     {
-                        MessageBox.Show("Usuario Correcto");
+                        //MessageBox.Show("Usuario Correcto");
 
                         if (TxtContraseña.Text == (Convert.ToString(row["bPassword"])))
                         {
-                            MessageBox.Show("Password Correcto");
+                            //MessageBox.Show("Password Correcto");
 
                             if (CboTiposUsuarios.SelectedIndex == (Convert.ToInt32(row["iIdTipo"])))
+=======
+            try
+            {
+                DateTime fecha_ingreso = DateTime.Now;
+                LblFecha.Text = (fecha_ingreso.ToString("hh:mm:ss tt"));
+                //Validacion Campos Vacios 
+                if ((TxtUsuario.Text == "Usuario") || (TxtContraseña.Text == "Contraseña") || (CboTiposUsuarios.Text == "Seleccione una opción...") || (CboTiposUsuarios.Text == null))
+                {
+                    msgError("Existe un campo vacio ");
+                }
+                else
+                {
+                    msgAceptacion("");
+
+                    //CONEXION BASE DE DATOS
+                    MySqlConnection Conexion;
+                    ConexionBD conexionBD = new ConexionBD();
+                    MySqlCommand command = new MySqlCommand();
+
+                    command.CommandText = "SELECT iIdUsuarios,bUsuario,bPassword,iIdTipo FROM Usuarios WHERE bUsuario ='" + TxtUsuario.Text + "' AND bPassword='" + TxtContraseña.Text + "' AND iIdTipo='" + CboTiposUsuarios.SelectedIndex + "'";
+                    command.Connection = conexionBD.Conectar();
+                    MySqlDataAdapter mySqlDataAdapter = new MySqlDataAdapter(command);
+                    DataTable dataTable = new DataTable();
+                    mySqlDataAdapter.Fill(dataTable);
+
+                    if (dataTable.Rows.Count > 0)
+                    {
+                        DataRow row = dataTable.Rows[0];
+                        idUsuarioLogin = Convert.ToInt32(row["iIdUsuarios"]);
+
+                        if (TxtUsuario.Text == (Convert.ToString(row["bUsuario"])))
+                        {
+                            if (TxtContraseña.Text == (Convert.ToString(row["bPassword"])))
+>>>>>>> master
                             {
-                                
                                 switch (CboTiposUsuarios.SelectedIndex)
                                 {
+<<<<<<< HEAD
+                                    case 1:
+
+=======
                                     case 0:
                                         MessageBox.Show("Debe seleccionar un tipo de usuario...");
                                         break;
+
                                     case 1:
-                                        
+>>>>>>> master
                                         this.Hide();
                                         String idUsuario = idUsuarioLogin.ToString();
                                         String fechaIn = fecha_ingreso.ToString();
                                         String texto = TxtUsuario.Text;
-                                        FmPrincipal fmPrincipal = new FmPrincipal(0,texto,LblFecha.Text,idUsuario);
+                                        FmPrincipal fmPrincipal = new FmPrincipal(0, texto, LblFecha.Text, idUsuario);
                                         fmPrincipal.Show();
                                         break;
 
@@ -128,7 +167,11 @@ namespace ADMINISTRADORES
                                         String idUsuario2 = idUsuarioLogin.ToString();
                                         String fechaIn2 = fecha_ingreso.ToString();
                                         String texto2 = TxtUsuario.Text;
-                                        FmPrincipal fmPrincipal1 = new FmPrincipal(1,texto2,fechaIn2,idUsuario2);
+<<<<<<< HEAD
+                                        FmPrincipal fmPrincipal1 = new FmPrincipal(1, texto2, fechaIn2, idUsuario2);
+=======
+                                        FmPrincipal fmPrincipal1 = new FmPrincipal(1, texto2, LblFecha.Text, idUsuario2);
+>>>>>>> master
                                         fmPrincipal1.Show();
                                         break;
 
@@ -137,7 +180,11 @@ namespace ADMINISTRADORES
                                         String idUsuario3 = idUsuarioLogin.ToString();
                                         String fechaIn3 = fecha_ingreso.ToString();
                                         String texto3 = TxtUsuario.Text;
-                                        FmPrincipal fmPrincipal2 = new FmPrincipal(2,texto3,fechaIn3,idUsuario3);
+<<<<<<< HEAD
+                                        FmPrincipal fmPrincipal2 = new FmPrincipal(2, texto3, fechaIn3, idUsuario3);
+=======
+                                        FmPrincipal fmPrincipal2 = new FmPrincipal(2, texto3, LblFecha.Text, idUsuario3);
+>>>>>>> master
                                         fmPrincipal2.Show();
                                         break;
 
@@ -145,32 +192,44 @@ namespace ADMINISTRADORES
                                         break;
                                 }
                             }
+<<<<<<< HEAD
                             else
                             {
-                                MessageBox.Show("Tipo de Usuario Incorrecto");
+                                //MessageBox.Show("Tipo de Usuario Incorrecto");
                             }
                         }
                         else
                         {
-                            MessageBox.Show("Password Incorrecto");
+                           // MessageBox.Show("Password Incorrecto");
+=======
+>>>>>>> master
                         }
                     }
                     else
                     {
-                        MessageBox.Show("Usuario Incorrecto");
+<<<<<<< HEAD
+                      
+                        //MessageBox.Show("Usuario Incorrecto");
                     }
-
                     
-
-
                     //Finaliza Conexion
                     conexionBD.Desconectar();
-
-
-
+                }
+                else
+                {
+                    msgError("Datos Incorrectos ");
+                }
+=======
+                        MessageBox.Show("Datos Incorrectos");
+                    }
                 }
             }
-        }
+            catch
+            {
+                MessageBox.Show("Error", "MYSQL", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+>>>>>>> master
+            }
+    }
 
 
         //MENSAJE DE ERROR

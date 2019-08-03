@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.LnblOlvidoPassword = new System.Windows.Forms.LinkLabel();
             this.BtnIniciarSesion = new System.Windows.Forms.Button();
             this.TxtContraseña = new System.Windows.Forms.TextBox();
             this.PicPassword = new System.Windows.Forms.PictureBox();
@@ -53,32 +52,38 @@
             ((System.ComponentModel.ISupportInitialize)(this.PicTiposUsuarios)).BeginInit();
             this.SuspendLayout();
             // 
+<<<<<<< HEAD
+=======
             // LnblOlvidoPassword
             // 
             this.LnblOlvidoPassword.ActiveLinkColor = System.Drawing.Color.White;
             this.LnblOlvidoPassword.AutoSize = true;
             this.LnblOlvidoPassword.BackColor = System.Drawing.Color.Transparent;
             this.LnblOlvidoPassword.LinkColor = System.Drawing.Color.White;
-            this.LnblOlvidoPassword.Location = new System.Drawing.Point(717, 471);
-            this.LnblOlvidoPassword.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.LnblOlvidoPassword.Location = new System.Drawing.Point(538, 383);
             this.LnblOlvidoPassword.Name = "LnblOlvidoPassword";
-            this.LnblOlvidoPassword.Size = new System.Drawing.Size(174, 17);
+            this.LnblOlvidoPassword.Size = new System.Drawing.Size(131, 13);
             this.LnblOlvidoPassword.TabIndex = 12;
             this.LnblOlvidoPassword.TabStop = true;
             this.LnblOlvidoPassword.Text = "¿Olvidaste tu contraseña?";
             this.LnblOlvidoPassword.VisitedLinkColor = System.Drawing.Color.Blue;
             // 
+>>>>>>> master
             // BtnIniciarSesion
             // 
             this.BtnIniciarSesion.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(31)))), ((int)(((byte)(58)))));
             this.BtnIniciarSesion.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BtnIniciarSesion.Font = new System.Drawing.Font("Century Gothic", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnIniciarSesion.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.BtnIniciarSesion.Location = new System.Drawing.Point(710, 406);
-            this.BtnIniciarSesion.Margin = new System.Windows.Forms.Padding(4);
+            this.BtnIniciarSesion.Location = new System.Drawing.Point(532, 330);
             this.BtnIniciarSesion.Name = "BtnIniciarSesion";
-            this.BtnIniciarSesion.Size = new System.Drawing.Size(185, 46);
-            this.BtnIniciarSesion.TabIndex = 10;
+            this.BtnIniciarSesion.Size = new System.Drawing.Size(139, 37);
+<<<<<<< HEAD
+            this.BtnIniciarSesion.TabIndex = 3;
+            this.BtnIniciarSesion.Tag = "";
+=======
+            this.BtnIniciarSesion.TabIndex = 4;
+>>>>>>> master
             this.BtnIniciarSesion.Text = "Iniciar sesión";
             this.BtnIniciarSesion.UseVisualStyleBackColor = false;
             this.BtnIniciarSesion.Click += new System.EventHandler(this.BtnIniciarSesion_Click);
@@ -89,11 +94,18 @@
             this.TxtContraseña.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.TxtContraseña.Font = new System.Drawing.Font("Century Gothic", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.TxtContraseña.ForeColor = System.Drawing.Color.DarkGray;
-            this.TxtContraseña.Location = new System.Drawing.Point(609, 239);
-            this.TxtContraseña.Margin = new System.Windows.Forms.Padding(4);
+<<<<<<< HEAD
+            this.TxtContraseña.Location = new System.Drawing.Point(49, 7);
             this.TxtContraseña.Name = "TxtContraseña";
-            this.TxtContraseña.Size = new System.Drawing.Size(413, 27);
-            this.TxtContraseña.TabIndex = 6;
+            this.TxtContraseña.Size = new System.Drawing.Size(310, 21);
+            this.TxtContraseña.TabIndex = 1;
+            this.TxtContraseña.Tag = "";
+=======
+            this.TxtContraseña.Location = new System.Drawing.Point(457, 194);
+            this.TxtContraseña.Name = "TxtContraseña";
+            this.TxtContraseña.Size = new System.Drawing.Size(310, 21);
+            this.TxtContraseña.TabIndex = 2;
+>>>>>>> master
             this.TxtContraseña.Text = "Contraseña";
             this.TxtContraseña.Enter += new System.EventHandler(this.TxtContraseña_Enter);
             this.TxtContraseña.Leave += new System.EventHandler(this.TxtContraseña_Leave);
@@ -103,10 +115,13 @@
             this.PicPassword.BackColor = System.Drawing.Color.Transparent;
             this.PicPassword.BackgroundImage = global::ADMINISTRADORES.Properties.Resources._lock;
             this.PicPassword.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.PicPassword.Location = new System.Drawing.Point(555, 235);
-            this.PicPassword.Margin = new System.Windows.Forms.Padding(4);
+<<<<<<< HEAD
+            this.PicPassword.Location = new System.Drawing.Point(418, 187);
+=======
+            this.PicPassword.Location = new System.Drawing.Point(416, 191);
+>>>>>>> master
             this.PicPassword.Name = "PicPassword";
-            this.PicPassword.Size = new System.Drawing.Size(36, 36);
+            this.PicPassword.Size = new System.Drawing.Size(27, 29);
             this.PicPassword.TabIndex = 5;
             this.PicPassword.TabStop = false;
             // 
@@ -116,11 +131,14 @@
             this.LabelIniciarSesion.BackColor = System.Drawing.Color.Transparent;
             this.LabelIniciarSesion.Font = new System.Drawing.Font("Century Gothic", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LabelIniciarSesion.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.LabelIniciarSesion.Location = new System.Drawing.Point(557, 129);
-            this.LabelIniciarSesion.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.LabelIniciarSesion.Location = new System.Drawing.Point(418, 105);
             this.LabelIniciarSesion.Name = "LabelIniciarSesion";
-            this.LabelIniciarSesion.Size = new System.Drawing.Size(146, 25);
+            this.LabelIniciarSesion.Size = new System.Drawing.Size(114, 21);
+<<<<<<< HEAD
+            this.LabelIniciarSesion.TabIndex = 4;
+=======
             this.LabelIniciarSesion.TabIndex = 7;
+>>>>>>> master
             this.LabelIniciarSesion.Text = "Iniciar Sesión";
             this.LabelIniciarSesion.Click += new System.EventHandler(this.LabelIngreso_Click);
             // 
@@ -129,10 +147,9 @@
             this.PicUser.BackColor = System.Drawing.Color.Transparent;
             this.PicUser.BackgroundImage = global::ADMINISTRADORES.Properties.Resources.user_1_;
             this.PicUser.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.PicUser.Location = new System.Drawing.Point(11, 2);
-            this.PicUser.Margin = new System.Windows.Forms.Padding(4);
+            this.PicUser.Location = new System.Drawing.Point(8, 2);
             this.PicUser.Name = "PicUser";
-            this.PicUser.Size = new System.Drawing.Size(36, 36);
+            this.PicUser.Size = new System.Drawing.Size(27, 29);
             this.PicUser.TabIndex = 4;
             this.PicUser.TabStop = false;
             // 
@@ -143,11 +160,17 @@
             this.PnlUser.Controls.Add(this.TxtUsuario);
             this.PnlUser.Controls.Add(this.PicUser);
             this.PnlUser.Font = new System.Drawing.Font("Century Gothic", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.PnlUser.Location = new System.Drawing.Point(543, 188);
-            this.PnlUser.Margin = new System.Windows.Forms.Padding(4);
+<<<<<<< HEAD
+            this.PnlUser.Location = new System.Drawing.Point(409, 149);
             this.PnlUser.Name = "PnlUser";
-            this.PnlUser.Size = new System.Drawing.Size(522, 43);
+            this.PnlUser.Size = new System.Drawing.Size(392, 35);
+            this.PnlUser.TabIndex = 4;
+=======
+            this.PnlUser.Location = new System.Drawing.Point(407, 153);
+            this.PnlUser.Name = "PnlUser";
+            this.PnlUser.Size = new System.Drawing.Size(392, 35);
             this.PnlUser.TabIndex = 8;
+>>>>>>> master
             // 
             // TxtUsuario
             // 
@@ -155,11 +178,15 @@
             this.TxtUsuario.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.TxtUsuario.Font = new System.Drawing.Font("Century Gothic", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.TxtUsuario.ForeColor = System.Drawing.Color.DarkGray;
-            this.TxtUsuario.Location = new System.Drawing.Point(65, 7);
-            this.TxtUsuario.Margin = new System.Windows.Forms.Padding(4);
+            this.TxtUsuario.Location = new System.Drawing.Point(49, 6);
             this.TxtUsuario.Name = "TxtUsuario";
-            this.TxtUsuario.Size = new System.Drawing.Size(413, 27);
-            this.TxtUsuario.TabIndex = 7;
+            this.TxtUsuario.Size = new System.Drawing.Size(310, 21);
+<<<<<<< HEAD
+            this.TxtUsuario.TabIndex = 0;
+            this.TxtUsuario.Tag = "";
+=======
+            this.TxtUsuario.TabIndex = 1;
+>>>>>>> master
             this.TxtUsuario.Text = "Usuario";
             this.TxtUsuario.Enter += new System.EventHandler(this.TxtUserName_Enter);
             this.TxtUsuario.Leave += new System.EventHandler(this.TxtUserName_Leave);
@@ -169,22 +196,28 @@
             this.PnlPassword.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(31)))), ((int)(((byte)(45)))));
             this.PnlPassword.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.PnlPassword.Controls.Add(this.panel1);
+            this.PnlPassword.Controls.Add(this.TxtContraseña);
             this.PnlPassword.ForeColor = System.Drawing.Color.DimGray;
-            this.PnlPassword.Location = new System.Drawing.Point(543, 231);
-            this.PnlPassword.Margin = new System.Windows.Forms.Padding(4);
+<<<<<<< HEAD
+            this.PnlPassword.Location = new System.Drawing.Point(409, 184);
             this.PnlPassword.Name = "PnlPassword";
-            this.PnlPassword.Size = new System.Drawing.Size(522, 43);
+            this.PnlPassword.Size = new System.Drawing.Size(392, 35);
+            this.PnlPassword.TabIndex = 4;
+=======
+            this.PnlPassword.Location = new System.Drawing.Point(407, 188);
+            this.PnlPassword.Name = "PnlPassword";
+            this.PnlPassword.Size = new System.Drawing.Size(392, 35);
             this.PnlPassword.TabIndex = 9;
+>>>>>>> master
             // 
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(31)))), ((int)(((byte)(45)))));
             this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel1.ForeColor = System.Drawing.Color.DimGray;
-            this.panel1.Location = new System.Drawing.Point(3, 42);
-            this.panel1.Margin = new System.Windows.Forms.Padding(4);
+            this.panel1.Location = new System.Drawing.Point(2, 34);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(522, 43);
+            this.panel1.Size = new System.Drawing.Size(392, 35);
             this.panel1.TabIndex = 14;
             // 
             // BtnClose
@@ -194,11 +227,14 @@
             this.BtnClose.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.BtnClose.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BtnClose.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(31)))), ((int)(((byte)(58)))));
-            this.BtnClose.Location = new System.Drawing.Point(1003, 14);
-            this.BtnClose.Margin = new System.Windows.Forms.Padding(4);
+            this.BtnClose.Location = new System.Drawing.Point(752, 11);
             this.BtnClose.Name = "BtnClose";
-            this.BtnClose.Size = new System.Drawing.Size(49, 38);
+            this.BtnClose.Size = new System.Drawing.Size(37, 31);
+<<<<<<< HEAD
+            this.BtnClose.TabIndex = 4;
+=======
             this.BtnClose.TabIndex = 13;
+>>>>>>> master
             this.BtnClose.UseVisualStyleBackColor = false;
             this.BtnClose.Click += new System.EventHandler(this.Button1_Click_1);
             // 
@@ -209,21 +245,26 @@
             this.PnlTipoUsuario.Controls.Add(this.PicTiposUsuarios);
             this.PnlTipoUsuario.Controls.Add(this.CboTiposUsuarios);
             this.PnlTipoUsuario.ForeColor = System.Drawing.Color.DimGray;
-            this.PnlTipoUsuario.Location = new System.Drawing.Point(543, 274);
-            this.PnlTipoUsuario.Margin = new System.Windows.Forms.Padding(4);
+<<<<<<< HEAD
+            this.PnlTipoUsuario.Location = new System.Drawing.Point(409, 219);
             this.PnlTipoUsuario.Name = "PnlTipoUsuario";
-            this.PnlTipoUsuario.Size = new System.Drawing.Size(522, 55);
+            this.PnlTipoUsuario.Size = new System.Drawing.Size(392, 45);
+            this.PnlTipoUsuario.TabIndex = 4;
+=======
+            this.PnlTipoUsuario.Location = new System.Drawing.Point(407, 223);
+            this.PnlTipoUsuario.Name = "PnlTipoUsuario";
+            this.PnlTipoUsuario.Size = new System.Drawing.Size(392, 45);
             this.PnlTipoUsuario.TabIndex = 14;
+>>>>>>> master
             // 
             // PicTiposUsuarios
             // 
             this.PicTiposUsuarios.BackColor = System.Drawing.Color.Transparent;
             this.PicTiposUsuarios.BackgroundImage = global::ADMINISTRADORES.Properties.Resources.group;
             this.PicTiposUsuarios.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.PicTiposUsuarios.Location = new System.Drawing.Point(11, 6);
-            this.PicTiposUsuarios.Margin = new System.Windows.Forms.Padding(4);
+            this.PicTiposUsuarios.Location = new System.Drawing.Point(8, 5);
             this.PicTiposUsuarios.Name = "PicTiposUsuarios";
-            this.PicTiposUsuarios.Size = new System.Drawing.Size(40, 39);
+            this.PicTiposUsuarios.Size = new System.Drawing.Size(30, 32);
             this.PicTiposUsuarios.TabIndex = 15;
             this.PicTiposUsuarios.TabStop = false;
             // 
@@ -240,11 +281,18 @@
             "Administración",
             "Catedrático",
             "Alumno"});
-            this.CboTiposUsuarios.Location = new System.Drawing.Point(65, 10);
-            this.CboTiposUsuarios.Margin = new System.Windows.Forms.Padding(4);
+<<<<<<< HEAD
+            this.CboTiposUsuarios.Location = new System.Drawing.Point(49, 5);
             this.CboTiposUsuarios.Name = "CboTiposUsuarios";
-            this.CboTiposUsuarios.Size = new System.Drawing.Size(307, 31);
-            this.CboTiposUsuarios.TabIndex = 15;
+            this.CboTiposUsuarios.Size = new System.Drawing.Size(231, 29);
+            this.CboTiposUsuarios.TabIndex = 2;
+            this.CboTiposUsuarios.Tag = "";
+=======
+            this.CboTiposUsuarios.Location = new System.Drawing.Point(49, 8);
+            this.CboTiposUsuarios.Name = "CboTiposUsuarios";
+            this.CboTiposUsuarios.Size = new System.Drawing.Size(231, 29);
+            this.CboTiposUsuarios.TabIndex = 3;
+>>>>>>> master
             this.CboTiposUsuarios.SelectedIndexChanged += new System.EventHandler(this.ComboBox1_SelectedIndexChanged);
             // 
             // BtnAyuda
@@ -254,11 +302,14 @@
             this.BtnAyuda.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.BtnAyuda.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BtnAyuda.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(31)))), ((int)(((byte)(58)))));
-            this.BtnAyuda.Location = new System.Drawing.Point(945, 14);
-            this.BtnAyuda.Margin = new System.Windows.Forms.Padding(4);
+            this.BtnAyuda.Location = new System.Drawing.Point(709, 11);
             this.BtnAyuda.Name = "BtnAyuda";
-            this.BtnAyuda.Size = new System.Drawing.Size(49, 38);
+            this.BtnAyuda.Size = new System.Drawing.Size(37, 31);
+<<<<<<< HEAD
+            this.BtnAyuda.TabIndex = 4;
+=======
             this.BtnAyuda.TabIndex = 15;
+>>>>>>> master
             this.BtnAyuda.UseVisualStyleBackColor = false;
             // 
             // LblErrorUsuario
@@ -268,11 +319,14 @@
             this.LblErrorUsuario.ForeColor = System.Drawing.Color.Red;
             this.LblErrorUsuario.Image = global::ADMINISTRADORES.Properties.Resources.error;
             this.LblErrorUsuario.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.LblErrorUsuario.Location = new System.Drawing.Point(605, 347);
-            this.LblErrorUsuario.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.LblErrorUsuario.Location = new System.Drawing.Point(454, 282);
             this.LblErrorUsuario.Name = "LblErrorUsuario";
-            this.LblErrorUsuario.Size = new System.Drawing.Size(396, 41);
+            this.LblErrorUsuario.Size = new System.Drawing.Size(297, 33);
+<<<<<<< HEAD
+            this.LblErrorUsuario.TabIndex = 4;
+=======
             this.LblErrorUsuario.TabIndex = 17;
+>>>>>>> master
             this.LblErrorUsuario.Text = "Debe ingresar un usuario";
             this.LblErrorUsuario.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.LblErrorUsuario.Visible = false;
@@ -283,34 +337,34 @@
             this.LblFecha.BackColor = System.Drawing.Color.Transparent;
             this.LblFecha.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LblFecha.ForeColor = System.Drawing.Color.White;
-            this.LblFecha.Location = new System.Drawing.Point(13, 9);
-            this.LblFecha.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.LblFecha.Location = new System.Drawing.Point(10, 7);
             this.LblFecha.Name = "LblFecha";
-            this.LblFecha.Size = new System.Drawing.Size(159, 28);
+            this.LblFecha.Size = new System.Drawing.Size(119, 23);
+<<<<<<< HEAD
+            this.LblFecha.TabIndex = 4;
+=======
             this.LblFecha.TabIndex = 18;
+>>>>>>> master
             this.LblFecha.Text = "26/07/2019";
             // 
             // FmLogin
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::ADMINISTRADORES.Properties.Resources._123123121;
-            this.ClientSize = new System.Drawing.Size(1067, 521);
+            this.ClientSize = new System.Drawing.Size(800, 423);
             this.Controls.Add(this.LblFecha);
             this.Controls.Add(this.LblErrorUsuario);
             this.Controls.Add(this.BtnAyuda);
             this.Controls.Add(this.PnlTipoUsuario);
             this.Controls.Add(this.BtnClose);
-            this.Controls.Add(this.TxtContraseña);
             this.Controls.Add(this.PicPassword);
-            this.Controls.Add(this.LnblOlvidoPassword);
             this.Controls.Add(this.BtnIniciarSesion);
             this.Controls.Add(this.PnlUser);
             this.Controls.Add(this.PnlPassword);
             this.Controls.Add(this.LabelIniciarSesion);
             this.Cursor = System.Windows.Forms.Cursors.Hand;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "FmLogin";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Load += new System.EventHandler(this.Login_Load);
@@ -319,6 +373,7 @@
             this.PnlUser.ResumeLayout(false);
             this.PnlUser.PerformLayout();
             this.PnlPassword.ResumeLayout(false);
+            this.PnlPassword.PerformLayout();
             this.PnlTipoUsuario.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.PicTiposUsuarios)).EndInit();
             this.ResumeLayout(false);
@@ -327,7 +382,6 @@
         }
 
         #endregion
-        private System.Windows.Forms.LinkLabel LnblOlvidoPassword;
         private System.Windows.Forms.Button BtnIniciarSesion;
         private System.Windows.Forms.TextBox TxtContraseña;
         private System.Windows.Forms.PictureBox PicPassword;

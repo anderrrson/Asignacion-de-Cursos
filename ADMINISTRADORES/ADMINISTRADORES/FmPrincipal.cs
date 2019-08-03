@@ -127,7 +127,7 @@ namespace ADMINISTRADORES
         private void Reloj(object ob, EventArgs evt)
         {
             DateTime dateTime = DateTime.Now;
-            LblHora.Text = dateTime.ToString("hh:mm tt");
+            LblHora.Text = dateTime.ToString("hh:mm:ss tt");
             LblFecha.Text = dateTime.ToShortDateString();
         }
 
