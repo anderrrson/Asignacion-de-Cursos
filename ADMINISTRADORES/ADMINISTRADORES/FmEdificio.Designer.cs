@@ -36,14 +36,16 @@
             this.LblTitulo = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.textBox1 = new System.Windows.Forms.TextBox();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.TxtFacultad = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
             this.panel3 = new System.Windows.Forms.Panel();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.TxtSalon = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
+            this.DtaEdificio = new System.Windows.Forms.DataGridView();
+            this.BtnVisualizar = new System.Windows.Forms.Button();
+            this.TxtNombre = new System.Windows.Forms.TextBox();
+            ((System.ComponentModel.ISupportInitialize)(this.DtaEdificio)).BeginInit();
             this.SuspendLayout();
             // 
             // LblVisualizar
@@ -59,7 +61,7 @@
             // PnlLinea
             // 
             this.PnlLinea.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(55)))), ((int)(((byte)(35)))));
-            this.PnlLinea.Location = new System.Drawing.Point(674, 200);
+            this.PnlLinea.Location = new System.Drawing.Point(371, 226);
             this.PnlLinea.Name = "PnlLinea";
             this.PnlLinea.Size = new System.Drawing.Size(200, 1);
             this.PnlLinea.TabIndex = 10;
@@ -70,7 +72,7 @@
             this.TxtNumero.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.TxtNumero.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.TxtNumero.ForeColor = System.Drawing.Color.White;
-            this.TxtNumero.Location = new System.Drawing.Point(674, 177);
+            this.TxtNumero.Location = new System.Drawing.Point(371, 203);
             this.TxtNumero.Name = "TxtNumero";
             this.TxtNumero.Size = new System.Drawing.Size(200, 24);
             this.TxtNumero.TabIndex = 9;
@@ -81,7 +83,7 @@
             this.LblNcarnet.AutoSize = true;
             this.LblNcarnet.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LblNcarnet.ForeColor = System.Drawing.Color.White;
-            this.LblNcarnet.Location = new System.Drawing.Point(366, 179);
+            this.LblNcarnet.Location = new System.Drawing.Point(63, 205);
             this.LblNcarnet.Name = "LblNcarnet";
             this.LblNcarnet.Size = new System.Drawing.Size(114, 22);
             this.LblNcarnet.TabIndex = 8;
@@ -92,7 +94,7 @@
             this.LblTitulo.AutoSize = true;
             this.LblTitulo.Font = new System.Drawing.Font("Century Gothic", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LblTitulo.ForeColor = System.Drawing.Color.White;
-            this.LblTitulo.Location = new System.Drawing.Point(364, 94);
+            this.LblTitulo.Location = new System.Drawing.Point(61, 52);
             this.LblTitulo.Name = "LblTitulo";
             this.LblTitulo.Size = new System.Drawing.Size(304, 33);
             this.LblTitulo.TabIndex = 7;
@@ -104,7 +106,7 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(366, 233);
+            this.label1.Location = new System.Drawing.Point(63, 259);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(91, 22);
             this.label1.TabIndex = 12;
@@ -113,102 +115,112 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(55)))), ((int)(((byte)(35)))));
-            this.panel1.Location = new System.Drawing.Point(674, 254);
+            this.panel1.Location = new System.Drawing.Point(371, 280);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(200, 1);
             this.panel1.TabIndex = 12;
             // 
-            // textBox1
-            // 
-            this.textBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(31)))), ((int)(((byte)(58)))));
-            this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox1.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.ForeColor = System.Drawing.Color.White;
-            this.textBox1.Location = new System.Drawing.Point(674, 231);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(200, 24);
-            this.textBox1.TabIndex = 11;
-            this.textBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(55)))), ((int)(((byte)(35)))));
-            this.panel2.Location = new System.Drawing.Point(674, 361);
+            this.panel2.Location = new System.Drawing.Point(371, 387);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(200, 1);
             this.panel2.TabIndex = 14;
             // 
-            // textBox2
+            // TxtFacultad
             // 
-            this.textBox2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(31)))), ((int)(((byte)(58)))));
-            this.textBox2.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox2.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2.ForeColor = System.Drawing.Color.White;
-            this.textBox2.Location = new System.Drawing.Point(674, 338);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(200, 24);
-            this.textBox2.TabIndex = 13;
-            this.textBox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.TxtFacultad.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(31)))), ((int)(((byte)(58)))));
+            this.TxtFacultad.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.TxtFacultad.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TxtFacultad.ForeColor = System.Drawing.Color.White;
+            this.TxtFacultad.Location = new System.Drawing.Point(371, 364);
+            this.TxtFacultad.Name = "TxtFacultad";
+            this.TxtFacultad.Size = new System.Drawing.Size(200, 24);
+            this.TxtFacultad.TabIndex = 13;
+            this.TxtFacultad.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(366, 340);
+            this.label2.Location = new System.Drawing.Point(63, 366);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(277, 22);
             this.label2.TabIndex = 15;
             this.label2.Text = "FACULTAD QUE LO UTILIZARÁ";
             // 
-            // button1
-            // 
-            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(14)))), ((int)(((byte)(18)))), ((int)(((byte)(34)))));
-            this.button1.FlatAppearance.BorderSize = 2;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Image = ((System.Drawing.Image)(resources.GetObject("button1.Image")));
-            this.button1.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.button1.Location = new System.Drawing.Point(1127, 23);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(102, 74);
-            this.button1.TabIndex = 29;
-            this.button1.Text = "GUARDAR";
-            this.button1.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.button1.UseVisualStyleBackColor = false;
-            this.button1.Click += new System.EventHandler(this.Button1_Click);
-            // 
             // panel3
             // 
             this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(55)))), ((int)(((byte)(35)))));
-            this.panel3.Location = new System.Drawing.Point(674, 305);
+            this.panel3.Location = new System.Drawing.Point(371, 331);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(200, 1);
             this.panel3.TabIndex = 31;
             // 
-            // textBox3
+            // TxtSalon
             // 
-            this.textBox3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(31)))), ((int)(((byte)(58)))));
-            this.textBox3.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox3.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox3.ForeColor = System.Drawing.Color.White;
-            this.textBox3.Location = new System.Drawing.Point(674, 282);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(200, 24);
-            this.textBox3.TabIndex = 30;
-            this.textBox3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.TxtSalon.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(31)))), ((int)(((byte)(58)))));
+            this.TxtSalon.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.TxtSalon.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TxtSalon.ForeColor = System.Drawing.Color.White;
+            this.TxtSalon.Location = new System.Drawing.Point(371, 308);
+            this.TxtSalon.Name = "TxtSalon";
+            this.TxtSalon.Size = new System.Drawing.Size(200, 24);
+            this.TxtSalon.TabIndex = 30;
+            this.TxtSalon.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // label3
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(366, 284);
+            this.label3.Location = new System.Drawing.Point(63, 310);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(74, 22);
             this.label3.TabIndex = 32;
             this.label3.Text = "SALÓN";
+            // 
+            // DtaEdificio
+            // 
+            this.DtaEdificio.AllowUserToOrderColumns = true;
+            this.DtaEdificio.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.DtaEdificio.Location = new System.Drawing.Point(763, 167);
+            this.DtaEdificio.Name = "DtaEdificio";
+            this.DtaEdificio.Size = new System.Drawing.Size(442, 249);
+            this.DtaEdificio.TabIndex = 34;
+            this.DtaEdificio.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.DtaEdificio_CellContentClick);
+            // 
+            // BtnVisualizar
+            // 
+            this.BtnVisualizar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(14)))), ((int)(((byte)(18)))), ((int)(((byte)(34)))));
+            this.BtnVisualizar.FlatAppearance.BorderSize = 2;
+            this.BtnVisualizar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BtnVisualizar.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnVisualizar.ForeColor = System.Drawing.Color.White;
+            this.BtnVisualizar.Image = ((System.Drawing.Image)(resources.GetObject("BtnVisualizar.Image")));
+            this.BtnVisualizar.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.BtnVisualizar.Location = new System.Drawing.Point(1103, 43);
+            this.BtnVisualizar.Name = "BtnVisualizar";
+            this.BtnVisualizar.Size = new System.Drawing.Size(102, 74);
+            this.BtnVisualizar.TabIndex = 36;
+            this.BtnVisualizar.Text = "Visualizar";
+            this.BtnVisualizar.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.BtnVisualizar.UseVisualStyleBackColor = false;
+            this.BtnVisualizar.Click += new System.EventHandler(this.BtnVisualizar_Click);
+            // 
+            // TxtNombre
+            // 
+            this.TxtNombre.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(31)))), ((int)(((byte)(58)))));
+            this.TxtNombre.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.TxtNombre.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TxtNombre.ForeColor = System.Drawing.Color.White;
+            this.TxtNombre.Location = new System.Drawing.Point(371, 254);
+            this.TxtNombre.Name = "TxtNombre";
+            this.TxtNombre.Size = new System.Drawing.Size(200, 24);
+            this.TxtNombre.TabIndex = 37;
+            this.TxtNombre.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // FmEdificio
             // 
@@ -216,15 +228,16 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(31)))), ((int)(((byte)(58)))));
             this.ClientSize = new System.Drawing.Size(1284, 584);
+            this.Controls.Add(this.TxtNombre);
+            this.Controls.Add(this.BtnVisualizar);
+            this.Controls.Add(this.DtaEdificio);
             this.Controls.Add(this.panel3);
-            this.Controls.Add(this.textBox3);
+            this.Controls.Add(this.TxtSalon);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.button1);
             this.Controls.Add(this.panel2);
-            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.TxtFacultad);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.panel1);
-            this.Controls.Add(this.textBox1);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.LblVisualizar);
             this.Controls.Add(this.PnlLinea);
@@ -235,6 +248,7 @@
             this.Name = "FmEdificio";
             this.Text = "FmEdificio";
             this.Load += new System.EventHandler(this.FmEdificio_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.DtaEdificio)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -249,13 +263,14 @@
         private System.Windows.Forms.Label LblTitulo;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Panel panel2;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox TxtFacultad;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Panel panel3;
-        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox TxtSalon;
         private System.Windows.Forms.Label label3;
+        public System.Windows.Forms.DataGridView DtaEdificio;
+        private System.Windows.Forms.Button BtnVisualizar;
+        private System.Windows.Forms.TextBox TxtNombre;
     }
 }

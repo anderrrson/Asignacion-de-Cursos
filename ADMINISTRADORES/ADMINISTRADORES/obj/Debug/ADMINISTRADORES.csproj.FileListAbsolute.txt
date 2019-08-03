@@ -227,3 +227,4 @@ C:\Users\ISIS\Desktop\Asignacion-de-Cursos\ADMINISTRADORES\ADMINISTRADORES\obj\D
 C:\Users\ISIS\Desktop\Asignacion-de-Cursos\ADMINISTRADORES\ADMINISTRADORES\bin\Debug\MySql.Data.dll
 C:\Users\diego\Documents\Universidad\Octavo Semestre\Analisis de Sistemas II\Asignacion-de-Cursos\ADMINISTRADORES\ADMINISTRADORES\obj\Debug\ADMINISTRADORES.FmAsignacionCat.resources
 C:\Users\diego\Documents\Universidad\Octavo Semestre\Analisis de Sistemas II\Asignacion-de-Cursos\ADMINISTRADORES\ADMINISTRADORES\obj\Debug\ADMINISTRADORES.FmEdificio.resources
+C:\Users\ISIS\Desktop\Asignacion-de-Cursos\ADMINISTRADORES\ADMINISTRADORES\bin\Debug\itextsharp.dll
