@@ -64,7 +64,7 @@
             this.BtnAsignacionCat.ForeColor = System.Drawing.Color.White;
             this.BtnAsignacionCat.Image = ((System.Drawing.Image)(resources.GetObject("BtnAsignacionCat.Image")));
             this.BtnAsignacionCat.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.BtnAsignacionCat.Location = new System.Drawing.Point(1038, -6);
+            this.BtnAsignacionCat.Location = new System.Drawing.Point(1022, -6);
             this.BtnAsignacionCat.Name = "BtnAsignacionCat";
             this.BtnAsignacionCat.Size = new System.Drawing.Size(250, 52);
             this.BtnAsignacionCat.TabIndex = 33;

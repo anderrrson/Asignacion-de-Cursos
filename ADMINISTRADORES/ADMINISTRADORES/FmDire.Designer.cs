@@ -30,6 +30,7 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FmDire));
             this.PnlCuadroGeneral = new System.Windows.Forms.Panel();
+            this.button1 = new System.Windows.Forms.Button();
             this.TtxLab5 = new System.Windows.Forms.TextBox();
             this.TtxLab4 = new System.Windows.Forms.TextBox();
             this.TtxLab3 = new System.Windows.Forms.TextBox();
@@ -102,7 +103,6 @@
             this.LblApellidos = new System.Windows.Forms.Label();
             this.LblNombre = new System.Windows.Forms.Label();
             this.LblCarne = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
             this.PnlCuadroGeneral.SuspendLayout();
             this.PnlCuadrodatos.SuspendLayout();
             this.SuspendLayout();
@@ -163,6 +163,24 @@
             this.PnlCuadroGeneral.Name = "PnlCuadroGeneral";
             this.PnlCuadroGeneral.Size = new System.Drawing.Size(1182, 572);
             this.PnlCuadroGeneral.TabIndex = 0;
+            // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(14)))), ((int)(((byte)(18)))), ((int)(((byte)(34)))));
+            this.button1.FlatAppearance.BorderSize = 2;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.ForeColor = System.Drawing.Color.White;
+            this.button1.Image = ((System.Drawing.Image)(resources.GetObject("button1.Image")));
+            this.button1.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.button1.Location = new System.Drawing.Point(1059, 481);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(102, 74);
+            this.button1.TabIndex = 30;
+            this.button1.Text = "IMPRIMIR";
+            this.button1.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.Button1_Click);
             // 
             // TtxLab5
             // 
@@ -338,7 +356,7 @@
             // TxtHorario5
             // 
             this.TxtHorario5.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TxtHorario5.Location = new System.Drawing.Point(424, 417);
+            this.TxtHorario5.Location = new System.Drawing.Point(451, 417);
             this.TxtHorario5.Name = "TxtHorario5";
             this.TxtHorario5.Size = new System.Drawing.Size(104, 23);
             this.TxtHorario5.TabIndex = 32;
@@ -346,7 +364,7 @@
             // TxtHorario4
             // 
             this.TxtHorario4.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TxtHorario4.Location = new System.Drawing.Point(424, 377);
+            this.TxtHorario4.Location = new System.Drawing.Point(451, 377);
             this.TxtHorario4.Name = "TxtHorario4";
             this.TxtHorario4.Size = new System.Drawing.Size(104, 23);
             this.TxtHorario4.TabIndex = 31;
@@ -354,7 +372,7 @@
             // TxtHorario3
             // 
             this.TxtHorario3.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TxtHorario3.Location = new System.Drawing.Point(424, 337);
+            this.TxtHorario3.Location = new System.Drawing.Point(451, 337);
             this.TxtHorario3.Name = "TxtHorario3";
             this.TxtHorario3.Size = new System.Drawing.Size(104, 23);
             this.TxtHorario3.TabIndex = 30;
@@ -362,7 +380,7 @@
             // TxtHorario2
             // 
             this.TxtHorario2.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TxtHorario2.Location = new System.Drawing.Point(424, 298);
+            this.TxtHorario2.Location = new System.Drawing.Point(451, 298);
             this.TxtHorario2.Name = "TxtHorario2";
             this.TxtHorario2.Size = new System.Drawing.Size(104, 23);
             this.TxtHorario2.TabIndex = 29;
@@ -370,7 +388,7 @@
             // TxtHorario1
             // 
             this.TxtHorario1.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TxtHorario1.Location = new System.Drawing.Point(424, 260);
+            this.TxtHorario1.Location = new System.Drawing.Point(451, 260);
             this.TxtHorario1.Name = "TxtHorario1";
             this.TxtHorario1.Size = new System.Drawing.Size(104, 23);
             this.TxtHorario1.TabIndex = 28;
@@ -378,7 +396,7 @@
             // TxtNCurso5
             // 
             this.TxtNCurso5.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TxtNCurso5.Location = new System.Drawing.Point(165, 417);
+            this.TxtNCurso5.Location = new System.Drawing.Point(202, 417);
             this.TxtNCurso5.Name = "TxtNCurso5";
             this.TxtNCurso5.Size = new System.Drawing.Size(207, 23);
             this.TxtNCurso5.TabIndex = 27;
@@ -386,7 +404,7 @@
             // TxtNCurso4
             // 
             this.TxtNCurso4.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TxtNCurso4.Location = new System.Drawing.Point(165, 377);
+            this.TxtNCurso4.Location = new System.Drawing.Point(202, 377);
             this.TxtNCurso4.Name = "TxtNCurso4";
             this.TxtNCurso4.Size = new System.Drawing.Size(207, 23);
             this.TxtNCurso4.TabIndex = 26;
@@ -394,7 +412,7 @@
             // TxtNCurso3
             // 
             this.TxtNCurso3.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TxtNCurso3.Location = new System.Drawing.Point(165, 337);
+            this.TxtNCurso3.Location = new System.Drawing.Point(202, 337);
             this.TxtNCurso3.Name = "TxtNCurso3";
             this.TxtNCurso3.Size = new System.Drawing.Size(207, 23);
             this.TxtNCurso3.TabIndex = 25;
@@ -402,7 +420,7 @@
             // TxtNCurso2
             // 
             this.TxtNCurso2.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TxtNCurso2.Location = new System.Drawing.Point(165, 298);
+            this.TxtNCurso2.Location = new System.Drawing.Point(202, 298);
             this.TxtNCurso2.Name = "TxtNCurso2";
             this.TxtNCurso2.Size = new System.Drawing.Size(207, 23);
             this.TxtNCurso2.TabIndex = 24;
@@ -410,7 +428,7 @@
             // TxtNCurso1
             // 
             this.TxtNCurso1.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TxtNCurso1.Location = new System.Drawing.Point(165, 260);
+            this.TxtNCurso1.Location = new System.Drawing.Point(202, 260);
             this.TxtNCurso1.Name = "TxtNCurso1";
             this.TxtNCurso1.Size = new System.Drawing.Size(207, 23);
             this.TxtNCurso1.TabIndex = 23;
@@ -420,7 +438,7 @@
             this.TxtCod5.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.TxtCod5.Location = new System.Drawing.Point(88, 417);
             this.TxtCod5.Name = "TxtCod5";
-            this.TxtCod5.Size = new System.Drawing.Size(35, 23);
+            this.TxtCod5.Size = new System.Drawing.Size(77, 23);
             this.TxtCod5.TabIndex = 22;
             // 
             // TxtCod4
@@ -428,7 +446,7 @@
             this.TxtCod4.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.TxtCod4.Location = new System.Drawing.Point(88, 377);
             this.TxtCod4.Name = "TxtCod4";
-            this.TxtCod4.Size = new System.Drawing.Size(35, 23);
+            this.TxtCod4.Size = new System.Drawing.Size(77, 23);
             this.TxtCod4.TabIndex = 21;
             // 
             // TxtCod3
@@ -436,7 +454,7 @@
             this.TxtCod3.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.TxtCod3.Location = new System.Drawing.Point(88, 337);
             this.TxtCod3.Name = "TxtCod3";
-            this.TxtCod3.Size = new System.Drawing.Size(35, 23);
+            this.TxtCod3.Size = new System.Drawing.Size(77, 23);
             this.TxtCod3.TabIndex = 20;
             // 
             // TxtCod2
@@ -444,7 +462,7 @@
             this.TxtCod2.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.TxtCod2.Location = new System.Drawing.Point(88, 298);
             this.TxtCod2.Name = "TxtCod2";
-            this.TxtCod2.Size = new System.Drawing.Size(35, 23);
+            this.TxtCod2.Size = new System.Drawing.Size(77, 23);
             this.TxtCod2.TabIndex = 19;
             // 
             // TxtCod1
@@ -452,7 +470,7 @@
             this.TxtCod1.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.TxtCod1.Location = new System.Drawing.Point(88, 260);
             this.TxtCod1.Name = "TxtCod1";
-            this.TxtCod1.Size = new System.Drawing.Size(35, 23);
+            this.TxtCod1.Size = new System.Drawing.Size(77, 23);
             this.TxtCod1.TabIndex = 18;
             // 
             // TxtFacultad5
@@ -533,7 +551,7 @@
             this.Lblhorario.AutoSize = true;
             this.Lblhorario.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Lblhorario.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.Lblhorario.Location = new System.Drawing.Point(421, 222);
+            this.Lblhorario.Location = new System.Drawing.Point(448, 222);
             this.Lblhorario.Name = "Lblhorario";
             this.Lblhorario.Size = new System.Drawing.Size(67, 17);
             this.Lblhorario.TabIndex = 4;
@@ -544,7 +562,7 @@
             this.LblNcurso.AutoSize = true;
             this.LblNcurso.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LblNcurso.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.LblNcurso.Location = new System.Drawing.Point(162, 222);
+            this.LblNcurso.Location = new System.Drawing.Point(199, 222);
             this.LblNcurso.Name = "LblNcurso";
             this.LblNcurso.Size = new System.Drawing.Size(137, 17);
             this.LblNcurso.TabIndex = 3;
@@ -609,6 +627,8 @@
             this.TxtMensualidad.Name = "TxtMensualidad";
             this.TxtMensualidad.Size = new System.Drawing.Size(182, 23);
             this.TxtMensualidad.TabIndex = 22;
+            this.TxtMensualidad.Text = "Q 1200.00";
+            this.TxtMensualidad.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // TxtFecha
             // 
@@ -617,6 +637,7 @@
             this.TxtFecha.Name = "TxtFecha";
             this.TxtFecha.Size = new System.Drawing.Size(182, 23);
             this.TxtFecha.TabIndex = 21;
+            this.TxtFecha.TextChanged += new System.EventHandler(this.TxtFecha_TextChanged);
             // 
             // TxtSemestre
             // 
@@ -625,6 +646,8 @@
             this.TxtSemestre.Name = "TxtSemestre";
             this.TxtSemestre.Size = new System.Drawing.Size(182, 23);
             this.TxtSemestre.TabIndex = 20;
+            this.TxtSemestre.Text = "8";
+            this.TxtSemestre.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // TxtCiclo
             // 
@@ -633,6 +656,8 @@
             this.TxtCiclo.Name = "TxtCiclo";
             this.TxtCiclo.Size = new System.Drawing.Size(182, 23);
             this.TxtCiclo.TabIndex = 19;
+            this.TxtCiclo.Text = "2019";
+            this.TxtCiclo.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // TxtJornada
             // 
@@ -641,6 +666,8 @@
             this.TxtJornada.Name = "TxtJornada";
             this.TxtJornada.Size = new System.Drawing.Size(182, 23);
             this.TxtJornada.TabIndex = 18;
+            this.TxtJornada.Text = "MATUTINA";
+            this.TxtJornada.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // TxtCarrera
             // 
@@ -649,6 +676,8 @@
             this.TxtCarrera.Name = "TxtCarrera";
             this.TxtCarrera.Size = new System.Drawing.Size(182, 23);
             this.TxtCarrera.TabIndex = 17;
+            this.TxtCarrera.Text = "ING. SISTEMAS";
+            this.TxtCarrera.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // TxtDireccion
             // 
@@ -657,6 +686,7 @@
             this.TxtDireccion.Name = "TxtDireccion";
             this.TxtDireccion.Size = new System.Drawing.Size(182, 23);
             this.TxtDireccion.TabIndex = 16;
+            this.TxtDireccion.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // TxtCasada
             // 
@@ -665,6 +695,7 @@
             this.TxtCasada.Name = "TxtCasada";
             this.TxtCasada.Size = new System.Drawing.Size(182, 23);
             this.TxtCasada.TabIndex = 15;
+            this.TxtCasada.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // TxtApellidos
             // 
@@ -673,6 +704,7 @@
             this.TxtApellidos.Name = "TxtApellidos";
             this.TxtApellidos.Size = new System.Drawing.Size(182, 23);
             this.TxtApellidos.TabIndex = 14;
+            this.TxtApellidos.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // TxtNombres
             // 
@@ -681,6 +713,7 @@
             this.TxtNombres.Name = "TxtNombres";
             this.TxtNombres.Size = new System.Drawing.Size(182, 23);
             this.TxtNombres.TabIndex = 13;
+            this.TxtNombres.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // TxtCarne
             // 
@@ -689,6 +722,7 @@
             this.TxtCarne.Name = "TxtCarne";
             this.TxtCarne.Size = new System.Drawing.Size(182, 23);
             this.TxtCarne.TabIndex = 12;
+            this.TxtCarne.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // LblFecha
             // 
@@ -821,23 +855,6 @@
             this.LblCarne.TabIndex = 0;
             this.LblCarne.Text = "CARNÉ";
             // 
-            // button1
-            // 
-            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(14)))), ((int)(((byte)(18)))), ((int)(((byte)(34)))));
-            this.button1.FlatAppearance.BorderSize = 2;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Image = ((System.Drawing.Image)(resources.GetObject("button1.Image")));
-            this.button1.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.button1.Location = new System.Drawing.Point(1059, 481);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(102, 74);
-            this.button1.TabIndex = 30;
-            this.button1.Text = "IMPRIMIR";
-            this.button1.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.button1.UseVisualStyleBackColor = false;
-            // 
             // FmDire
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -860,34 +877,6 @@
 
         private System.Windows.Forms.Panel PnlCuadroGeneral;
         private System.Windows.Forms.Panel PnlCuadrodatos;
-        private System.Windows.Forms.Label LblApellidos;
-        private System.Windows.Forms.Label LblNombre;
-        private System.Windows.Forms.Label LblCarne;
-        private System.Windows.Forms.TextBox TxtAula5;
-        private System.Windows.Forms.TextBox TxtAula4;
-        private System.Windows.Forms.TextBox TxtAula3;
-        private System.Windows.Forms.TextBox TxtAula2;
-        private System.Windows.Forms.TextBox TxtAula1;
-        private System.Windows.Forms.TextBox TxtHorario5;
-        private System.Windows.Forms.TextBox TxtHorario4;
-        private System.Windows.Forms.TextBox TxtHorario3;
-        private System.Windows.Forms.TextBox TxtHorario2;
-        private System.Windows.Forms.TextBox TxtHorario1;
-        private System.Windows.Forms.TextBox TxtNCurso5;
-        private System.Windows.Forms.TextBox TxtNCurso4;
-        private System.Windows.Forms.TextBox TxtNCurso3;
-        private System.Windows.Forms.TextBox TxtNCurso2;
-        private System.Windows.Forms.TextBox TxtNCurso1;
-        private System.Windows.Forms.TextBox TxtCod5;
-        private System.Windows.Forms.TextBox TxtCod4;
-        private System.Windows.Forms.TextBox TxtCod3;
-        private System.Windows.Forms.TextBox TxtCod2;
-        private System.Windows.Forms.TextBox TxtCod1;
-        private System.Windows.Forms.TextBox TxtFacultad5;
-        private System.Windows.Forms.TextBox TxtFacultad4;
-        private System.Windows.Forms.TextBox TxtFacultad3;
-        private System.Windows.Forms.TextBox TxtFacultad2;
-        private System.Windows.Forms.TextBox TxtFacultad1;
         private System.Windows.Forms.Label LblEstado;
         private System.Windows.Forms.Label LblSeccion;
         private System.Windows.Forms.Label LblAula;
@@ -895,42 +884,70 @@
         private System.Windows.Forms.Label LblNcurso;
         private System.Windows.Forms.Label label14;
         private System.Windows.Forms.Label LblFac;
-        private System.Windows.Forms.TextBox TxtMensualidad;
-        private System.Windows.Forms.TextBox TxtFecha;
-        private System.Windows.Forms.TextBox TxtSemestre;
-        private System.Windows.Forms.TextBox TxtCiclo;
-        private System.Windows.Forms.TextBox TxtJornada;
-        private System.Windows.Forms.TextBox TxtCarrera;
-        private System.Windows.Forms.TextBox TxtDireccion;
-        private System.Windows.Forms.TextBox TxtCasada;
-        private System.Windows.Forms.TextBox TxtApellidos;
-        private System.Windows.Forms.TextBox TxtNombres;
-        private System.Windows.Forms.TextBox TxtCarne;
-        private System.Windows.Forms.Label LblFecha;
-        private System.Windows.Forms.Label LblMensualidad;
         private System.Windows.Forms.Label LblTitulo;
-        private System.Windows.Forms.Label LblSemestre;
-        private System.Windows.Forms.Label LblCiclo;
-        private System.Windows.Forms.Label LblJornada;
-        private System.Windows.Forms.Label LblCarrera;
-        private System.Windows.Forms.Label LblCasada;
-        private System.Windows.Forms.Label LblDireccion;
-        private System.Windows.Forms.TextBox TtxLab5;
-        private System.Windows.Forms.TextBox TtxLab4;
-        private System.Windows.Forms.TextBox TtxLab3;
-        private System.Windows.Forms.TextBox TtxLab2;
-        private System.Windows.Forms.TextBox TtxLab1;
         private System.Windows.Forms.Label LblLab;
-        private System.Windows.Forms.TextBox TxtEstado5;
-        private System.Windows.Forms.TextBox TxtEstado4;
-        private System.Windows.Forms.TextBox TxtEstado3;
-        private System.Windows.Forms.TextBox TxtEstado2;
-        private System.Windows.Forms.TextBox TxtEstado1;
-        private System.Windows.Forms.TextBox TxtSeccion5;
-        private System.Windows.Forms.TextBox TxtSeccion4;
-        private System.Windows.Forms.TextBox TxtSeccion3;
-        private System.Windows.Forms.TextBox TxtSeccion2;
-        private System.Windows.Forms.TextBox TxtSeccion1;
         private System.Windows.Forms.Button button1;
+        public System.Windows.Forms.Label LblApellidos;
+        public System.Windows.Forms.Label LblNombre;
+        public System.Windows.Forms.Label LblCarne;
+        public System.Windows.Forms.TextBox TxtMensualidad;
+        public System.Windows.Forms.TextBox TxtFecha;
+        public System.Windows.Forms.TextBox TxtSemestre;
+        public System.Windows.Forms.TextBox TxtCiclo;
+        public System.Windows.Forms.TextBox TxtJornada;
+        public System.Windows.Forms.TextBox TxtCarrera;
+        public System.Windows.Forms.TextBox TxtDireccion;
+        public System.Windows.Forms.TextBox TxtCasada;
+        public System.Windows.Forms.TextBox TxtApellidos;
+        public System.Windows.Forms.TextBox TxtNombres;
+        public System.Windows.Forms.TextBox TxtCarne;
+        public System.Windows.Forms.Label LblFecha;
+        public System.Windows.Forms.Label LblMensualidad;
+        public System.Windows.Forms.Label LblSemestre;
+        public System.Windows.Forms.Label LblCiclo;
+        public System.Windows.Forms.Label LblJornada;
+        public System.Windows.Forms.Label LblCarrera;
+        public System.Windows.Forms.Label LblCasada;
+        public System.Windows.Forms.Label LblDireccion;
+        public System.Windows.Forms.TextBox TxtAula5;
+        public System.Windows.Forms.TextBox TxtAula4;
+        public System.Windows.Forms.TextBox TxtAula3;
+        public System.Windows.Forms.TextBox TxtAula2;
+        public System.Windows.Forms.TextBox TxtAula1;
+        public System.Windows.Forms.TextBox TxtHorario5;
+        public System.Windows.Forms.TextBox TxtHorario4;
+        public System.Windows.Forms.TextBox TxtHorario3;
+        public System.Windows.Forms.TextBox TxtHorario2;
+        public System.Windows.Forms.TextBox TxtHorario1;
+        public System.Windows.Forms.TextBox TxtNCurso5;
+        public System.Windows.Forms.TextBox TxtNCurso4;
+        public System.Windows.Forms.TextBox TxtNCurso3;
+        public System.Windows.Forms.TextBox TxtNCurso2;
+        public System.Windows.Forms.TextBox TxtNCurso1;
+        public System.Windows.Forms.TextBox TxtCod5;
+        public System.Windows.Forms.TextBox TxtCod4;
+        public System.Windows.Forms.TextBox TxtCod3;
+        public System.Windows.Forms.TextBox TxtCod2;
+        public System.Windows.Forms.TextBox TxtCod1;
+        public System.Windows.Forms.TextBox TxtFacultad5;
+        public System.Windows.Forms.TextBox TxtFacultad4;
+        public System.Windows.Forms.TextBox TxtFacultad3;
+        public System.Windows.Forms.TextBox TxtFacultad2;
+        public System.Windows.Forms.TextBox TxtFacultad1;
+        public System.Windows.Forms.TextBox TtxLab5;
+        public System.Windows.Forms.TextBox TtxLab4;
+        public System.Windows.Forms.TextBox TtxLab3;
+        public System.Windows.Forms.TextBox TtxLab2;
+        public System.Windows.Forms.TextBox TtxLab1;
+        public System.Windows.Forms.TextBox TxtEstado5;
+        public System.Windows.Forms.TextBox TxtEstado4;
+        public System.Windows.Forms.TextBox TxtEstado3;
+        public System.Windows.Forms.TextBox TxtEstado2;
+        public System.Windows.Forms.TextBox TxtEstado1;
+        public System.Windows.Forms.TextBox TxtSeccion5;
+        public System.Windows.Forms.TextBox TxtSeccion4;
+        public System.Windows.Forms.TextBox TxtSeccion3;
+        public System.Windows.Forms.TextBox TxtSeccion2;
+        public System.Windows.Forms.TextBox TxtSeccion1;
     }
 }
