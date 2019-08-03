@@ -144,18 +144,18 @@ namespace ADMINISTRADORES
                             }
                             else
                             {
-                                MessageBox.Show("Tipo de Usuario Incorrecto");
+                                //MessageBox.Show("Tipo de Usuario Incorrecto");
                             }
                         }
                         else
                         {
-                            MessageBox.Show("Password Incorrecto");
+                           // MessageBox.Show("Password Incorrecto");
                         }
                     }
                     else
                     {
                       
-                        MessageBox.Show("Usuario Incorrecto");
+                        //MessageBox.Show("Usuario Incorrecto");
                     }
                     
                     //Finaliza Conexion
