@@ -46,20 +46,37 @@ namespace ADMINISTRADORES
 
         private void BtnVisualizar_Click(object sender, EventArgs e)
         {
-            MySqlDataAdapter dataAdapter;
+             MySqlDataAdapter dataAdapter;
             DataSet dataSet;
             ConexionBD conexion = new ConexionBD();
+
             MySqlCommand command = new MySqlCommand();
-            command.CommandText = "SELECT * FROM Estudiantes WHERE Estudiantes.iIdEstudiantes =?carnet";
-            command.Parameters.AddWithValue("?carnet", TxtNcarnet.Text);
+            command.CommandText = "SELECT * FROM Catedratico WHERE Catedratico.iIdCatedratico = ?carnet";
+            command.Parameters.AddWithValue("?carnet",TxtNcarnet.Text);
             command.CommandType = CommandType.Text;
             command.Connection = conexion.Conectar();
             dataAdapter = new MySqlDataAdapter(command);
             dataSet = new DataSet();
-            dataAdapter.Fill(dataSet, "Estudiantes");
+            dataAdapter.Fill(dataSet, "Catedratico");
             DtaAsignacionCat.DataSource = dataSet;
-            DtaAsignacionCat.DataMember = "Estudiantes";
-            conexion.Desconectar();
+            DtaAsignacionCat.DataMember = "Catedratico"; 
+            command.Connection = conexion.Desconectar();
+
+            MySqlDataAdapter dataAdapter1;
+            DataSet dataSet1;
+            MySqlCommand command1 = new MySqlCommand();
+
+            command1.CommandText = "SELECT * FROM Curso";
+            command1.CommandType = CommandType.Text;
+
+            command1.Connection = conexion.Conectar();
+            dataAdapter1 = new MySqlDataAdapter(command1);
+            dataSet1 = new DataSet();
+            dataAdapter1.Fill(dataSet1, "Curso");
+            DtaCursosCat.DataSource = dataSet1;
+            DtaCursosCat.DataMember = "Curso";
+            command1.Connection = conexion.Desconectar();
+
         }
 
         private void Button1_Click(object sender, EventArgs e)

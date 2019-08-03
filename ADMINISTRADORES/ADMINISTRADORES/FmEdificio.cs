@@ -47,7 +47,7 @@ namespace ADMINISTRADORES
             ConexionBD conexion = new ConexionBD();
             MySqlCommand command = new MySqlCommand();
             command.CommandText = "SELECT * FROM Edificio WHERE Edificio.cNombre =?nombre";
-            command.Parameters.AddWithValue("?nombre", LstNombre.Text);
+            command.Parameters.AddWithValue("?nombre", TxtNumero.Text);
             command.CommandType = CommandType.Text;
             command.Connection = conexion.Conectar();
             dataAdapter = new MySqlDataAdapter(command);
@@ -56,6 +56,11 @@ namespace ADMINISTRADORES
             DtaEdificio.DataSource = dataSet;
             DtaEdificio.DataMember = "Estudiantes";
             conexion.Desconectar();
+        }
+
+        private void DtaEdificio_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
         }
     }
 }

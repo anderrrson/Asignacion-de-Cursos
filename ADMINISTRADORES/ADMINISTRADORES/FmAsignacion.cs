@@ -96,6 +96,18 @@ namespace ADMINISTRADORES
             trasladar.TxtCod4.Text = DtaCursos.Rows[3].Cells[0].Value.ToString();
             trasladar.TxtCod5.Text = DtaCursos.Rows[4].Cells[0].Value.ToString();
 
+            trasladar.TxtNCurso1.Text = DtaCursos.Rows[0].Cells[1].Value.ToString();
+            trasladar.TxtNCurso2.Text = DtaCursos.Rows[1].Cells[1].Value.ToString();
+            trasladar.TxtNCurso3.Text = DtaCursos.Rows[2].Cells[1].Value.ToString();
+            trasladar.TxtNCurso4.Text = DtaCursos.Rows[3].Cells[1].Value.ToString();
+            trasladar.TxtNCurso5.Text = DtaCursos.Rows[4].Cells[1].Value.ToString();
+
+            trasladar.TtxLab1.Text = DtaCursos.Rows[0].Cells[2].Value.ToString();
+            trasladar.TtxLab2.Text = DtaCursos.Rows[1].Cells[2].Value.ToString();
+            trasladar.TtxLab3.Text = DtaCursos.Rows[2].Cells[2].Value.ToString();
+            trasladar.TtxLab4.Text = DtaCursos.Rows[3].Cells[2].Value.ToString();
+            trasladar.TtxLab5.Text = DtaCursos.Rows[4].Cells[2].Value.ToString();
+
             trasladar.ShowDialog();
         }
 
@@ -132,9 +144,6 @@ namespace ADMINISTRADORES
             DtaCursos.DataSource = dataSet1;
             DtaCursos.DataMember = "Curso";
             command1.Connection = conexion.Desconectar();
-
-
-
 
         }
 
