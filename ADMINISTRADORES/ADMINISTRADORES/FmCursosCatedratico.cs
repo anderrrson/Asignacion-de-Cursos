@@ -16,6 +16,7 @@ namespace ADMINISTRADORES
         {
             InitializeComponent();
         }
+        CLSCatedraticos CLSCatedraticos = new CLSCatedraticos();
 
         private void LblTituloCarnet_Click(object sender, EventArgs e)
         {
@@ -25,6 +26,11 @@ namespace ADMINISTRADORES
         private void DgvCursos_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
 
+        }
+
+        private void BtnBuscar_Click(object sender, EventArgs e)
+        {
+            CLSCatedraticos.ConsultarNota(Convert.ToInt32(TxtCodigoCatedratico.Text),Convert.ToInt32(TxtAño.Text));
         }
     }
 }

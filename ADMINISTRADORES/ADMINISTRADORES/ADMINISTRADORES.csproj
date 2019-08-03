@@ -51,7 +51,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+<<<<<<< HEAD
+    <Compile Include="CLSCatedraticos.cs" />
+=======
     <Compile Include="Bitacora.cs" />
+>>>>>>> master
     <Compile Include="ConexionBD.cs" />
     <Compile Include="ConsultarHorarioEstudiante.cs" />
     <Compile Include="ConsultarNotasEstudiante.cs" />
