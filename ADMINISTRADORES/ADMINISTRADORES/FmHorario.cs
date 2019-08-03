@@ -38,17 +38,16 @@ namespace ADMINISTRADORES
             ConsultarHorarioEstudiante consultarHorarioEstudiante = new ConsultarHorarioEstudiante(DgvHorario, TxtCarnet);
             consultarHorarioEstudiante.ObtenerHorario();
             /*
-             *SELECT iIdAsignacion AS ID, 
-                cDescripcion AS Descripcion, 
-        (SELECT cNombre FROM Curso WHERE Curso.iIdCurso = AsignacionDetalle.iIdCurso) AS Curso,
-        concat((SELECT cHoraInicio FROM Horario WHERE Horario.iIdHorario = AsignacionDetalle.iIdHorario),"-",(SELECT cHoraFinal FROM Horario WHERE Horario.iIdHorario = AsignacionDetalle.iIdHorario)) AS Horario,
-        (SELECT cDescripcion FROM Seccion WHERE Seccion.iIdSeccion = AsignacionDetalle.iIdSeccion) AS Seccion,
-        (SELECT cDescripcion FROM Laboratorio WHERE Laboratorio.iIdLaboratorio = AsignacionDetalle.iIdLaboratorio) AS Lab,
-        (SELECT cDescripcion FROM Semestre WHERE Semestre.iIdSemestre = AsignacionDetalle.iIdSemestre) AS Semestre
-        FROM AsignacionDetalle WHERE AsignacionDetalle.iIdAsignacion = 
-        (SELECT Asignacion.idAsignacion FROM Asignacion WHERE Asignacion.iIdEstudiantes = 1);
-             */
-
+               SELECT iIdAsignacion AS ID, 
+               cDescripcion AS Descripcion, 
+               (SELECT cNombre FROM Curso WHERE Curso.iIdCurso = AsignacionDetalle.iIdCurso) AS Curso,
+               concat((SELECT cHoraInicio FROM Horario WHERE Horario.iIdHorario = AsignacionDetalle.iIdHorario),"-",(SELECT cHoraFinal FROM Horario WHERE Horario.iIdHorario = AsignacionDetalle.iIdHorario)) AS Horario,
+               (SELECT cDescripcion FROM Seccion WHERE Seccion.iIdSeccion = AsignacionDetalle.iIdSeccion) AS Seccion,
+               (SELECT cDescripcion FROM Laboratorio WHERE Laboratorio.iIdLaboratorio = AsignacionDetalle.iIdLaboratorio) AS Lab,
+               (SELECT cDescripcion FROM Semestre WHERE Semestre.iIdSemestre = AsignacionDetalle.iIdSemestre) AS Semestre
+               FROM AsignacionDetalle WHERE AsignacionDetalle.iIdAsignacion = 
+               (SELECT Asignacion.idAsignacion FROM Asignacion WHERE Asignacion.iIdEstudiantes = 1);
+            */
         }
 
         private void TxtCarnet_KeyPress(object sender, KeyPressEventArgs e)
