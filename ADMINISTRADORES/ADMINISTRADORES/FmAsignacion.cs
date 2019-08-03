@@ -22,11 +22,11 @@ namespace ADMINISTRADORES
             InitializeComponent();
         }
 
-        private void PicHorario_Click(object sender, EventArgs e)
+        /*private void PicHorario_Click(object sender, EventArgs e)
         {
             FmDire o = new FmDire();
             o.Show();
-        }
+        }*/
 
         private void FmAsignacion_Load(object sender, EventArgs e)
         {

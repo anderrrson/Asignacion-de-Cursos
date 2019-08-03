@@ -31,8 +31,7 @@ namespace ADMINISTRADORES
 
         private void Button1_Click(object sender, EventArgs e)
         {
-            FmEdificio i = new FmEdificio();
-            i.ShowDialog();
+            
         }
 
         private void ListBox1_SelectedIndexChanged(object sender, EventArgs e)
@@ -60,7 +59,11 @@ namespace ADMINISTRADORES
 
         private void DtaEdificio_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
-
+            TxtNumero.Text = DtaEdificio.Rows[0].Cells[0].Value.ToString();
+            TxtNombre.Text = DtaEdificio.Rows[0].Cells[1].Value.ToString();
+            TxtSalon.Text = DtaEdificio.Rows[0].Cells[2].Value.ToString();
+            TxtFacultad.Text = DtaEdificio.Rows[0].Cells[3].Value.ToString();
+            
         }
     }
 }

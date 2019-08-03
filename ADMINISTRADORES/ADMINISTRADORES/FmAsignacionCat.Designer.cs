@@ -327,6 +327,7 @@
             this.BtnImprimir.Text = "IMPRIMIR";
             this.BtnImprimir.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.BtnImprimir.UseVisualStyleBackColor = false;
+            this.BtnImprimir.Click += new System.EventHandler(this.BtnImprimir_Click);
             // 
             // DtaCursosCat
             // 
@@ -336,6 +337,7 @@
             this.DtaCursosCat.Name = "DtaCursosCat";
             this.DtaCursosCat.Size = new System.Drawing.Size(631, 186);
             this.DtaCursosCat.TabIndex = 37;
+            this.DtaCursosCat.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.DtaCursosCat_CellContentClick);
             // 
             // FmAsignacionCat
             // 

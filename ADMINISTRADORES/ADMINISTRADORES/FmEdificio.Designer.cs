@@ -39,7 +39,6 @@
             this.panel2 = new System.Windows.Forms.Panel();
             this.TxtFacultad = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
             this.panel3 = new System.Windows.Forms.Panel();
             this.TxtSalon = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
@@ -152,24 +151,6 @@
             this.label2.TabIndex = 15;
             this.label2.Text = "FACULTAD QUE LO UTILIZARÁ";
             // 
-            // button1
-            // 
-            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(14)))), ((int)(((byte)(18)))), ((int)(((byte)(34)))));
-            this.button1.FlatAppearance.BorderSize = 2;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Image = ((System.Drawing.Image)(resources.GetObject("button1.Image")));
-            this.button1.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.button1.Location = new System.Drawing.Point(1116, 52);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(102, 74);
-            this.button1.TabIndex = 29;
-            this.button1.Text = "GUARDAR";
-            this.button1.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.button1.UseVisualStyleBackColor = false;
-            this.button1.Click += new System.EventHandler(this.Button1_Click);
-            // 
             // panel3
             // 
             this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(55)))), ((int)(((byte)(35)))));
@@ -220,7 +201,7 @@
             this.BtnVisualizar.ForeColor = System.Drawing.Color.White;
             this.BtnVisualizar.Image = ((System.Drawing.Image)(resources.GetObject("BtnVisualizar.Image")));
             this.BtnVisualizar.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.BtnVisualizar.Location = new System.Drawing.Point(1017, 52);
+            this.BtnVisualizar.Location = new System.Drawing.Point(1103, 43);
             this.BtnVisualizar.Name = "BtnVisualizar";
             this.BtnVisualizar.Size = new System.Drawing.Size(102, 74);
             this.BtnVisualizar.TabIndex = 36;
@@ -253,7 +234,6 @@
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.TxtSalon);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.button1);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.TxtFacultad);
             this.Controls.Add(this.label2);
@@ -286,7 +266,6 @@
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.TextBox TxtFacultad;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.TextBox TxtSalon;
         private System.Windows.Forms.Label label3;

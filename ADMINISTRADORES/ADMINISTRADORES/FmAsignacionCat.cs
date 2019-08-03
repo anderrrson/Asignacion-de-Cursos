@@ -81,6 +81,20 @@ namespace ADMINISTRADORES
 
         private void Button1_Click(object sender, EventArgs e)
         {
+           
+        }
+
+        private void DtaCursosCat_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+            TxtCodigo1.Text = DtaCursosCat.Rows[0].Cells[0].Value.ToString();
+            TxtCodigo2.Text = DtaCursosCat.Rows[1].Cells[0].Value.ToString();
+            TxtCodigo3.Text = DtaCursosCat.Rows[2].Cells[0].Value.ToString();
+            TxtCodigo4.Text = DtaCursosCat.Rows[3].Cells[0].Value.ToString();
+            TxtCodigo5.Text = DtaCursosCat.Rows[4].Cells[0].Value.ToString();
+        }
+
+        private void BtnImprimir_Click(object sender, EventArgs e)
+        {
             Document boleta = new Document();
             PdfWriter.GetInstance(boleta, new FileStream("E:/Crear Dire.pdf", FileMode.Create));
             boleta.Open();

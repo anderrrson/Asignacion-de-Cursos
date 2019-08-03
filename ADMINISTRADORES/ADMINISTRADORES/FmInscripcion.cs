@@ -87,6 +87,8 @@ namespace ADMINISTRADORES
             trasladar.TxtApellido.Text = DtaInscripcion.Rows[0].Cells[2].Value.ToString();
             trasladar.TxtDireccion.Text = DtaInscripcion.Rows[0].Cells[4].Value.ToString();
             trasladar.TxtTelefono.Text = DtaInscripcion.Rows[0].Cells[6].Value.ToString();
+            trasladar.TxtCarne1.Text = DtaInscripcion.Rows[0].Cells[0].Value.ToString();
+            trasladar.TxtNCompleto.Text = DtaInscripcion.Rows[0].Cells[1].Value.ToString();
             trasladar.ShowDialog();
         }
 
