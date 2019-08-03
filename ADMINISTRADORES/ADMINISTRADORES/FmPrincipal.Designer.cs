@@ -56,17 +56,18 @@
             this.PnlBarraSup.Controls.Add(this.LblTitulo);
             this.PnlBarraSup.Dock = System.Windows.Forms.DockStyle.Top;
             this.PnlBarraSup.Location = new System.Drawing.Point(0, 0);
+            this.PnlBarraSup.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.PnlBarraSup.Name = "PnlBarraSup";
-            this.PnlBarraSup.Size = new System.Drawing.Size(1300, 39);
+            this.PnlBarraSup.Size = new System.Drawing.Size(1733, 48);
             this.PnlBarraSup.TabIndex = 0;
             // 
             // pictureBox4
             // 
             this.pictureBox4.Image = global::ADMINISTRADORES.Properties.Resources.regresar1;
-            this.pictureBox4.Location = new System.Drawing.Point(9, 4);
-            this.pictureBox4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox4.Location = new System.Drawing.Point(12, 5);
+            this.pictureBox4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(53, 35);
+            this.pictureBox4.Size = new System.Drawing.Size(71, 43);
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
             this.pictureBox4.TabIndex = 0;
             this.pictureBox4.TabStop = false;
@@ -76,9 +77,10 @@
             // 
             this.pictureBox2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBox2.Image = global::ADMINISTRADORES.Properties.Resources.minForm1;
-            this.pictureBox2.Location = new System.Drawing.Point(1202, 3);
+            this.pictureBox2.Location = new System.Drawing.Point(1603, 4);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(40, 32);
+            this.pictureBox2.Size = new System.Drawing.Size(53, 39);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
             this.pictureBox2.TabIndex = 2;
             this.pictureBox2.TabStop = false;
@@ -90,9 +92,10 @@
             // 
             this.pictureBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBox1.Image = global::ADMINISTRADORES.Properties.Resources.cerrarForm1;
-            this.pictureBox1.Location = new System.Drawing.Point(1248, 3);
+            this.pictureBox1.Location = new System.Drawing.Point(1664, 4);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(40, 32);
+            this.pictureBox1.Size = new System.Drawing.Size(53, 39);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
             this.pictureBox1.TabIndex = 1;
             this.pictureBox1.TabStop = false;
@@ -104,9 +107,10 @@
             // 
             this.LblTitulo.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LblTitulo.ForeColor = System.Drawing.Color.White;
-            this.LblTitulo.Location = new System.Drawing.Point(88, 9);
+            this.LblTitulo.Location = new System.Drawing.Point(117, 11);
+            this.LblTitulo.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.LblTitulo.Name = "LblTitulo";
-            this.LblTitulo.Size = new System.Drawing.Size(141, 23);
+            this.LblTitulo.Size = new System.Drawing.Size(188, 28);
             this.LblTitulo.TabIndex = 1;
             this.LblTitulo.Text = "Administracion";
             // 
@@ -118,17 +122,19 @@
             this.PnlBarraInf.Controls.Add(this.LblHora);
             this.PnlBarraInf.Controls.Add(this.LblUsuario);
             this.PnlBarraInf.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.PnlBarraInf.Location = new System.Drawing.Point(0, 661);
+            this.PnlBarraInf.Location = new System.Drawing.Point(0, 814);
+            this.PnlBarraInf.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.PnlBarraInf.Name = "PnlBarraInf";
-            this.PnlBarraInf.Size = new System.Drawing.Size(1300, 39);
+            this.PnlBarraInf.Size = new System.Drawing.Size(1733, 48);
             this.PnlBarraInf.TabIndex = 15;
             // 
             // pictureBox3
             // 
             this.pictureBox3.Image = global::ADMINISTRADORES.Properties.Resources.user;
-            this.pictureBox3.Location = new System.Drawing.Point(25, 3);
+            this.pictureBox3.Location = new System.Drawing.Point(33, 4);
+            this.pictureBox3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(31, 33);
+            this.pictureBox3.Size = new System.Drawing.Size(41, 41);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
             this.pictureBox3.TabIndex = 26;
             this.pictureBox3.TabStop = false;
@@ -138,9 +144,10 @@
             this.LblFecha.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.LblFecha.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LblFecha.ForeColor = System.Drawing.Color.White;
-            this.LblFecha.Location = new System.Drawing.Point(1031, 8);
+            this.LblFecha.Location = new System.Drawing.Point(1375, 10);
+            this.LblFecha.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.LblFecha.Name = "LblFecha";
-            this.LblFecha.Size = new System.Drawing.Size(119, 23);
+            this.LblFecha.Size = new System.Drawing.Size(159, 28);
             this.LblFecha.TabIndex = 17;
             this.LblFecha.Text = "26/07/2019";
             // 
@@ -149,9 +156,10 @@
             this.LblHora.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.LblHora.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LblHora.ForeColor = System.Drawing.Color.White;
-            this.LblHora.Location = new System.Drawing.Point(1156, 8);
+            this.LblHora.Location = new System.Drawing.Point(1541, 10);
+            this.LblHora.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.LblHora.Name = "LblHora";
-            this.LblHora.Size = new System.Drawing.Size(119, 23);
+            this.LblHora.Size = new System.Drawing.Size(159, 28);
             this.LblHora.TabIndex = 16;
             this.LblHora.Text = "1:00:00 PM";
             this.LblHora.Click += new System.EventHandler(this.Label5_Click);
@@ -160,31 +168,34 @@
             // 
             this.LblUsuario.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LblUsuario.ForeColor = System.Drawing.Color.White;
-            this.LblUsuario.Location = new System.Drawing.Point(62, 8);
+            this.LblUsuario.Location = new System.Drawing.Point(83, 10);
+            this.LblUsuario.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.LblUsuario.Name = "LblUsuario";
-            this.LblUsuario.Size = new System.Drawing.Size(141, 23);
+            this.LblUsuario.Size = new System.Drawing.Size(188, 28);
             this.LblUsuario.TabIndex = 1;
             this.LblUsuario.Text = "Usuario";
             // 
             // PnlEscritorio
             // 
             this.PnlEscritorio.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(31)))), ((int)(((byte)(58)))));
-            this.PnlEscritorio.Location = new System.Drawing.Point(0, 38);
+            this.PnlEscritorio.Location = new System.Drawing.Point(0, 47);
+            this.PnlEscritorio.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.PnlEscritorio.Name = "PnlEscritorio";
-            this.PnlEscritorio.Size = new System.Drawing.Size(1300, 623);
+            this.PnlEscritorio.Size = new System.Drawing.Size(1733, 767);
             this.PnlEscritorio.TabIndex = 16;
             this.PnlEscritorio.Paint += new System.Windows.Forms.PaintEventHandler(this.PnlEscritorio_Paint);
             // 
             // FmPrincipal
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(1300, 700);
+            this.ClientSize = new System.Drawing.Size(1733, 862);
             this.Controls.Add(this.PnlEscritorio);
             this.Controls.Add(this.PnlBarraInf);
             this.Controls.Add(this.PnlBarraSup);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "FmPrincipal";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Asignacion de Cursos";

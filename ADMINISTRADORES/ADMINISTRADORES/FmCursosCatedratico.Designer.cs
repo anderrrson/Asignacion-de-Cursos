@@ -49,9 +49,10 @@
             this.LblTituloCatedratico.AutoSize = true;
             this.LblTituloCatedratico.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LblTituloCatedratico.ForeColor = System.Drawing.Color.White;
-            this.LblTituloCatedratico.Location = new System.Drawing.Point(63, 33);
+            this.LblTituloCatedratico.Location = new System.Drawing.Point(84, 41);
+            this.LblTituloCatedratico.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.LblTituloCatedratico.Name = "LblTituloCatedratico";
-            this.LblTituloCatedratico.Size = new System.Drawing.Size(158, 20);
+            this.LblTituloCatedratico.Size = new System.Drawing.Size(196, 22);
             this.LblTituloCatedratico.TabIndex = 11;
             this.LblTituloCatedratico.Text = "Codigo Catedrático";
             this.LblTituloCatedratico.Click += new System.EventHandler(this.LblTituloCarnet_Click);
@@ -61,9 +62,10 @@
             this.LblTituloAño.AutoSize = true;
             this.LblTituloAño.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LblTituloAño.ForeColor = System.Drawing.Color.White;
-            this.LblTituloAño.Location = new System.Drawing.Point(386, 33);
+            this.LblTituloAño.Location = new System.Drawing.Point(515, 41);
+            this.LblTituloAño.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.LblTituloAño.Name = "LblTituloAño";
-            this.LblTituloAño.Size = new System.Drawing.Size(39, 20);
+            this.LblTituloAño.Size = new System.Drawing.Size(49, 22);
             this.LblTituloAño.TabIndex = 10;
             this.LblTituloAño.Text = "Año";
             // 
@@ -73,9 +75,10 @@
             this.TxtCodigoCatedratico.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.TxtCodigoCatedratico.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.TxtCodigoCatedratico.ForeColor = System.Drawing.Color.White;
-            this.TxtCodigoCatedratico.Location = new System.Drawing.Point(67, 56);
+            this.TxtCodigoCatedratico.Location = new System.Drawing.Point(89, 69);
+            this.TxtCodigoCatedratico.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.TxtCodigoCatedratico.Name = "TxtCodigoCatedratico";
-            this.TxtCodigoCatedratico.Size = new System.Drawing.Size(180, 26);
+            this.TxtCodigoCatedratico.Size = new System.Drawing.Size(240, 33);
             this.TxtCodigoCatedratico.TabIndex = 8;
             // 
             // TxtAño
@@ -84,27 +87,30 @@
             this.TxtAño.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.TxtAño.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.TxtAño.ForeColor = System.Drawing.Color.White;
-            this.TxtAño.Location = new System.Drawing.Point(390, 56);
+            this.TxtAño.Location = new System.Drawing.Point(520, 69);
+            this.TxtAño.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.TxtAño.Name = "TxtAño";
-            this.TxtAño.Size = new System.Drawing.Size(180, 26);
+            this.TxtAño.Size = new System.Drawing.Size(240, 33);
             this.TxtAño.TabIndex = 12;
             // 
             // PnlSeparadorCodigoCatedratico
             // 
             this.PnlSeparadorCodigoCatedratico.BackColor = System.Drawing.Color.Red;
             this.PnlSeparadorCodigoCatedratico.ForeColor = System.Drawing.Color.Red;
-            this.PnlSeparadorCodigoCatedratico.Location = new System.Drawing.Point(67, 88);
+            this.PnlSeparadorCodigoCatedratico.Location = new System.Drawing.Point(89, 108);
+            this.PnlSeparadorCodigoCatedratico.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.PnlSeparadorCodigoCatedratico.Name = "PnlSeparadorCodigoCatedratico";
-            this.PnlSeparadorCodigoCatedratico.Size = new System.Drawing.Size(200, 1);
+            this.PnlSeparadorCodigoCatedratico.Size = new System.Drawing.Size(267, 1);
             this.PnlSeparadorCodigoCatedratico.TabIndex = 13;
             // 
             // PnlSeparadorAño
             // 
             this.PnlSeparadorAño.BackColor = System.Drawing.Color.Red;
             this.PnlSeparadorAño.ForeColor = System.Drawing.Color.Red;
-            this.PnlSeparadorAño.Location = new System.Drawing.Point(390, 88);
+            this.PnlSeparadorAño.Location = new System.Drawing.Point(520, 108);
+            this.PnlSeparadorAño.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.PnlSeparadorAño.Name = "PnlSeparadorAño";
-            this.PnlSeparadorAño.Size = new System.Drawing.Size(200, 1);
+            this.PnlSeparadorAño.Size = new System.Drawing.Size(267, 1);
             this.PnlSeparadorAño.TabIndex = 14;
             // 
             // LblTituloCursos
@@ -112,9 +118,10 @@
             this.LblTituloCursos.AutoSize = true;
             this.LblTituloCursos.Font = new System.Drawing.Font("Century Gothic", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LblTituloCursos.ForeColor = System.Drawing.Color.White;
-            this.LblTituloCursos.Location = new System.Drawing.Point(40, 145);
+            this.LblTituloCursos.Location = new System.Drawing.Point(53, 178);
+            this.LblTituloCursos.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.LblTituloCursos.Name = "LblTituloCursos";
-            this.LblTituloCursos.Size = new System.Drawing.Size(82, 25);
+            this.LblTituloCursos.Size = new System.Drawing.Size(99, 33);
             this.LblTituloCursos.TabIndex = 16;
             this.LblTituloCursos.Text = "Cursos";
             // 
@@ -122,9 +129,10 @@
             // 
             this.PnlSeparadorCursos.BackColor = System.Drawing.Color.Red;
             this.PnlSeparadorCursos.ForeColor = System.Drawing.Color.Red;
-            this.PnlSeparadorCursos.Location = new System.Drawing.Point(28, 173);
+            this.PnlSeparadorCursos.Location = new System.Drawing.Point(37, 213);
+            this.PnlSeparadorCursos.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.PnlSeparadorCursos.Name = "PnlSeparadorCursos";
-            this.PnlSeparadorCursos.Size = new System.Drawing.Size(1260, 1);
+            this.PnlSeparadorCursos.Size = new System.Drawing.Size(1680, 1);
             this.PnlSeparadorCursos.TabIndex = 15;
             // 
             // DgvCursos
@@ -142,9 +150,10 @@
             this.DgvCursos.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.DgvCursos.EditMode = System.Windows.Forms.DataGridViewEditMode.EditProgrammatically;
             this.DgvCursos.GridColor = System.Drawing.Color.Black;
-            this.DgvCursos.Location = new System.Drawing.Point(45, 180);
+            this.DgvCursos.Location = new System.Drawing.Point(60, 222);
+            this.DgvCursos.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.DgvCursos.Name = "DgvCursos";
-            this.DgvCursos.Size = new System.Drawing.Size(1220, 249);
+            this.DgvCursos.Size = new System.Drawing.Size(1627, 306);
             this.DgvCursos.TabIndex = 17;
             this.DgvCursos.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.DgvCursos_CellContentClick);
             // 
@@ -158,10 +167,11 @@
             this.BtnExportar.ForeColor = System.Drawing.Color.White;
             this.BtnExportar.Image = ((System.Drawing.Image)(resources.GetObject("BtnExportar.Image")));
             this.BtnExportar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.BtnExportar.Location = new System.Drawing.Point(963, 41);
+            this.BtnExportar.Location = new System.Drawing.Point(1284, 50);
+            this.BtnExportar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.BtnExportar.Name = "BtnExportar";
-            this.BtnExportar.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
-            this.BtnExportar.Size = new System.Drawing.Size(148, 41);
+            this.BtnExportar.Padding = new System.Windows.Forms.Padding(13, 0, 0, 0);
+            this.BtnExportar.Size = new System.Drawing.Size(197, 50);
             this.BtnExportar.TabIndex = 19;
             this.BtnExportar.Text = "   Exportar";
             this.BtnExportar.UseVisualStyleBackColor = false;
@@ -176,20 +186,22 @@
             this.BtnBuscar.ForeColor = System.Drawing.Color.White;
             this.BtnBuscar.Image = ((System.Drawing.Image)(resources.GetObject("BtnBuscar.Image")));
             this.BtnBuscar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.BtnBuscar.Location = new System.Drawing.Point(779, 41);
+            this.BtnBuscar.Location = new System.Drawing.Point(1039, 50);
+            this.BtnBuscar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.BtnBuscar.Name = "BtnBuscar";
-            this.BtnBuscar.Padding = new System.Windows.Forms.Padding(15, 0, 0, 0);
-            this.BtnBuscar.Size = new System.Drawing.Size(148, 41);
+            this.BtnBuscar.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
+            this.BtnBuscar.Size = new System.Drawing.Size(197, 50);
             this.BtnBuscar.TabIndex = 18;
             this.BtnBuscar.Text = "Buscar";
             this.BtnBuscar.UseVisualStyleBackColor = false;
+            this.BtnBuscar.Click += new System.EventHandler(this.BtnBuscar_Click);
             // 
             // FmCursosCatedratico
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(31)))), ((int)(((byte)(58)))));
-            this.ClientSize = new System.Drawing.Size(1300, 571);
+            this.ClientSize = new System.Drawing.Size(1733, 703);
             this.Controls.Add(this.BtnExportar);
             this.Controls.Add(this.BtnBuscar);
             this.Controls.Add(this.DgvCursos);
@@ -202,6 +214,7 @@
             this.Controls.Add(this.LblTituloAño);
             this.Controls.Add(this.TxtCodigoCatedratico);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "FmCursosCatedratico";
             ((System.ComponentModel.ISupportInitialize)(this.DgvCursos)).EndInit();
             this.ResumeLayout(false);

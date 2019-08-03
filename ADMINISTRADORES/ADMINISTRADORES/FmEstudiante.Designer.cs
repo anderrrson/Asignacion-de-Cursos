@@ -1,4 +1,5 @@
-﻿namespace ADMINISTRADORES
+﻿
+namespace ADMINISTRADORES
 {
     partial class FmEstudiante
     {

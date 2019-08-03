@@ -227,3 +227,14 @@ C:\Users\ISIS\Desktop\Asignacion-de-Cursos\ADMINISTRADORES\ADMINISTRADORES\obj\D
 C:\Users\ISIS\Desktop\Asignacion-de-Cursos\ADMINISTRADORES\ADMINISTRADORES\bin\Debug\MySql.Data.dll
 C:\Users\diego\Documents\Universidad\Octavo Semestre\Analisis de Sistemas II\Asignacion-de-Cursos\ADMINISTRADORES\ADMINISTRADORES\obj\Debug\ADMINISTRADORES.FmAsignacionCat.resources
 C:\Users\diego\Documents\Universidad\Octavo Semestre\Analisis de Sistemas II\Asignacion-de-Cursos\ADMINISTRADORES\ADMINISTRADORES\obj\Debug\ADMINISTRADORES.FmEdificio.resources
+C:\Users\sindy\OneDrive\Documents\ANDERSON\OCTAVO SEMESTRE\ANÁLISIS DE SISTEMAS 2\Asignacion\Asignacion-de-Cursos\ADMINISTRADORES\ADMINISTRADORES\bin\Debug\Google.Protobuf.dll
+C:\Users\sindy\OneDrive\Documents\ANDERSON\OCTAVO SEMESTRE\ANÁLISIS DE SISTEMAS 2\Asignacion\Asignacion-de-Cursos\ADMINISTRADORES\ADMINISTRADORES\bin\Debug\Renci.SshNet.dll
+C:\Users\sindy\OneDrive\Documents\ANDERSON\OCTAVO SEMESTRE\ANÁLISIS DE SISTEMAS 2\Asignacion\Asignacion-de-Cursos\ADMINISTRADORES\ADMINISTRADORES\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\sindy\OneDrive\Documents\ANDERSON\OCTAVO SEMESTRE\ANÁLISIS DE SISTEMAS 2\Asignacion\Asignacion-de-Cursos\ADMINISTRADORES\ADMINISTRADORES\bin\Debug\MySql.Data.xml
+C:\Users\sindy\OneDrive\Documents\ANDERSON\OCTAVO SEMESTRE\ANÁLISIS DE SISTEMAS 2\Asignacion\Asignacion-de-Cursos\ADMINISTRADORES\ADMINISTRADORES\obj\Debug\ADMINISTRADORES.FmAdmin.resources
+C:\Users\sindy\OneDrive\Documents\ANDERSON\OCTAVO SEMESTRE\ANÁLISIS DE SISTEMAS 2\Asignacion\Asignacion-de-Cursos\ADMINISTRADORES\ADMINISTRADORES\obj\Debug\ADMINISTRADORES.FmAsignacionCat.resources
+C:\Users\sindy\OneDrive\Documents\ANDERSON\OCTAVO SEMESTRE\ANÁLISIS DE SISTEMAS 2\Asignacion\Asignacion-de-Cursos\ADMINISTRADORES\ADMINISTRADORES\obj\Debug\ADMINISTRADORES.FmEdificio.resources
+C:\Users\sindy\OneDrive\Documents\ANDERSON\OCTAVO SEMESTRE\ANÁLISIS DE SISTEMAS 2\Asignacion\Asignacion-de-Cursos\ADMINISTRADORES\ADMINISTRADORES\obj\Debug\ADMINISTRADORES.FmNotasCatedratico.resources
+C:\Users\sindy\OneDrive\Documents\ANDERSON\OCTAVO SEMESTRE\ANÁLISIS DE SISTEMAS 2\Asignacion\Asignacion-de-Cursos\ADMINISTRADORES\ADMINISTRADORES\obj\Debug\ADMINISTRADORES.FmPrincipal.resources
+C:\Users\sindy\OneDrive\Documents\ANDERSON\OCTAVO SEMESTRE\ANÁLISIS DE SISTEMAS 2\Asignacion\Asignacion-de-Cursos\ADMINISTRADORES\ADMINISTRADORES\obj\Debug\ADMINISTRADORES.FmCursosCatedratico.resources
+C:\Users\sindy\OneDrive\Documents\ANDERSON\OCTAVO SEMESTRE\ANÁLISIS DE SISTEMAS 2\Asignacion\Asignacion-de-Cursos\ADMINISTRADORES\ADMINISTRADORES\obj\Debug\ADMINISTRADORES.csproj.CopyComplete
