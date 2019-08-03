@@ -1719,6 +1719,7 @@
             this.button1.Text = "IMPRIMIR";
             this.button1.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.Button1_Click);
             // 
             // FmBoletaInscripcion
             // 
@@ -1735,6 +1736,7 @@
             this.Name = "FmBoletaInscripcion";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "BoletaIns";
+            this.Load += new System.EventHandler(this.FmBoletaInscripcion_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.PnlCuadro5.ResumeLayout(false);
@@ -1768,32 +1770,23 @@
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Panel PnlCuadro3;
         private System.Windows.Forms.Label LblNombre;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox TxtTelefono;
         private System.Windows.Forms.Label LblTelefono;
-        private System.Windows.Forms.TextBox TxtCarne;
         private System.Windows.Forms.Label LblCarnet;
-        private System.Windows.Forms.TextBox TxtNombre;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.TextBox TxtDireccion;
         private System.Windows.Forms.Label LblDireccion;
-        private System.Windows.Forms.TextBox TxtApellido;
         private System.Windows.Forms.Label LblApellido;
         private System.Windows.Forms.Panel panel4;
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.Label Lblinfo;
         private System.Windows.Forms.Label label13;
-        private System.Windows.Forms.Panel PnlCuadro2;
         private System.Windows.Forms.Label LblInstrucc;
-        private System.Windows.Forms.TextBox TxtInscrip;
         private System.Windows.Forms.Label LblInscrip;
-        private System.Windows.Forms.TextBox TxtCarrera;
         private System.Windows.Forms.Label LblCarrera;
         private System.Windows.Forms.Label LbDatos;
         private System.Windows.Forms.TextBox textBox9;
@@ -1903,5 +1896,14 @@
         private System.Windows.Forms.Label LblBoleta;
         private System.Windows.Forms.Label LblNboleta;
         private System.Windows.Forms.Button button1;
+        public System.Windows.Forms.Panel PnlCuadro3;
+        public System.Windows.Forms.TextBox TxtTelefono;
+        public System.Windows.Forms.TextBox TxtCarne;
+        public System.Windows.Forms.TextBox TxtNombre;
+        public System.Windows.Forms.TextBox TxtDireccion;
+        public System.Windows.Forms.TextBox TxtApellido;
+        public System.Windows.Forms.Panel PnlCuadro2;
+        public System.Windows.Forms.TextBox TxtInscrip;
+        public System.Windows.Forms.TextBox TxtCarrera;
     }
 }
