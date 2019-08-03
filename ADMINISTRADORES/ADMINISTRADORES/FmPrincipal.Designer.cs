@@ -56,7 +56,11 @@
             this.PnlBarraSup.Controls.Add(this.LblTitulo);
             this.PnlBarraSup.Dock = System.Windows.Forms.DockStyle.Top;
             this.PnlBarraSup.Location = new System.Drawing.Point(0, 0);
+<<<<<<< HEAD
             this.PnlBarraSup.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+=======
+            this.PnlBarraSup.Margin = new System.Windows.Forms.Padding(4);
+>>>>>>> master
             this.PnlBarraSup.Name = "PnlBarraSup";
             this.PnlBarraSup.Size = new System.Drawing.Size(1733, 48);
             this.PnlBarraSup.TabIndex = 0;
@@ -78,7 +82,11 @@
             this.pictureBox2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBox2.Image = global::ADMINISTRADORES.Properties.Resources.minForm1;
             this.pictureBox2.Location = new System.Drawing.Point(1603, 4);
+<<<<<<< HEAD
             this.pictureBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+=======
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(4);
+>>>>>>> master
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(53, 39);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
@@ -93,7 +101,11 @@
             this.pictureBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBox1.Image = global::ADMINISTRADORES.Properties.Resources.cerrarForm1;
             this.pictureBox1.Location = new System.Drawing.Point(1664, 4);
+<<<<<<< HEAD
             this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+=======
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4);
+>>>>>>> master
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(53, 39);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
@@ -123,7 +135,11 @@
             this.PnlBarraInf.Controls.Add(this.LblUsuario);
             this.PnlBarraInf.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.PnlBarraInf.Location = new System.Drawing.Point(0, 814);
+<<<<<<< HEAD
             this.PnlBarraInf.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+=======
+            this.PnlBarraInf.Margin = new System.Windows.Forms.Padding(4);
+>>>>>>> master
             this.PnlBarraInf.Name = "PnlBarraInf";
             this.PnlBarraInf.Size = new System.Drawing.Size(1733, 48);
             this.PnlBarraInf.TabIndex = 15;
@@ -132,7 +148,11 @@
             // 
             this.pictureBox3.Image = global::ADMINISTRADORES.Properties.Resources.user;
             this.pictureBox3.Location = new System.Drawing.Point(33, 4);
+<<<<<<< HEAD
             this.pictureBox3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+=======
+            this.pictureBox3.Margin = new System.Windows.Forms.Padding(4);
+>>>>>>> master
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(41, 41);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
@@ -150,6 +170,7 @@
             this.LblFecha.Size = new System.Drawing.Size(159, 28);
             this.LblFecha.TabIndex = 17;
             this.LblFecha.Text = "26/07/2019";
+            this.LblFecha.Click += new System.EventHandler(this.LblFecha_Click);
             // 
             // LblHora
             // 
@@ -179,7 +200,11 @@
             // 
             this.PnlEscritorio.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(31)))), ((int)(((byte)(58)))));
             this.PnlEscritorio.Location = new System.Drawing.Point(0, 47);
+<<<<<<< HEAD
             this.PnlEscritorio.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+=======
+            this.PnlEscritorio.Margin = new System.Windows.Forms.Padding(4);
+>>>>>>> master
             this.PnlEscritorio.Name = "PnlEscritorio";
             this.PnlEscritorio.Size = new System.Drawing.Size(1733, 767);
             this.PnlEscritorio.TabIndex = 16;
@@ -195,7 +220,11 @@
             this.Controls.Add(this.PnlBarraInf);
             this.Controls.Add(this.PnlBarraSup);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+<<<<<<< HEAD
             this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+=======
+            this.Margin = new System.Windows.Forms.Padding(4);
+>>>>>>> master
             this.Name = "FmPrincipal";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Asignacion de Cursos";
@@ -218,10 +247,10 @@
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.Panel PnlBarraInf;
         private System.Windows.Forms.Label LblHora;
-        private System.Windows.Forms.Label LblUsuario;
         private System.Windows.Forms.Label LblFecha;
         private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.Panel PnlEscritorio;
         private System.Windows.Forms.PictureBox pictureBox4;
+        private System.Windows.Forms.Label LblUsuario;
     }
 }
