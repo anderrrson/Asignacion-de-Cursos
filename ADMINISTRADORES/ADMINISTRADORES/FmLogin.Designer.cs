@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.LnblOlvidoPassword = new System.Windows.Forms.LinkLabel();
             this.BtnIniciarSesion = new System.Windows.Forms.Button();
             this.TxtContraseña = new System.Windows.Forms.TextBox();
             this.PicPassword = new System.Windows.Forms.PictureBox();
@@ -52,8 +53,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.PicTiposUsuarios)).BeginInit();
             this.SuspendLayout();
             // 
-<<<<<<< HEAD
-=======
             // LnblOlvidoPassword
             // 
             this.LnblOlvidoPassword.ActiveLinkColor = System.Drawing.Color.White;
@@ -68,7 +67,6 @@
             this.LnblOlvidoPassword.Text = "¿Olvidaste tu contraseña?";
             this.LnblOlvidoPassword.VisitedLinkColor = System.Drawing.Color.Blue;
             // 
->>>>>>> master
             // BtnIniciarSesion
             // 
             this.BtnIniciarSesion.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(31)))), ((int)(((byte)(58)))));
@@ -78,12 +76,7 @@
             this.BtnIniciarSesion.Location = new System.Drawing.Point(532, 330);
             this.BtnIniciarSesion.Name = "BtnIniciarSesion";
             this.BtnIniciarSesion.Size = new System.Drawing.Size(139, 37);
-<<<<<<< HEAD
-            this.BtnIniciarSesion.TabIndex = 3;
-            this.BtnIniciarSesion.Tag = "";
-=======
             this.BtnIniciarSesion.TabIndex = 4;
->>>>>>> master
             this.BtnIniciarSesion.Text = "Iniciar sesión";
             this.BtnIniciarSesion.UseVisualStyleBackColor = false;
             this.BtnIniciarSesion.Click += new System.EventHandler(this.BtnIniciarSesion_Click);
@@ -94,18 +87,10 @@
             this.TxtContraseña.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.TxtContraseña.Font = new System.Drawing.Font("Century Gothic", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.TxtContraseña.ForeColor = System.Drawing.Color.DarkGray;
-<<<<<<< HEAD
-            this.TxtContraseña.Location = new System.Drawing.Point(49, 7);
-            this.TxtContraseña.Name = "TxtContraseña";
-            this.TxtContraseña.Size = new System.Drawing.Size(310, 21);
-            this.TxtContraseña.TabIndex = 1;
-            this.TxtContraseña.Tag = "";
-=======
             this.TxtContraseña.Location = new System.Drawing.Point(457, 194);
             this.TxtContraseña.Name = "TxtContraseña";
             this.TxtContraseña.Size = new System.Drawing.Size(310, 21);
             this.TxtContraseña.TabIndex = 2;
->>>>>>> master
             this.TxtContraseña.Text = "Contraseña";
             this.TxtContraseña.Enter += new System.EventHandler(this.TxtContraseña_Enter);
             this.TxtContraseña.Leave += new System.EventHandler(this.TxtContraseña_Leave);
@@ -115,11 +100,7 @@
             this.PicPassword.BackColor = System.Drawing.Color.Transparent;
             this.PicPassword.BackgroundImage = global::ADMINISTRADORES.Properties.Resources._lock;
             this.PicPassword.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-<<<<<<< HEAD
-            this.PicPassword.Location = new System.Drawing.Point(418, 187);
-=======
             this.PicPassword.Location = new System.Drawing.Point(416, 191);
->>>>>>> master
             this.PicPassword.Name = "PicPassword";
             this.PicPassword.Size = new System.Drawing.Size(27, 29);
             this.PicPassword.TabIndex = 5;
@@ -134,11 +115,7 @@
             this.LabelIniciarSesion.Location = new System.Drawing.Point(418, 105);
             this.LabelIniciarSesion.Name = "LabelIniciarSesion";
             this.LabelIniciarSesion.Size = new System.Drawing.Size(114, 21);
-<<<<<<< HEAD
-            this.LabelIniciarSesion.TabIndex = 4;
-=======
             this.LabelIniciarSesion.TabIndex = 7;
->>>>>>> master
             this.LabelIniciarSesion.Text = "Iniciar Sesión";
             this.LabelIniciarSesion.Click += new System.EventHandler(this.LabelIngreso_Click);
             // 
@@ -160,17 +137,10 @@
             this.PnlUser.Controls.Add(this.TxtUsuario);
             this.PnlUser.Controls.Add(this.PicUser);
             this.PnlUser.Font = new System.Drawing.Font("Century Gothic", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-<<<<<<< HEAD
-            this.PnlUser.Location = new System.Drawing.Point(409, 149);
-            this.PnlUser.Name = "PnlUser";
-            this.PnlUser.Size = new System.Drawing.Size(392, 35);
-            this.PnlUser.TabIndex = 4;
-=======
             this.PnlUser.Location = new System.Drawing.Point(407, 153);
             this.PnlUser.Name = "PnlUser";
             this.PnlUser.Size = new System.Drawing.Size(392, 35);
             this.PnlUser.TabIndex = 8;
->>>>>>> master
             // 
             // TxtUsuario
             // 
@@ -181,12 +151,7 @@
             this.TxtUsuario.Location = new System.Drawing.Point(49, 6);
             this.TxtUsuario.Name = "TxtUsuario";
             this.TxtUsuario.Size = new System.Drawing.Size(310, 21);
-<<<<<<< HEAD
-            this.TxtUsuario.TabIndex = 0;
-            this.TxtUsuario.Tag = "";
-=======
             this.TxtUsuario.TabIndex = 1;
->>>>>>> master
             this.TxtUsuario.Text = "Usuario";
             this.TxtUsuario.Enter += new System.EventHandler(this.TxtUserName_Enter);
             this.TxtUsuario.Leave += new System.EventHandler(this.TxtUserName_Leave);
@@ -196,19 +161,11 @@
             this.PnlPassword.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(31)))), ((int)(((byte)(45)))));
             this.PnlPassword.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.PnlPassword.Controls.Add(this.panel1);
-            this.PnlPassword.Controls.Add(this.TxtContraseña);
             this.PnlPassword.ForeColor = System.Drawing.Color.DimGray;
-<<<<<<< HEAD
-            this.PnlPassword.Location = new System.Drawing.Point(409, 184);
-            this.PnlPassword.Name = "PnlPassword";
-            this.PnlPassword.Size = new System.Drawing.Size(392, 35);
-            this.PnlPassword.TabIndex = 4;
-=======
             this.PnlPassword.Location = new System.Drawing.Point(407, 188);
             this.PnlPassword.Name = "PnlPassword";
             this.PnlPassword.Size = new System.Drawing.Size(392, 35);
             this.PnlPassword.TabIndex = 9;
->>>>>>> master
             // 
             // panel1
             // 
@@ -230,11 +187,7 @@
             this.BtnClose.Location = new System.Drawing.Point(752, 11);
             this.BtnClose.Name = "BtnClose";
             this.BtnClose.Size = new System.Drawing.Size(37, 31);
-<<<<<<< HEAD
-            this.BtnClose.TabIndex = 4;
-=======
             this.BtnClose.TabIndex = 13;
->>>>>>> master
             this.BtnClose.UseVisualStyleBackColor = false;
             this.BtnClose.Click += new System.EventHandler(this.Button1_Click_1);
             // 
@@ -245,17 +198,10 @@
             this.PnlTipoUsuario.Controls.Add(this.PicTiposUsuarios);
             this.PnlTipoUsuario.Controls.Add(this.CboTiposUsuarios);
             this.PnlTipoUsuario.ForeColor = System.Drawing.Color.DimGray;
-<<<<<<< HEAD
-            this.PnlTipoUsuario.Location = new System.Drawing.Point(409, 219);
-            this.PnlTipoUsuario.Name = "PnlTipoUsuario";
-            this.PnlTipoUsuario.Size = new System.Drawing.Size(392, 45);
-            this.PnlTipoUsuario.TabIndex = 4;
-=======
             this.PnlTipoUsuario.Location = new System.Drawing.Point(407, 223);
             this.PnlTipoUsuario.Name = "PnlTipoUsuario";
             this.PnlTipoUsuario.Size = new System.Drawing.Size(392, 45);
             this.PnlTipoUsuario.TabIndex = 14;
->>>>>>> master
             // 
             // PicTiposUsuarios
             // 
@@ -281,18 +227,10 @@
             "Administración",
             "Catedrático",
             "Alumno"});
-<<<<<<< HEAD
-            this.CboTiposUsuarios.Location = new System.Drawing.Point(49, 5);
-            this.CboTiposUsuarios.Name = "CboTiposUsuarios";
-            this.CboTiposUsuarios.Size = new System.Drawing.Size(231, 29);
-            this.CboTiposUsuarios.TabIndex = 2;
-            this.CboTiposUsuarios.Tag = "";
-=======
             this.CboTiposUsuarios.Location = new System.Drawing.Point(49, 8);
             this.CboTiposUsuarios.Name = "CboTiposUsuarios";
             this.CboTiposUsuarios.Size = new System.Drawing.Size(231, 29);
             this.CboTiposUsuarios.TabIndex = 3;
->>>>>>> master
             this.CboTiposUsuarios.SelectedIndexChanged += new System.EventHandler(this.ComboBox1_SelectedIndexChanged);
             // 
             // BtnAyuda
@@ -305,11 +243,7 @@
             this.BtnAyuda.Location = new System.Drawing.Point(709, 11);
             this.BtnAyuda.Name = "BtnAyuda";
             this.BtnAyuda.Size = new System.Drawing.Size(37, 31);
-<<<<<<< HEAD
-            this.BtnAyuda.TabIndex = 4;
-=======
             this.BtnAyuda.TabIndex = 15;
->>>>>>> master
             this.BtnAyuda.UseVisualStyleBackColor = false;
             // 
             // LblErrorUsuario
@@ -322,11 +256,7 @@
             this.LblErrorUsuario.Location = new System.Drawing.Point(454, 282);
             this.LblErrorUsuario.Name = "LblErrorUsuario";
             this.LblErrorUsuario.Size = new System.Drawing.Size(297, 33);
-<<<<<<< HEAD
-            this.LblErrorUsuario.TabIndex = 4;
-=======
             this.LblErrorUsuario.TabIndex = 17;
->>>>>>> master
             this.LblErrorUsuario.Text = "Debe ingresar un usuario";
             this.LblErrorUsuario.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.LblErrorUsuario.Visible = false;
@@ -340,11 +270,7 @@
             this.LblFecha.Location = new System.Drawing.Point(10, 7);
             this.LblFecha.Name = "LblFecha";
             this.LblFecha.Size = new System.Drawing.Size(119, 23);
-<<<<<<< HEAD
-            this.LblFecha.TabIndex = 4;
-=======
             this.LblFecha.TabIndex = 18;
->>>>>>> master
             this.LblFecha.Text = "26/07/2019";
             // 
             // FmLogin
@@ -358,7 +284,9 @@
             this.Controls.Add(this.BtnAyuda);
             this.Controls.Add(this.PnlTipoUsuario);
             this.Controls.Add(this.BtnClose);
+            this.Controls.Add(this.TxtContraseña);
             this.Controls.Add(this.PicPassword);
+            this.Controls.Add(this.LnblOlvidoPassword);
             this.Controls.Add(this.BtnIniciarSesion);
             this.Controls.Add(this.PnlUser);
             this.Controls.Add(this.PnlPassword);
@@ -373,7 +301,6 @@
             this.PnlUser.ResumeLayout(false);
             this.PnlUser.PerformLayout();
             this.PnlPassword.ResumeLayout(false);
-            this.PnlPassword.PerformLayout();
             this.PnlTipoUsuario.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.PicTiposUsuarios)).EndInit();
             this.ResumeLayout(false);
@@ -382,6 +309,7 @@
         }
 
         #endregion
+        private System.Windows.Forms.LinkLabel LnblOlvidoPassword;
         private System.Windows.Forms.Button BtnIniciarSesion;
         private System.Windows.Forms.TextBox TxtContraseña;
         private System.Windows.Forms.PictureBox PicPassword;

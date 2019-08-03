@@ -10,21 +10,11 @@ namespace ADMINISTRADORES
 {
     class ConexionBD
     {
-        /*private String Servidor = "192.168.1.150";
+        private String Servidor = "192.168.1.150";
         private String BaseDatos = "AsignacionCursos";
         private String Usuario = "diegoS2";
-<<<<<<< HEAD
         private String Pass = "Diego123#";
-        
-=======
-        private String Pass = "Diego123#";*/
 
-        private String Servidor = "sql241.main-hosting.eu";
-        private String BaseDatos = "u983210075_asign";
-        private String Usuario = "u983210075_user";
-        private String Pass = "AsignacionCursos123";
-
->>>>>>> master
         private MySqlConnection mySqlConnection;
         private String Conexion = null;
 
@@ -44,11 +34,11 @@ namespace ADMINISTRADORES
             try
             {
                 mySqlConnection.Open();
-                MessageBox.Show("Conectado", "MYSQL", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                MessageBox.Show("Conectado", "MYSQL", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
             catch
             {
-                MessageBox.Show("Error", "MYSQL", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                MessageBox.Show("Error", "MYSQL", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
 
             return mySqlConnection;
@@ -59,11 +49,11 @@ namespace ADMINISTRADORES
             try
             {
                 mySqlConnection.Close();
-                MessageBox.Show("Desconectado", "MYSQL", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                MessageBox.Show("Desconectado", "MYSQL", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
             catch
             {
-                MessageBox.Show("Error", "MYSQL", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                MessageBox.Show("Error", "MYSQL", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
             return mySqlConnection;
         }
