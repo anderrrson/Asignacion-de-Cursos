@@ -10,7 +10,7 @@ namespace ADMINISTRADORES
 {
     class ConexionBD
     {
-        private String Servidor = "192.168.1.150";
+        private String Servidor = "192.168.50.5";
         private String BaseDatos = "AsignacionCursos";
         private String Usuario = "diegoS2";
         private String Pass = "Diego123#";

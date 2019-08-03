@@ -51,6 +51,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Bitacora.cs" />
     <Compile Include="ConexionBD.cs" />
     <Compile Include="FmAdmin.cs">
       <SubType>Form</SubType>
@@ -142,6 +143,7 @@
     <Compile Include="FmNotasCatedratico.Designer.cs">
       <DependentUpon>FmNotasCatedratico.cs</DependentUpon>
     </Compile>
+    <Compile Include="Login.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="FmAdmin.resx">
