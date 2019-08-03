@@ -46,15 +46,15 @@ namespace ADMINISTRADORES
             DataSet dataSet;
             ConexionBD conexion = new ConexionBD();
             MySqlCommand command = new MySqlCommand();
-            command.CommandText = "SELECT * FROM Edificio WHERE Edificio.cNombre =?nombre";
-            command.Parameters.AddWithValue("?nombre", TxtNumero.Text);
+            command.CommandText = "SELECT * FROM Edificio WHERE Edificio.iIdEdificio =?ID";
+            command.Parameters.AddWithValue("?ID", TxtNumero.Text);
             command.CommandType = CommandType.Text;
             command.Connection = conexion.Conectar();
             dataAdapter = new MySqlDataAdapter(command);
             dataSet = new DataSet();
-            dataAdapter.Fill(dataSet, "Estudiantes");
+            dataAdapter.Fill(dataSet, "Edificio");
             DtaEdificio.DataSource = dataSet;
-            DtaEdificio.DataMember = "Estudiantes";
+            DtaEdificio.DataMember = "Edificio";
             conexion.Desconectar();
         }
 

@@ -95,7 +95,7 @@
             this.LblTitulo.AutoSize = true;
             this.LblTitulo.Font = new System.Drawing.Font("Century Gothic", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LblTitulo.ForeColor = System.Drawing.Color.White;
-            this.LblTitulo.Location = new System.Drawing.Point(61, 120);
+            this.LblTitulo.Location = new System.Drawing.Point(61, 52);
             this.LblTitulo.Name = "LblTitulo";
             this.LblTitulo.Size = new System.Drawing.Size(304, 33);
             this.LblTitulo.TabIndex = 7;
@@ -161,7 +161,7 @@
             this.button1.ForeColor = System.Drawing.Color.White;
             this.button1.Image = ((System.Drawing.Image)(resources.GetObject("button1.Image")));
             this.button1.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.button1.Location = new System.Drawing.Point(1138, 485);
+            this.button1.Location = new System.Drawing.Point(1116, 52);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(102, 74);
             this.button1.TabIndex = 29;
@@ -205,9 +205,9 @@
             // 
             this.DtaEdificio.AllowUserToOrderColumns = true;
             this.DtaEdificio.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.DtaEdificio.Location = new System.Drawing.Point(614, 120);
+            this.DtaEdificio.Location = new System.Drawing.Point(763, 167);
             this.DtaEdificio.Name = "DtaEdificio";
-            this.DtaEdificio.Size = new System.Drawing.Size(626, 295);
+            this.DtaEdificio.Size = new System.Drawing.Size(442, 249);
             this.DtaEdificio.TabIndex = 34;
             this.DtaEdificio.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.DtaEdificio_CellContentClick);
             // 
@@ -220,7 +220,7 @@
             this.BtnVisualizar.ForeColor = System.Drawing.Color.White;
             this.BtnVisualizar.Image = ((System.Drawing.Image)(resources.GetObject("BtnVisualizar.Image")));
             this.BtnVisualizar.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.BtnVisualizar.Location = new System.Drawing.Point(1040, 485);
+            this.BtnVisualizar.Location = new System.Drawing.Point(1017, 52);
             this.BtnVisualizar.Name = "BtnVisualizar";
             this.BtnVisualizar.Size = new System.Drawing.Size(102, 74);
             this.BtnVisualizar.TabIndex = 36;
